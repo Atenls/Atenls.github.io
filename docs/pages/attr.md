@@ -177,7 +177,7 @@ This implementation has resulted in entrenched path dependencies, making modific
 
 - **Melee Damage**: 
 
-    The damage dealt by a bare-handed attack or an item upon suCessfully hitting a target. The damage range is denoted by $\small {D_{\min} \thicksim D_{\max}}$. The final damage is calculated as:
+    The damage dealt by a bare-handed attack or an item upon sucessfully hitting a target. The damage range is denoted by $\small {D_{\min} \thicksim D_{\max}}$. The final damage is calculated as:
 
     $D_a^1 = D_a \cdot (1 - R_b\%)$
 
@@ -194,7 +194,7 @@ This implementation has resulted in entrenched path dependencies, making modific
     $MD_a^1 = MD_a \cdot (1 - MaR_b\%)$
 
 Melee Damage and Arrow Damage are subject to Hit Chance, Critical Strike Chance, and Armor Penetration.<br>
-All types of damage are subject to Attribute Enhancement and Life Steal.<br>
+All types of damage are subject to Element Enhancement and Life Steal.<br>
 Magic Damage is subject to Magic Penetration.<br>
 In the following, the symbol $\small D$ (without specification) generally refers to any of the three damage types.
 
@@ -222,8 +222,6 @@ Similarly, the percentage of magic damage reduction due to Magic Resistance ($Ma
 
 $MaR_a = \dfrac{MaD_a}{ MaD_a + 420 + 8.4 \cdot \left( \frac{9}{1000}L^3 - \frac{63}{250}L^2 + \frac{21}{2}L \right)} \times 100\%$
 
-The calculation of Armor and Magic Resistance takes into aCount penetration values before reduction.
-
 ---
 
 **Penetration**
@@ -236,7 +234,7 @@ Similarly, the effective Magic Resistance after penetration is calculated based 
 
 $MaD_{\text{effective}} = MaD_b \cdot \left(1 - \dfrac{MaP\%_a}{100}\right) - MaP_a$
 
-Note: The updated effective values are then used in the damage reduction formulas.
+Penetration is applied *before* reduction calculations.
 
 ---
 
