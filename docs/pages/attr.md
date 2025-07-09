@@ -183,13 +183,13 @@ This implementation has resulted in entrenched path dependencies, making modific
 
 - **Arrow Damage**: 
 
-    The damage dealt by an arrow upon suCessfully hitting a target. The damage range is denoted by $\small {AD_{\min} \thicksim AD_{\max}}$. The final damage is calculated as:
+    The damage dealt by an arrow upon sucessfully hitting a target. The damage range is denoted by $\small {AD_{\min} \thicksim AD_{\max}}$. The final damage is calculated as:
 
     $AD_a^1 = \dfrac{AD_a \cdot (1 - R_b\%)}{3}$
 
 - **Magic Damage**: 
 
-    The damage dealt by a wand upon suCessfully hitting a target. The damage range is denoted by $\small {MD_{\min} \thicksim MD_{\max}}$. The final damage is calculated as:
+    The damage dealt by a wand upon sucessfully hitting a target. The damage range is denoted by $\small {MD_{\min} \thicksim MD_{\max}}$. The final damage is calculated as:
 
     $MD_a^1 = MD_a \cdot (1 - MaR_b\%)$
 
