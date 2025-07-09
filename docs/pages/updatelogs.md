@@ -52,7 +52,7 @@
 ![P1.jpg](https://s2.loli.net/2025/07/09/VwKbWpIYGD7M1TX.png)
 ![P2.jpg](https://s2.loli.net/2025/07/09/mkVpZt9MDwWO1bG.jpg)
 
-- 微小的地图变动
+- 重构了地图 ~修复了不容易迷路的问题~
 - 将所有刷怪点更改为新的布置方案，减少散落的点，增加聚集点
 - 更新了 Essence 的掉落：
     - 80% 魂魄具现物 (I) → 80% 4x 魂魄具现物
