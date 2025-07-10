@@ -47,7 +47,7 @@
 
 ## 2025/07/09
 
-### 1 「深渊古战场」重制更新
+### 1) 「深渊古战场」重制更新
 
 ![P1.jpg](https://s2.loli.net/2025/07/09/VwKbWpIYGD7M1TX.png)
 ![P2.jpg](https://s2.loli.net/2025/07/09/mkVpZt9MDwWO1bG.jpg)
