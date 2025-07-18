@@ -13,7 +13,9 @@
 你可以点击下面的标题以查看相关内容
 
 - [新手入门引导](pages/g1)
+- [天泽岛引导](pages/g2)
 - [属性与相关计算公式](pages/attr)
 - [更新日志](pages/updatelogs)
 - [月卡介绍](pages/月卡)
 - [Tempest 主线](pages/tempest)
+- [黑曜石引导](pages/obsidian)
