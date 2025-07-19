@@ -1,3 +1,39 @@
+<style>
+  .redtext {
+    color: #f84040; 
+    font-weight: 600;
+  }
+  .quote {
+    background: #fbfdff;
+    color: #606974;
+    border: 1px dashed #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 0px;
+  }
+  .quote-hl {
+    display: inline-block;
+    background-color:rgb(248, 248, 248);
+    color:rgb(240, 25, 211);
+    border-radius: 3px;
+    margin: 0px;
+    padding: 0px 3px;
+  }
+
+  .markdown-section img:not([width]):not([style]) {
+    width: 400px;
+    height: auto;
+  }
+  
+  @media (max-width: 768px) {
+    .markdown-section img:not([width]):not([style]) {
+      width: 100%;
+      max-width: 400px;
+    }
+  }
+</style>
+
+
 # **McDreamPainter - IV黑曜石教程**
 
 
