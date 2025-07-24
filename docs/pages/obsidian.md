@@ -21,7 +21,7 @@
   }
 
   .markdown-section img:not([width]):not([style]) {
-    width: 400px;
+    max-width: 400px;
     height: auto;
   }
   
