@@ -19,3 +19,4 @@
 - [月卡介绍](pages/月卡)
 - [Tempest 主线](pages/tempest)
 - [黑曜石引导](pages/obsidian)
+- [如何为WIKI贡献](pages/CONTRIBUTING)

@@ -9,3 +9,4 @@
 * [属性与相关计算公式](pages/attr)
 * [黑曜石引导](pages/obsidian)
 * [更新日志](pages/updatelogs)
+* [如何为WIKI贡献](pages/CONTRIBUTING)
