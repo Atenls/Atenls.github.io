@@ -1,4 +1,4 @@
-CONTRIBUTING# 从零开始贡献开源知识库：Git与GitHub完全指南
+# CONTRIBUTING —— 从零开始维护WIKI：Git与GitHub完全指南
 
 ## 📚 前言：什么是PR？
 
@@ -90,7 +90,7 @@ git config --list
 # 点击绿色的 "Code" 按钮，复制HTTPS链接
 
 # 打开终端/Git Bash，执行：
-git clone https://github.com/你的用户名/知识库名.git
+git clone https://github.com/你的用户名/dp_wiki.git
 
 # 进入项目文件夹
 cd 知识库名
