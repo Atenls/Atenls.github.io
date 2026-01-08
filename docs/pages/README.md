@@ -35,6 +35,15 @@
   box-shadow: 0 12px 30px rgba(0, 0, 0, 0.4);
 }
 
+@media (max-width: 768px) {
+  .cards {
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+}
+
 </style>
 
 # DP IV Wikipedia
