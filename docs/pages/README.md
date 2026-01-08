@@ -39,6 +39,9 @@
   .cards {
     flex-direction: row;
     flex-wrap: wrap;
+  }
+
+  .card {
     width: 100%;
   }
 
