@@ -90,7 +90,7 @@ git config --list
 # 点击绿色的 "Code" 按钮，复制HTTPS链接
 
 # 打开终端/Git Bash，执行：
-git clone https://github.com/你的用户名/dp_wiki.git
+git clone https://github.com/你的用户名/Atenls.github.io.git
 
 # 进入项目文件夹
 cd 知识库名
@@ -108,6 +108,7 @@ git branch
 ### 3.4 第四步：修改内容
 #### 使用合适的编辑器：
 - **VS Code**（推荐）：免费、强大
+- **Cursor**：基于 VSCode 的AI编辑器
 - **Typora**：优秀的Markdown编辑器
 - **记事本**：也可用，但功能简单
 
@@ -124,6 +125,8 @@ git branch
 
 > 引用块
 ```
+
+需要注意：DP WIKI 基于 Docsify 进行文档生成，因此请勿使用 Docsify 不支持的 Markdown 语法。<br />同时，图片需要使用可靠的图床进行托管。
 
 ### 3.5 第五步：提交更改
 ```bash
@@ -203,7 +206,7 @@ git push origin add-new-content
 ### 5.2 如果原项目有更新
 ```bash
 # 1. 添加上游仓库（只需一次）
-git remote add upstream https://github.com/原作者/知识库名.git
+git remote add upstream https://github.com/Atenls/Atenls.github.io.git.git
 
 # 2. 拉取上游更新
 git fetch upstream
@@ -262,7 +265,7 @@ git log --oneline
 # 1. Fork项目（在GitHub页面操作）
 
 # 2. 克隆到本地
-git clone https://github.com/你的用户名/dp_wiki.git
+git clone https://github.com/你的用户名/Atenls.github.io.git.git
 cd dp_wiki
 
 # 3. 创建分支（假设你要新增 add-git-tutorial 分支）
@@ -282,6 +285,10 @@ git commit -m "docs: 添加Git完全入门指南"
 git push origin docs/add-git-tutorial
 
 # 8. 在GitHub页面发起PR
+
+# 9. 后续更新，添加上游项目
+git remote add upstream https://github.com/Atenls/Atenls.github.io.git.git
+... 参考 5.2 内容
 ```
 
 ---
