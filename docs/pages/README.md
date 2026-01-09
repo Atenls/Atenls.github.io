@@ -86,12 +86,12 @@ Tempest 主线</a>
 </div>
 
 <div class="cards">
-<a href="#/pages/updatelogs" class="card" style="text-decoration: none; color: oklch(0.6353 0.0962 198); text-shadow: 0 0 1px rgba(0,0,0,0.25); font-size: 24px; font-weight: bold;">
+<a href="#/pages/updatelogs" class="card" style="text-decoration: none; color: transparent; background: linear-gradient(135deg, oklch(0.6441 0.1949 301.76), oklch(0.6441 0.2417 0)) text; text-shadow: 0 0 1px rgba(0,0,0,0.125); font-size: 24px; font-weight: bold;">
 更新日志</a>
 
-<a href="#/pages/CONTRIBUTING" class="card" style="text-decoration: none; color: oklch(0.6353 0.0962 198); text-shadow: 0 0 1px rgba(0,0,0,0.25); font-size: 24px; font-weight: bold;">
+<a href="#/pages/CONTRIBUTING" class="card" style="text-decoration: none; color: transparent; background: linear-gradient(135deg, oklch(0.7838 0.1381 120), oklch(0.6973 0.247 180)) text; text-shadow: 0 0 1px rgba(0,0,0,0.125); font-size: 24px; font-weight: bold;">
 如何为WIKI贡献?</a>
-<a href="#/pages/DESIGNCODE" class="card" style="text-decoration: none; color: oklch(0.6353 0.0962 198); text-shadow: 0 0 1px rgba(0,0,0,0.25); font-size: 24px; font-weight: bold;">
+<a href="#/pages/DESIGNCODE" class="card" style="text-decoration: none; color: transparent; background: linear-gradient(135deg, oklch(0.7838 0.1381 225), oklch(0.6973 0.247 335)) text; text-shadow: 0 0 1px rgba(0,0,0,0.125); font-size: 24px; font-weight: bold;">
 设计规范</a>
 
 </div>
