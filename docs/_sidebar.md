@@ -10,3 +10,4 @@
 * [黑曜石引导](pages/obsidian)
 * [更新日志](pages/updatelogs)
 * [如何为WIKI贡献](pages/CONTRIBUTING)
+* [设计规范及参考](pages/DESIGNCODE)

@@ -31,8 +31,7 @@
 }
 
 .card:hover {
-  background: rgba(181, 194, 214, 0.1);
-  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 6px 30px rgba(0, 0, 0, 0.4);
 }
 
 @media (max-width: 768px) {
@@ -92,6 +91,8 @@ Tempest 主线</a>
 
 <a href="#/pages/CONTRIBUTING" class="card" style="text-decoration: none; color: oklch(0.6353 0.0962 198); text-shadow: 0 0 1px rgba(0,0,0,0.25); font-size: 24px; font-weight: bold;">
 如何为WIKI贡献?</a>
+<a href="#/pages/DESIGNCODE" class="card" style="text-decoration: none; color: oklch(0.6353 0.0962 198); text-shadow: 0 0 1px rgba(0,0,0,0.25); font-size: 24px; font-weight: bold;">
+设计规范</a>
 
 </div>
 </div>
