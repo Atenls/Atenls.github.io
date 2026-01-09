@@ -50,13 +50,18 @@
 
 # DP IV Wikipedia
 
-> 欢迎来到绘梦师<br>
+
+<p style="border-left: 5px solid #745691ff; color: #826199ff; padding-left: 10px;">
+欢迎来到绘梦师<br>
 本百科旨在介绍服务器内任何你所需要的信息以帮助你从零开始快速上手。<br>
 请通过左方导航栏快速前往阅览你需要的内容。
+</p>
 
-!> [2025/06/27] Wiki/GUIDE 正在进行新版本迁移中，<br>
+<p style="border-left: 5px solid #ff7070ff; color: #ca9797ff; padding-left: 10px;">
+[2025/06/27] Wiki/GUIDE 正在进行新版本迁移中，<br>
 因 Word 与 Markdown 有较大差异，有大量内容图片丢失，内容混乱。<br>
 如你恰好热爱DP，且有空余的时间，欢迎联系我们一起收录编辑新的百科。
+</p>
 
 ---
 
