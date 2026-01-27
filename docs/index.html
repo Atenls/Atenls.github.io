@@ -17,9 +17,13 @@
       loadNavbar: true,
       loadSidebar: true,
       subMaxLevel: 3,
+      homepage: '#/pages/README.md',
       latex: {
         inlineMath   : [['$', '$'], ['\\(', '\\)']],
         displayMath  : [['$$', '$$']],
+      },
+      routes: {
+      '/:path': '/pages/:path'
       }
     }
   </script>

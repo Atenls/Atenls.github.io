@@ -9,4 +9,7 @@
 * [属性与相关计算公式](pages/attr)
 * [黑曜石引导](pages/obsidian)
 * [更新日志](pages/updatelogs)
-* [如何为WIKI贡献](pages/CONTRIBUTING)
+* <a href="#/pages/CONTRIBUTING">
+<span style="color: transparent; background: linear-gradient(135deg, oklch(0.7838 0.1381 135), oklch(0.6973 0.247 165)) text; text-shadow: 0 0 1px rgba(85, 168, 85, 0.2); font-weight: bold;">如何为WIKI贡献?</span></a>
+* <a href="#/pages/DESIGNCODE">
+<span style="color: transparent; background: linear-gradient(135deg, oklch(0.7838 0.1381 240), oklch(0.6973 0.247 315)) text; text-shadow: 0 0 1px rgba(128, 70, 136, 0.13); font-weight: bold;">设计规范</span></a>
