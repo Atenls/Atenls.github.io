@@ -63,20 +63,20 @@
 如你恰好热爱DP，且有空余的时间，欢迎联系我们一起收录编辑新的百科。
 </p>
 
----
 
 
 <div class="cards-container">
-<div class="cards">
 
-<a href="#/pages/g1" class="card" style="text-decoration: none; color: #6080b6; text-shadow: 0 0 1px rgba(0,0,0,0.25); font-size: 24px; font-weight: bold;">
-新手入门引导<span style="color: #888;"> (G1)</span></a>
+<div class="cards" style="padding-top: 20px; border-top: 1px solid #eee; ">
 
-<a href="#/pages/g2" class="card" style="text-decoration: none; color: #6080b6; text-shadow: 0 0 1px rgba(0,0,0,0.25); font-size: 24px; font-weight: bold;">
-天泽岛引导<span style="color: #888;"> (G2)</span></a>
+<div style="background: white; color: #975ee2; font-weight: 600; border-radius: 16px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); gap: 8px; padding: 8px 16px; display: flex; text-align: center; align-items: center;">
+<div style="width: 16px; height: 16px; background: #975ee2; border-radius: 8px;"></div>
+官方文档
 </div>
 
-<div class="cards" style="padding: 20px 0; border-top: 1px solid #eee; border-bottom: 1px solid #eee;"> 
+</div>
+
+<div class="cards" style="padding-bottom: 20px; border-bottom: 1px solid #eee;"> 
 <a href="#/pages/attr" class="card" style="text-decoration: none; color: #8560b6; text-shadow: 0 0 1px rgba(0,0,0,0.25); font-size: 24px; font-weight: bold;">
 属性与相关计算公式</a>
 
@@ -85,12 +85,9 @@ Tempest 主线</a>
 
 <a href="#/pages/月卡" class="card" style="text-decoration: none; color: oklch(0.75 0.1773 57.18); text-shadow: 0 0 2px oklch(0.8867 0.1653 99.53); font-size: 24px; font-weight: bold;">
 月卡介绍</a>
-
-<a href="#/pages/obsidian" class="card" style="text-decoration: none; color: #8560b6; text-shadow: 0 0 1px rgba(0,0,0,0.25); font-size: 24px; font-weight: bold;">
-黑曜石引导</a>
 </div>
 
-<div class="cards">
+<div class="cards" style="padding-bottom: 20px; border-bottom: 1px solid #eee;">
 <a href="#/pages/updatelogs" class="card" style="text-decoration: none; color: transparent; background: linear-gradient(135deg, oklch(0.6441 0.1949 301.76), oklch(0.6441 0.2417 0)) text; text-shadow: 0 0 1px rgba(0,0,0,0.125); font-size: 24px; font-weight: bold;">
 更新日志</a>
 
@@ -98,6 +95,32 @@ Tempest 主线</a>
 如何为WIKI贡献?</a>
 <a href="#/pages/DESIGNCODE" class="card" style="text-decoration: none; color: transparent; background: linear-gradient(135deg, oklch(0.7838 0.1381 225), oklch(0.6973 0.247 335)) text; text-shadow: 0 0 1px rgba(0,0,0,0.125); font-size: 24px; font-weight: bold;">
 设计规范</a>
+</div>
+
+<div class="cards">
+
+<div style="background: white; color: #6080b6; font-weight: 600; border-radius: 16px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); gap: 8px; padding: 8px 16px; display: flex; text-align: center; align-items: center;">
+<div style="width: 16px; height: 16px; background: #6080b6; border-radius: 8px;"></div>
+玩家攻略
+</div>
+</div>
+
+<div class="cards">
+
+<a href="#/pages/g1" class="card" style="text-decoration: none; color: #6080b6; text-shadow: 0 0 1px rgba(0,0,0,0.25); font-size: 24px; font-weight: bold;">
+新手入门引导<span style="color: #888;"> (G1)</span></a>
+
+<a href="#/pages/g2" class="card" style="text-decoration: none; color: #6080b6; text-shadow: 0 0 1px rgba(0,0,0,0.25); font-size: 24px; font-weight: bold;">
+天泽岛引导<span style="color: #888;"> (G2)</span></a>
+
+<a href="#/pages/指令大全" class="card" style="text-decoration: none; color: #6080b6; text-shadow: 0 0 1px rgba(0,0,0,0.25); font-size: 24px; font-weight: bold;">
+指令大全</a>
+
+<a href="#/pages/obsidian" class="card" style="text-decoration: none; color: #6080b6; text-shadow: 0 0 1px rgba(0,0,0,0.25); font-size: 24px; font-weight: bold;">
+黑曜石引导</a>
 
 </div>
+
+
+
 </div>
