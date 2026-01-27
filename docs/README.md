@@ -20,3 +20,4 @@
 - [Tempest 主线](pages/tempest)
 - [黑曜石引导](pages/obsidian)
 - [如何为WIKI贡献](pages/CONTRIBUTING)
+- [指令大全](pages/指令大全)
