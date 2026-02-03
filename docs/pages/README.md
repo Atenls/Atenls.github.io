@@ -116,6 +116,9 @@ Tempest 主线</a>
 <a href="#/pages/指令大全" class="card" style="text-decoration: none; color: #6080b6; text-shadow: 0 0 1px rgba(0,0,0,0.25); font-size: 24px; font-weight: bold;">
 指令大全</a>
 
+<a href="#/pages/称号大全" class="card" style="text-decoration: none; color: #6080b6; text-shadow: 0 0 1px rgba(0,0,0,0.25); font-size: 24px; font-weight: bold;">
+称号大全</a>
+
 <a href="#/pages/obsidian" class="card" style="text-decoration: none; color: #6080b6; text-shadow: 0 0 1px rgba(0,0,0,0.25); font-size: 24px; font-weight: bold;">
 黑曜石引导</a>
 
