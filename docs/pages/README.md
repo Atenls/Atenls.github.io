@@ -1,7 +1,7 @@
 <style>
 .cards-container {
   display: flex;
-  max-width: 1000px;
+  max-width: 1200px;
   flex-direction: column;
   gap: 20px;
 }
@@ -9,6 +9,7 @@
 .cards {
   display: flex;
   gap: 20px;
+  flex-wrap: wrap;
 }
 
 .card {
@@ -37,7 +38,6 @@
 @media (max-width: 768px) {
   .cards {
     flex-direction: row;
-    flex-wrap: wrap;
   }
 
   .card {
@@ -118,6 +118,9 @@ Tempest 主线</a>
 
 <a href="#/pages/称号大全" class="card" style="text-decoration: none; color: #6080b6; text-shadow: 0 0 1px rgba(0,0,0,0.25); font-size: 24px; font-weight: bold;">
 称号大全</a>
+
+</div>
+<div class="cards">
 
 <a href="#/pages/obsidian" class="card" style="text-decoration: none; color: #6080b6; text-shadow: 0 0 1px rgba(0,0,0,0.25); font-size: 24px; font-weight: bold;">
 黑曜石引导</a>
