@@ -88,6 +88,8 @@ Tempest 主线</a>
 </div>
 
 <div class="cards" style="padding-bottom: 20px; border-bottom: 1px solid #eee;">
+<a href="#/pages/homeland" class="card" style="text-decoration: none; color: transparent; background: linear-gradient(135deg, oklch(0.65 0.2 180), oklch(0.8 0.2 270)) text; text-shadow: 0 0 1px rgba(0,0,0,0.125); font-size: 24px; font-weight: bold;">
+家园相关</a>
 <a href="#/pages/updatelogs" class="card" style="text-decoration: none; color: transparent; background: linear-gradient(135deg, oklch(0.6441 0.1949 301.76), oklch(0.6441 0.2417 0)) text; text-shadow: 0 0 1px rgba(0,0,0,0.125); font-size: 24px; font-weight: bold;">
 更新日志</a>
 
