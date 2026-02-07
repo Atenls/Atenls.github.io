@@ -33,6 +33,14 @@
     text-align: center;
     font-family: 'Times New Roman';
   }
+
+  .markdown-section h1 {
+    font-size: 36px;
+    font-weight: 800;
+    text-shadow: 0 0 1px rgba(0,0,0,0.25);
+    text-align: center;
+    font-family: 'Times New Roman';
+  }
   
   @media (max-width: 768px) {
     .markdown-section img:not([width]):not([style]) {
@@ -52,6 +60,10 @@
 
 ---
 
+# 2026
+
+---
+
 ## 2026 Feb.
 
 ---
@@ -61,6 +73,12 @@
 - 修复了部分烹饪配方在完成后将给BP日常计数两次的异常问题。
 - 移除了「自动烹饪」功能，更改为「多次烹饪」。将通过一次制作需求多份材料，并在完成时获取多次成品。
 - 「乾坤鸡」的血量更改为 `5` 。同时，乾坤鸡现在每次受击只能受到 `1` 点伤害。
+- 现已可于主世界中采摘稀有植株：（仅有 `3格` 高的植株为可供采摘的作物）
+  - 向日葵
+  - 丁香
+  - 玫瑰丛
+  - 牡丹
+  
 
 
 ---
@@ -101,6 +119,10 @@
 
 - 修复了部分情况下 LegendaryChest 的后续判定失效的问题。
 
+
+---
+
+# 2025
 
 ---
 
