@@ -32,10 +32,15 @@
     font-weight: 800;
     text-align: center;
     font-family: 'Times New Roman';
+    margin: 0.6rem 0;
+  }
+
+  .markdown-section h4 {
+    margin: 0.6rem 0;
   }
 
   .markdown-section h1 {
-    font-size: 36px;
+    font-size: 2.5rem;
     font-weight: 800;
     text-shadow: 0 0 1px rgba(0,0,0,0.25);
     text-align: center;
@@ -65,6 +70,19 @@
 ---
 
 ## 2026 Feb.
+
+---
+
+#### 2026/02/10
+
+- 「乾坤鸡」平衡性调整
+  - 血量 `5` → `4`
+  - 攻击技能 `-67%/2.5s` → `-40%/3s`
+- 移除主菜单的「属性」栏，实在意义不大
+- 新增「追赶商店」，取代原先「属性」的位置。
+  - 通过完成日常、周常，你可以免费领取到 `逐梦者补给箱` ，通过补给箱可以获取强度适中的过渡期装备。（略高于 BF）
+  - 逐梦者装备之等级最高只能达到当前版本等级上限的 `80%`。例：当前满级 `Lv.360`，只能获得 `Lv.288` 的装备。
+
 
 ---
 

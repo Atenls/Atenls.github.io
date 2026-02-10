@@ -1,7 +1,7 @@
 <style>
 .cards-container {
   display: flex;
-  max-width: 1200px;
+  max-width: 1000px;
   flex-direction: column;
   gap: 20px;
 }
@@ -35,7 +35,7 @@
   box-shadow: 0 6px 30px rgba(0, 0, 0, 0.4);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 960px) {
   .cards {
     flex-direction: row;
   }
@@ -68,26 +68,21 @@
 <div class="cards-container">
 
 <div class="cards" style="padding-top: 20px; border-top: 1px solid #eee; ">
-
-<div style="background: white; color: #975ee2; font-weight: 600; border-radius: 16px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); gap: 8px; padding: 8px 16px; display: flex; text-align: center; align-items: center;">
-<div style="width: 16px; height: 16px; background: #975ee2; border-radius: 8px;"></div>
-官方文档
-</div>
-
+  <div style="background: white; color: #975ee2; font-weight: 600; border-radius: 16px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); gap: 8px; padding: 8px 16px; display: flex; text-align: center; align-items: center;">
+    <div style="width: 16px; height: 16px; background: #975ee2; border-radius: 8px;"></div>
+    官方文档
+  </div>
 </div>
 
 <div class="cards" style="padding-bottom: 20px; border-bottom: 1px solid #eee;"> 
-<a href="#/pages/attr" class="card" style="text-decoration: none; color: #8560b6; text-shadow: 0 0 1px rgba(0,0,0,0.25); font-size: 24px; font-weight: bold;">
-属性与相关计算公式</a>
 
 <a href="#/pages/tempest" class="card" style="text-decoration: none; color: #322985ff; text-shadow: 0 0 1px rgba(0,0,0,0.25); font-size: 24px; font-weight: bold;">
 Tempest 主线</a>
 
 <a href="#/pages/月卡" class="card" style="text-decoration: none; color: oklch(0.75 0.1773 57.18); text-shadow: 0 0 2px oklch(0.8867 0.1653 99.53); font-size: 24px; font-weight: bold;">
 月卡介绍</a>
-</div>
 
-<div class="cards" style="padding-bottom: 20px; border-bottom: 1px solid #eee;">
+
 <a href="#/pages/homeland" class="card" style="text-decoration: none; color: transparent; background: linear-gradient(135deg, oklch(0.65 0.2 180), oklch(0.8 0.2 270)) text; text-shadow: 0 0 1px rgba(0,0,0,0.125); font-size: 24px; font-weight: bold;">
 家园相关</a>
 <a href="#/pages/updatelogs" class="card" style="text-decoration: none; color: transparent; background: linear-gradient(135deg, oklch(0.6441 0.1949 301.76), oklch(0.6441 0.2417 0)) text; text-shadow: 0 0 1px rgba(0,0,0,0.125); font-size: 24px; font-weight: bold;">
@@ -97,6 +92,9 @@ Tempest 主线</a>
 如何为WIKI贡献?</a>
 <a href="#/pages/DESIGNCODE" class="card" style="text-decoration: none; color: transparent; background: linear-gradient(135deg, oklch(0.7838 0.1381 225), oklch(0.6973 0.247 335)) text; text-shadow: 0 0 1px rgba(0,0,0,0.125); font-size: 24px; font-weight: bold;">
 设计规范</a>
+
+<a href="#/pages/attr" class="card" style="text-decoration: none; color: #8560b6; text-shadow: 0 0 1px rgba(0,0,0,0.25); font-size: 24px; font-weight: bold;">
+属性与相关计算公式</a>
 </div>
 
 <div class="cards">
