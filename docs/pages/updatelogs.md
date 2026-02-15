@@ -39,6 +39,10 @@
     margin: 0.6rem 0;
   }
 
+  .markdown-section figure, .markdown-section p {
+    margin: 0;
+  }
+
   .markdown-section h1 {
     font-size: 2.5rem;
     font-weight: 800;
@@ -75,7 +79,112 @@
 
 #### 2026/02/14
 
-- 2026 春节活动
+- 2026 春节活动登场
+- 「<span style="font-weight: 600; color: transparent; background: linear-gradient(135deg, oklch(0.7353 0.1529 236.12), oklch(0.7353 0.1653 306), oklch(0.6441 0.1949 0)) text;">运命 · 灵与安魂曲</span>」升阶及武器技能调整：
+  - **「命运与灵魂融合度」**
+    - 在使用「平息灵魂的摇篮曲」时，也将会有概率使用背包中的 `精粹灵魂宝石` 以较大程度地提升「命运与灵魂融合度」
+    - 略微提升了 `灵魂宝石` 所能提升的「命运与灵魂融合度」
+    - 降低了使用「平息灵魂的摇篮曲」所能提升的「命运与灵魂融合度」
+    - 大幅提高了在使用技能时触发 `宝石共鸣` 的概率
+  - **技能**
+    - `Tier 5` 技能提供的魔法穿透提升至更高水平：`327680` → `623937`
+    - 技能所可提供的魔法攻击不再无上限，而将受到武器及技能等级限制：
+      <table style="width: 680pt; margin: 0; border: 1px solid #ccc; " cellspacing="0" cellpadding="0"><colgroup><col style="width: 54.00pt;" /> <col style="width: 99.75pt;" span="3" /></colgroup>
+      <tbody>
+      <tr style="height: 20.00pt; border-top: none;">
+      <td style="width: 60pt; border: none; border-right: 1px solid #ccc; text-align: center; color: #000000; font-size: 15pt; font-weight: 600; font-style: normal; vertical-align: middle; white-space: nowrap;" rowspan="3">等阶</td>
+      <td style="width: 200pt; border: none; text-align: center; color: #000000; font-size: 13pt; font-weight: 600; font-style: normal; vertical-align: middle; white-space: nowrap;" colspan="4">技能</td>
+      <td style="width: 200pt; border: none; border-left: 1px solid #ccc; text-align: center; color: #000000; font-size: 13pt; font-weight: 600; font-style: normal; vertical-align: middle; white-space: nowrap;" colspan="3">武器属性</td>
+      </tr>
+      <tr style="height: 20.00pt;">
+      <td style="width: 200pt; border: none; text-align: center; color: #000000; font-size: 13pt; font-weight: 600; font-style: normal; vertical-align: middle; white-space: nowrap;" colspan="2">魔法攻击上限</td>
+      <td style="width: 100pt; border: none; border-left: 1px solid #ccc; border-right: 1px solid #ccc; text-align: center; color: #000000; font-size: 13pt; font-weight: 600; font-style: normal; vertical-align: middle; white-space: nowrap;" rowspan="2">冰属性强化</td>
+      <td style="width: 100pt; border: none; text-align: center; color: #000000; font-size: 13pt; font-weight: 600; font-style: normal; vertical-align: middle; white-space: nowrap;" rowspan="2">魔法穿透</td>
+      <td style="width: 100pt; border: none; border-left: 1px solid #ccc; border-right: 1px solid #ccc; text-align: center; color: #000000; font-size: 13pt; font-weight: 600; font-style: normal; vertical-align: middle; white-space: nowrap;" rowspan="2">最大魔法攻击</td>
+      <td style="width: 100pt; border: none; border-right: 1px solid #ccc; text-align: center; color: #000000; font-size: 13pt; font-weight: 600; font-style: normal; vertical-align: middle; white-space: nowrap;" rowspan="2">魔法穿透</td>
+      <td style="width: 100pt; text-align: center; color: #000000; font-size: 13pt; font-weight: 600; font-style: normal; border: none; vertical-align: middle; white-space: nowrap;" rowspan="2">冰属性强化</td>
+      </tr>
+
+      <tr style="height: 20.00pt;">
+      <td style="text-align: center; color: #000000; font-size: 10pt; font-weight: 500; text-shadow: 1px 1px 1px rgba(0,0,0,0.25); font-style: normal; border: none; vertical-align: middle; white-space: nowrap;">牵引灵魂的木偶戏</td>
+      <td style="text-align: center; color: #000000; font-size: 10pt; font-weight: 500; text-shadow: 1px 1px 1px rgba(0,0,0,0.25); font-style: normal; border: none; vertical-align: middle; white-space: nowrap;">平息灵魂的摇篮曲</td>
+      </tr>
+      <tr style="height: 20.00pt;">
+      <td style="text-align: center; color: #000000; font-size: 12pt; font-weight: 400; font-style: normal; border: none; border-right: 1px solid #ccc; vertical-align: middle; white-space: nowrap;">I</td>
+      <td style="text-align: center; color: #000000; font-size: 12pt; font-weight: 400; font-style: normal; border: none; vertical-align: middle; white-space: nowrap;">331440</td>
+      <td style="text-align: center; color: #000000; font-size: 12pt; font-weight: 400; font-style: normal; border: none; vertical-align: middle; white-space: nowrap;">779360</td>
+      <td style="text-align: center; color: #000000; font-size: 12pt; font-weight: 400; font-style: normal; border: none; vertical-align: middle; white-space: nowrap;">6000</td>
+      <td style="text-align: center; color: #000000; font-size: 12pt; font-weight: 400; font-style: normal; border: none; vertical-align: middle; white-space: nowrap;">0</td>
+      <td style="text-align: center; color: #000000; font-size: 12pt; font-weight: 400; font-style: normal; border: none; border-left: 1px solid #ccc; vertical-align: middle; white-space: nowrap;">90312</td>
+      <td style="text-align: center; color: #000000; font-size: 12pt; font-weight: 400; font-style: normal; border: none; vertical-align: middle; white-space: nowrap;">130497</td>
+      <td style="text-align: center; color: #000000; font-size: 12pt; font-weight: 400; font-style: normal; border: none; vertical-align: middle; white-space: nowrap;">3600</td>
+      </tr>
+      <tr style="height: 20.00pt;">
+      <td style="text-align: center; color: #000000; font-size: 12pt; font-weight: 400; font-style: normal; border: none; border-right: 1px solid #ccc; vertical-align: middle; white-space: nowrap;">II</td>
+      <td style="text-align: center; color: #000000; font-size: 12pt; font-weight: 400; font-style: normal; border: none; vertical-align: middle; white-space: nowrap;">662880</td>
+      <td style="text-align: center; color: #000000; font-size: 12pt; font-weight: 400; font-style: normal; border: none; vertical-align: middle; white-space: nowrap;">1558720</td>
+      <td style="text-align: center; color: #000000; font-size: 12pt; font-weight: 400; font-style: normal; border: none; vertical-align: middle; white-space: nowrap;">7200</td>
+      <td style="text-align: center; color: #000000; font-size: 12pt; font-weight: 400; font-style: normal; border: none; vertical-align: middle; white-space: nowrap;">0</td>
+      <td style="text-align: center; color: #000000; font-size: 12pt; font-weight: 400; font-style: normal; border: none; border-left: 1px solid #ccc; vertical-align: middle; white-space: nowrap;">112890</td>
+      <td style="text-align: center; color: #000000; font-size: 12pt; font-weight: 400; font-style: normal; border: none; vertical-align: middle; white-space: nowrap;">195746</td>
+      <td style="text-align: center; color: #000000; font-size: 12pt; font-weight: 400; font-style: normal; border: none; vertical-align: middle; white-space: nowrap;">4000</td>
+      </tr>
+      <tr style="height: 20.00pt;">
+      <td style="text-align: center; color: #000000; font-size: 12pt; font-weight: 400; font-style: normal; border: none; border-right: 1px solid #ccc; vertical-align: middle; white-space: nowrap;">III</td>
+      <td style="text-align: center; color: #000000; font-size: 12pt; font-weight: 400; font-style: normal; border: none; vertical-align: middle; white-space: nowrap;">1325760</td>
+      <td style="text-align: center; color: #000000; font-size: 12pt; font-weight: 400; font-style: normal; border: none; vertical-align: middle; white-space: nowrap;">3117440</td>
+      <td style="text-align: center; color: #000000; font-size: 12pt; font-weight: 400; font-style: normal; border: none; vertical-align: middle; white-space: nowrap;">8400</td>
+      <td style="text-align: center; color: #000000; font-size: 12pt; font-weight: 400; font-style: normal; border: none; vertical-align: middle; white-space: nowrap;">147456</td>
+      <td style="text-align: center; color: #000000; font-size: 12pt; font-weight: 400; font-style: normal; border: none; border-left: 1px solid #ccc; vertical-align: middle; white-space: nowrap;">135468</td>
+      <td style="text-align: center; color: #000000; font-size: 12pt; font-weight: 400; font-style: normal; border: none; vertical-align: middle; white-space: nowrap;">260994</td>
+      <td style="text-align: center; color: #000000; font-size: 12pt; font-weight: 400; font-style: normal; border: none; vertical-align: middle; white-space: nowrap;">4500</td>
+      </tr>
+      <tr style="height: 20.00pt;">
+      <td style="text-align: center; color: #000000; font-size: 12pt; font-weight: 400; font-style: normal; border: none; border-right: 1px solid #ccc; vertical-align: middle; white-space: nowrap;">IV</td>
+      <td style="text-align: center; color: #000000; font-size: 12pt; font-weight: 400; font-style: normal; border: none; vertical-align: middle; white-space: nowrap;">2651520</td>
+      <td style="text-align: center; color: #000000; font-size: 12pt; font-weight: 400; font-style: normal; border: none; vertical-align: middle; white-space: nowrap;">6234880</td>
+      <td style="text-align: center; color: #000000; font-size: 12pt; font-weight: 400; font-style: normal; border: none; vertical-align: middle; white-space: nowrap;">9600</td>
+      <td style="text-align: center; color: #000000; font-size: 12pt; font-weight: 400; font-style: normal; border: none; vertical-align: middle; white-space: nowrap;">196608</td>
+      <td style="text-align: center; color: #000000; font-size: 12pt; font-weight: 400; font-style: normal; border: none; border-left: 1px solid #ccc; vertical-align: middle; white-space: nowrap;">158046</td>
+      <td style="text-align: center; color: #000000; font-size: 12pt; font-weight: 400; font-style: normal; border: none; vertical-align: middle; white-space: nowrap;">326243</td>
+      <td style="text-align: center; color: #000000; font-size: 12pt; font-weight: 400; font-style: normal; border: none; vertical-align: middle; white-space: nowrap;">5000</td>
+      </tr>
+      <tr style="height: 20.00pt;">
+      <td style="text-align: center; color: #000000; font-size: 12pt; font-weight: 400; font-style: normal; border: none; border-right: 1px solid #ccc; vertical-align: middle; white-space: nowrap;">V</td>
+      <td style="text-align: center; color: #000000; font-size: 12pt; font-weight: 400; font-style: normal; border: none; vertical-align: middle; white-space: nowrap;">3977280</td>
+      <td style="text-align: center; color: #000000; font-size: 12pt; font-weight: 400; font-style: normal; border: none; vertical-align: middle; white-space: nowrap;">12365600</td>
+      <td style="text-align: center; color: #000000; font-size: 12pt; font-weight: 400; font-style: normal; border: none; vertical-align: middle; white-space: nowrap;">12000</td>
+      <td style="text-align: center; color: #000000; font-size: 12pt; font-weight: 400; font-style: normal; border: none; vertical-align: middle; white-space: nowrap;">623937</td>
+      <td style="text-align: center; color: #000000; font-size: 12pt; font-weight: 400; font-style: normal; border: none; border-left: 1px solid #ccc; vertical-align: middle; white-space: nowrap;">592672</td>
+      <td style="text-align: center; color: #000000; font-size: 12pt; font-weight: 400; font-style: normal; border: none; vertical-align: middle; white-space: nowrap;">1015725</td>
+      <td style="text-align: center; color: #000000; font-size: 12pt; font-weight: 400; font-style: normal; border: none; vertical-align: middle; white-space: nowrap;">6000</td>
+      </tr>
+      <tr style="height: 20.00pt;">
+      <td style="text-align: center; color: #000000; font-size: 12pt; font-weight: 400; font-style: normal; border: none; border-right: 1px solid #ccc; vertical-align: middle; white-space: nowrap;">VI</td>
+      <td style="text-align: center; color: #000000; font-size: 12pt; font-weight: 400; font-style: normal; border: none; vertical-align: middle; white-space: nowrap;">5303040</td>
+      <td style="text-align: center; color: #000000; font-size: 12pt; font-weight: 400; font-style: normal; border: none; vertical-align: middle; white-space: nowrap;">24034800</td>
+      <td style="text-align: center; color: #000000; font-size: 12pt; font-weight: 400; font-style: normal; border: none; vertical-align: middle; white-space: nowrap;">15000</td>
+      <td style="text-align: center; color: #000000; font-size: 12pt; font-weight: 400; font-style: normal; border: none; vertical-align: middle; white-space: nowrap;">1210439</td>
+      <td style="text-align: center; color: #000000; font-size: 12pt; font-weight: 400; font-style: normal; border: none; border-left: 1px solid #ccc; vertical-align: middle; white-space: nowrap;">1185345</td>
+      <td style="text-align: center; color: #000000; font-size: 12pt; font-weight: 400; font-style: normal; border: none; vertical-align: middle; white-space: nowrap;">2512071</td>
+      <td style="text-align: center; color: #000000; font-size: 12pt; font-weight: 400; font-style: normal; border: none; vertical-align: middle; white-space: nowrap;">7500</td>
+      </tr>
+      <tr style="border: none; border-top: 1px solid #ccc;">
+      <td style="text-align: center; background: white; color: #ccc; font-size: 12pt; font-weight: 400; font-style: normal; border: none; vertical-align: middle; white-space: nowrap;" colspan="8">(图1)</td>
+      </tr>
+      </tbody>
+      </table>
+    - 技能无需通过升阶流程，但 Tier IV 以上武器必须通过升阶流程更新属性。
+  - **深层灵魂峡谷** 变更：
+    - 修改了「深层灵魂使者 `Final`」的攻击技能，由固定 `49152` 伤害变更至 *基于玩家命运与灵魂融合度的动态伤害*。
+    - 新增了「深层灵魂使者 `Final`」`Lv.160` `Lv.200` `Lv.240` 变体：
+      - `Lv.160` `Lv.200` 为常规属性迭代，对应命运与灵魂融合度 `Tier IV` `Tier V`
+      - 在命运与灵魂融合度升阶至 `Tier VI` 后，再次挑战将能召出 `Lv.240` 之变体，固定 20 血量，每次受击至多扣减 1 血量。
+      - 在击杀 `Lv.160` 后，如背包中存在 **32x** `精粹灵魂宝石` ，将有较高概率触发命运洗礼，将 `Tier IV`(或以下) 的「运命 · 灵与安魂曲」升阶至 `Tier V`
+        - 即使未满足升阶条件，在触发后也将刷新一次属性。（如打造时非 `Tier IV` 可通过此途径刷新）<br>
+        <span style="padding: 0; border-left: 4px solid #aaa; color: #999; padding-left: 10px;">实际上，升阶可以跨等阶进行，只要满足对应等阶升级需求（融合度达标）即可尝试直接升阶至对应等级。</span>
+      - 在击杀 `Lv.200` 后，如背包中存在 **64x** `精粹灵魂宝石` ，将有概率触发命运洗礼，将 `Tier V`(或以下) 的「运命 · 灵与安魂曲」升阶至 `Tier VI`<br>
+        <span style="padding: 0; border-left: 4px solid #aaa; color: #999; padding-left: 10px;">「运命 · 灵与安魂曲」`Tier V` `Tier VI` 等级为 `Lv.160` `Lv.200`，属性详见上方附表</span>
 
 ---
 
