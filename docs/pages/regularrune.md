@@ -21,9 +21,9 @@
 所附价格均为 `Kc`<br>
 属性中所提到的非百分比或显然为固定数值的成长性属性，单位均为基准属性单位。(你可通过 /cal baseattr 查询)
 
-<p style="font-size: 1em; text-shadow: 0 0 1px rgba(0,0,0,0.25); padding-left: 10px; margin: 20px 0; border-left: 5px solid #3c547cff; color: #5777afff; background: #f9fbfc;">核心符文</p>
+<p style="font-size: 1em; text-shadow: 0 0 1px rgba(0,0,0,0.25); padding: 2px 10px; margin: 20px 0; border-left: 5px solid rgb(60, 110, 197); color: rgb(48, 93, 170); background: #f9fbfc;">核心符文</p>
 
-<table style="border-collapse: collapse; overflow: hidden; width: 1012.88px; font-family: 等线; text-align: center; border-image: initial; vertical-align: middle; white-space: nowrap;" cellspacing="0" cellpadding="0"><colgroup><col style="width: 120pt;" /> <col style="width: 45pt;" /> <col style="width: 60pt;" /> <col style="width: 60pt;" span="4" /> <col style="width: 45pt;" span="3" /> <col style="width: 60pt;" /></colgroup>
+<table style="border-collapse: collapse; overflow: hidden; width: 1012.88px; font-family: 等线; text-align: center; border-image: initial; vertical-align: middle; white-space: nowrap; margin: 5px;" cellspacing="0" cellpadding="0"><colgroup><col style="width: 120pt;" /> <col style="width: 45pt;" /> <col style="width: 60pt;" /> <col style="width: 60pt;" span="4" /> <col style="width: 45pt;" span="3" /> <col style="width: 60pt;" /></colgroup>
 <tbody>
 <tr style="height: 24.00pt; font-size: 16pt; font-family: TimesNewRoman;">
 <td rowspan="2">Name</td>
@@ -256,9 +256,10 @@
 </tbody>
 </table>
 
-<p style="font-size: 1em; text-shadow: 0 0 1px rgba(0,0,0,0.25); padding-left: 10px; margin: 20px 0; border-left: 5px solid #3c547cff; color: #5777afff; background: #f9fbfc;">附属符文</p>
 
-<table style="border-collapse: collapse; width: 450.77pt; text-align: center; padding: 1px; border-image: initial; vertical-align: middle; white-space: nowrap;" cellspacing="0" cellpadding="0"><colgroup><col style="width: 75.75pt;" /> <col style="width: 51.75pt;" /> <col style="width: 63.75pt;" /> <col style="width: 183.75pt;" /> <col style="width: 75.75pt;" /></colgroup>
+<p style="font-size: 1em; text-shadow: 0 0 1px rgba(0,0,0,0.25); padding-left: 10px; margin: 20px 0; border-left: 5px solid rgb(60, 110, 197); color: rgb(48, 93, 170); background: #f9fbfc;">附属符文</p>
+
+<table style="border-collapse: collapse; width: 450.77pt; text-align: center; padding: 1px; border-image: initial; vertical-align: middle; white-space: nowrap; margin: 5px;" cellspacing="0" cellpadding="0"><colgroup><col style="width: 75.75pt;" /> <col style="width: 51.75pt;" /> <col style="width: 63.75pt;" /> <col style="width: 183.75pt;" /> <col style="width: 75.75pt;" /></colgroup>
 <tbody>
 <tr style="height: 24pt; font-size: 16pt; font-family: TimesNewRoman; ">
 <td style="width: 75.75pt;">Name</td>
@@ -432,7 +433,8 @@
 </tbody>
 </table>
 
-<p style="font-size: 1em; text-shadow: 0 0 1px rgba(0,0,0,0.25); padding-left: 10px; margin: 20px 0; border-left: 5px solid #3c547cff; color: #5777afff; background: #f9fbfc;">附属槽位</p>
+<p style="font-size: 1em; text-shadow: 0 0 1px rgba(0,0,0,0.25); padding-left: 10px; margin: 20px 0; border-left: 5px solid rgb(60, 110, 197); color: rgb(48, 93, 170); background: #f9fbfc;">附属槽位</p>
+<div style="padding: 5px;">
 
 |槽位序列|价格 (Kc)|
 |:---:|:---:|
@@ -440,9 +442,15 @@
 |#2|375|
 |#3|1125|
 
-<p style="font-size: 1em; text-shadow: 0 0 1px rgba(0,0,0,0.25); padding-left: 10px; margin: 20px 0; border-left: 5px solid #3c547cff; color: #5777afff; background: #f9fbfc;">其他增值服务</p>
+</div>
+
+<p style="font-size: 1em; text-shadow: 0 0 1px rgba(0,0,0,0.25); padding-left: 10px; margin: 20px 0; border-left: 5px solid rgb(60, 110, 197); color: rgb(48, 93, 170);  background: #f9fbfc;">其他增值服务</p>
+
+<div style="padding: 5px;">
 
 |项目|价格 (Kc)|备注|
 |:---:|:---:|---|
 |自定义名称| 50 |
 |自定义描述| 50 * 行数|每行不超过 20 字，至多 5 行
+
+</div>
