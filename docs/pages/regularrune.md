@@ -322,22 +322,22 @@
 <td style="font-size: 16pt; font-family: 等线;" rowspan="4">血灵</td>
 <td>1</td>
 <td style="font-size: 13pt; font-family: 等线;" rowspan="4">blood</td>
-<td>2.5%</td>
+<td>2.5% 生命偷取</td>
 <td style="font-size: 12pt; font-family: Exo;">75</td>
 </tr>
 <tr style="height: 20.00pt;">
 <td>2</td>
-<td>5.0%</td>
+<td>5.0% 生命偷取</td>
 <td style="font-family: Exo;">225</td>
 </tr>
 <tr style="height: 20.00pt;">
 <td>3</td>
-<td>7.5%</td>
+<td>7.5% 生命偷取</td>
 <td style="font-family: Exo;">450</td>
 </tr>
 <tr style="height: 20.00pt;">
 <td>4</td>
-<td>10.0%</td>
+<td>10.0% 生命偷取</td>
 <td style="font-family: Exo;">750</td>
 </tr>
 <tr style="height: 10.00pt;">
