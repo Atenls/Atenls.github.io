@@ -82,7 +82,6 @@ Tempest 主线</a>
 <a href="#/pages/月卡" class="card" style="text-decoration: none; color: oklch(0.75 0.1773 57.18); text-shadow: 0 0 2px oklch(0.8867 0.1653 99.53); font-size: 24px; font-weight: bold;">
 月卡介绍</a>
 
-
 <a href="#/pages/homeland" class="card" style="text-decoration: none; color: transparent; background: linear-gradient(135deg, oklch(0.65 0.2 180), oklch(0.8 0.2 270)) text; text-shadow: 0 0 1px rgba(0,0,0,0.125); font-size: 24px; font-weight: bold;">
 家园相关</a>
 <a href="#/pages/updatelogs" class="card" style="text-decoration: none; color: transparent; background: linear-gradient(135deg, oklch(0.6441 0.1949 301.76), oklch(0.6441 0.2417 0)) text; text-shadow: 0 0 1px rgba(0,0,0,0.125); font-size: 24px; font-weight: bold;">
@@ -95,6 +94,10 @@ Tempest 主线</a>
 
 <a href="#/pages/attr" class="card" style="text-decoration: none; color: #8560b6; text-shadow: 0 0 1px rgba(0,0,0,0.25); font-size: 24px; font-weight: bold;">
 属性与相关计算公式</a>
+
+<a href="#/pages/regularrune" class="card" style="text-decoration: none; color: #8560b6; text-shadow: 0 0 1px rgba(0,0,0,0.25); font-size: 24px; font-weight: bold;">
+制式符文</a>
+
 </div>
 
 <div class="cards">
