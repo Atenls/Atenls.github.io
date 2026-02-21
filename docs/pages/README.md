@@ -98,6 +98,9 @@ Tempest 主线</a>
 <a href="#/pages/regularrune" class="card" style="text-decoration: none; color: #8560b6; text-shadow: 0 0 1px rgba(0,0,0,0.25); font-size: 24px; font-weight: bold;">
 制式符文</a>
 
+<a href="#/pages/supplybox" class="card" style="text-decoration: none; color: #8560b6; text-shadow: 0 0 1px rgba(0,0,0,0.25); font-size: 24px; font-weight: bold;">
+补给箱</a>
+
 </div>
 
 <div class="cards">
