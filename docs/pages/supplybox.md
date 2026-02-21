@@ -7,6 +7,16 @@
     padding: 3px 6px;
 }
 
+.tag-cyan {
+  color: #f0f0f0;
+  background: #9999cc;
+  text-shadow: 0.5px 1px 0.5px rgba(0, 0, 0, 0.25);
+  padding: 3px 4px;
+  margin: 0 2px;
+  border-radius: 5px;
+  font-weight: 500;
+}
+
 ul {
     margin-block: 0em;
 }
@@ -219,6 +229,131 @@ ul {
 <tr style="height: 22.5pt;">
 <td>天之子补给箱 Tier 1/2</td>
 <td>&nbsp;</td>
+</tr>
+</tbody>
+</table>
+
+### 补给箱装备升级
+
+部分补给箱装备提供了升级可能，通过拆解重复的装备或对等碎片可以用以消耗升级技能强度。
+
+
+<p style="font-size: 1em; text-shadow: 0 0 1px rgba(0,0,0,0.25); padding: 2px 10px; margin: 20px 0; border-left: 5px solid rgb(60, 110, 197); color: rgb(48, 93, 170); background: #f9fbfc;">界域引继者</p>
+
+<table style="border-collapse: collapse; width: 679.52pt; font-size: 12pt; font-family: YuGothicUI; text-align: center; vertical-align: middle; white-space: nowrap; padding: 24px 16px; border-radius: 24px; border: 1px solid #ccc;" cellspacing="0" cellpadding="0"><colgroup><col style="width: 45.75pt;" /> <col style="width: 14.25pt;" /> <col style="width: 56.25pt;" span="2" /> <col style="width: 10pt;" /> <col style="width: 56.25pt;" span="2" /> <col style="width: 10pt;" /> <col style="width: 56.25pt;" span="2" /> <col style="width: 10pt;" /> <col style="width: 56.25pt;" span="2" /> <col style="width: 10pt;" /> <col style="width: 56.25pt;" span="2" /></colgroup>
+<tbody>
+<tr style="height: 24.00pt; border-top: none;">
+<td style="width: 45.75pt; color: #172436; font-weight: 500; border: none;">Tier</td>
+<td style="width: 10pt; border: none;" rowspan="11"></td>
+<td style="width: 112.5pt; color: #172436; font-weight: 500; border: none;" colspan="2">CD</td>
+<td style="width: 10pt; border: none;" rowspan="11"></td>
+<td style="width: 112.5pt; color: #172436; font-weight: 500; border: none;" colspan="2">Distance</td>
+<td style="width: 10pt; border: none;" rowspan="11"></td>
+<td style="width: 112.5pt; color: #172436; font-weight: 500; border: none;" colspan="2">ManaCost</td>
+<td style="width: 10pt; border: none;" rowspan="11"></td>
+<td style="width: 112.5pt; color: #172436; font-weight: 500; border: none;" colspan="2">ElementIncrease</td>
+<td style="width: 10pt; border: none;" rowspan="11"></td>
+<td style="width: 112.5pt; color: #172436; font-weight: 500; border: none;" colspan="2">TurboMode</td>
+</tr>
+<tr style="height: 24.00pt;">
+<td style="font-size: 12pt; border-bottom: 0.5pt solid #808080; font-family: 微软雅黑; ">0</td>
+<td style="color: #808080; border-top: none; border-bottom: 0.5pt solid #808080;">60</td>
+<td style="color: #172436; border-top: none; border-bottom: 0.5pt solid #808080;">Cost</td>
+<td style="color: #808080; border-top: none; border-bottom: 0.5pt solid #808080;">25</td>
+<td style="color: #172436; border-top: none; border-bottom: 0.5pt solid #808080;">Cost</td>
+<td style="color: #808080; border-top: none; border-bottom: 0.5pt solid #808080;">40</td>
+<td style="color: #172436; border-top: none; border-bottom: 0.5pt solid #808080;">Cost</td>
+<td style="color: #808080; border-top: none; border-bottom: 0.5pt solid #808080;">16</td>
+<td style="color: #172436; border-top: none; border-bottom: 0.5pt solid #808080;">Cost</td>
+<td style="color: #808080; border-top: none; border-bottom: 0.5pt solid #808080;">无</td>
+<td style="color: #172436; border-top: none; border-bottom: 0.5pt solid #808080;">Cost</td>
+</tr>
+<tr style="height: 24.00pt;">
+<td>1</td>
+<td>40</td>
+<td>1</td>
+<td>30</td>
+<td>1</td>
+<td>36</td>
+<td>1</td>
+<td>20</td>
+<td>2</td>
+<td>1</td>
+<td>4</td>
+</tr>
+<tr style="height: 24.00pt;">
+<td>2</td>
+<td>30</td>
+<td>1</td>
+<td>35</td>
+<td>4</td>
+<td>32</td>
+<td>2</td>
+<td>24</td>
+<td>4</td>
+<td>2</td>
+<td>16</td>
+</tr>
+<tr style="height: 24.00pt;">
+<td>3</td>
+<td>24</td>
+<td>2</td>
+<td>40</td>
+<td>8</td>
+<td>28</td>
+<td>4</td>
+<td>32</td>
+<td>8</td>
+<td>3</td>
+<td>32</td>
+</tr>
+<tr style="height: 24.00pt;">
+<td>4</td>
+<td>18</td>
+<td>2</td>
+<td style="vertical-align: bottom; color: #aaa; white-space: wrap; font-size: 14px;" colspan="2" rowspan="6"><span style="color: #172436">提升</span><br>传送的最远距离</td>
+<td>24</td>
+<td>8</td>
+<td style="vertical-align: bottom; color: #aaa; white-space: wrap; font-size: 14px;" colspan="2" rowspan="6"><span style="color: #172436">提升</span><br>释放技能时增加的<br>暗属性强化单位</td>
+<td style="vertical-align: bottom; color: #aaa;" colspan="2" rowspan="6"><span style="color: #172436;">狂暴模式</span><br>
+<div style="display: flex; justify-content: space-evenly; align-items: center; padding: 8px 0;">
+    <div style="vertical-align: middle;"><span class="tag-cyan">1</span> </div>
+    <div style="vertical-align: middle; text-align: left; font-size: 13.33px;">法耗提升至 2x<br>冷却降低至 1/2</div>
+</div>
+<div style="display: flex; justify-content: space-evenly; align-items: center;">
+    <div style="vertical-align: middle;"><span class="tag-cyan">2</span> </div>
+    <div style="vertical-align: middle; text-align: left; font-size: 13.33px;">法耗提升至 4x<br>冷却降低至 1/3</div>
+</div>
+<div style="display: flex; justify-content: space-evenly; align-items: center; padding: 8px 0;">
+    <div style="vertical-align: middle;"><span class="tag-cyan">3</span> </div>
+    <div style="vertical-align: middle; text-align: left; font-size: 13.33px;">允许落点为空气</div>
+</div>
+</td>
+</tr>
+<tr style="height: 24.00pt;">
+<td>5</td>
+<td>12</td>
+<td>4</td>
+<td style="vertical-align: bottom; color: #aaa; white-space: wrap; font-size: 14px;" colspan="2" rowspan="5"><span style="color: #172436">降低</span><br>释放技能的法力消耗</td>
+</tr>
+<tr style="height: 24.00pt;">
+<td>6</td>
+<td>9</td>
+<td>4</td>
+</tr>
+<tr style="height: 24.00pt;">
+<td>7</td>
+<td>6</td>
+<td>8</td>
+</tr>
+<tr style="height: 24.00pt;">
+<td>8</td>
+<td>3</td>
+<td>16</td>
+</tr>
+<tr style="height: 36.00pt;">
+<td>/</td>
+<td style="vertical-align: bottom; color: #aaa; white-space: wrap; font-size: 14px;" colspan="2"><span style="color: #172436">降低</span><br>技能冷却</td>
 </tr>
 </tbody>
 </table>
