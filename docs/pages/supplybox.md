@@ -295,7 +295,8 @@ ul {
 <span class="dptag">可升级</span><span class="dptag tag-green">位移</span><span class="dptag tag-purple">群攻</span>
 
 消耗 `ManaCost` 点法力，并给自身增加 `ElementIncrease` 点暗属性强化（基准属性单位）<br>
-向前方最多 `Distance` 距离发起一次传送，对沿途的所有敌对生物及最终落点 `8x6x8` 范围内的所有生物造成一次暗属性魔法伤害。
+向前方最多 `Distance` 距离发起一次传送，对沿途的所有敌对生物及最终落点 `8x6x8` 范围内的所有生物造成一次暗属性魔法伤害。<br>
+如落点为空气且 `TurboMode` 未达到 `3` 级，落点将下落至离地面最多 `4` 格高度。
 
 <table style="border-collapse: collapse; width: 679.52pt; font-size: 12pt; font-family: YuGothicUI; text-align: center; vertical-align: middle; white-space: nowrap; padding: 16px 16px 24px; border-radius: 24px; border: 1px solid #ccc;" cellspacing="0" cellpadding="0"><colgroup><col style="width: 45.75pt;" /> <col style="width: 14.25pt;" /> <col style="width: 56.25pt;" span="2" /> <col style="width: 10pt;" /> <col style="width: 56.25pt;" span="2" /> <col style="width: 10pt;" /> <col style="width: 56.25pt;" span="2" /> <col style="width: 10pt;" /> <col style="width: 56.25pt;" span="2" /> <col style="width: 10pt;" /> <col style="width: 56.25pt;" span="2" /></colgroup>
 <tbody>
@@ -442,7 +443,7 @@ ul {
 <td style="width: 180pt; color: #484c52; font-family: 微软雅黑;">增益数值</td>
 <td style="font-size: 1.25em" rowspan="6">48s</td>
 <td style="font-size: 1.25em" rowspan="6">80</td>
-<td style="font-size: 1.25em" rowspan="6">9</td>
+<td style="font-size: 1.25em" rowspan="6">9x4x9</td>
 <td style="font-size: 1.25em" rowspan="6">3</td>
 </tr>
 <tr style="height: 24.00pt; padding: 8px;">
