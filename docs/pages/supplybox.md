@@ -233,7 +233,7 @@ ul {
 </tbody>
 </table>
 
-### 补给箱装备升级
+### 补给箱装备技能详情
 
 部分补给箱装备提供了升级可能，通过拆解重复的装备或对等碎片可以用以消耗升级技能强度。
 
@@ -358,15 +358,24 @@ ul {
 </tbody>
 </table>
 
-<p style="font-size: 1em; text-shadow: 0 0 1px rgba(0,0,0,0.25); padding: 2px 10px; margin: 20px 0; border-left: 5px solid rgb(60, 110, 197); color: rgb(48, 93, 170); background: #f9fbfc;">终境彼岸</p>
+<h5 id="终境彼岸" style="font-size: 1em; text-shadow: 0 0 1px rgba(0,0,0,0.25); padding: 2px 10px; margin: 20px 0; border-left: 5px solid rgb(60, 110, 197); color: rgb(48, 93, 170); background: #f9fbfc;">终境彼岸</h5>
 
-<table style="font-size: 12pt; width: 240px; font-family: YuGothicUI; text-align: center; vertical-align: middle; white-space: nowrap; padding: 8px 16px 24px; border-radius: 24px; border: 1px solid #ccc;">
-<tr style="height: 24.00pt; border-top: none;">
-<td style="width: 60pt; color: #172436; font-weight: 600; border: none;" colspan="2" >技能增益效果</td>
+<table style="font-size: 12pt; width: 600px; font-family: YuGothicUI; text-align: center; vertical-align: middle; white-space: nowrap; padding: 8px 16px 24px; border-radius: 24px; border: 1px solid #ccc;">
+<tr style="height: 24.00pt; border-top: none; font-family: 微软雅黑;">
+<td style="width: 120pt; color: #172436; font-weight: 500; border: none;" colspan="2" >技能增益效果</td>
+<td style="width: 10pt; border: none;" rowspan="10"></td>
+<td style="width: 120pt; color: #172436; font-weight: 500; border: none;">冷却时间</td>
+<td style="width: 10pt; border: none;" rowspan="10"></td>
+<td style="width: 120pt; color: #172436; font-weight: 500; border: none;">法力消耗</td>
+<td style="width: 10pt; border: none;" rowspan="10"></td>
+<td style="width: 120pt; color: #172436; font-weight: 500; border: none;">伤害范围</td>
 </tr>
-<tr style="height: 24.00pt;">
-<td style="width: 60pt; color: #2a3442; font-weight: 500;">个人暗属性强化</td>
-<td style="width: 60pt; color: #2a3442; font-weight: 500;">增益数值</td>
+<tr style="height: 28.00pt;">
+<td style="width: 60pt; color: #484c52; font-family: 微软雅黑;">个人暗属性强化</td>
+<td style="width: 60pt; color: #484c52; font-family: 微软雅黑;">增益数值</td>
+<td style="font-size: 1.25em" rowspan="6">48s</td>
+<td style="font-size: 1.25em" rowspan="6">80</td>
+<td style="font-size: 1.25em" rowspan="6">6</td>
 </tr>
 <tr style="height: 24.00pt;">
 <td>&lt;7500</td>
