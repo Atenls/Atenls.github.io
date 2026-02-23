@@ -240,7 +240,7 @@ ul {
 
 <p style="font-size: 1em; text-shadow: 0 0 1px rgba(0,0,0,0.25); padding: 2px 10px; margin: 20px 0; border-left: 5px solid rgb(60, 110, 197); color: rgb(48, 93, 170); background: #f9fbfc;">界域引继者</p>
 
-<table style="border-collapse: collapse; width: 679.52pt; font-size: 12pt; font-family: YuGothicUI; text-align: center; vertical-align: middle; white-space: nowrap; padding: 24px 16px; border-radius: 24px; border: 1px solid #ccc;" cellspacing="0" cellpadding="0"><colgroup><col style="width: 45.75pt;" /> <col style="width: 14.25pt;" /> <col style="width: 56.25pt;" span="2" /> <col style="width: 10pt;" /> <col style="width: 56.25pt;" span="2" /> <col style="width: 10pt;" /> <col style="width: 56.25pt;" span="2" /> <col style="width: 10pt;" /> <col style="width: 56.25pt;" span="2" /> <col style="width: 10pt;" /> <col style="width: 56.25pt;" span="2" /></colgroup>
+<table style="border-collapse: collapse; width: 679.52pt; font-size: 12pt; font-family: YuGothicUI; text-align: center; vertical-align: middle; white-space: nowrap; padding: 16px 16px 24px; border-radius: 24px; border: 1px solid #ccc;" cellspacing="0" cellpadding="0"><colgroup><col style="width: 45.75pt;" /> <col style="width: 14.25pt;" /> <col style="width: 56.25pt;" span="2" /> <col style="width: 10pt;" /> <col style="width: 56.25pt;" span="2" /> <col style="width: 10pt;" /> <col style="width: 56.25pt;" span="2" /> <col style="width: 10pt;" /> <col style="width: 56.25pt;" span="2" /> <col style="width: 10pt;" /> <col style="width: 56.25pt;" span="2" /></colgroup>
 <tbody>
 <tr style="height: 24.00pt; border-top: none;">
 <td style="width: 45.75pt; color: #172436; font-weight: 500; border: none;">Tier</td>
@@ -356,4 +356,37 @@ ul {
 <td style="vertical-align: bottom; color: #aaa; white-space: wrap; font-size: 14px;" colspan="2"><span style="color: #172436">降低</span><br>技能冷却</td>
 </tr>
 </tbody>
+</table>
+
+<p style="font-size: 1em; text-shadow: 0 0 1px rgba(0,0,0,0.25); padding: 2px 10px; margin: 20px 0; border-left: 5px solid rgb(60, 110, 197); color: rgb(48, 93, 170); background: #f9fbfc;">终境彼岸</p>
+
+<table style="font-size: 12pt; width: 240px; font-family: YuGothicUI; text-align: center; vertical-align: middle; white-space: nowrap; padding: 8px 16px 24px; border-radius: 24px; border: 1px solid #ccc;">
+<tr style="height: 24.00pt; border-top: none;">
+<td style="width: 60pt; color: #172436; font-weight: 600; border: none;" colspan="2" >技能增益效果</td>
+</tr>
+<tr style="height: 24.00pt;">
+<td style="width: 60pt; color: #2a3442; font-weight: 500;">个人暗属性强化</td>
+<td style="width: 60pt; color: #2a3442; font-weight: 500;">增益数值</td>
+</tr>
+<tr style="height: 24.00pt;">
+<td>&lt;7500</td>
+<td>15000</td>
+</tr>
+<tr style="height: 24.00pt;">
+<td>≥7500</td>
+<td>22500</td>
+</tr>
+<tr style="height: 24.00pt;">
+<td>≥12500</td>
+<td>30000</td>
+</tr>
+<tr style="height: 24.00pt;">
+<td>≥22500</td>
+<td>37500</td>
+</tr>
+<tr style="height: 24.00pt;">
+<td>≥42500</td>
+<td>45000</td>
+</tr>
+
 </table>
