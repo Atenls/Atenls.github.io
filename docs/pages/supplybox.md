@@ -7,6 +7,58 @@
     padding: 3px 6px;
 }
 
+.dptag {
+  color: #f0f0f0;
+  background-color: #538aec;
+  text-shadow: 0.5px 1px 0.5px rgba(0, 0, 0, 0.25);
+  padding: 3px 4px;
+  margin: 0 2px;
+  border-radius: 4px;
+  font-family: 等线;
+  font-weight: 500;
+}
+
+.tag-gold {
+  background: #eeaa10;
+  color: #efffef;
+}
+
+.tag-yellow {
+  background: #efbe40;
+  color: #efffef;
+}
+
+.tag-green {
+  background: #279027;
+}
+
+.tag-red {
+  background: #ef8080;
+  color: #ffffff;
+}
+
+.tag-red-blue {
+  background: linear-gradient(135deg,#ef8080,#538aec);
+  color: #f8ffef;
+}
+
+.tag-pink-gold {
+  background: linear-gradient(135deg,#ff9b1a, #ff80f0);
+  color: #f8ffef;
+}
+
+.tag-purple {
+  background: #7a31aa;
+}
+
+.tag-gray {
+  background: #989899;
+}
+
+.tag-cyan {
+  background: #9999cc;
+}
+
 .tag-cyan {
   color: #f0f0f0;
   background: #9999cc;
@@ -238,7 +290,12 @@ ul {
 部分补给箱装备提供了升级可能，通过拆解重复的装备或对等碎片可以用以消耗升级技能强度。
 
 
-<p style="font-size: 1em; text-shadow: 0 0 1px rgba(0,0,0,0.25); padding: 2px 10px; margin: 20px 0; border-left: 5px solid rgb(60, 110, 197); color: rgb(48, 93, 170); background: #f9fbfc;">界域引继者</p>
+<p style="font-size: 1em; text-shadow: 0 0 1px rgba(0,0,0,0.25); padding: 2px 10px; margin: 20px 0; border-left: 5px solid rgb(60, 110, 197); color: rgb(48, 93, 170); background: #f9fbfc;">界域引继者：横跨空间的界限</p>
+
+<span class="dptag">可升级</span><span class="dptag tag-green">位移</span><span class="dptag tag-purple">群攻</span>
+
+消耗 `ManaCost` 点法力，并给自身增加 `ElementIncrease` 点暗属性强化（基准属性单位）<br>
+向前方最多 `Distance` 距离发起一次传送，对沿途的所有敌对生物及最终落点 `8x6x8` 范围内的所有生物造成一次暗属性魔法伤害。
 
 <table style="border-collapse: collapse; width: 679.52pt; font-size: 12pt; font-family: YuGothicUI; text-align: center; vertical-align: middle; white-space: nowrap; padding: 16px 16px 24px; border-radius: 24px; border: 1px solid #ccc;" cellspacing="0" cellpadding="0"><colgroup><col style="width: 45.75pt;" /> <col style="width: 14.25pt;" /> <col style="width: 56.25pt;" span="2" /> <col style="width: 10pt;" /> <col style="width: 56.25pt;" span="2" /> <col style="width: 10pt;" /> <col style="width: 56.25pt;" span="2" /> <col style="width: 10pt;" /> <col style="width: 56.25pt;" span="2" /> <col style="width: 10pt;" /> <col style="width: 56.25pt;" span="2" /></colgroup>
 <tbody>
@@ -358,9 +415,17 @@ ul {
 </tbody>
 </table>
 
-<h5 id="终境彼岸" style="font-size: 1em; text-shadow: 0 0 1px rgba(0,0,0,0.25); padding: 2px 10px; margin: 20px 0; border-left: 5px solid rgb(60, 110, 197); color: rgb(48, 93, 170); background: #f9fbfc;">终境彼岸</h5>
+<h5 id="终境彼岸" style="font-size: 1em; text-shadow: 0 0 1px rgba(0,0,0,0.25); padding: 2px 10px; margin: 20px 0; border-left: 5px solid rgb(60, 110, 197); color: rgb(48, 93, 170); background: #f9fbfc; font-weight: 400;">终境彼岸： 「于时间的间隙向过往回望」</h5>
 
-<table style="font-size: 12pt; width: 600px; font-family: YuGothicUI; text-align: center; vertical-align: middle; white-space: nowrap; padding: 8px 16px 24px; border-radius: 24px; border: 1px solid #ccc;">
+<span class="dptag tag-purple">群攻</span>
+
+消耗 `法力消耗` 点法力，基于自身个人暗属性强化获得 `增益数值` 点暗属性强化（基准属性单位，灰字为 Lv.360 属性）。<br>
+并以前方 `3` 格为中心，在 `伤害范围` 内击出 `6` 道斩击。<br>
+每道斩击可对 `1` 名敌方目标造成 `1` 次近战伤害（即最多 `6` 次伤害、敌方目标不可重复）。<br>
+基准冷却时间为 `冷却时间`s 。技能每命中 `1` 名目标，技能冷却时间减少 `冷却减少`s 。 <br>
+在结束后，将在接下来的 `10s` 内扣除双倍增益的暗属性强化。
+
+<table style="font-size: 12pt; width: 700px; font-family: YuGothicUI; text-align: center; vertical-align: middle; white-space: nowrap; padding: 8px 16px 24px; border-radius: 24px; border: 1px solid #ccc;">
 <tr style="height: 24.00pt; border-top: none; font-family: 微软雅黑;">
 <td style="width: 120pt; color: #172436; font-weight: 500; border: none;" colspan="2" >技能增益效果</td>
 <td style="width: 10pt; border: none;" rowspan="10"></td>
@@ -369,33 +434,36 @@ ul {
 <td style="width: 120pt; color: #172436; font-weight: 500; border: none;">法力消耗</td>
 <td style="width: 10pt; border: none;" rowspan="10"></td>
 <td style="width: 120pt; color: #172436; font-weight: 500; border: none;">伤害范围</td>
+<td style="width: 10pt; border: none;" rowspan="10"></td>
+<td style="width: 120pt; color: #172436; font-weight: 500; border: none;">冷却减免</td>
 </tr>
 <tr style="height: 28.00pt;">
-<td style="width: 60pt; color: #484c52; font-family: 微软雅黑;">个人暗属性强化</td>
-<td style="width: 60pt; color: #484c52; font-family: 微软雅黑;">增益数值</td>
+<td style="width: 180pt; color: #484c52; font-family: 微软雅黑;">个人暗属强</td>
+<td style="width: 180pt; color: #484c52; font-family: 微软雅黑;">增益数值</td>
 <td style="font-size: 1.25em" rowspan="6">48s</td>
 <td style="font-size: 1.25em" rowspan="6">80</td>
-<td style="font-size: 1.25em" rowspan="6">6</td>
+<td style="font-size: 1.25em" rowspan="6">9</td>
+<td style="font-size: 1.25em" rowspan="6">3</td>
 </tr>
-<tr style="height: 24.00pt;">
-<td>&lt;7500</td>
-<td>15000</td>
+<tr style="height: 24.00pt; padding: 8px;">
+<td>&lt;3 <span style="color: #999; font-size: 12px;">(7172)</span></td>
+<td>6 <span style="color: #999; font-size: 12px;">(14344)</span></td>
 </tr>
-<tr style="height: 24.00pt;">
-<td>≥7500</td>
-<td>22500</td>
+<tr style="height: 24.00pt; padding: 8px;">
+<td>≥ 3 <span style="color: #999; font-size: 12px;">(7172)</span></td>
+<td>15 <span style="color: #999; font-size: 12px;">(35860)</span></td>
 </tr>
-<tr style="height: 24.00pt;">
-<td>≥12500</td>
-<td>30000</td>
+<tr style="height: 24.00pt; padding: 8px;">
+<td>≥ 6 <span style="color: #999; font-size: 12px;">(14344)</span></td>
+<td>22.5 <span style="color: #999; font-size: 12px;">(53790)</span></td>
 </tr>
-<tr style="height: 24.00pt;">
-<td>≥22500</td>
-<td>37500</td>
+<tr style="height: 24.00pt; padding: 8px;">
+<td>≥ 15 <span style="color: #999; font-size: 12px;">(35860)</span></td>
+<td>30 <span style="color: #999; font-size: 12px;">(71720)</span></td>
 </tr>
-<tr style="height: 24.00pt;">
-<td>≥42500</td>
-<td>45000</td>
+<tr style="height: 24.00pt; padding: 8px;">
+<td>≥ 22.5 <span style="color: #999; font-size: 12px;">(53790)</span></td>
+<td>40 <span style="color: #999; font-size: 12px;">(95627)</span></td>
 </tr>
 
 </table>
