@@ -66,8 +66,8 @@
 |Tier 7 |   8 units|  5|
 |Tier 9 |  48 units|  5|
 |Tier 11| 384 units|  5|
-|Tier 12| 640 units|  5|
-|Tier 13|1280 units|  5|
+|Tier 12| 960 units|  5|
+|Tier 13|2560 units|  5|
 
 > 1 unit = 20480P WE
 
