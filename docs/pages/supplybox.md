@@ -294,7 +294,7 @@ ul {
 
 <span class="dptag">可升级</span><span class="dptag tag-green">位移</span><span class="dptag tag-purple">群攻</span>
 
-消耗 `ManaCost` 点法力，并给自身增加 `ElementIncrease` 点暗属性强化（基准属性单位）<br>
+消耗 `ManaCost` 点法力，并给自身增加 `ElementIncrease` 暗属性强化（基准属性单位）、`40` 单位命中。<br>
 向前方最多 `Distance` 距离发起一次传送，对沿途的所有敌对生物及最终落点 `8x6x8` 范围内的所有生物造成一次暗属性魔法伤害。<br>
 如落点为空气且 `TurboMode` 未达到 `3` 级，落点将下落至离地面最多 `4` 格高度。
 

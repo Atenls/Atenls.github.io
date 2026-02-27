@@ -23,16 +23,20 @@
 
 <p style="font-size: 1em; text-shadow: 0 0 1px rgba(0,0,0,0.25); padding: 2px 10px; margin: 20px 0; border-left: 5px solid rgb(60, 110, 197); color: rgb(48, 93, 170); background: #f9fbfc;">核心符文</p>
 
-<table style="border-collapse: collapse; overflow: hidden; width: 1012.88px; font-family: 等线; text-align: center; border-image: initial; vertical-align: middle; white-space: nowrap; margin: 5px;" cellspacing="0" cellpadding="0"><colgroup><col style="width: 120pt;" /> <col style="width: 45pt;" /> <col style="width: 60pt;" /> <col style="width: 60pt;" span="4" /> <col style="width: 45pt;" span="3" /> <col style="width: 60pt;" /></colgroup>
+<table style="border-collapse: collapse; overflow: hidden; width: 1000px; font-family: 等线; text-align: center; border-image: initial; vertical-align: middle; white-space: nowrap; margin: 5px; padding: 16px 16px 24px; border-radius: 24px; border: 1px solid #ccc;" cellspacing="0" cellpadding="0"><colgroup><col style="width: 120pt;" /> <col style="width: 10pt;" /> <col style="width: 75pt;" /> <col style="width: 10pt;" /> <col style="width: 60pt;" span="4" /> <col style="width: 45pt;" span="3" /> <col style="width: 10pt;" /> <col style="width: 60pt;" /></colgroup>
 <tbody>
-<tr style="height: 24.00pt; font-size: 16pt; font-family: TimesNewRoman;">
-<td rowspan="2">Name</td>
-<td rowspan="2">Level</td>
-<td rowspan="2">Code</td>
-<td colspan="7">Attributes</td>
-<td rowspan="2">Price</td>
+<tr style="height: 24.00pt; font-size: 16pt; font-family: TimesNewRoman; border-top: none;">
+<td style="border: none;">Name</td>
+<td style="width: 10pt; background-color: white; border: none" rowspan="11"></td>
+<td style="border: none;">Level</td>
+<td style="width: 10pt; background-color: white; border: none" rowspan="11"></td>
+<td style="border: none;" colspan="7">Attributes</td>
+<td style="width: 10pt; background-color: white; border: none" rowspan="11"></td>
+<td style="border: none;">Price</td>
 </tr>
-<tr style="height: 24.00pt; font-family: normal; font-size: 12pt; padding: 1px; vertical-align: middle; white-space: nowrap;">
+<tr style="height: 24.00pt; font-family: normal; font-size: 12pt; padding: 1px; vertical-align: middle; white-space: nowrap; border-top: none;">
+<td style="color: #ccc;">/</td>
+<td style="color: #ccc;">/</td>
 <td>魔法攻击</td>
 <td>法力上限</td>
 <td>法力恢复</td>
@@ -40,11 +44,11 @@
 <td>法球伤害半径</td>
 <td>法球飞行速度</td>
 <td>法球飞行距离</td>
+<td style="color: #ccc;">/</td>
 </tr>
 <tr style="height: 20.00pt;">
 <td style="font-size: 16pt; font-family: 等线; padding: 6px;" rowspan="9"><span style="padding: 6px 12px; border-radius: 16px; font-weight: 600; background: linear-gradient(135deg, oklch(0.88 0.05 200), oklch(0.88 0.075 250)); color: white; box-shadow: 0 0 5px oklch(0.2 0.02 225 / 25%); text-shadow: 0 1px 1px oklch(0.2 0.02 225 / 40%)">咒文的咏叹调</span></td>
 <td>1</td>
-<td style="font-size: 13pt; font-family: 等线;" rowspan="9">magic</td>
 <td>4</td>
 <td>40</td>
 <td>1</td>
@@ -143,16 +147,17 @@
 <td style="font-family: Exo;">3750</td>
 </tr>
 <tr style="height: 10.00pt; border: none;">
-<td style="padding: 1px; font-size: 11pt; font-weight: 400; font-style: normal; border-image: initial; vertical-align: middle; white-space: nowrap;" colspan="11"></td>
+<td style="border: none;"></td>
+<td style="width: 10pt; background-color: white; border: none" rowspan="11"></td>
+<td style="border: none;"></td>
+<td style="width: 10pt; background-color: white; border: none" rowspan="11"></td>
+<td style="border: none;" colspan="7"></td>
+<td style="width: 10pt; background-color: white; border: none" rowspan="11"></td>
+<td style="border: none;" colspan="1"></td>
 </tr>
-<tr style="height: 24.00pt; font-size: 16pt; font-family: TimesNewRoman; ">
-<td rowspan="2">Name</td>
-<td rowspan="2">Level</td>
-<td rowspan="2">Code</td>
-<td colspan="7">Attributes</td>
-<td rowspan="2">Price</td>
-</tr>
-<tr style="height: 24.00pt; font-weight: 400; font-family: normal; ">
+<tr style="height: 24.00pt; font-weight: 400; font-family: normal; border-top: none;">
+<td style="color: #ccc;">/</td>
+<td style="color: #ccc;">/</td>
 <td>近战攻击</td>
 <td>箭矢攻击</td>
 <td>护甲穿透</td>
@@ -160,11 +165,11 @@
 <td>攻击速度</td>
 <td>护甲穿透%</td>
 <td>最大生命</td>
+<td style="color: #ccc;">/</td>
 </tr>
 <tr style="height: 20.00pt;">
 <td style="font-size: 16pt;" rowspan="9"><span style="padding: 6px 12px; border-radius: 16px; font-weight: 600; background: linear-gradient(335deg, oklch(0.71 0.16 20), oklch(0.8 0.1 30)); color: white; box-shadow: 0 0 5px oklch(0.25 0.04 25 / 15%); text-shadow: 0 1px 1px oklch(0.25 0.04 26 / 25%)">不屈的凯旋颂</span></td>
 <td>1</td>
-<td style="font-size: 13pt; font-family: 等线;" rowspan="9">physics</td>
 <td colspan="2">4</td>
 <td>6</td>
 <td>0.75</td>
@@ -259,19 +264,17 @@
 
 <p style="font-size: 1em; text-shadow: 0 0 1px rgba(0,0,0,0.25); padding-left: 10px; margin: 20px 0; border-left: 5px solid rgb(60, 110, 197); color: rgb(48, 93, 170); background: #f9fbfc;">附属符文</p>
 
-<table style="border-collapse: collapse; width: 450.77pt; text-align: center; padding: 1px; border-image: initial; vertical-align: middle; white-space: nowrap; margin: 5px;" cellspacing="0" cellpadding="0"><colgroup><col style="width: 75.75pt;" /> <col style="width: 51.75pt;" /> <col style="width: 63.75pt;" /> <col style="width: 183.75pt;" /> <col style="width: 75.75pt;" /></colgroup>
+<table style="border-collapse: collapse; width: 700px; text-align: center; padding: 1px; border-image: initial; vertical-align: middle; white-space: nowrap; margin: 5px; padding: 16px 16px 24px; border-radius: 24px; border: 1px solid #ccc;" cellspacing="0" cellpadding="0"><colgroup><col style="width: 75.75pt;" /> <col style="width: 51.75pt;" /> <col style="width: 63.75pt;" /> <col style="width: 183.75pt;" /> </colgroup>
 <tbody>
-<tr style="height: 24pt; font-size: 16pt; font-family: TimesNewRoman; ">
-<td style="width: 75.75pt;">Name</td>
-<td style="width: 51.75pt;">Level</td>
-<td style="width: 63.75pt;">Code</td>
-<td style="width: 183.75pt;">Attributes</td>
-<td style="width: 75.75pt;">Price</td>
+<tr style="height: 24pt; font-size: 16pt; font-family: TimesNewRoman; border-top: none;">
+<td style="width: 120pt; border: none;">Name</td>
+<td style="width: 120pt; border: none;">Level</td>
+<td style="width: 240pt; border: none;">Attributes</td>
+<td style="width: 100pt; border: none;">Price</td>
 </tr>
 <tr style="height: 20pt;">
 <td style="font-size: 16pt; font-family: 等线;" rowspan="9">元素</td>
 <td>1</td>
-<td style="font-size: 13pt; font-family: 等线;" rowspan="9">element</td>
 <td>250 + 100% 全属强</td>
 <td style="font-family: Exo;">75</td>
 </tr>
@@ -321,7 +324,6 @@
 <tr style="height: 20.00pt;">
 <td style="font-size: 16pt; font-family: 等线;" rowspan="4">血灵</td>
 <td>1</td>
-<td style="font-size: 13pt; font-family: 等线;" rowspan="4">blood</td>
 <td>2.5% 生命偷取</td>
 <td style="font-size: 12pt; font-family: Exo;">75</td>
 </tr>
@@ -346,7 +348,6 @@
 <tr style="height: 20.00pt;">
 <td style="font-size: 16pt; font-family: 等线;" rowspan="4">听雷</td>
 <td>1</td>
-<td style="font-size: 13pt; font-family: 等线;" rowspan="4">crit</td>
 <td>50% 暴击伤害</td>
 <td style="font-size: 12pt; font-family: Exo;">75</td>
 </tr>
@@ -371,7 +372,6 @@
 <tr style="height: 20.00pt;">
 <td style="font-size: 16pt; font-family: 等线;" rowspan="4">风蚀</td>
 <td>1</td>
-<td style="font-size: 13pt; font-family: 等线;" rowspan="4">speed</td>
 <td>60% 移速</td>
 <td style="font-size: 12pt; font-family: Exo;">75</td>
 </tr>
@@ -396,7 +396,6 @@
 <tr style="height: 20.00pt;">
 <td style="font-size: 16pt; font-family: 等线;" rowspan="3">体术</td>
 <td>1</td>
-<td style="font-size: 13pt; font-family: 等线;" rowspan="3">str</td>
 <td>8 命中/柔韧/闪避</td>
 <td style="font-size: 12pt; font-family: Exo;">50</td>
 </tr>
@@ -416,7 +415,6 @@
 <tr style="height: 20.00pt;">
 <td style="font-size: 16pt; font-family: 等线;" rowspan="3">增益</td>
 <td>1</td>
-<td style="font-size: 13pt; font-family: 等线;" rowspan="3">exp</td>
 <td>50% 经验加成</td>
 <td style="font-size: 12pt; font-family: Exo;">50</td>
 </tr>
