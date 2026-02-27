@@ -1,5 +1,11 @@
 # 属性与相关计算公式
 
+<p style="border-left: 5px solid #745691ff; color: #826199ff; padding-left: 10px;">
+文档最后更新于 ~2021/06<br>
+无较高参考价值，仅供参考。
+</p>
+
+
 ## 属性
 
 |属性全称|简称 |  描述  |备注|
@@ -88,7 +94,7 @@ For English version, please refer to the latter part of this docs.
 
     攻击时仅计算手持武器之属性的增益伤害，其余不做计算，增益公式为
 
-    $D_{a}^1=D_a\times\;\dfrac{1+(EI_a-ED_b)}{1000}$
+    $D_{a}^1=D_a\times\;(1+\dfrac{(EI_a-ED_b)}{1000})$
 
 -----
 
@@ -173,30 +179,39 @@ For English version, please refer to the latter part of this docs.
 ?> The cubic polynomial approximates an exponential scaling by level, a design choice inherited from early technical constraints. <br>
 This implementation has resulted in entrenched path dependencies, making modification infeasible.
 
+Unless otherwise specified:
+
+- Subscript a = attacker
+- Subscript b = defender
+- All rates (R, HC, C, etc.) are real numbers in [0,1]
+- Damage is calculated sequentially in stages
+
+Let D⁰ denote base damage before modifiers.
+
 **Damage**
 
 - **Melee Damage**: 
 
-    The damage dealt by a bare-handed attack or an item upon sucessfully hitting a target. The damage range is denoted by $\small {D_{\min} \thicksim D_{\max}}$. The final damage is calculated as:
+    The damage dealt by a bare-handed attack or by an item upon successfully hitting a target. The damage range is denoted by $\small {D_{\min} \thicksim D_{\max}}$. The final damage is calculated as:
 
     $D_a^1 = D_a \cdot (1 - R_b\%)$
 
 - **Arrow Damage**: 
 
-    The damage dealt by an arrow upon sucessfully hitting a target. The damage range is denoted by $\small {AD_{\min} \thicksim AD_{\max}}$. The final damage is calculated as:
+    The damage dealt by an arrow upon successfully hitting a target. The damage range is denoted by $\small {AD_{\min} \thicksim AD_{\max}}$. The final damage is calculated as:
 
     $AD_a^1 = \dfrac{AD_a \cdot (1 - R_b\%)}{3}$
 
 - **Magic Damage**: 
 
-    The damage dealt by a wand upon sucessfully hitting a target. The damage range is denoted by $\small {MD_{\min} \thicksim MD_{\max}}$. The final damage is calculated as:
+    The damage dealt by a wand upon successfully hitting a target. The damage range is denoted by $\small {MD_{\min} \thicksim MD_{\max}}$. The final damage is calculated as:
 
     $MD_a^1 = MD_a \cdot (1 - MaR_b\%)$
 
 Melee Damage and Arrow Damage are subject to Hit Chance, Critical Strike Chance, and Armor Penetration.<br>
 All types of damage are subject to Element Enhancement and Life Steal.<br>
 Magic Damage is subject to Magic Penetration.<br>
-In the following, the symbol $\small D$ (without specification) generally refers to any of the three damage types.
+In the following sections, the symbol $\small D$ (unless otherwise specified) refers to any of the three damage types.
 
 ---
 
@@ -206,7 +221,7 @@ In the following, the symbol $\small D$ (without specification) generally refers
 There are four independent elements: `Light`, `Dark`, `Fire`, and `Ice`. <br>
 During an attack, only the elemental damage bonus of the equipped weapon is calculated. The bonus formula is:
 
-$D_{a}^1 = D_a \times \dfrac{1 + (EI_a - ED_b)}{1000}$
+$D_{a}^1 = D_a \times (1 + \dfrac{(EI_a - ED_b)}{1000})$
 
 where $EI_a$ is the attacker's Elemental Intensity and $ED_b$ is the defender's Elemental Defense.
 
@@ -216,11 +231,11 @@ where $EI_a$ is the attacker's Elemental Intensity and $ED_b$ is the defender's 
 
 The percentage of damage reduction due to Armor ($A$) and Level ($L$) is calculated as:
 
-$R_a = \dfrac{A_a}{ A_a + 420 + 8.4 \cdot \left( \frac{9}{1000}L^3 - \frac{63}{250}L^2 + \frac{21}{2}L \right)} \times 100\%$
+$R_b = \dfrac{A_b}{ A_b + 420 + 8.4 \cdot \left( \frac{9}{1000}L^3 - \frac{63}{250}L^2 + \frac{21}{2}L \right)} \times 100\%$
 
 Similarly, the percentage of magic damage reduction due to Magic Resistance ($MaD$) and Level ($L$) is calculated as:
 
-$MaR_a = \dfrac{MaD_a}{ MaD_a + 420 + 8.4 \cdot \left( \frac{9}{1000}L^3 - \frac{63}{250}L^2 + \frac{21}{2}L \right)} \times 100\%$
+$MaR_b = \dfrac{MaD_b}{ MaD_b + 420 + 8.4 \cdot \left( \frac{9}{1000}L^3 - \frac{63}{250}L^2 + \frac{21}{2}L \right)} \times 100\%$
 
 ---
 
@@ -236,6 +251,9 @@ $MaD_{\text{effective}} = MaD_b \cdot \left(1 - \dfrac{MaP\%_a}{100}\right) - Ma
 
 Penetration is applied *before* reduction calculations.
 
+> Penetration modifies A_b → A_effective<br>
+> Then A_effective is substituted into the reduction formula
+
 ---
 
 **Hit Chance and Dodge Chance**
@@ -248,7 +266,7 @@ Similarly, the Hit Chance ($HC_a$) of an attacker $a$ against a defender $b$ is:
 
 $HC_a = \left(1 - \dfrac{D_b}{\frac{3}{2}D_b + 800 + H_a}\right) \times 100\%$
 
-It is evident that the maximum Dodge Chance is $DC_{\max} = \frac{2}{3} \approx 66.67\%$, and the minimum Hit Chance is $HC_{\min} = \frac{1}{3} \approx 33.33\%$.
+It can be shown that the maximum Dodge Chance approaches $DC_{\max} = \frac{2}{3} \approx 66.67\%$, and the minimum Hit Chance is $HC_{\min} = \frac{1}{3} \approx 33.33\%$.
 
 ---
 
@@ -262,7 +280,9 @@ The Critical Resistance ($CR_a$) of an entity $a$ is:
 
 $CR_a = \left(1 - \dfrac{3K_b}{4(K_b + 800 + F_a)}\right) \times 100\%$
 
-Clearly, the maximum Critical Strike Chance is $C_{\max} = 75.00\%$.
+Clearly, the maximum Critical Strike Chance is $C_{\max} = 75\%$.
+
+> $CR_a$ is the complement of the attacker’s effective Critical Strike Chance.
 
 **Critical Strike and Critical Damage**
 
@@ -279,4 +299,6 @@ The amount of health restored through Life Steal is calculated based on the Life
 $HSH_a = D_a \cdot HS\%$
 
 where $HSH_a$ is the health stolen by attacker $a$.
+
+> Life Steal is calculated based on the final damage dealt after all modifiers.
 

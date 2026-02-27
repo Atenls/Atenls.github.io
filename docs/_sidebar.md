@@ -7,8 +7,6 @@
 * [月卡](pages/月卡.md)
 * [Tempest](pages/tempest)
 * [存储相关](pages/storage)
-* [属性与相关计算公式](pages/attr)
-* [黑曜石引导](pages/obsidian)
 * [更新日志](pages/updatelogs)
 * <a href="#/pages/CONTRIBUTING">
 <span style="color: transparent; background: linear-gradient(135deg, oklch(0.7838 0.1381 135), oklch(0.6973 0.247 165)) text; text-shadow: 0 0 1px rgba(85, 168, 85, 0.2); font-weight: bold;">如何为WIKI贡献?</span></a>

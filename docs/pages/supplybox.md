@@ -13,7 +13,7 @@
   text-shadow: 0.5px 1px 0.5px rgba(0, 0, 0, 0.25);
   padding: 3px 4px;
   margin: 0 2px;
-  border-radius: 4px;
+  border-radius: 3px;
   font-family: 等线;
   font-weight: 500;
 }
@@ -416,32 +416,32 @@ ul {
 </tbody>
 </table>
 
-<h5 id="终境彼岸" style="font-size: 1em; text-shadow: 0 0 1px rgba(0,0,0,0.25); padding: 2px 10px; margin: 20px 0; border-left: 5px solid rgb(60, 110, 197); color: rgb(48, 93, 170); background: #f9fbfc; font-weight: 400;">终境彼岸： 「于时间的间隙向过往回望」</h5>
+<h5 id="终境彼岸" style="font-size: 1em; text-shadow: 0 0 1px rgba(0,0,0,0.25); padding: 2px 10px; margin: 20px 0; border-left: 5px solid rgb(60, 110, 197); color: rgb(48, 93, 170); background: #f9fbfc; font-weight: 400;">终境彼岸： 于时间的间隙向过往回望</h5>
 
 <span class="dptag tag-purple">群攻</span>
 
-消耗 `法力消耗` 点法力，基于自身个人暗属性强化获得 `增益数值` 点暗属性强化（基准属性单位，灰字为 Lv.360 属性）。<br>
-并以前方 `3` 格为中心，在 `伤害范围` 内击出 `6` 道斩击。<br>
-每道斩击可对 `1` 名敌方目标造成 `1` 次近战伤害（即最多 `6` 次伤害、敌方目标不可重复）。<br>
-基准冷却时间为 `冷却时间`s 。技能每命中 `1` 名目标，技能冷却时间减少 `冷却减少`s 。 <br>
-在结束后，将在接下来的 `10s` 内扣除双倍增益的暗属性强化。
+消耗 `ManaCost` 点法力，基于自身个人暗属性强化获得 `Value` 点暗属性强化（基准属性单位，灰字为 Lv.360 属性）。<br>
+随后，以前方 `3` 格为中心，在 `Area` 范围内击出 `6` 道斩击。<br>
+每道斩击可对 `1` 名敌方目标造成 `1` 次近战伤害（最多 `6` 次伤害）。如当次攻击的目标未死亡，则下一次斩击将**无视目标攻击免疫**继续攻击同一目标。<br>
+基准冷却时间为 `CD` 秒。每次成功攻击时，若目标死亡，则冷却时间减少 `CDR` 秒；若目标存活，则技能冷却时间减少 `1.5 x CDR` 秒。<br>
+技能结束后，接下来的 `10` 秒内将扣除双倍增益的暗属性强化。
 
 <table style="font-size: 12pt; width: 700px; font-family: YuGothicUI; text-align: center; vertical-align: middle; white-space: nowrap; padding: 8px 16px 24px; border-radius: 24px; border: 1px solid #ccc;">
 <tr style="height: 24.00pt; border-top: none; font-family: 微软雅黑;">
-<td style="width: 120pt; color: #172436; font-weight: 500; border: none;" colspan="2" >技能增益效果</td>
+<td style="width: 120pt; color: #172436; font-weight: 500; border: none;" colspan="2" >Buff</td>
 <td style="width: 10pt; border: none;" rowspan="10"></td>
-<td style="width: 120pt; color: #172436; font-weight: 500; border: none;">冷却时间</td>
+<td style="width: 120pt; color: #172436; font-weight: 500; border: none;">CD</td>
 <td style="width: 10pt; border: none;" rowspan="10"></td>
-<td style="width: 120pt; color: #172436; font-weight: 500; border: none;">法力消耗</td>
+<td style="width: 120pt; color: #172436; font-weight: 500; border: none;">ManaCost</td>
 <td style="width: 10pt; border: none;" rowspan="10"></td>
-<td style="width: 120pt; color: #172436; font-weight: 500; border: none;">伤害范围</td>
+<td style="width: 120pt; color: #172436; font-weight: 500; border: none;">Area</td>
 <td style="width: 10pt; border: none;" rowspan="10"></td>
-<td style="width: 120pt; color: #172436; font-weight: 500; border: none;">冷却减免</td>
+<td style="width: 120pt; color: #172436; font-weight: 500; border: none;">CDR</td>
 </tr>
 <tr style="height: 28.00pt;">
 <td style="width: 180pt; color: #484c52; font-family: 微软雅黑;">个人暗属强</td>
-<td style="width: 180pt; color: #484c52; font-family: 微软雅黑;">增益数值</td>
-<td style="font-size: 1.25em" rowspan="6">48s</td>
+<td style="width: 180pt; color: #484c52; font-family: 微软雅黑;">Value</td>
+<td style="font-size: 1.25em" rowspan="6">48</td>
 <td style="font-size: 1.25em" rowspan="6">80</td>
 <td style="font-size: 1.25em" rowspan="6">9x4x9</td>
 <td style="font-size: 1.25em" rowspan="6">3</td>
@@ -468,3 +468,30 @@ ul {
 </tr>
 
 </table>
+
+
+<h5 id="战争践踏" style="font-size: 1em; text-shadow: 0 0 1px rgba(0,0,0,0.25); padding: 2px 10px; margin: 20px 0; border-left: 5px solid rgb(60, 110, 197); color: rgb(48, 93, 170); background: #f9fbfc; font-weight: 400;">战争践踏</h5>
+
+<span class="dptag tag-green">位移</span><span class="dptag tag-purple">群攻</span><span class="dptag tag-pink-gold">增益</span>
+
+消耗 `ManaCost` 点法力。<br>
+随后，向前方跃出，`0.5`s 后落地，并对 `Area` 范围内所有敌对目标造成一次近战伤害并击飞。（最多 `6` 个目标）<br>
+每成功造成 `1` 次攻击，都将为自身提供 `3%` 近战攻击加成，持续 `Duration`s 。<br>
+基准冷却时间为 `CD` 秒。<br>
+
+<table style="font-size: 12pt; width: 540px; font-family: YuGothicUI; text-align: center; vertical-align: middle; white-space: nowrap; padding: 8px 16px 24px; border-radius: 24px; border: 1px solid #ccc;">
+<tr style="height: 24.00pt; border-top: none; font-family: 微软雅黑;">
+<td style="width: 90pt; color: #172436; font-weight: 500; border: none;">CD</td>
+<td style="width: 10pt; border: none;" rowspan="10"></td>
+<td style="width: 90pt; color: #172436; font-weight: 500; border: none;">ManaCost</td>
+<td style="width: 10pt; border: none;" rowspan="10"></td>
+<td style="width: 90pt; color: #172436; font-weight: 500; border: none;">Area</td>
+<td style="width: 10pt; border: none;" rowspan="10"></td>
+<td style="width: 90pt; color: #172436; font-weight: 500; border: none;">Duration</td>
+</tr>
+<tr style="height: 90.00pt;">
+<td style="font-size: 1.25em" rowspan="6">27</td>
+<td style="font-size: 1.25em" rowspan="6">60</td>
+<td style="font-size: 1.25em" rowspan="6">7x3x7</td>
+<td style="font-size: 1.25em" rowspan="6">12</td>
+</tr>
