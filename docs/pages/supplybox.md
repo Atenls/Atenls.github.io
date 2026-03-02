@@ -475,7 +475,7 @@ ul {
 <span class="dptag tag-green">位移</span><span class="dptag tag-purple">群攻</span><span class="dptag tag-pink-gold">增益</span>
 
 消耗 `ManaCost` 点法力。<br>
-随后，向前方跃出，`0.5`s 后落地，并对 `Area` 范围内所有敌对目标造成一次近战伤害并击飞。（最多 `6` 个目标）<br>
+随后，向前方跃出，`0.5`s 后落地，并对 `Area` 范围内最多 `6` 个敌对目标造成一次近战伤害并击飞。<br>
 每成功造成 `1` 次攻击，都将为自身提供 `3%` 近战攻击加成，持续 `Duration`s 。<br>
 基准冷却时间为 `CD` 秒。<br>
 
