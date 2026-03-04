@@ -95,6 +95,17 @@
 
 ---
 
+### 2026/03/04
+
+- 将原先分离的属性「灵魂攻击」、「全系伤害加成」也迁移至核心属性系统中。
+  - 特别地：如你的饰品词条为「**灵魂伤害**」，你需要通过 `/refresh sd` 打开菜单并点击你的饰品以刷新至新的词条。
+    
+    <p style="color: #aaa; margin-left: 2px; padding-left: 12px; border-left: 3px solid #ccc;">
+    在 03/05 04:25 重启后「灵魂伤害」词条将不再生效。
+    </p>
+
+---
+
 ### 2026/03/03
 
 <div class='bluebox'>重大变更：属性系统</div>
@@ -104,11 +115,12 @@
   - 完全重构了法球的生成逻辑：
     - 修复了法球初始生成位置过前的问题。（此前高半径法球附带的近距离伤害也已移除）
     - 修复了因多次切分导致法球飞行距离极度不准确的问题。
+    - 调整了命中判定，现在小体型怪物也将获得与大体型怪物相同的碰撞箱。
   - <details>
-      <summary>大幅优化了性能，减少了不必要的损耗。</summary>
-      <p style="color: #aaa">
+      <summary>大幅优化了性能，减少了不必要的损耗。 <span style="color: #aaa">(点击以查看详情)</span></summary>
+      <p style="color: #aaa; margin-left: 2px; padding-left: 12px; border-left: 3px solid #ccc;">
       1. 移除了法球原逻辑中的 Loops & Step 二次切分，避免了多次取整带来的极大误差。<br>
-      2. 将法球碰撞逻辑由精细切分的 World#getNearyByEntities() 变更为通过 Intersects Segment AABB 异步预计算单块 Step 中的所有可能生物。<br>
+      2. 将法球碰撞逻辑由精细切分的 World#getNearByEntities() 变更为通过 Intersects Segment AABB 异步预计算单块 Step 中的所有可能生物。<br>
       3. 分离了法球显示与实际命中判断，通过变量复用及基于 (1) 的逻辑，大幅减轻了性能消耗。<br>
       4. 优化了伤害判断逻辑和顺序，更早地返回非计划内结果。<br>
       5. 优化了异步加载属性的逻辑，使得属性刷新更轻量。<br>
