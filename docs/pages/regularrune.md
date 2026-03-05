@@ -394,7 +394,7 @@
 <td style="font-size: 11pt; font-weight: 400; font-style: normal;" colspan="5"></td>
 </tr>
 <tr style="height: 20.00pt;">
-<td style="font-size: 16pt; font-family: 等线;" rowspan="3">体术</td>
+<td style="font-size: 16pt; font-family: 等线;" rowspan="4">体术</td>
 <td>1</td>
 <td>8 命中/柔韧/闪避</td>
 <td style="font-size: 12pt; font-family: Exo;">50</td>
@@ -408,6 +408,35 @@
 <td>3</td>
 <td>24 命中/柔韧/闪避</td>
 <td style="font-family: Exo;">200</td>
+</tr>
+<tr style="height: 20.00pt;">
+<td>4</td>
+<td>40 命中/柔韧/闪避</td>
+<td style="font-family: Exo;">400</td>
+</tr>
+<tr style="height: 10.00pt;">
+<td colspan="5"></td>
+</tr>
+<tr style="height: 20.00pt;">
+<td style="font-size: 16pt; font-family: 等线;" rowspan="4">噬魂</td>
+<td>1</td>
+<td>4 灵魂攻击</td>
+<td style="font-size: 12pt; font-family: Exo;">75</td>
+</tr>
+<tr style="height: 20.00pt;">
+<td>2</td>
+<td>8 灵魂攻击</td>
+<td style="font-family: Exo;">150</td>
+</tr>
+<tr style="height: 20.00pt;">
+<td>3</td>
+<td>16 灵魂攻击</td>
+<td style="font-family: Exo;">300</td>
+</tr>
+<tr style="height: 20.00pt;">
+<td>4</td>
+<td>32 灵魂攻击</td>
+<td style="font-family: Exo;">600</td>
 </tr>
 <tr style="height: 10.00pt;">
 <td colspan="5"></td>
