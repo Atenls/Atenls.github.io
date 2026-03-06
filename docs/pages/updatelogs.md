@@ -68,6 +68,8 @@
     text-align: center;
     font-family: 'Times New Roman';
   }
+
+  
   
   @media (max-width: 768px) {
     .markdown-section img:not([width]):not([style]) {
@@ -92,6 +94,99 @@
 ---
 
 ## 2026 Mar.
+
+---
+
+#### 2026/03/06
+
+-  「空寂山谷」平衡性调整：
+  - 累加枯萎概率：
+    - `30s` 后，每额外 `1s` 增加 `2%` → `1.5%`
+  - 枯萎伤害：
+    - 定时伤害：`0.75% * 层数 + 3665` → `0.6% * 层数 + 3665` （最高生效层数: `无上限`）
+    - 怪物伤害：`0.75% + 3665` → `1% + 3665` （最高生效层数: `40`）
+  - 最小移动间隔：`8` → `6`
+  - 怪物刷新半径：`5` → `4`
+  - 怪物生成几率：
+    <table style="border-collapse: collapse; width: 358px; text-align: center; padding: 1px; border-image: initial; vertical-align: middle; white-space: nowrap; margin: 4px; padding: 8px 12px 12px; border-radius: 16px; border: 1px solid #ccc; font-family: SF Pro, PingFang SC,Hiragino Sans GB,Microsoft YaHei" cellspacing="0" cellpadding="0"><colgroup><col style="width: 80px;" /> <col style="width: 80px;" /> <col style="width: 12px;" /> <col style="width: 80px;" /> <col style="width: 80px;" /> </colgroup>
+    <tbody>
+    <tr style="height: 30px; font-size: 18px; font-family: TimesNewRoman; border-top: none;">
+    <td style="width: 108px; border: none;" colspan="2">旧</td>
+    <td style="width: 12px; border: none; padding: 0;" rowspan="10"></td>
+    <td style="width: 108px; border: none;" colspan="2">新</td>
+    </tr>
+    <tr style="height: 25px; background-color: #fafafa;">
+    <td>个数</td>
+    <td>几率</td>
+    <td>个数</td>
+    <td>几率</td>
+    </tr>
+    <tr style="height: 22px;">
+    <td>2</td>
+    <td>33.3%</td>
+    <td>2</td>
+    <td>16.7%</td>
+    </tr>
+    <tr style="height: 22px; background-color: white;">
+    <td>3</td>
+    <td>33.3%</td>
+    <td>3</td>
+    <td>33.3%</td>
+    </tr>
+    <tr style="height: 22px;">
+    <td>4</td>
+    <td>33.3%</td>
+    <td>4</td>
+    <td>33.3%</td>
+    </tr>
+    <tr style="height: 22px; background-color: white;">
+    <td>5</td>
+    <td>0%</td>
+    <td>5</td>
+    <td>16.7%</td>
+    </tr>
+    </tbody>
+    </table>
+  - 露水效果：
+    - **天清露**：`-25` 枯萎层数 → `-30` 枯萎层数
+    - **朝阳露水**：`-4` 枯萎层数 → `-5` 枯萎层数
+  - 经过这些改动，相信在吸血调整后，该副本仍可以保持此前难度，并提升战斗效率。
+- 「空寂山谷」挑战称号 —— 「<span style="font-weight: 600; color: #FFAA00; font-shadow: 1px 1px 1px rgba(0,0,0,0.25);">荒芜行者</span>」
+  - 当挑战结束后，会根据你存活的时间和枯萎层数，获得对应的称号。
+  <table style="border-collapse: collapse; width: 342px; text-align: center; padding: 1px; border-image: initial; vertical-align: middle; white-space: nowrap; margin: 4px; padding: 8px 12px 12px; border-radius: 16px; border: 1px solid #ccc; font-family: SF Pro, PingFang SC,Hiragino Sans GB,Microsoft YaHei" cellspacing="0" cellpadding="0"><colgroup><col style="width: 80px;" /> <col style="width: 80px;" /> <col style="width: 80px;" /></colgroup>
+    <tbody>
+    <tr style="height: 30px; font-size: 16px; font-family: TimesNewRoman; border-top: none;">
+    <td style="width: 108px; border: none;">等级</td>
+    <td style="width: 108px; border: none;">枯萎层数</td>
+    <td style="width: 108px; border: none;">存活时间</td>
+    </tr>
+    <tr style="height: 22px; background-color: white;">
+    <td>I</td>
+    <td>75</td>
+    <td>75</td>
+    </tr>
+    <tr style="height: 22px;">
+    <td>II</td>
+    <td>100</td>
+    <td>80</td>
+    </tr>
+    <tr style="height: 22px; background-color: white;">
+    <td>III</td>
+    <td>120</td>
+    <td>90</td>
+    </tr>
+    <tr style="height: 22px;">
+    <td>IV</td>
+    <td>140</td>
+    <td>100</td>
+    </tr>
+    <tr style="height: 22px; background-color: white;">
+    <td>5</td>
+    <td>160</td>
+    <td>100</td>
+    </tr>
+    </tbody>
+    </table>
 
 ---
 
