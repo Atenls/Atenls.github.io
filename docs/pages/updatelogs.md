@@ -1,4 +1,7 @@
 <style>
+  * {
+    font-family: 'PingFang SC', 'SF Pro', 'Hiragino Sans GB', '等线', 'Microsoft YaHei', '微软雅黑', 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif';
+  }
   .context {
     max-width: 1000px;
   }
@@ -22,6 +25,18 @@
     background: #f2faff;
     color: #466fa1;
     border: 1px solid #5b9abe;
+    border-radius: 18px;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    padding: 20px;
+    margin: 0px;
+  }
+
+  .yellowbox {
+    background: #fff9f1;
+    color: #c5985c;
+    border: 1px solid #cfae8f;
     border-radius: 18px;
     font-size: 20px;
     font-weight: 600;
@@ -94,6 +109,21 @@
 ---
 
 ## 2026 Mar.
+
+---
+
+#### 2026/03/10
+
+<div class='yellowbox'>较大底层改动<br>
+<span style="font-weight: 400; font-size: 13px; color: #d8bfa7;">如遇重大问题，将回滚至上次完全备份时间</span> <span style="font-weight: 600; font-size: 13px; color: #d8bfa7;">2026/03/11 04:00</span>
+</div>
+
+- 重构了装备属性生成机制，理论上现在所有装备的属性生成都是几近不可察的。
+- 当查询怪物属性时，会调用怪物属性模板，并显示基于自身穿透数值的目标抗性。
+- 修复了多个 Bug。
+- 优化了多个内容。
+- 多个不便公开但可使我们变得更好的测试功能、改动。
+
 
 ---
 
