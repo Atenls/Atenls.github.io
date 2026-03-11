@@ -18,6 +18,12 @@
   font-weight: 500;
 }
 
+
+.table-container {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
 .tag-gold {
   background: #eeaa10;
   color: #efffef;
@@ -123,6 +129,7 @@ ul {
 
 <p style="font-size: 1em; text-shadow: 0 0 1px rgba(0,0,0,0.25); padding: 2px 10px; margin: 20px 0; border-left: 5px solid rgb(60, 110, 197); color: rgb(48, 93, 170); background: #f9fbfc;">补给箱详情</p>
 
+<div class="table-container">
 <table style="width: 700pt; text-align: center; font-family: 等线; border-image: initial; vertical-align: middle; white-space: nowrap;" cellspacing="0" cellpadding="0"><colgroup><col style="width: 100pt;" /> <col style="width: 80pt;" /> <col style="width: 160pt;" /> <col style="width: 80pt;" span="2" /> <col style="width: 200pt;" /></colgroup>
 <tbody>
 <tr style="height: 30pt; font-family: normal; font-size: 14pt; font-weight: 600;">
@@ -284,7 +291,7 @@ ul {
 </tr>
 </tbody>
 </table>
-
+</div>
 ### 补给箱装备技能详情
 
 部分补给箱装备提供了升级可能，通过拆解重复的装备或对等碎片可以用以消耗升级技能强度。
