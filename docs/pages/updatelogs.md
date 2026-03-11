@@ -21,6 +21,11 @@
     margin: 0px;
   }
 
+  .table-container {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
   .bluebox {
     background: #f2faff;
     color: #466fa1;
@@ -116,7 +121,7 @@
 
 - 提高了「聚魔」时，出现署名武器的概率，并增加了保底。现在每 10 次出现 Tier VIII 武器，至少会出现一次署名武器。
 - 调整了所有鉴定装备的能量值，以符合难度及Pe 获取需求。
-
+- `天泽港 (8c)` 现已投入使用。
 
 
 ---
@@ -172,6 +177,7 @@
   - 最小移动间隔：`8` → `6`
   - 怪物刷新半径：`5` → `4`
   - 怪物生成几率：
+    <div class="table-container">
     <table style="border-collapse: collapse; width: 358px; text-align: center; padding: 1px; border-image: initial; vertical-align: middle; white-space: nowrap; margin: 4px; padding: 8px 12px 12px; border-radius: 16px; border: 1px solid #ccc; font-family: SF Pro, PingFang SC,Hiragino Sans GB,Microsoft YaHei" cellspacing="0" cellpadding="0"><colgroup><col style="width: 80px;" /> <col style="width: 80px;" /> <col style="width: 12px;" /> <col style="width: 80px;" /> <col style="width: 80px;" /> </colgroup>
     <tbody>
     <tr style="height: 30px; font-size: 18px; font-family: TimesNewRoman; border-top: none;">
@@ -211,12 +217,14 @@
     </tr>
     </tbody>
     </table>
+    </div>
   - 露水效果：
     - **天清露**：`-25` 枯萎层数 → `-30` 枯萎层数
     - **朝阳露水**：`-4` 枯萎层数 → `-5` 枯萎层数
   - 经过这些改动，相信在吸血调整后，该副本仍可以保持此前难度，并提升战斗效率。
 - 「空寂山谷」挑战称号 —— 「<span style="font-weight: 600; color: #FFAA00; font-shadow: 1px 1px 1px rgba(0,0,0,0.25);">荒芜行者</span>」
   - 当挑战结束后，会根据你存活的时间和枯萎层数，获得对应的称号。
+  <div class="table-container">
   <table style="border-collapse: collapse; width: 342px; text-align: center; padding: 1px; border-image: initial; vertical-align: middle; white-space: nowrap; margin: 4px; padding: 8px 12px 12px; border-radius: 16px; border: 1px solid #ccc; font-family: SF Pro, PingFang SC,Hiragino Sans GB,Microsoft YaHei" cellspacing="0" cellpadding="0"><colgroup><col style="width: 80px;" /> <col style="width: 80px;" /> <col style="width: 80px;" /></colgroup>
     <tbody>
     <tr style="height: 30px; font-size: 16px; font-family: TimesNewRoman; border-top: none;">
@@ -251,6 +259,7 @@
     </tr>
     </tbody>
     </table>
+  </div>
 - 移除了丘山城铁匠铺二楼的打造台。
   - 新增神话级「绿魔弓」「王剑」的打造图纸。
   - 材料合成挪至领主地图门口的兑换NPC。
@@ -428,6 +437,7 @@
   - **技能**
     - `Tier 5` 技能提供的魔法穿透提升至更高水平：`327680` → `623937`
     - 技能所可提供的魔法攻击不再无上限，而将受到武器及技能等级限制：
+      <div class="table-container">
       <table style="width: 680pt; margin: 0; border: 1px solid #ccc; " cellspacing="0" cellpadding="0"><colgroup><col style="width: 54.00pt;" /> <col style="width: 99.75pt;" span="3" /></colgroup>
       <tbody>
       <tr style="height: 20.00pt; border-top: none;">
@@ -513,6 +523,7 @@
       </tr>
       </tbody>
       </table>
+      </div>
     - 技能无需通过升阶流程，但 Tier IV 以上武器必须通过升阶流程更新属性。
   - **深层灵魂峡谷** 变更：
     - 修改了「深层灵魂使者 `Final`」的攻击技能，由固定 `49152` 伤害变更至 *基于玩家命运与灵魂融合度的动态伤害*。
