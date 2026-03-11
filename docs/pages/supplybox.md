@@ -130,7 +130,7 @@ ul {
 <p style="font-size: 1em; text-shadow: 0 0 1px rgba(0,0,0,0.25); padding: 2px 10px; margin: 20px 0; border-left: 5px solid rgb(60, 110, 197); color: rgb(48, 93, 170); background: #f9fbfc;">补给箱详情</p>
 
 <div class="table-container">
-<table style="width: 700pt; text-align: center; font-family: 等线; border-image: initial; vertical-align: middle; white-space: nowrap;" cellspacing="0" cellpadding="0"><colgroup><col style="width: 100pt;" /> <col style="width: 80pt;" /> <col style="width: 160pt;" /> <col style="width: 80pt;" span="2" /> <col style="width: 200pt;" /></colgroup>
+<table style="max-width: 700pt; text-align: center; font-family: 等线; border-image: initial; vertical-align: middle; white-space: nowrap;" cellspacing="0" cellpadding="0"><colgroup><col style="width: 100pt;" /> <col style="width: 80pt;" /> <col style="width: 160pt;" /> <col style="width: 80pt;" span="2" /> <col style="width: 200pt;" /></colgroup>
 <tbody>
 <tr style="height: 30pt; font-family: normal; font-size: 14pt; font-weight: 600;">
 <td style="width: 100pt;">补给箱类型</td>
@@ -305,7 +305,8 @@ ul {
 向前方最多 `Distance` 距离发起一次传送，对沿途的所有敌对生物及最终落点 `8x6x8` 范围内的所有生物造成一次暗属性魔法伤害。<br>
 如落点为空气且 `TurboMode` 未达到 `3` 级，落点将下落至离地面最多 `4` 格高度。
 
-<table style="border-collapse: collapse; width: 679.52pt; font-size: 12pt; font-family: YuGothicUI; text-align: center; vertical-align: middle; white-space: nowrap; padding: 16px 16px 24px; border-radius: 24px; border: 1px solid #ccc;" cellspacing="0" cellpadding="0"><colgroup><col style="width: 45.75pt;" /> <col style="width: 14.25pt;" /> <col style="width: 56.25pt;" span="2" /> <col style="width: 10pt;" /> <col style="width: 56.25pt;" span="2" /> <col style="width: 10pt;" /> <col style="width: 56.25pt;" span="2" /> <col style="width: 10pt;" /> <col style="width: 56.25pt;" span="2" /> <col style="width: 10pt;" /> <col style="width: 56.25pt;" span="2" /></colgroup>
+<div class="table-container">
+<table style="border-collapse: collapse; max-width: 679.52pt; font-size: 12pt; font-family: YuGothicUI; text-align: center; vertical-align: middle; white-space: nowrap; padding: 16px 16px 24px; border-radius: 24px; border: 1px solid #ccc;" cellspacing="0" cellpadding="0"><colgroup><col style="width: 45.75pt;" /> <col style="width: 14.25pt;" /> <col style="width: 56.25pt;" span="2" /> <col style="width: 10pt;" /> <col style="width: 56.25pt;" span="2" /> <col style="width: 10pt;" /> <col style="width: 56.25pt;" span="2" /> <col style="width: 10pt;" /> <col style="width: 56.25pt;" span="2" /> <col style="width: 10pt;" /> <col style="width: 56.25pt;" span="2" /></colgroup>
 <tbody>
 <tr style="height: 24.00pt; border-top: none;">
 <td style="width: 45.75pt; color: #172436; font-weight: 500; border: none;">Tier</td>
@@ -422,6 +423,7 @@ ul {
 </tr>
 </tbody>
 </table>
+</div>
 
 <h5 id="终境彼岸" style="font-size: 1em; text-shadow: 0 0 1px rgba(0,0,0,0.25); padding: 2px 10px; margin: 20px 0; border-left: 5px solid rgb(60, 110, 197); color: rgb(48, 93, 170); background: #f9fbfc; font-weight: 400;">终境彼岸： 于时间的间隙向过往回望</h5>
 
@@ -433,7 +435,8 @@ ul {
 基准冷却时间为 `CD` 秒。每次成功攻击时，若目标死亡，则冷却时间减少 `CDR` 秒；若目标存活，则技能冷却时间减少 `1.5 x CDR` 秒。<br>
 技能结束后，接下来的 `10` 秒内将扣除双倍增益的暗属性强化。
 
-<table style="font-size: 12pt; width: 700px; font-family: YuGothicUI; text-align: center; vertical-align: middle; white-space: nowrap; padding: 8px 16px 24px; border-radius: 24px; border: 1px solid #ccc;">
+<div class="table-container">
+<table style="font-size: 12pt; max-width: 700px; font-family: YuGothicUI; text-align: center; vertical-align: middle; white-space: nowrap; padding: 8px 16px 24px; border-radius: 24px; border: 1px solid #ccc;">
 <tr style="height: 24.00pt; border-top: none; font-family: 微软雅黑;">
 <td style="width: 120pt; color: #172436; font-weight: 500; border: none;" colspan="2" >Buff</td>
 <td style="width: 10pt; border: none;" rowspan="10"></td>
@@ -475,7 +478,7 @@ ul {
 </tr>
 
 </table>
-
+</div>
 
 <h5 id="战争践踏" style="font-size: 1em; text-shadow: 0 0 1px rgba(0,0,0,0.25); padding: 2px 10px; margin: 20px 0; border-left: 5px solid rgb(60, 110, 197); color: rgb(48, 93, 170); background: #f9fbfc; font-weight: 400;">战争践踏</h5>
 
@@ -486,7 +489,8 @@ ul {
 每成功造成 `1` 次攻击，都将为自身提供 `3%` 近战攻击加成，持续 `Duration`s 。<br>
 基准冷却时间为 `CD` 秒。<br>
 
-<table style="font-size: 12pt; width: 540px; font-family: YuGothicUI; text-align: center; vertical-align: middle; white-space: nowrap; padding: 8px 16px 24px; border-radius: 24px; border: 1px solid #ccc;">
+<div class="table-container">
+<table style="font-size: 12pt; width: 100%; max-width: 540px; font-family: YuGothicUI; text-align: center; vertical-align: middle; white-space: nowrap; padding: 8px 16px 24px; border-radius: 24px; border: 1px solid #ccc;">
 <tr style="height: 24.00pt; border-top: none; font-family: 微软雅黑;">
 <td style="width: 90pt; color: #172436; font-weight: 500; border: none;">CD</td>
 <td style="width: 10pt; border: none;" rowspan="10"></td>
@@ -502,3 +506,4 @@ ul {
 <td style="font-size: 1.25em" rowspan="6">7x3x7</td>
 <td style="font-size: 1.25em" rowspan="6">12</td>
 </tr>
+</div>
