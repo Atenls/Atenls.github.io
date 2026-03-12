@@ -89,7 +89,19 @@
     font-family: 'Times New Roman';
   }
 
-  
+  .highlight-purple {
+    font-weight: 600;
+    color: rgba(0,0,0,0.75);
+    padding: 0 2px;
+    border-radius: 12px 12px 4px 4px; 
+    background: linear-gradient(
+      to bottom, 
+      transparent, 
+      transparent 30%, 
+      rgba(228, 212, 248, 0.6) 50%, 
+      rgba(192, 180, 220, 0.5) 100%
+    );
+  }
   
   @media (max-width: 768px) {
     .markdown-section img:not([width]):not([style]) {
@@ -122,6 +134,21 @@
 - 「每日任务」完成奖励调整：
   - 未满级玩家可获得额外 `25%` 当前等级经验。
 - 降低了通常情况下被鱼甩尾击中的伤害。
+- **「铃音雪纷」系列装备平衡性调整：**
+  - 三系攻击：3 unit → `2` unit
+  - 护甲：1.2 unit → `1` unit
+  - 最大生命：1.4 unit → `1` unit
+  - 全属性强化：300 (Fixed) → `0.8~1.25` unit
+  - 护甲穿透：0.8/0.6 unit → `0.5` unit
+  - 魔法穿透：无调整
+  - 四项基础数值：1 unit → `0.8` unit
+  - 品质/品级：传奇 [传承级] (3.92) → 神话 [空灵级] (`3.6`)
+  
+  <p style="color: #aaa; margin-left: 2px; padding-left: 12px; border-left: 3px solid #ccc;">
+  作为一件可累计打造的装备，它自身的基础面板已提供了等同于其他顶级系列装备（如 Messiah/Merlin/Artmis）的基准属性。<br>
+  这显然是不甚合理的，也因它的存在对其他装备体系造成了极大的冲击。因此做出了较大的调整。<br>
+  同时，将原先固定 300 的全属性强化数值更改为<span class="highlight-purple">随等级变动</span>的数值。也能在一定程度上补回缺少的属性。并<span class="highlight-purple">降低对期盼条目的高依赖</span>。
+  </p>
 
 
 ---
