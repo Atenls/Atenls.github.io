@@ -138,16 +138,18 @@
   - 三系攻击：3 unit → `2` unit
   - 护甲：1.2 unit → `1` unit
   - 最大生命：1.4 unit → `1` unit
-  - 全属性强化：300 (Fixed) → `0.8~1.25` unit
+  - 全属性强化：300 (Fixed) → `0.5 ~ 0.79` unit | `1.2 unit` (200% RS)
   - 护甲穿透：0.8/0.6 unit → `0.5` unit
   - 魔法穿透：无调整
   - 四项基础数值：1 unit → `0.8` unit
   - 品质/品级：传奇 [传承级] (3.92) → 神话 [空灵级] (`3.6`)
   
-  <p style="color: #aaa; margin-left: 2px; padding-left: 12px; border-left: 3px solid #ccc;">
-  作为一件可累计打造的装备，它自身的基础面板已提供了等同于其他顶级系列装备（如 Messiah/Merlin/Artmis）的基准属性。<br>
+  <p style="color: #aaa; margin-left: 8px; padding-left: 12px; border-left: 3px solid #ccc;">
+  作为一件可累计打造的三系装备，它自身的基础面板已提供了等同于其他单系顶级系列装备（如 Messiah/Merlin/Artmis）的基准属性。<br>
   这显然是不甚合理的，也因它的存在对其他装备体系造成了极大的冲击。因此做出了较大的调整。<br>
-  同时，将原先固定 300 的全属性强化数值更改为<span class="highlight-purple">随等级变动</span>的数值。也能在一定程度上补回缺少的属性。并<span class="highlight-purple">降低对期盼条目的高依赖</span>。
+  同时，将原先固定 300 的全属性强化数值更改为<span class="highlight-purple">随等级变动</span>的数值。也能在一定程度上补回缺少的属性。并<span class="highlight-purple">降低对期盼条目的高依赖</span>。<br>
+  在调整后，仅达到 50% 祈愿加成即仍可超过其他顶级系列装备之强度，因此仍能保持较大的领先地位。<br>
+  此调整只对今日后生成的装备有效，旧装备不会发生变动。
   </p>
 
 
