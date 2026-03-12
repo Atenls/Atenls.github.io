@@ -26,6 +26,18 @@
     -webkit-overflow-scrolling: touch;
   }
 
+  .greenbox {
+    background: #f4fdf7;
+    color: #3e854f;
+    border: 1px solid #40924e;
+    border-radius: 18px;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    padding: 20px;
+    margin: 0px;
+  }
+
   .bluebox {
     background: #f2faff;
     color: #466fa1;
@@ -115,8 +127,8 @@
 
 ---
 
-<div class='quote'>
-<p style="text-align: center;">为方便阅览及追踪更新，本文内容排序将以倒序进行，并由时间作分隔。<br>本栏只记录 <strong>2025/07/01</strong> 后的内容</p>
+<div class='greenbox'>
+<p style="text-align: center; font-size: 16px;">为方便阅览及追踪更新，本文内容排序将以倒序进行，并由时间作分隔。<br>本栏只记录 <strong>2025/07/01</strong> 后的内容</p>
 </div>
 
 ---
@@ -134,6 +146,7 @@
 - 「每日任务」完成奖励调整：
   - 未满级玩家可获得额外 `25%` 当前等级经验。
 - 降低了通常情况下被鱼甩尾击中的伤害。
+- 修复了「快速仓库」异常无冷却的问题。
 - **「铃音雪纷」系列装备平衡性调整：**
   - 三系攻击：3 unit → `2` unit
   - 护甲：1.2 unit → `1` unit
