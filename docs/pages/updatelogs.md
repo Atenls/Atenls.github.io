@@ -104,8 +104,8 @@
   .highlight-purple {
     font-weight: 600;
     color: rgba(0,0,0,0.75);
-    padding: 0 2px;
-    border-radius: 12px 12px 4px 4px; 
+    padding: 0 4px;
+    border-radius: 20px 20px 10px 10px; 
     background: linear-gradient(
       to bottom, 
       transparent, 
@@ -113,6 +113,15 @@
       rgba(228, 212, 248, 0.6) 50%, 
       rgba(192, 180, 220, 0.5) 100%
     );
+  }
+
+  details[open] {
+    margin: 0.5em 0;
+    transition: margin 0.25s ease-in-out;
+  }
+
+  details {
+    transition: margin 0.25s ease-in-out;
   }
   
   @media (max-width: 768px) {
@@ -143,9 +152,34 @@
 
 #### 2026/03/15
 
-- 「暗能咒术师 `Essence`」生成时不再有粒子环绕效果，将会即刻完成变异。
+- **「自然馈赠」现已由 DP 原生实现。**<br>
+  <details>
+      <summary>点击以查看变更详情</summary>
+      <p style="color: #aaa; margin-left: 2px; padding-left: 12px; border-left: 3px solid #ccc;">
+      1. 将不再会出现「卡馈赠」「卡移速」等情况。<br>
+      2. 应玩家建议，仍然保留了当存在「自然馈赠」时，不会掉落未鉴定及源石碎片的<strong>特性</strong>。<br>
+      3. 生效方式变更：<br>
+      </p>
+      <p style="color: #aaa; margin-left: 2px; padding-left: 24px; border-left: 3px solid #ccc;">
+      - 旧效果：材料掉落概率直接在原先基础上增加 n/1000 (Rate)<br>
+      - 新效果：材料掉落概率增加原基础的 <span class="highlight-purple">n/200</span> (Percent)<br>
+      例：(800 自然馈赠)
+      </p>
+      <p style="color: #bbc; margin-left: 2px; padding-left: 36px; border-left: 3px solid #ccc;">
+      <span style="font-weight: 600; color: #999;">20% 概率的普通材料：</span><br>
+      - 原：20% + 800/1000 → 100%<br>
+      - 新：20% * (1+800/200) → 100%<br>
+      <span style="font-weight: 600; color: #999;">5% 概率的稀有材料：</span><br>
+      - 原：5% + 800/1000 → 85%<br>
+      - 新：5% * (1+800/200) → 25%<br>
+      </p>
+      <p style="color: #aaa; margin-left: 2px; padding-left: 12px; border-left: 3px solid #ccc;">
+      4. 你现可于 <code>/stats</code> 中查看到当前的<strong>自然馈赠</strong>值及有效增益。
+      </p>
+    </details>
+- 「暗能咒术师 `Essence`」生成时将不再有粒子环绕效果，并即刻完成变异。
 - 现在，所有装备都将可以出现「地属性」「雷属性」。
-
+- 「费尔彻里莫」、「人造人 3003」的卷轴现将不再绑定。
 
 
 ---
