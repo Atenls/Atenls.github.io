@@ -137,7 +137,7 @@
 ---
 
 <div class='greenbox'>
-<p style="text-align: center; font-size: 16px;">为方便阅览及追踪更新，本文内容排序将以倒序进行，并由时间作分隔。<br>本栏只记录 <strong>2025/07/01</strong> 后的内容</p>
+<p style="text-align: center; font-size: 16px;">为方便阅览及追踪更新，本栏内容排序将以倒序进行，并由时间作分隔。</p>
 </div>
 
 ---
@@ -153,7 +153,7 @@
 #### 2026/03/19
 
 <div style="
-  max-width: 400px;
+  max-width: 360px;
   padding: 10px 14px;
   box-shadow: 0 0 4px #3f9c4380;
   background: #f8fffa;
@@ -163,6 +163,7 @@
   display: flex;
   gap: 8px;
   align-items: center;
+  justify-content: space-evenly;
 ">
   <div style="font-size:24px;">📦</div>
   <div>
@@ -175,12 +176,13 @@
 
 - 你现可于「冒险家」处解锁 `天泽港` <=> `元央城` 航线
 - 于 `天泽港` `元央城` 新增了 NPC 「冒险家」。
+- 于 `天泽港` `边界山洞穴` `边界边界山` 处新增了大量奖励箱。
 
 ---
 
 #### 2026/03/18
 
-- 「雷属性」的标识颜色从 <span style="background:#5555ff; color: white; border-radius: 6px; padding: 2px 4px;">亮蓝色</span> 改为 <span style="background:#00aaaa; color: white; border-radius: 6px; padding: 2px 4px;">青蓝色</span>
+- 「雷属性」的标识颜色从 <span style="background:#5555ff; color: white; border-radius: 6px; padding: 2px 4px;text-wrap: nowrap;">亮蓝色</span> 改为 <span style="background:#00aaaa; color: white; border-radius: 6px; padding: 2px 4px;text-wrap: nowrap;">青蓝色</span>
 - 修复了部分问题。
 - 优化了钓鱼经验相关模块的性能。
 - 优化了方块粒子效果相关部分内容。
@@ -1402,3 +1404,7 @@
 - GLP系统重构<br>
     ![R9BW_R2_L6Q____W_Z__J.png](https://s2.loli.net/2025/07/09/o42AQwdg6pzMt1j.png)
     - 你现在可以更直观地看到GLP的状态以及下次变更的时间。
+
+---
+
+<p style="color: #999;"> 本栏只记录 <strong>2025/07/01</strong> 后的内容 </p>
