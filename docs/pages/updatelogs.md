@@ -2,6 +2,12 @@
   * {
     font-family: 'PingFang SC', 'SF Pro', 'Hiragino Sans GB', '等线', 'Microsoft YaHei', '微软雅黑', 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif';
   }
+
+  :root {
+    --quality-color-legendary: #7ec5ff;
+    --quality-color-unique: #ff5cf7;
+  }
+
   .context {
     max-width: 1000px;
   }
@@ -101,6 +107,29 @@
     font-family: 'Times New Roman';
   }
 
+  .little-tips {
+    max-width: 360px;
+    padding: 1em;
+    box-shadow: 0 0 4px #3f9c4380;
+    background: #f8fffa;
+    border-radius: 6px;
+    font-size: 14px;
+    margin: 8px 0;
+    display: flex;
+    gap: 1em;
+    align-items: center;
+  }
+
+  .item-name-tag {
+    background: #faf7f5;
+    padding: 1px 4px;
+    border-radius: 4px;
+    margin: 0 4px;
+    font-weight: 600;
+    color: #333;
+    box-shadow: 0 0 1px rgba(46, 22, 6, 0.1);
+  }
+
   .highlight-purple {
     font-weight: 600;
     color: rgba(0,0,0,0.75);
@@ -152,19 +181,7 @@
 
 #### 2026/03/19
 
-<div style="
-  max-width: 360px;
-  padding: 10px 14px;
-  box-shadow: 0 0 4px #3f9c4380;
-  background: #f8fffa;
-  border-radius: 6px;
-  font-size: 14px;
-  margin: 8px 0;
-  display: flex;
-  gap: 8px;
-  align-items: center;
-  justify-content: space-evenly;
-">
+<div class="little-tips">
   <div style="font-size:24px;">📦</div>
   <div>
     <p><strong>绘梦师专用材质包 v1.4.6</strong> @ 2026/03/19</p>
@@ -177,6 +194,11 @@
 - 你现可于「冒险家」处解锁 `天泽港` <=> `元央城` 航线
 - 于 `天泽港` `元央城` 新增了 NPC 「冒险家」。
 - 于 `天泽港` `边界山洞穴` `边界边界山` 处新增了大量奖励箱。
+- 适用于
+<span class="item-name-tag" style="color: var(--quality-color-legendary)">LTD</span>
+的消息屏蔽选项，现也生效于
+<span class="item-name-tag" style="color: var(--quality-color-unique)">Utopia Fragment</span>。<br>
+同时，该屏蔽选项现也生效于 `RA`。
 
 ---
 
