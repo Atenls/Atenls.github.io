@@ -148,6 +148,40 @@
 
 ## 2026 Mar.
 
+---
+
+#### 2026/03/19
+
+<div style="
+  max-width: 400px;
+  padding: 10px 14px;
+  box-shadow: 0 0 4px #3f9c4380;
+  background: #f8fffa;
+  border-radius: 6px;
+  font-size: 14px;
+  margin: 8px 0;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+">
+  <div style="font-size:24px;">📦</div>
+  <div>
+    <p><strong>绘梦师专用材质包 v1.4.6</strong> @ 2026/03/19</p>
+    <p style="color:#aaa; font-size: 13px; line-height: 1.35;">新增「雷属性」「地属性」的项链、戒指贴图。<br>
+    你可于交流群或更新通知群内下载最新材质包。
+    </p>
+  </div>
+</div>
+
+---
+
+#### 2026/03/18
+
+- 「雷属性」的标识颜色从 <span style="background:#5555ff; color: white; border-radius: 6px; padding: 2px 4px;">亮蓝色</span> 改为 <span style="background:#00aaaa; color: white; border-radius: 6px; padding: 2px 4px;">青蓝色</span>
+- 修复了部分问题。
+- 优化了钓鱼经验相关模块的性能。
+- 优化了方块粒子效果相关部分内容。
+
 --- 
 
 #### 2026/03/17
