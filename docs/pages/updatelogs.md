@@ -199,6 +199,7 @@
 的消息屏蔽选项，现也生效于
 <span class="item-name-tag" style="color: var(--quality-color-unique)">Utopia Fragment</span>。<br>
 同时，该屏蔽选项现也生效于 `RA`。
+- 当攻击伤害低于 `1` 时，将不会再触发 `生命偷取`。避免在过低属性强化时，触发生命偷取致使自身死亡。
 
 ---
 
