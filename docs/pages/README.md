@@ -131,6 +131,9 @@ Tempest 主线</a>
 <a href="#/pages/obsidian" class="card" style="text-decoration: none; color: #6080b6; text-shadow: 0 0 1px rgba(0,0,0,0.25); font-size: 24px; font-weight: bold;">
 黑曜石引导</a>
 
+<a href="#/pages/自助服务手册" class="card" style="text-decoration: none; color: #6080b6; text-shadow: 0 0 1px rgba(0,0,0,0.25); font-size: 24px; font-weight: bold;">
+自助服务手册</a>
+
 </div>
 
 
