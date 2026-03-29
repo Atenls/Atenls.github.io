@@ -120,6 +120,11 @@
     align-items: center;
   }
 
+  .little-tips-blue {
+    box-shadow: 0 0 4px #5d8cb6a0;
+    background: #f7fcff;
+  }
+
   .item-name-tag {
     background: #faf7f5;
     padding: 1px 4px;
@@ -179,11 +184,33 @@
 
 ---
 
+#### 2026/03/29
+
+- 木桩 `E3` ~ `E5` 属性修改
+  - 移除了原先的超高额柔韧，改为固定 `600 unit`
+  - 新增 `等级 x 5%` `暴击减免`
+
+---
+
+#### 2026/03/23
+
+<div class="little-tips little-tips-blue">
+  <div style="font-size:24px;">📜</div>
+  <div>
+    <p><strong>BattlePass <span style="font-family: CONSOLA;">S13</span></strong></p>
+    <p style="color:#aaa; font-size: 13px; line-height: 1.35;">持续时间: <span style="text-wrap: nowrap;">2026/03/23</span> - <span style="text-wrap: nowrap;">2026/05/17</span><br>
+    即刻参与日常、周常，收集 CA 并兑换全新的<span style="text-wrap: nowrap;">限定饰品 Lethe</span> 吧!
+    </p>
+  </div>
+</div>
+
+
+---
+
 #### 2026/03/20
 
 - 修复了「水晶配件」相关的部分问题，优化了配方描述。
 - 调整了鱼价的恢复策略，缓解了极端情况的鱼价持续低迷。
-
 
 ---
 
