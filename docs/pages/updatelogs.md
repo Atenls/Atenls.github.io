@@ -73,7 +73,7 @@
     background-color:rgb(248, 248, 248);
     color:rgb(240, 25, 211);
     border-radius: 3px;
-    margin: 0px;
+    margin: 3px;
     padding: 0px 3px;
   }
 
@@ -129,7 +129,7 @@
     background: #faf7f5;
     padding: 1px 4px;
     border-radius: 4px;
-    margin: 0 4px;
+    margin: 4px;
     font-weight: 600;
     color: #333;
     box-shadow: 0 0 1px rgba(46, 22, 6, 0.1);
@@ -186,10 +186,13 @@
 
 #### 2026/03/29
 
+- 属性：新增怪物独有属性 `暴击减免`，等数值抵消进攻方 `暴击伤害`，抵消后暴击伤害最低生效为 `+0%` 。
 - 木桩 `E3` ~ `E5` 属性修改
   - 移除了原先的超高额柔韧，改为固定 `600 unit`
   - 新增 `等级 x 5%` `暴击减免`
 - 黑曜石系列武器现已开放至 `Lv.360`，并优化了调配等级的过程。
+- 「消息提示设置」：
+  - 新增 `钓鱼相关`：关闭后将屏蔽其他玩家钓到高级鱼类的公屏提示，惟「世界般的」鱼不在此列。
 
 ---
 
