@@ -6,6 +6,7 @@
   :root {
     --quality-color-legendary: #7ec5ff;
     --quality-color-unique: #ff5cf7;
+    --quality-color-mythic: #ff3939;
   }
 
   .context {
@@ -124,6 +125,11 @@
     box-shadow: 0 0 4px #5d8cb6a0;
     background: #f7fcff;
   }
+  
+  .little-tips-purple {
+    box-shadow: 0 0 4px #a45db6a0;
+    background: #fef7ff;
+  }
 
   .item-name-tag {
     background: #faf7f5;
@@ -185,6 +191,16 @@
 ---
 
 #### 2026/03/29
+
+<div class="little-tips little-tips-purple">
+  <div style="font-size:24px;">📿</div>
+  <div>
+    <p><strong>Endless Utopia - <span class="item-name-tag" style="color: var(--quality-color-mythic)">Philosophio</span></strong></p>
+    <p style="color:#aaa; font-size: 13px; line-height: 1.35;">
+    新的追加饰品，拥有随机的属性及高额上限。
+    </p>
+  </div>
+</div>
 
 - 属性：新增怪物独有属性 `暴击减免`，等数值抵消进攻方 `暴击伤害`，抵消后暴击伤害最低生效为 `+0%` 。
 - 木桩 `E3` ~ `E5` 属性修改
