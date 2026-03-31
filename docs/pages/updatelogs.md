@@ -54,6 +54,11 @@
       color: transparent;
     }
 
+    @media (max-width: 768px) {
+      margin: 0;
+      padding: 12px 4px;
+    }
+
   }
 
   .tooltip {
@@ -265,7 +270,7 @@
 
 <div class="redbox">
 <div class="maintitle">DP 中止运营公告</div>
-<div class="box-context" onclick="this.innerHTML='逗逗你的呀'" style="border-top: 1px solid #f3e9e9; border-bottom: 1px solid #f3e9e9;">
+<div class="box-context" style="border-top: 1px solid #f3e9e9; border-bottom: 1px solid #f3e9e9;">
 
 <div class="tooltip tooltip-top">
 很遗憾地告诉大家，受不可抗力影响，本服将不得不于 2026/04/01 23:45 起中止运行。<br>
@@ -278,7 +283,7 @@
 再次为中止运营感到遗憾，感谢大家的陪伴。<br>
 有缘再见。<br>
 
-<span class="tooltip-text" style="text-align: center;">逗逗你的呀</span>
+<span class="tooltip-text" style="text-align: center; width: 400px;">逗逗你的呀</span>
 </div>
 </div>
 <span style="font-size: 16px; color: #777;">天涯流落思无穷，既相逢，却匆匆。 为问东风余几许，春纵在，与谁同。</span>
