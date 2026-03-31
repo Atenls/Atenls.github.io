@@ -1,3 +1,43 @@
+<style>
+
+  .little-tips {
+    max-width: 360px;
+    padding: 1em;
+    box-shadow: 0 0 4px #3f9c4380;
+    background: #f8fffa;
+    border-radius: 6px;
+    font-size: 14px;
+    margin: 8px 0;
+    gap: 1em;
+    align-items: center;
+  }
+
+  .little-tips-blue {
+    box-shadow: 0 0 4px #5d8cb6a0;
+    background: #f7fcff;
+  }
+  
+  .little-tips-purple {
+    box-shadow: 0 0 4px #a45db6a0;
+    background: #fef7ff;
+  }
+
+  .highlight-purple {
+    font-weight: 600;
+    color: rgba(0,0,0,0.75);
+    padding: 0 4px;
+    border-radius: 20px 20px 10px 10px; 
+    background: linear-gradient(
+      to bottom, 
+      transparent, 
+      transparent 30%, 
+      rgba(228, 212, 248, 0.6) 50%, 
+      rgba(192, 180, 220, 0.5) 100%
+    );
+  }
+
+</style>
+
 # 家园与领地
 
 家园世界是位于另一个世界的自留园宅地<br>
@@ -124,6 +164,62 @@
 无制式领地，但可提供制式的外部风景区（即 40格 环绕区域）。<br>
 在小区中常见的北纬森林样式是免费的，而其他样式则需额外付费。
 
+#### 4.3.1 领地的设计
+
+领地的设计通常是自由的，你可以选择自己喜欢的风格，唯独 `设施` 及 `仓库空栏` 需要遵循一定规则。
+
+##### 4.3.1.1 设施
+
+所有设施需要与DP中的原生设施相同或在美术风格不同的影响下接近相同。<br>
+设施样式请于主城或各特殊设施处查看。
+
+##### 4.3.1.2 仓库
+
+所有用以放置仓库的空栏需空置，以等待实装于服务器后再进行上锁箱子的填充。<br>
+而所有空栏需满足以下条件：
+  - 横向或纵向至少有一条边需要是 4 格
+  - 顶部需为下半砖、楼梯或发光方块，以确保在放置顶层箱子后可正常开启。
+
+通常情况下，建议每个空栏为 `4x4x2`
+
+### 4.4 从家园转移
+
+常见的情况下，玩家(们)在购置领地前，已预先购置家园，在此等情况下，玩家需预先统计各玩家资料并一并提交。<br>
+最终的领地设施为所有玩家家园设施的并集，而箱子数量则取决于所有玩家中箱子数量的最大值。其余箱子将以新价计算为额外箱子。<br>
+参考：
+
+<div class="little-tips" style="
+    max-width: 500px;
+    padding: 1em;
+    box-shadow: 0 0 6px rgba(38, 29, 63, 0.5);
+    background: #fff;
+    border-radius: 6px;
+    font-size: 14px;
+    margin: 8px 0;
+    gap: 1em;
+    align-items: center;
+"> 
+
+<p style="margin: 8px 0;">四名玩家并购一个领地，其中：</p>
+
+|玩家|拥有的设施|箱子数量|
+|:---:|:---:|:---:|
+|A|快速仓库|128
+|B||32
+|C|悬赏任务台|64
+|D||48
+
+最终，他们的领地将拥有 `快速仓库` `悬赏任务台` 及 
++ 128 *(原玩家家园最大值)*
++ 16 *(领地认购价格对应箱子)* 
++ 2 *(32)* + 8 *(64)* + 4 *(48)*
+
+<p style="margin: 8px 0;">= <span class="highlight-purple" style="font-size: 16px;">158</span> 个箱子。</p>
+由于箱子添置只能以 4 个箱子为单位进行，因此，最终只能获得 156 个箱子，并为 B 进行退款。
+
+
+</div>
+
 ---
 
 ## 5. 设施
@@ -143,9 +239,10 @@
 |打造台|1|
 |制书台|1|
 |炼制锅|1|
-|水井|1|
+|水井|4|深井水
 |装饰性NPC|1|
 |弹射装置|1|
+|离开领地传送门|1/8|→ 32x 源石 (16 unit)
 
 ### 5.1 特殊的鱼
 
