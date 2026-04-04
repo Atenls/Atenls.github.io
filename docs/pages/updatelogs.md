@@ -3,9 +3,14 @@
     font-family: 'PingFang SC', 'SF Pro', 'Hiragino Sans GB', '等线', 'Microsoft YaHei', '微软雅黑', 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif';
   }
 
+  .markdown-section {
+    max-width: 1200px;
+  }
+
   :root {
     --quality-color-legendary: #7ec5ff;
     --quality-color-unique: #ff5cf7;
+    --quality-color-mythic: #ff3939;
   }
 
   .context {
@@ -30,6 +35,82 @@
   .table-container {
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
+  }
+
+  .maintitle {
+    font-size: 24px;
+    font-weight: 800;
+    margin: 0.6rem 0;
+    color: #333;
+    line-height: 1.8;
+  }
+
+  .box-context {
+    font-size: 16px;
+    font-weight: 500;
+    color: #888;
+    line-height: 1.35;
+    text-align: left;
+    margin: 12px 24px;
+    padding: 12px 0;
+
+    &:hover {
+      color: transparent;
+    }
+
+    @media (max-width: 768px) {
+      margin: 0;
+      padding: 12px 4px;
+    }
+
+  }
+
+  .tooltip {
+    position: relative;
+    cursor: pointer;
+  }
+
+  .tooltip .tooltip-text {
+    visibility: hidden;
+    padding: 8px;
+    border-radius: 10px;
+    position: absolute;
+    z-index: 1;
+    opacity: 0;
+    transition: opacity 0.35s;
+    text-shadow: 0.5px 0.5px 1px rgba(0, 0, 0, 0.25);
+  }
+
+  .tooltip-top .tooltip-text {
+    bottom: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 48px;
+  }
+
+  .tooltip-top .tooltip-text::after {
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-color: white transparent transparent transparent;
+  }
+
+  .tooltip:hover .tooltip-text {
+    visibility: visible;
+    color: #555;
+    opacity: 1;
+  }
+
+  .redbox {
+    background: #fdf4f4;
+    color: #85553e;
+    box-shadow: 0 0 6px #441313a0;
+    border-radius: 18px;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    padding: 20px;
+    margin: 0px;
   }
 
   .greenbox {
@@ -73,7 +154,7 @@
     background-color:rgb(248, 248, 248);
     color:rgb(240, 25, 211);
     border-radius: 3px;
-    margin: 0px;
+    margin: 3px;
     padding: 0px 3px;
   }
 
@@ -120,11 +201,21 @@
     align-items: center;
   }
 
+  .little-tips-blue {
+    box-shadow: 0 0 4px #5d8cb6a0;
+    background: #f7fcff;
+  }
+  
+  .little-tips-purple {
+    box-shadow: 0 0 4px #a45db6a0;
+    background: #fef7ff;
+  }
+
   .item-name-tag {
     background: #faf7f5;
     padding: 1px 4px;
     border-radius: 4px;
-    margin: 0 4px;
+    margin: 4px;
     font-weight: 600;
     color: #333;
     box-shadow: 0 0 1px rgba(46, 22, 6, 0.1);
@@ -175,7 +266,95 @@
 
 ---
 
+## 2026 Apr.
+
+---
+
+#### 2026/04/05
+
+- 优化了怪物属性查询
+
+
+---
+
+#### 2026/04/01
+
+<div class="redbox">
+<div class="maintitle">DP 中止运营公告</div>
+<div class="box-context" style="border-top: 1px solid #f3e9e9; border-bottom: 1px solid #f3e9e9;">
+
+<div class="tooltip tooltip-top">
+很遗憾地告诉大家，受不可抗力影响，本服将不得不于 2026/04/01 23:45 起中止运行。<br>
+届时本人将不再负责敝服包括但不限于更新、运维之工作。服务器端也将于同一时间关闭，你将无法再次进入DP的世界。
+<br><br>
+在一并相伴度过的九年多时间里，在各位的支援下，DP日益散发光彩。<br>
+我们各位相聚于此，也是难得的缘分。希望在这段时间里，你曾因绘梦师有所收获，不论是亲友、知识、技术、乃至观念。<br>
+逝去的终已逝去，而已收获的将化为碎片，融入你的未来，陪伴你走向更远。<br>
+希望在未来的某一时间，你仍会想起于此遇到的某个人、学到的某个知识。 留下此刻璀璨，留下他朝高挂。<br><br>
+再次为中止运营感到遗憾，感谢大家的陪伴。<br>
+有缘再见。<br>
+
+<span class="tooltip-text" style="text-align: center; width: 400px;">逗逗你的呀</span>
+</div>
+</div>
+<span style="font-size: 16px; color: #777;">天涯流落思无穷，既相逢，却匆匆。 为问东风余几许，春纵在，与谁同。</span>
+</div>
+
+---
+
 ## 2026 Mar.
+
+
+---
+
+#### 2026/03/31
+
+- 「空寂山谷」现已支持「代理指挥」。
+- 优化了 `QS - 副本` 的界面。
+
+---
+
+#### 2026/03/29
+
+<div class="little-tips little-tips-purple">
+  <div style="font-size:24px;">📿</div>
+  <div>
+    <p><strong>Endless Utopia - <span class="item-name-tag" style="color: var(--quality-color-mythic)">Philosophio</span></strong></p>
+    <p style="color:#aaa; font-size: 13px; line-height: 1.35;">
+    新的追加饰品，拥有随机的属性及高额上限。<br>
+    活动延期至 2026/04/05
+    </p>
+  </div>
+</div>
+
+- 属性：
+  - 新增怪物独有属性 `暴击减免`，等数值抵消进攻方 `暴击伤害`，抵消后暴击伤害最低生效为 `+0%` 。
+  - 在查询怪物属性时，增加了以自身为攻击方，对怪物的：
+    - `期望伤害`
+    - `生效会心率`
+    - `生效命中率`
+  - 移除了查询自身属性时的 `魔法减伤`
+- 木桩 `E3` ~ `E5` 属性修改
+  - 移除了原先的超高额柔韧，改为固定 `600 unit`
+  - 新增 `等级 x 5%` `暴击减免`
+- 黑曜石系列武器现已开放至 `Lv.360`，并优化了调配等级的过程。
+- 「消息提示设置」：
+  - 新增 `钓鱼相关`：关闭后将屏蔽其他玩家钓到高级鱼类的公屏提示，惟「世界般的」鱼不在此列。
+
+---
+
+#### 2026/03/23
+
+<div class="little-tips little-tips-blue">
+  <div style="font-size:24px;">📜</div>
+  <div>
+    <p><strong>BattlePass <span style="font-family: CONSOLA;">S13</span></strong></p>
+    <p style="color:#aaa; font-size: 13px; line-height: 1.35;">持续时间: <span style="text-wrap: nowrap;">2026/03/23</span> - <span style="text-wrap: nowrap;">2026/05/17</span><br>
+    即刻参与日常、周常，收集 CA 并兑换全新的<span style="text-wrap: nowrap;">限定饰品 Lethe</span> 吧!
+    </p>
+  </div>
+</div>
+
 
 ---
 
@@ -183,7 +362,6 @@
 
 - 修复了「水晶配件」相关的部分问题，优化了配方描述。
 - 调整了鱼价的恢复策略，缓解了极端情况的鱼价持续低迷。
-
 
 ---
 
