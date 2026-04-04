@@ -3,6 +3,10 @@
     font-family: 'PingFang SC', 'SF Pro', 'Hiragino Sans GB', '等线', 'Microsoft YaHei', '微软雅黑', 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif';
   }
 
+  .markdown-section {
+    max-width: 1200px;
+  }
+
   :root {
     --quality-color-legendary: #7ec5ff;
     --quality-color-unique: #ff5cf7;
@@ -263,6 +267,13 @@
 ---
 
 ## 2026 Apr.
+
+---
+
+#### 2026/04/05
+
+- 优化了怪物属性查询
+
 
 ---
 
