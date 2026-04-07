@@ -5,8 +5,7 @@
   text-shadow: 0.5px 1px 0.5px rgba(0, 0, 0, 0.25);
   padding: 2px 3px;
   margin: 0 2px;
-  border-radius: 2px;
-  font-family: 等线;
+  border-radius: 4px;
   font-weight: 500;
 }
 
@@ -124,8 +123,26 @@
 
 <p style="border-left: 4px solid #ccc; color: #aaa; padding-left: 10px;">Rapids 取名灵感自 Intel 4th Xeon Scalable (Sapphire Rapids) 及此后的架构命名</p>
 <p style="border-left: 5px solid #745691ff; color: #826199ff; padding-left: 10px; font-family: 'SFPro', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'WenQuanYi Micro Hei', 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif';">
-目前的测试阶段: <span class="dptag tag-purple" style="font-family: CONSOLA">Alpha</span>
-</p>
+
+<span style="
+background: #7a31aa;
+color: #f0f0f0;
+text-shadow: 0.5px 1px 0.5px rgba(0, 0, 0, 0.25);
+padding: 2px 4px;
+border-radius: 4px 0 0 4px;">测试阶段</span><span style="
+background: #fefcfe;
+color: #7a31aa;
+text-shadow: 0.5px 1px 0.5px rgba(0, 0, 0, 0.25);
+padding: 1px 5px;
+border: 1px solid #7a31aa;
+border-radius: 0 4px 4px 0;
+font-weight: 500;">Alpha</span> <a href="#/rapids/updatelogs" class="dptag tag-green" style="
+text-decoration: none; 
+color: white; 
+font-weight: 400;
+padding: 2px 4px;
+">
+更新记录</a>
 
 ## 简介
 
