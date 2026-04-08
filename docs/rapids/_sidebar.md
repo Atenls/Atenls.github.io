@@ -9,3 +9,5 @@ Rapids - 「激流」
 
 * [首页](rapids/rapids)
 * [更新记录](rapids/updatelogs)
+* [设计](rapids/design)
+* [Rapids 服务条款](rapids/terms)
