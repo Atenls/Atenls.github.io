@@ -28,6 +28,21 @@
   color: var(--color, #333);
 }
 
+.content-container {
+  border-radius: 1em;
+  padding: 1em;
+  background: rgb(22,7,22);
+  color: rgb(222,222,224);
+  text-align: left;
+  border: 2px solid rgb(36, 0, 90);
+  box-shadow: 0 0 8px rgba(36, 0, 90, 0.75);
+}
+
+.content-container p {
+  margin: 1em 0;
+  line-height: 1.375rem;
+}
+
 .element-container {
   background: rgb(22,7,22);
   border-radius: 12px;
@@ -91,8 +106,8 @@
 <p><span class="attrtag" style="--color: #20ffb0">✨ 法力恢复 #20ffb0</span></p>
 <p><span class="attrtag" style="--color: #40e8ff">⚔ 魔法攻击 #40e8ff</span></p>
 <p><span class="attrtag" style="--color: #50b8f8">🔰 魔法抗性 #50b8f8</span></p>
-<p><span class="attrtag" style="--color: #ffa060">➹ 施法速度 #ffa060</span></p>
-<p><span class="attrtag" style="--color: #d0a060">⚶ 法力消耗 #d0a060</span></p>
+<p><span class="attrtag" style="--color: #ffa060">➹ 施法速度 #a8714c</span></p>
+<p><span class="attrtag" style="--color: #d0a060">⚶ 法力消耗 #d08d60</span></p>
 <p><span class="attrtag" style="--color: #50b8f8">魔法穿透 #50b8f8</span></p>
 <p><span class="attrtag" style="--color: #70e8f0">法球伤害半径 #70e8f0</span></p>
 <p><span class="attrtag" style="--color: #70e8f0">法球飞行速度 #70e8f0</span></p>
@@ -125,3 +140,26 @@
 </div>
 
 ## 排版
+
+### 武器 & 装备 通用模板
+
+<div class="content-container" style="width: 400px;">
+<p style="padding-left: 1em; margin: 0;">▌ <装备名称></p>
+<p></p>
+<p style="padding-left: 1em; margin: 0;">┌ <可用位置> | <装备类型> | <元素属性>(如有)</p>
+<p style="padding-left: 1em; margin: 0;">└ <装备品质> | <等级需求></p>
+<p></p>
+<p style="padding-left: 1.5em; margin: 0;">⚔ 基准属性: <数值></p>
+<p style="padding-left: 1.5em; margin: 0;">➹ 基准属性: <数值></p>
+<p style="padding-left: 1.5em; margin: 0;">⚶ 基准属性: <数值></p>
+<p></p>
+<p style="padding-left: 1.5em; margin: 0;">┌ 额外属性: <数值>(如有)</p>
+<p style="padding-left: 1.5em; margin: 0;">├ 额外属性: <数值>(如有)</p>
+<p style="padding-left: 1.5em; margin: 0;">├ 额外属性: <数值>(如有)</p>
+<p style="padding-left: 1.5em; margin: 0;">└ 额外属性: <数值>(如有)</p>
+<p></p>
+<p style="padding-left: 1.5em; margin: 0;">「 武器或装备描述 」</p>
+<p></p>
+<p style="padding-left: 1em; margin: 0;">💰 <数值> E</p>
+<p></p>
+</div>
