@@ -299,6 +299,14 @@
 
 ---
 
+#### 2026/04/09
+
+- <span class="tag-refactor">重构</span> 重新制作了**属性词条计算系统**
+
+
+
+---
+
 #### 2026/04/08
 
 - <span class="tag-refactor">重构</span> 重新制作了**物品管理系统**<br>版本差异过大，迁移无法满足需求
@@ -341,14 +349,14 @@
 - <span class="tag-refactor">重构</span> 重新制作了**背包管理系统**
 - <span class="tag-trans">迁移</span> 完成了**仓库系统**的迁移
 
-- 尝试选择了新的排版，并制作了第一把武器 `不止歇的激流` <br>![spawn](/rapids_img/20260406_不止歇的激流.jpg)
+- 尝试选择了新的排版，并制作了第一把武器 `不止歇的激流` <br>![](/rapids_img/20260406_不止歇的激流.jpg)
 
 
 ---
 
 #### 2026/04/05
 
-![spawn](/rapids_img/20260405_spawn.jpg)
+<img src="/rapids/rapids_img/20260405_spawn.jpg" loading="lazy"></img>
 - 完成了 **服务端** 的基础框架
   - 完成了适用于 RPG 的规则/参数设置
 - 完成了 **主城** 的选定

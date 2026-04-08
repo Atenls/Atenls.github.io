@@ -10,6 +10,10 @@
   padding: 2em;
   border-radius: 2em;
   border: 0 0 8px rgb(43,43,43);
+
+  @media (max-width: 768px) { 
+    margin: 4px;
+  }
 }
 
 .markdown-section .attributes-content h2 {
@@ -18,6 +22,15 @@
 
 .attributes-content .anchor span {
   color: rgb(245,245,247);
+}
+
+.markdown-section {
+  max-width: 1200px;
+  @media (max-width: 768px) {
+    margin: 4px;
+    padding: 12px 4px;
+  }
+
 }
 
 .attrtag {
@@ -57,6 +70,13 @@
   line-height: 1.6rem;
 }
 
+@media (max-width: 768px) {
+  .markdown-section img:not([width]):not([style]) {
+    width: 100%;
+    max-width: 400px;
+  }
+}
+
 </style>
 
 # Rapids Design
@@ -71,7 +91,7 @@
 
 ### 属性
 
-<div style="display: flex; gap: 2em;">
+<div style="display: flex; gap: 2em; flex-wrap: wrap;">
 <div class="element-container" style="width: 275px;">
 <p style="font-size: 18px; font-weight: 600; margin: 0; text-align: center;">基础属性</p>
 <p><span class="attrtag" style="--color: #008000">❤ 最大生命 #008000</span></p>
