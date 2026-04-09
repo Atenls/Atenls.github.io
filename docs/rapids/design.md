@@ -157,6 +157,16 @@
 <p><span class="attrtag" style="--bordercolor: #FF6000; --color: #FFAA00">传奇 #FF8000 | #FFAA00</span></p>
 <p><span class="attrtag" style="--bordercolor: #FF4040; --color: #FF8080">神话 #FF4040 | #FF8080</span></p>
 </div>
+
+### 装备类型
+
+<div class="element-container" style="width: 275px; padding-right: 0;">
+<p><span class="attrtag" style="--color: #FF55FF">‡ 法杖 #FF55FF</span></p>
+<p><span class="attrtag" style="--color: #00AAAA">† 近战武器 #00AAAA</span></p>
+<p><span class="attrtag" style="--color: #55FF55">🏹 弓箭 #55FF55</span></p>
+</div>
+
+
 </div>
 
 ## 排版
@@ -184,5 +194,8 @@
 <p style="padding-left: 1em; margin: 0;">💰 <数值> E</p>
 <p></p>
 </div>
-<img class="content-container" style="padding: 0; overflow: hidden;" src="/rapids/rapids_img/20260409_introsword.png" loading="lazy"></img>
+<div>
+<p style="font-size: 16px; font-weight: 500; margin: 0; margin-bottom: 10px;">示例:</p>
+<img class="content-container" style="padding: 0; overflow: hidden;" src="/rapids/rapids_img/20260409_introbow.png" loading="lazy"></img>
+</div>
 </div>

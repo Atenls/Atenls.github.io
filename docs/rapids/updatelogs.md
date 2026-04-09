@@ -301,17 +301,33 @@
 
 #### 2026/04/09
 
-- <span class="tag-refactor">重构</span> 重新制作了**属性词条计算系统**
-- 制作了新手武器<br><img src="/rapids/rapids_img/20260409_introsword.png" loading="lazy"></img>
-- 修改了箭矢射出的逻辑，现在箭矢在射出时的偏移位置会增加玩家自身的矢量
-- 正在重新设计属性成长公式
 
+<div class="little-tips" >
+  <div style="font-size:24px;">📜</div>
+  <div>
+    <p><strong>排版设计</strong></p>
+    <p style="color:#aaa; font-size: 13px; line-height: 1.35;">正在进行适用于 Rapids 的全新美观设计<br>
+     你可于<a href="#/rapids/design">设计</a>查看详情
+    </p>
+  </div>
+</div>
+
+- <span class="tag-refactor">重构</span> 重新制作了**属性词条计算系统**
+- 制作了新手武器<br><img src="/rapids/rapids_img/20260409_introbow.png" loading="lazy"></img>
+- 修改了箭矢射出的逻辑，现在箭矢在射出时的 `起始点` 之偏移位置会增加玩家自身的矢量<br>弓箭战斗系统增加了对「弩」的支持。
+- 正在重新设计属性成长公式
+  <details>
+      <summary style="color: #999 ;">点击以查看详情</summary>
+      <p style="color: #aaa; margin-left: 3px; padding-left: 12px; border-left: 3px solid #ccc;">
+      1. 「近战 / 箭矢 / 魔法」攻击的划分现在更加明确，它们的期望 DPS 现遵从 100 : 90 : 70。
+      </p>
+  </details>
 
 ---
 
 #### 2026/04/08
 
-- <span class="tag-refactor">重构</span> 重新制作了**物品管理系统**<br>版本差异过大，迁移无法满足需求
+- <span class="tag-refactor">重构</span> 重新制作了**物品管理系统**<br>版本差异过大，迁移问题多多，无法满足需求
 - 修复了**数据管理器**的 MySQL 连接异常的问题
 - 补充了部分内容的新版本特性
 
