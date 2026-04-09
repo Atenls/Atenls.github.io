@@ -303,7 +303,8 @@
 
 - <span class="tag-refactor">重构</span> 重新制作了**属性词条计算系统**
 - 制作了新手武器<br><img src="/rapids/rapids_img/20260409_introsword.png" loading="lazy"></img>
-
+- 修改了箭矢射出的逻辑，现在箭矢在射出时的偏移位置会增加玩家自身的矢量
+- 正在重新设计属性成长公式
 
 
 ---
