@@ -163,6 +163,7 @@
 
 ### 武器 & 装备 通用模板
 
+<div style="display: flex; gap: 2em; flex-wrap: wrap;">
 <div class="content-container" style="width: 400px;">
 <p style="padding-left: 1em; margin: 0;">▌ <装备名称></p>
 <p></p>
@@ -182,4 +183,6 @@
 <p></p>
 <p style="padding-left: 1em; margin: 0;">💰 <数值> E</p>
 <p></p>
+</div>
+<img class="content-container" style="padding: 0; overflow: hidden;" src="/rapids/rapids_img/20260409_introsword.png" loading="lazy"></img>
 </div>

@@ -302,6 +302,7 @@
 #### 2026/04/09
 
 - <span class="tag-refactor">重构</span> 重新制作了**属性词条计算系统**
+- 制作了新手武器<br><img src="/rapids/rapids_img/20260409_introsword.png" loading="lazy"></img>
 
 
 
