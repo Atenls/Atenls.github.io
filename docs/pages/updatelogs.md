@@ -210,6 +210,10 @@
     box-shadow: 0 0 4px #a45db6a0;
     background: #fef7ff;
   }
+  .little-tips-pink {
+    box-shadow: 0 0 4px #ca6ac2a0;
+    background: #fff7ff;
+  }
 
   .item-name-tag {
     background: #faf7f5;
@@ -273,6 +277,16 @@
 
 #### 2026/04/12
 
+<div class="little-tips little-tips-pink">
+  <div style="font-size:24px;">🌸</div>
+  <div>
+    <p><strong>春祭预热进行中</strong></p>
+    <p style="color:#aaa; font-size: 13px; line-height: 1.35;">
+    春祭即将于 04/17 开始，在此之前，LT / es / CsP 已开始正常掉落。
+    </p>
+  </div>
+</div>
+
 - 继承了 Rapids 的数据管理器新特性，现在部分已适配的数据在异步情况下将得到更高的安全性。<br>得益于此，部分每日副本箱子在部分情况下开出不同数量的源石时，将可以正常获得收获。
 - 恢复了 `法杖` 的施法音效，同时为 `射箭` 也添加了音效。<br>法杖施法音效在此前因过于吵闹被取消，现在已变更为更轻量的射箭音效。<br><span style="color: #aaa;">04/13 维护后生效</span>
 - 调整了切换武器冷却保护的逻辑 (俗称卡法杖)，现在切换武器后不再立即清除冷却，而是将异常长的时间转为 `750ms` 冷却。<br><span style="color: #aaa;">04/13 维护后生效</span>
@@ -283,7 +297,7 @@
   <br>更多详细内容，请参考 [每日副本](pages/每日副本?id=灵境)
 
 - 「灵魂峡谷 / 深层灵魂峡谷」调整：
-  - 无限制进入通道调整：<br>简要概括：体力通道移除，转为 AP 通道
+  - 无限制进入通道调整：<br>简要概括：体力通道移除，转为 AP 通道<br><span style="color: #aaa;">04/13 维护后生效</span>
     - 体力消耗: `160` → `0`
     - 冷却时间: `0` → `160 mins` 
     - AP消耗: `0` → `48 AP`
