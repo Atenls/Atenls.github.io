@@ -37,6 +37,16 @@
     -webkit-overflow-scrolling: touch;
   }
 
+  .content-container {
+    border-radius: 1em;
+    padding: 1em;
+    background: rgb(22,7,22);
+    color: rgb(222,222,224);
+    text-align: left;
+    border: 2px solid rgb(36, 0, 90);
+    box-shadow: 0 0 8px rgba(36, 0, 90, 0.75);
+  }
+
   .maintitle {
     font-size: 24px;
     font-weight: 800;
@@ -299,6 +309,17 @@
 ---
 
 ## 2026 Apr.
+
+---
+
+#### 2026/04/13
+
+- <span class="tag-refactor">重构</span> 重新制作了**技能系统**
+  <details>
+    <summary style="color: #999 ;">制作了一些含技能的样品</summary>
+    <img class="content-container" style="padding: 0; margin: 0.5em; overflow: hidden;" src="/rapids/rapids_img/20260413_san.png" loading="lazy"></img>
+    <img class="content-container" style="padding: 0; margin: 0.5em; overflow: hidden;" src="/rapids/rapids_img/20260413_armor.png" loading="lazy"></img>
+  </details>
 
 ---
 

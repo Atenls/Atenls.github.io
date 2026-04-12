@@ -27,7 +27,7 @@
 .markdown-section {
   max-width: 1200px;
   @media (max-width: 768px) {
-    margin: 4px;
+    margin: 8px;
     padding: 12px 4px;
   }
 
@@ -81,7 +81,11 @@
 
 # Rapids Design
 
-你可于本栏获得 Rapids 之设计相关内容。
+你可于本栏获得 Rapids 之设计相关内容。<br>
+本栏内容遵从 [CC-BY-SA 4.0 License](https://creativecommons.org/licenses/by-sa/4.0/) 授权。
+
+---
+
 
 <div class="attributes-content">
 
@@ -148,14 +152,15 @@
 
 ### 品质
 
-<div class="element-container" style="width: 275px; padding-right: 0;">
+<div class="element-container" style="width: 400px; padding-right: 0;">
+<p style="border-bottom: 1px solid #666; margin-top: 0; margin-right: 2em; padding-bottom: 0.5em;"><span class="attrtag" style="--bordercolor: #aaaaaa; --color: #dddddd">品质 引用色块 | 字体色 | 技能描述色</span></p>
 <p><span class="attrtag" style="--bordercolor: #444444; --color: #808080">粗糙 #444444 | #808080</span></p>
 <p><span class="attrtag" style="--bordercolor: #aaaaaa; --color: #dddddd">普通 #AAAAAA | #DDDDDD</span></p>
-<p><span class="attrtag" style="--bordercolor: #40DF40; --color: #65CF65">优秀 #40DF40 | #65CF65</span></p>
-<p><span class="attrtag" style="--bordercolor: #8090E0; --color: #80B0E0">卓越 #8090E0 | #80B0E0</span></p>
-<p><span class="attrtag" style="--bordercolor: #EE77EE; --color: #CC80CC">史诗 #EE77EE | #CC80CC</span></p>
-<p><span class="attrtag" style="--bordercolor: #FF6000; --color: #FFAA00">传奇 #FF8000 | #FFAA00</span></p>
-<p><span class="attrtag" style="--bordercolor: #FF4040; --color: #FF8080">神话 #FF4040 | #FF8080</span></p>
+<p><span class="attrtag" style="--bordercolor: #40DF40; --color: #65CF65">优秀 #40DF40 | #65CF65<span style="color: #ADCEAD;"> | #ADCEAD</span></span></p>
+<p><span class="attrtag" style="--bordercolor: #8090E0; --color: #80B0E0">卓越 #8090E0 | #80B0E0<span style="color: #AABBCC;"> | #AABBCC</span></span></p>
+<p><span class="attrtag" style="--bordercolor: #EE77EE; --color: #CC80CC">史诗 #EE77EE | #CC80CC<span style="color: #C9ACC9;"> | #C9ACC9</span></span></p>
+<p><span class="attrtag" style="--bordercolor: #FF6000; --color: #FFAA00">传奇 #FF8000 | #FFAA00<span style="color: #FFCC99;"> | #ffDDBB</span></span></p>
+<p><span class="attrtag" style="--bordercolor: #FF4040; --color: #FF8080">神话 #FF4040 | #FF8080<span style="color: #FFB0B0;"> | #FFBBBB</span></span></p>
 </div>
 
 ### 装备类型
@@ -173,7 +178,7 @@
 
 ### 武器 & 装备 通用模板
 
-<div style="display: flex; gap: 2em; flex-wrap: wrap;">
+<div style="display: flex; gap: 1em; flex-wrap: wrap;">
 <div class="content-container" style="width: 400px;">
 <p style="padding-left: 1em; margin: 0;">▌ <装备名称></p>
 <p></p>
@@ -183,6 +188,10 @@
 <p style="padding-left: 1.5em; margin: 0;">⚔ 基准属性: <数值></p>
 <p style="padding-left: 1.5em; margin: 0;">➹ 基准属性: <数值></p>
 <p style="padding-left: 1.5em; margin: 0;">⚶ 基准属性: <数值></p>
+<p></p>
+<p style="padding-left: 2em; margin: 0;">▌ 装备技能</p>
+<p style="padding-left: 2em; margin: 0;">├ 冷却: 时间</p>
+<p style="padding-left: 2em; margin: 0;">└ 技能描述</p>
 <p></p>
 <p style="padding-left: 1.5em; margin: 0;">┌ 额外属性: <数值>(如有)</p>
 <p style="padding-left: 1.5em; margin: 0;">├ 额外属性: <数值>(如有)</p>
@@ -198,6 +207,9 @@
 <p style="font-size: 16px; font-weight: 500; margin: 0; margin-bottom: 10px;">示例:</p>
 <img class="content-container" style="padding: 0; overflow: hidden;" src="/rapids/rapids_img/20260409_introbow.png" loading="lazy"></img>
 </div>
+<div>
+<p style="margin: 0;"><img class="content-container" style="padding: 0; overflow: hidden;" src="/rapids/rapids_img/20260413_armor.png" loading="lazy"></img></p>
+</div>
 </div>
 
 ### MOTD
@@ -205,3 +217,21 @@
 延续了DP一贯的简洁风格。
 
 <img style="border-radius: 8px; padding: 0; overflow: hidden;" src="/rapids/rapids_img/20260412_motd.png" loading="lazy"></img>
+
+
+---
+<div style="border-left: 4px solid #ddd; padding-left: 10px; color: #999;">
+
+最后更新于 <span style="font-weight: 600; color: #777;">2026/04/13</span><br>
+本栏内容遵从 [CC-BY-SA 4.0 License](https://creativecommons.org/licenses/by-sa/4.0/) 授权。
+
+<span style="font-weight: 600; color: #777;">您可以自由地：</span>
+- <span style="font-weight: 600; color: #777;">共享</span> — 在任何媒介以任何形式复制、发行本作品 在任何用途下，甚至商业目的。
+- <span style="font-weight: 600; color: #777;">演绎</span> — 修改、转换或以本作品为基础进行创作 在任何用途下，甚至商业目的。
+
+<span style="font-weight: 600; color: #777;">惟须遵守下列条件：</span>
+- <span style="font-weight: 600; color: #777;">署名</span> — 您必须给出适当的署名，提供指向本许可协议的链接，同时标明是否（对原始作品）作了修改。您可以用任何合理的方式来署名，但是不得以任何方式暗示许可人为您或您的使用背书。
+- <span style="font-weight: 600; color: #777;">相同方式共享</span> — 如果您再混合、转换或者基于本作品进行创作，您必须基于与原先许可协议相同的许可协议 分发您贡献的作品。
+- <span style="font-weight: 600; color: #777;">没有附加限制</span> — 您不得适用法律术语或者 技术措施 从而限制其他人做许可协议允许的事情。
+
+</div>
