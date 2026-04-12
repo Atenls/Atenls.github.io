@@ -199,3 +199,9 @@
 <img class="content-container" style="padding: 0; overflow: hidden;" src="/rapids/rapids_img/20260409_introbow.png" loading="lazy"></img>
 </div>
 </div>
+
+### MOTD
+
+延续了DP一贯的简洁风格。
+
+<img style="border-radius: 8px; padding: 0; overflow: hidden;" src="/rapids/rapids_img/20260412_motd.png" loading="lazy"></img>
