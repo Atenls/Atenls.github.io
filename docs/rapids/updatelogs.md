@@ -319,6 +319,7 @@
     <summary style="color: #999 ;">制作了一些含技能的样品</summary>
     <img class="content-container" style="padding: 0; margin: 0.5em; overflow: hidden;" src="/rapids/rapids_img/20260413_san.png" loading="lazy"></img>
     <img class="content-container" style="padding: 0; margin: 0.5em; overflow: hidden;" src="/rapids/rapids_img/20260413_armor.png" loading="lazy"></img>
+    <img class="content-container" style="padding: 0; margin: 0.5em; overflow: hidden;" src="/rapids/rapids_img/20260413_weaponskillmsg.png" loading="lazy"></img>
   </details>
 
 ---
