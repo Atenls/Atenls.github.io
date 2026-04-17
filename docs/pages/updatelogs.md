@@ -274,6 +274,22 @@
 
 ---
 
+
+
+#### 2026/04/18
+
+<div class="little-tips little-tips-pink">
+  <div style="font-size:24px;">🌸</div>
+  <div>
+    <p><strong>春祭活动已开启</strong></p>
+    <p style="color:#aaa; font-size: 13px; line-height: 1.35;">
+    你现可完整参与所有春祭活动内容<br>并通过Token兑换活动限定饰品！
+    </p>
+  </div>
+</div>
+
+---
+
 #### 2026/04/13
 
 - 「花园」调整：
