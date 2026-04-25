@@ -312,6 +312,13 @@
 
 ---
 
+#### 2026/04/25
+
+- 增加了**套装功能**<br>
+  <img class="content-container" style="padding: 0; margin: 0.5em; overflow: hidden;" src="/rapids/rapids_img/20260425_wuqi.png" loading="lazy"></img>
+
+---
+
 #### 2026/04/13
 
 - <span class="tag-refactor">重构</span> 重新制作了**技能系统**
