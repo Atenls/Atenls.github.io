@@ -312,6 +312,14 @@
 
 ---
 
+#### 2026/04/26
+
+- 增加了在快捷栏上方提示消息的功能，即时性内容将更多地迁移至此，以避免消息污染。<br>
+  <img class="content-container" style="padding: 0; margin: 0.5em; overflow: hidden;" src="/rapids/rapids_img/20260426_hotbarmsg.png" loading="lazy"></img>
+- 完成了对于装备的价格评定系统
+
+---
+
 #### 2026/04/25
 
 - 增加了**套装功能**<br>
