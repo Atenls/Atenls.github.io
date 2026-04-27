@@ -312,6 +312,22 @@
 
 ---
 
+#### 2026/04/27
+
+- **套装**支持多品质套装混合使用，优先生效更高品质的套装效果。<br>
+  <div style="background: #e7e9eb; box-shadow: 0 0 8px rgba(127,127,127,0.3); color: #707073; padding: 1em; margin: 8px 0; border-radius: 1em; display: inline-block;">
+  <p style="font-size: 16px;"><strong>参考</strong></p>
+  <p>
+  穿了 3 件 「和光同尘」(传奇) + 2 件 「和光同尘」(史诗) <br>
+  此时共生效 5 件 「和光同尘」套装：</p>
+  <p>
+  <span style="padding-left: 8px; border-left: 4px solid #FFDDBB;"></span>生效 <span style="color: #FFAA00">传奇</span> 两件套效果<br>
+  <span style="padding-left: 8px; border-left: 4px solid #C9ACC9;"></span>生效 <span style="color: #CC80CC">史诗</span> 四件套效果
+  </p>
+  </div>
+
+---
+
 #### 2026/04/26
 
 - 增加了在快捷栏上方提示消息的功能，即时性内容将更多地迁移至此，以避免消息污染。<br>
