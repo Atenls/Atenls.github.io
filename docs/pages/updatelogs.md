@@ -225,6 +225,12 @@
     box-shadow: 0 0 1px rgba(46, 22, 6, 0.1);
   }
 
+  .nowrap {
+    display: inline-block;
+    text-decoration: inherit;
+    white-space: nowrap;
+  }
+
   .highlight-purple {
     font-weight: 600;
     color: rgba(0,0,0,0.75);
@@ -271,6 +277,73 @@
 ---
 
 ## 2026 Apr.
+
+---
+
+#### 2026/04/30
+
+- 新增属性 `箭矢速度`<br>
+  该属性将影响射出箭矢的飞行速度，也将间接影响射出箭矢的射程。<br>
+  此前默认的 **3.0x** 下调至 **1.5x**，同时 1.5x 将作为新的 `100%` 数值。
+- 套装效果调整：<br>
+  <span style="color: #999; display: inline-block; max-width: 750px;">
+  本调整旨在削弱「铃音雪纷」套装同时出场的强度，<span class="nowrap">并增加其他顶级套装的强度，</span><span class="nowrap">以提升其他套装的出场机会，</span><span class="nowrap">避免毕业套装过于固定的情况。</span>
+  </span>
+
+  - <details>
+      <summary><strong>「铃音雪纷」</strong>(Christmas)</summary>
+
+    - <span style="display: inline-block; width: 2em;">[2]</span>全系伤害加成: -4%
+    - <span style="display: inline-block; width: 2em;">[3]</span>全系伤害加成: -4%
+    - <span style="display: inline-block; width: 2em;">[4]</span>全系伤害加成: -12%<br><span style="display: inline-block; width: 2em;"></span>移动速度: -25%
+
+    </details>
+  - <details>
+      <summary><strong>「弥赛亚」</strong>(Messiah)</summary>
+
+    - <span style="display: inline-block; width: 2em;">[2]</span>近战攻击: +8%
+    - <span style="display: inline-block; width: 2em;">[4]</span>近战攻击: +8%
+      <br><span style="display: inline-block; width: 2em;"></span>会心: +4 unit
+
+    </details>
+  - <details>
+      <summary><strong>「阿尔忒弥斯」</strong>(Artemis)</summary>
+
+    - <span style="display: inline-block; width: 2em;">[2]</span>箭矢攻击: +8%
+    - <span style="display: inline-block; width: 2em;">[4]</span>箭矢攻击: +8%
+      <br><span style="display: inline-block; width: 2em;"></span>箭矢速度: +40%
+
+    </details>
+  - <details>
+      <summary><strong>「梅林」</strong>(Merlin)</summary>
+
+    - <span style="display: inline-block; width: 2em;">[2]</span>魔法攻击: +8%
+    - <span style="display: inline-block; width: 2em;">[4]</span>魔法攻击: +8%
+      <br><span style="display: inline-block; width: 2em;"></span>魔法穿透: +5%
+
+    </details>
+  - <details>
+      <summary><strong>「天之子」</strong>(Uranus)</summary>
+
+    - <span style="display: inline-block; width: 2em;">[2]</span>全属性抗性: +2 unit
+    - <span style="display: inline-block; width: 2em;">[4]</span>全属性抗性: +2 unit
+
+    </details>
+  - <details>
+      <summary><strong>「逐梦者」</strong></summary>
+
+    - 传奇：
+      <br><span style="display: inline-block; width: 2em;">[2]</span>额外经验: +25%
+      <br><span style="display: inline-block; width: 2em;">[4]</span>额外经验: +25%
+
+    - 神话：
+      <br><span style="display: inline-block; width: 2em;">[2]</span>额外经验: +40%
+      <br><span style="display: inline-block; width: 2em;">[4]</span>额外经验: +40%
+      <br><span style="display: inline-block; width: 2em;"></span>全属性强化: +1 unit
+
+    </details>
+
+- 元素属性武器攻击命中声音现已将来源从 Master 更改为 Player，你可于声音设置中调整 [玩家] 栏内容以调整此音量大小。
 
 ---
 
