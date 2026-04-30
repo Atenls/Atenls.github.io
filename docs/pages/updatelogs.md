@@ -343,6 +343,9 @@
 
     </details>
 
+  <span style="padding-left: 8px; margin: 6px; border-left: 4px solid #ccc; color: #999; display: inline-block; max-width: 750px;">
+  套装效果所附带的数值之 unit 取决于<span class="nowrap" style="color: #606267; font-weight: 700;">生效套装的平均等级</span>
+
 - 元素属性武器攻击命中声音现已将来源从 Master 更改为 Player，你可于声音设置中调整 [玩家] 栏内容以调整此音量大小。
 
 ---
