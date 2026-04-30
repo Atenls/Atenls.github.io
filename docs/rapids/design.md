@@ -98,7 +98,7 @@
 <div style="display: flex; gap: 2em; flex-wrap: wrap;">
 <div class="element-container" style="width: 275px;">
 <p style="font-size: 18px; font-weight: 600; margin: 0; text-align: center;">基础属性</p>
-<p><span class="attrtag" style="--color: #008000">❤ 最大生命 #008000</span></p>
+<p><span class="attrtag" style="--color: #00aa00">❤ 最大生命 #00aa00</span></p>
 <p><span class="attrtag" style="--color: #60f060">❤ 生命恢复 #60f060</span></p>
 <p><span class="attrtag" style="--color: #b02020">🩸 生命偷取 #b02020</span></p>
 <p><span class="attrtag" style="--color: #9f289f">⚔ 灵魂攻击 #9f289f</span></p>
@@ -159,7 +159,7 @@
 <p><span class="attrtag" style="--bordercolor: #40DF40; --color: #65CF65">优秀 #40DF40 | #65CF65<span style="color: #ADCEAD;"> | #ADCEAD</span></span></p>
 <p><span class="attrtag" style="--bordercolor: #8090E0; --color: #80B0E0">卓越 #8090E0 | #80B0E0<span style="color: #AABBCC;"> | #AABBCC</span></span></p>
 <p><span class="attrtag" style="--bordercolor: #EE77EE; --color: #CC80CC">史诗 #EE77EE | #CC80CC<span style="color: #C9ACC9;"> | #C9ACC9</span></span></p>
-<p><span class="attrtag" style="--bordercolor: #FF6000; --color: #FFAA00">传奇 #FF8000 | #FFAA00<span style="color: #FFCC99;"> | #ffDDBB</span></span></p>
+<p><span class="attrtag" style="--bordercolor: #FF6000; --color: #FFAA00">传奇 #FF8000 | #FFAA00<span style="color: #FFCC99;"> | #FFDDBB</span></span></p>
 <p><span class="attrtag" style="--bordercolor: #FF4040; --color: #FF8080">神话 #FF4040 | #FF8080<span style="color: #FFB0B0;"> | #FFBBBB</span></span></p>
 </div>
 
