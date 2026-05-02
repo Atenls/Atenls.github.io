@@ -188,6 +188,40 @@
     font-family: 'Times New Roman';
   }
 
+  .inline-tips {
+    position: relative;
+    margin: 5px 7px;
+    padding: 1px 12px;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #999;
+    max-width: 750px;
+
+    &::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 5px;
+      height: 20px;
+      background: rgb(180, 180, 180);
+      border-radius: 4px;
+    }
+
+    &:hover::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 5px;
+      height: 20px;
+      background: rgb(146, 173, 230);
+      border-radius: 4px;
+    }
+  }
+
   .little-tips {
     max-width: 360px;
     padding: 1em;
@@ -280,6 +314,13 @@
 
 ---
 
+#### 2026/05/01
+
+- 「灵境」现已可以支持「代理指挥」
+- 你现可打造「多连发复合机械弓 Mark-III」
+
+---
+
 #### 2026/04/30
 
 - 新增属性 `箭矢速度`<br>
@@ -287,7 +328,7 @@
   此前默认的 **3.0x** 下调至 **1.5x**，同时 1.5x 将作为新的 `100%` 数值。
 - 套装效果调整：<br>
   <span style="color: #999; display: inline-block; max-width: 750px;">
-  本调整旨在削弱「铃音雪纷」套装同时出场的强度，<span class="nowrap">并增加其他顶级套装的强度，</span><span class="nowrap">以提升其他套装的出场机会，</span><span class="nowrap">避免毕业套装过于固定的情况。</span>
+  本调整旨在削弱「铃音雪纷」套装同时出场的强度，<span class="nowrap">并增加其他顶级套装的强度，</span><span class="nowrap">以提升其他套装的出场机会，</span><span class="nowrap">避免毕业套装过于固定的情况。同时，这也能鼓励玩家追求上限更高的 275% 铃音。</span>
   </span>
 
   - <details>
@@ -343,7 +384,7 @@
 
     </details>
 
-  <span style="padding-left: 8px; margin: 6px; border-left: 4px solid #ccc; color: #999; display: inline-block; max-width: 750px;">
+  <span class="inline-tips">
   套装效果所附带的数值之 unit 取决于<span class="nowrap" style="color: #606267; font-weight: 700;">生效套装的平均等级</span>
 
 - 元素属性武器攻击命中声音现已将来源从 Master 更改为 Player，你可于声音设置中调整 [玩家] 栏内容以调整此音量大小。
