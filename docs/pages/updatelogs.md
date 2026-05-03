@@ -259,6 +259,21 @@
     box-shadow: 0 0 1px rgba(46, 22, 6, 0.1);
   }
 
+  .number-block {
+    display: inline-block;
+    width: var(--width, 8em);
+    background: rgb(250, 252, 254);
+    box-shadow: 0 1px 2px rgba(11, 36, 87, 0.15);
+    border-radius: 6px;
+    padding: 0.5px 6px;
+    line-height: 1.33;
+    text-align: center;
+    font-size: 0.8rem;
+    font-family: 'Roboto Mono', Monaco, courier, monospace, 'CONSOLA';
+    font-weight: 500;
+    color: rgb(135, 115, 228);
+  }
+
   .nowrap {
     display: inline-block;
     text-decoration: inherit;
@@ -311,6 +326,35 @@
 ---
 
 ## 2026 Apr.
+
+---
+
+#### 2026/05/03
+
+- 将更多信息（如获得 dPe、LTD 等）修改为 `即时性消息`。<br>当你手持物品时，将在快捷栏上方显示即时性消息，它们快速、简洁、不停留。不会污染聊天栏。<br>如空手，则将回退至默认的聊天栏消息。
+- 优化了 `即时性消息` 的处理逻辑，增加了数据类聚合信息功能、新增了数据类缓冲区。
+- 调整了「BlackFate」全系列的属性：
+  - 修复了没有「地属性」「雷属性」的问题
+  - `Fortuna`:
+    - **Extra dPe** 由 `400%` 提升至 `600%`<br> → **元素属性系数：**(+28.6%)
+      <br><span style="display: inline-block; width: 1.375em;"></span>- <span style="display: inline-block; width: 5em;">**属性强化:**</span>
+      <span class="number-block">0.51 ~ 6.3</span> → <span class="number-block">0.51 ~ 8.1</span> units 
+      <br><span style="display: inline-block; width: 1.375em;"></span>- <span style="display: inline-block; width: 5em;">**属性抗性:**</span>
+      <span class="number-block">1.75 ~ 10.5</span> → <span class="number-block">1.75 ~ 13.5</span> units
+  - `Beyond`:
+    - **Extra dPe** 由 `200%` 提升至 `300%`<br> → **元素属性系数：**(+33.3%)
+      <br><span style="display: inline-block; width: 1.375em;"></span>- <span style="display: inline-block; width: 5em;">**属性强化:**</span>
+      <span class="number-block">0.34 ~ 3.6</span> → <span class="number-block">0.34 ~ 4.8</span> units 
+      <br><span style="display: inline-block; width: 1.375em;"></span>- <span style="display: inline-block; width: 5em;">**属性抗性:**</span>
+      <span class="number-block">1 ~ 3</span> → <span class="number-block">1 ~ 4</span> units
+- 优化了记录功能。
+
+---
+
+#### 2026/05/02
+
+- 优化了击杀型悬赏任务的进度条样式。
+- Metaphysician 或以上月卡订阅者的新特权：<br>当击杀悬赏任务进度满后，将自动提交任务。
 
 ---
 
