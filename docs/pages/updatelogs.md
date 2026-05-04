@@ -329,6 +329,12 @@
 
 ---
 
+#### 2026/05/04
+
+- 优化了 `即时性消息` 在部分情况下显示会闪烁的问题。
+
+---
+
 #### 2026/05/03
 
 - 将更多信息（如获得 dPe、LTD 等）修改为 `即时性消息`。<br>当你手持物品时，将在快捷栏上方显示即时性消息，它们快速、简洁、不停留。不会污染聊天栏。<br>如空手，则将回退至默认的聊天栏消息。
@@ -347,6 +353,10 @@
       <span class="number-block">0.34 ~ 3.6</span> → <span class="number-block">0.34 ~ 4.8</span> units 
       <br><span style="display: inline-block; width: 1.375em;"></span>- <span style="display: inline-block; width: 5em;">**属性抗性:**</span>
       <span class="number-block">1 ~ 3</span> → <span class="number-block">1 ~ 4</span> units
+  - `Common`:
+    - **元素属性系数：**
+      <br>- <span style="display: inline-block; width: 5em;">**属性强化:**</span>
+      <span class="number-block">75 ~ 275</span> (Fixed) → <span class="number-block">1 ~ 1.57</span> units
 - 优化了记录功能。
 
 ---
