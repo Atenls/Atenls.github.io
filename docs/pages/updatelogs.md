@@ -337,7 +337,7 @@
   <div>
     <p><strong>交易所</strong></p>
     <p style="color:#aaa; font-size: 13px; line-height: 1.35;">
-    全新的交易所系统现正公开测试中!<br>
+    全新的交易所系统现正公开测试中! 支持 LT 交易！<br>
     你可以创建自己的买单/卖单，订单将被聚合显示并智能处理。<br>
     你现已可于 <span style="color:#707376;">「天泽港」</span> 进行体验。
     </p>
