@@ -329,6 +329,23 @@
 
 ---
 
+#### 2026/05/07
+
+
+<div class="little-tips little-tips-blue" style="max-width: 450px;">
+  <div style="font-size:24px;">💰</div>
+  <div>
+    <p><strong>交易所</strong></p>
+    <p style="color:#aaa; font-size: 13px; line-height: 1.35;">
+    全新的交易所系统现正公开测试中!<br>
+    你可以创建自己的买单/卖单，订单将被聚合显示并智能处理。<br>
+    你现已可于 <span style="color:#707376;">「天泽港」</span> 进行体验。
+    </p>
+  </div>
+</div>
+
+---
+
 #### 2026/05/05
 
 - 部分物品获取也将通过 `即时性消息` 显示。
