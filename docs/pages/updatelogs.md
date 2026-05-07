@@ -332,14 +332,18 @@
 #### 2026/05/07
 
 
-<div class="little-tips little-tips-blue" style="max-width: 450px;">
-  <div style="font-size:24px;">💰</div>
+<div class="little-tips little-tips-blue" style="max-width: 440px;">
+  <div style="font-size:32px;">💰</div>
   <div>
     <p><strong>交易所</strong></p>
     <p style="color:#aaa; font-size: 13px; line-height: 1.35;">
     全新的交易所系统现正公开测试中! 支持 LT 交易！<br>
     你可以创建自己的买单/卖单，订单将被聚合显示并智能处理。<br>
     你现已可于 <span style="color:#707376;">「天泽港」</span> 进行体验。
+    </p>
+    <p style="display: inline-block; color: #3663a7; font-size: 13px; line-height: 1.35; border-radius: 10px; padding: 5px; margin: 5px -5px 0 -5px; background: rgba(75, 103, 134, 0.1);">
+    <span style="display: inline-block; width: 1.75em;">🔎</span><strong>找寻 BUG 悬赏中</strong><br>
+    </span>常规问题，给予 2 ~ 8 <span class="item-name-tag" style="color: var(--quality-color-legendary)">LT</span> | <span style="color: #184992; font-weight: 700;">重大问题</span>，给予 8 ~ 32 <span class="item-name-tag" style="color: var(--quality-color-legendary)">LT</span>
     </p>
   </div>
 </div>
