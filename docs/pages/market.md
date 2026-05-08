@@ -161,16 +161,50 @@
   }
 
   .markdown-section img:not([width]):not([style]) {
-    max-width: 600px;
+    max-width: 500px;
     height: auto;
-    max-height: 400px;
-    border-radius: 8px;
-    box-shadow: 0 0 4px rgba(0,0,0,0.25);
+    max-height: 500px;
+    border-radius: 1em;
+    box-shadow: 0 0 6px rgba(0,0,0,0.25);
     overflow: hidden;
   }
 
   .markdown-section h4 {
-    margin: 0.6rem 0;
+    margin: 0.6em 0;
+  }
+
+  .markdown-section table {
+    margin: 0.75em 0;
+    border-radius: 1em;
+    border: 1px solid rgb(221,221,221);
+    width: fit-content;
+
+    thead,
+    tbody {
+        border: none;
+
+        tr {
+            border: none;
+
+            td {
+                border-left: none;
+                border-right: none;
+            }
+
+            td:nth-last-child(-n+2) {
+                border-bottom: none;
+            }
+
+            th {
+                border: none;
+                padding: 0.5em 5em;
+
+                td {
+                    border: none;
+                }
+            }
+        }
+    }
   }
 
   .markdown-section figure, .markdown-section p {
@@ -253,14 +287,36 @@
     );
   }
 
+  .highlight-summary {
+    transform-origin: left center;
+    transition: transform 0.25s ease, opacity 0.25s ease;
+    color: #404248; 
+    font-weight: 700; 
+    margin-top: 0.5em;
+    padding: 0.5em 1em;
+    border-radius: 1em;
+    font-size: 18px; 
+    box-shadow: 0 1px 1px rgba(0,0,0,0.15); 
+    display: inline-block;
+  }
+
   details[open] {
     margin: 0 -1em;
-    transition: margin 0.25s ease-in-out;
+    transition: margin 0.75s ease, opacity 0.5s ease;
     background: rgba(200, 199, 224, 0.2);
     box-shadow: 0 0 8px rgba(0,0,0,0.25);
-    padding: 0.5em 1.5em;
+    padding: 0.75em 1.5em;
     border-radius: 2em;
-    display: inline-block;
+    display: block;
+    width: fit-content;
+
+    .highlight-summary {
+        padding-top: 0.5em;
+        transform: scale(0.8);
+        opacity: 0;
+        box-shadow: none; 
+        display: contents;
+    }
   }
 
   details {
@@ -309,6 +365,7 @@ DPMarket 是服务器的交易所 / 环球市场。<br>
 ---
 
 ## 材料市场
+
 材料市场用以交易标准材料，你可以在 `/dpitem` 来查看所有材料。
 
 材料市场不是普通商店，而是类似订单市场：
@@ -321,6 +378,12 @@ DPMarket 是服务器的交易所 / 环球市场。<br>
 进入材料市场后，点击某个材料，会进入该材料的详情页。
 
 <img src="/pages/dp_img/market_materials.png" loading="lazy"></img>
+
+
+买单 / 卖单 在材料信息中为了方便视觉识别，遵从国际惯例配色，即：
+
+- 主动买单：<span style="color: red;">红色</span>
+- 主动卖单：<span style="color: green;">绿色</span>
 
 
 ### 材料详情页
@@ -382,8 +445,10 @@ DPMarket 是服务器的交易所 / 环球市场。<br>
 
 <img src="/pages/dp_img/market_emptyslot.png" loading="lazy"></img>
 
+<p style="display: inline-block;"> </p>
+
 <details>
-<summary style="color: #404248; font-weight: 700; margin-top: 0.5em;">详细图例</summary>
+<summary><span class="highlight-summary">点击查看详细图例</span></summary>
 
 - **设置数量**:<br><img src="/pages/dp_img/market_createorder_setamount.png" loading="lazy"></img>
 - **设置价格**:<br><img src="/pages/dp_img/market_createorder_setprice.png" loading="lazy"></img>
@@ -417,6 +482,9 @@ color: #4b4b50; padding: 0.5em 1em; margin: 1em -0.5em; font-weight: 500;
 </p>
 
 图例参考 同 **创建材料买单**。
+
+创建材料卖单**支持使用 QS 库存**。如你的 QS 库存充足，则将直接于 QS 库存中扣除卖单指定数量。<br>
+如部分充足，且能与背包中的剩余数量满足创建卖单需求，则将混合扣除卖单指定数量。
 
 ---
 
@@ -480,6 +548,24 @@ color: #4b4b50; padding: 0.5em 1em; margin: 1em -0.5em; font-weight: 500;
 - 进行中：点击可取消订单并退回剩余内容。<br><img src="/pages/dp_img/market_trade_trading.png" loading="lazy"></img>
 - 可领取：点击领取成交内容、收益或退还物。<br><img src="/pages/dp_img/market_trade_done.png" loading="lazy"></img>
 
+---
+
+### 交易栏位
+
+交易栏位决定了你在同一时间可以进行多少个交易，交易栏位默认为 9 个。<br>
+通过 `月卡` 或 `Rank` 可以提高交易栏位的数量。它们不会重叠生效，而是择更高者生效。
+
+|权益| 栏位数量 |
+|:--:|:--:|
+|||
+| Noctambulist  | 18 |
+| Metaphysician | 27 |
+| Spiritualist  | 36 |
+|||
+| MVP 及以上     | 18 |
+| Ruler 及以上   | 27 |
+
+
 
 ---
 
@@ -493,6 +579,7 @@ color: #4b4b50; padding: 0.5em 1em; margin: 1em -0.5em; font-weight: 500;
 - 交易过程中出现重复领取或刷物品。
 
 然后点击带有“可领取”的项目。<br>
+如果 QS 空间充足，物品将直接进入 QS 中，且没有额外提示。如果 QS 空间不足，则尝试进入背包中。<br>
 如果背包空间不足，领取会失败，记录会保留。清理背包后再领取即可。
 
 ## 货币说明
