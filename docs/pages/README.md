@@ -35,6 +35,38 @@
   box-shadow: 0 6px 30px rgba(0, 0, 0, 0.4);
 }
 
+.button-banner { 
+  position: relative;
+  overflow: hidden;
+  background: white; 
+  color: #975ee2; 
+  font-weight: 600; 
+  border-radius: 16px; 
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+  gap: 8px;
+  padding: 8px 16px; 
+  display: flex; 
+  text-align: center; 
+  align-items: center;
+  
+  &:hover::before {
+    background: linear-gradient(135deg, oklch(0.7838 0.1381 275), oklch(0.6973 0.247 305));
+  }
+
+  &:hover {
+    color: #9748ff;
+    text-shadow: 0 0 1px rgba(0, 0, 0, 0.2); 
+  }
+}
+
+.button-banner:before {
+  content: "";
+  width: 16px; 
+  height: 16px; 
+  background: #975ee2; 
+  border-radius: 8px;
+ }
+
 @media (max-width: 960px) {
   .cards {
     flex-direction: row;
@@ -68,8 +100,7 @@
 <div class="cards-container">
 
 <div class="cards" style="padding-top: 20px; border-top: 1px solid #eee; ">
-  <div style="background: white; color: #975ee2; font-weight: 600; border-radius: 16px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); gap: 8px; padding: 8px 16px; display: flex; text-align: center; align-items: center;">
-    <div style="width: 16px; height: 16px; background: #975ee2; border-radius: 8px;"></div>
+  <div class="button-banner" style="">
     官方文档
   </div>
 </div>
@@ -82,13 +113,18 @@ Tempest 主线</a>
 <a href="#/pages/月卡" class="card" style="text-decoration: none; color: oklch(0.75 0.1773 57.18); text-shadow: 0 0 2px oklch(0.8867 0.1653 99.53); font-size: 24px; font-weight: bold;">
 月卡介绍</a>
 
+<a href="#/pages/market" class="card" style="text-decoration: none; color: transparent; background: linear-gradient(135deg, oklch(0.65 0.2 160), oklch(0.8 0.2 220)) text; text-shadow: 0 0 1px rgba(0,0,0,0.125); font-size: 24px; font-weight: bold;">
+交易所指南</a>
+
 <a href="#/pages/homeland" class="card" style="text-decoration: none; color: transparent; background: linear-gradient(135deg, oklch(0.65 0.2 180), oklch(0.8 0.2 270)) text; text-shadow: 0 0 1px rgba(0,0,0,0.125); font-size: 24px; font-weight: bold;">
 家园相关</a>
+
 <a href="#/pages/updatelogs" class="card" style="text-decoration: none; color: transparent; background: linear-gradient(135deg, oklch(0.6441 0.1949 301.76), oklch(0.6441 0.2417 0)) text; text-shadow: 0 0 1px rgba(0,0,0,0.125); font-size: 24px; font-weight: bold;">
 更新日志</a>
 
 <a href="#/pages/CONTRIBUTING" class="card" style="text-decoration: none; color: transparent; background: linear-gradient(135deg, oklch(0.7838 0.1381 120), oklch(0.6973 0.247 180)) text; text-shadow: 0 0 1px rgba(0,0,0,0.125); font-size: 24px; font-weight: bold;">
 如何为WIKI贡献?</a>
+
 <a href="#/pages/DESIGNCODE" class="card" style="text-decoration: none; color: transparent; background: linear-gradient(135deg, oklch(0.7838 0.1381 225), oklch(0.6973 0.247 335)) text; text-shadow: 0 0 1px rgba(0,0,0,0.125); font-size: 24px; font-weight: bold;">
 设计规范</a>
 
