@@ -21,20 +21,22 @@
 .skill-title {
   font-size: 1em; 
   text-shadow: 0 0 1px rgba(0,0,0,0.25); 
-  padding: 2px 10px;
+  padding: 0.25em 1em;
   margin: 20px 0; 
+  margin-left: -8px;
+  border-radius: 6px;
   color: rgb(48, 93, 170); 
-  background: #f9fbfc; 
+  background: linear-gradient(to right, #f6f9fc, transparent, transparent); 
   font-weight: 400;
   position: relative;
 
   &::before { 
     content: " ";
     position: absolute;
-    top: 4.5px;
-    left: 0px;
-    width: 5px; 
-    height: 17px; 
+    top: 16%;
+    left: 4px;
+    width: 6px; 
+    height: 20px; 
     border-radius: 8px;
     background: rgb(60, 110, 197)
   }
@@ -296,6 +298,24 @@ ul {
 <tr style="height: 10.00pt;">
 <td colspan="6"></td>
 </tr>
+</tr>
+<tr style="height: 22.5pt;">
+<td style="font-family: normal; font-size: 13pt; font-weight: 500;" rowspan="2">唤灵</td>
+<td rowspan="2">10/60</td>
+<td>Elfinbow (灵弓)</td>
+<td>48</td>
+<td>24</td>
+<td style="font-family: normal;">高强度光属性弓</td>
+</tr>
+<tr style="height: 22.5pt;">
+<td>唤灵箭袋</td>
+<td>48</td>
+<td>24</td>
+<td style="font-family: normal;">灵弓的辅助性副手</td>
+</tr>
+<tr style="height: 10.00pt;">
+<td colspan="6"></td>
+</tr>
 <tr style="height: 22.5pt;">
 <td style="font-family: normal; font-size: 13pt; font-weight: 500;" rowspan="4">通用</td>
 <td rowspan="4">/</td>
@@ -318,12 +338,13 @@ ul {
 </tbody>
 </table>
 </div>
+
 ### 补给箱装备技能详情
 
 部分补给箱装备提供了升级可能，通过拆解重复的装备或对等碎片可以用以消耗升级技能强度。
 
 
-<p style="font-size: 1em; text-shadow: 0 0 1px rgba(0,0,0,0.25); padding: 2px 10px; margin: 20px 0; border-left: 5px solid rgb(60, 110, 197); color: rgb(48, 93, 170); background: #f9fbfc;">界域引继者：横跨空间的界限</p>
+<p id="界域引继者" class="skill-title">界域引继者：横跨空间的界限</p>
 
 <span class="dptag">可升级</span><span class="dptag tag-green">位移</span><span class="dptag tag-purple">群攻</span>
 
@@ -451,7 +472,7 @@ ul {
 </table>
 </div>
 
-<h5 id="终境彼岸" style="font-size: 1em; text-shadow: 0 0 1px rgba(0,0,0,0.25); padding: 2px 10px; margin: 20px 0; border-left: 5px solid rgb(60, 110, 197); color: rgb(48, 93, 170); background: #f9fbfc; font-weight: 400;">终境彼岸： 于时间的间隙向过往回望</h5>
+<h5 id="终境彼岸" class="skill-title">终境彼岸： 于时间的间隙向过往回望</h5>
 
 <span class="dptag tag-purple">群攻</span>
 
@@ -506,7 +527,7 @@ ul {
 </table>
 </div>
 
-<h5 id="战争践踏" style="font-size: 1em; text-shadow: 0 0 1px rgba(0,0,0,0.25); padding: 2px 10px; margin: 20px 0; border-left: 5px solid rgb(60, 110, 197); color: rgb(48, 93, 170); background: #f9fbfc; font-weight: 400;">战争践踏</h5>
+<h5 id="战争践踏" class="skill-title">战争践踏</h5>
 
 <span class="dptag tag-green">位移</span><span class="dptag tag-purple">群攻</span><span class="dptag tag-pink-gold">增益</span>
 
@@ -535,7 +556,7 @@ ul {
 </table>
 </div>
 
-<h5 id="elfinbow" class="skill-title">幻灵如瞬</h5>
+<h5 id="elfinbow" class="skill-title">灵弓： 幻灵如瞬</h5>
 
 <span class="dptag tag-green">箭矢</span><span class="dptag tag-purple">群攻</span><span class="dptag tag-pink-gold">增益</span>
 
