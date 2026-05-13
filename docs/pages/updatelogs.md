@@ -330,6 +330,35 @@
 
 ---
 
+#### 2026/05/13
+
+<div class="little-tips little-tips-blue" style="display: block; max-width: 480px; color: #606873; border-radius: 1em;">
+<div style="display: flex; align-items: center; gap: 1em; background: rgba(177, 196, 223, 0.2); border-radius: 1em; padding: 0.5em; margin: -0.5em -0.5em 0.5em -0.5em;">
+<img src="/pages/dp_img/war_axe.png" loading="lazy" style="margin-left: 1em;"></img>
+<div>
+<p style="color: #343849; font-size: 1.125em; font-weight: 700;">重大变动</p>
+<p style="line-height: 1.5;">近战攻击现已转变为 <span style="color: #404959">「范围攻击」</span><br>
+攻击时，将对前方 <span class="quote-hl">4x2x4</span> 范围内最多 <span class="quote-hl">3</span> 个怪物造成伤害。
+</p>
+</div>
+</div>
+<div>
+<p style="color: #343849; font-size: 1em; font-weight: 500;">新的相关属性：</p>
+<p style="color: #343849;"><span style="display: inline-block; width: 1.375em;">1.</span><strong>近战攻击目标数</strong>: 整数 / 百分数 (默认 3)</p>
+<p><span style="display: inline-block; width: 1.375em;"></span>增加近战攻击的最大伤害目标，向下取整。</p>
+<p style="color: #343849;"><span style="display: inline-block; width: 1.375em;">2.</span><strong>近战攻击范围</strong>: 整数 / 百分数 (默认 2)</p>
+<p><span style="display: inline-block; width: 1.375em;"></span>增加近战攻击的攻击范围，数值为半径，对 Y 轴生效 50%。</p>
+</div>
+</div>
+
+- 新的补给箱：**「唤灵」**
+  - 新的武器 `Elfinbow` (灵弓) 及其配套副手 `唤灵箭袋`。
+  - 灵弓的配套技能 [唤灵如瞬](pages/supplybox?id=elfinbow) 广范围群攻、300% 移速加成，允许透支释放。
+  - 你现已可以在 `/supplybox` 购买。
+
+
+---
+
 #### 2026/05/11
 
 - 修复了部分情况下数据增加方法错误的问题。

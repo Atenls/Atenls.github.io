@@ -18,6 +18,32 @@
   font-weight: 500;
 }
 
+.skill-title {
+  font-size: 1em; 
+  text-shadow: 0 0 1px rgba(0,0,0,0.25); 
+  padding: 2px 10px;
+  margin: 20px 0; 
+  color: rgb(48, 93, 170); 
+  background: #f9fbfc; 
+  font-weight: 400;
+  position: relative;
+
+  &::before { 
+    content: " ";
+    position: absolute;
+    top: 4.5px;
+    left: 0px;
+    width: 5px; 
+    height: 17px; 
+    border-radius: 8px;
+    background: rgb(60, 110, 197)
+  }
+
+  &:hover::before {
+    background: rgb(95, 154, 255)
+  }
+}
+
 
 .table-container {
   overflow-x: auto;
@@ -506,4 +532,86 @@ ul {
 <td style="font-size: 1.25em" rowspan="6">7x3x7</td>
 <td style="font-size: 1.25em" rowspan="6">12</td>
 </tr>
+</table>
 </div>
+
+<h5 id="elfinbow" class="skill-title">幻灵如瞬</h5>
+
+<span class="dptag tag-green">箭矢</span><span class="dptag tag-purple">群攻</span><span class="dptag tag-pink-gold">增益</span>
+
+消耗 `ManaCost` × `CooldownDebt` 点法力。<br>
+给予自身 `300%` 移速加成（受上限限制），持续 `6.25s`。<br>
+随后，向前方射出 `5` 轮箭矢组，前 `4` 组每组别射出 `3` 次；第 `5` 组为 `5` 次。参考箭矢详情。<br>
+基准冷却时间为 `CD` 秒。硬性冷却时间为 `MinCD`，在已完成硬性冷却时间后，允许消耗额外的法力透支释放。<br>
+
+<div class="table-container">
+<table style="font-size: 12pt; width: 100%; max-width: 642px; font-family: YuGothicUI; text-align: center; vertical-align: middle; white-space: nowrap; padding: 8px 16px 24px; border-radius: 24px; border: 1px solid #ccc;">
+<tr style="height: 24.00pt; border-top: none; font-family: 微软雅黑;">
+<td style="width: 60pt; color: #172436; font-weight: 500; border: none;">CD</td>
+<td style="width: 10pt; border: none;" rowspan="10"></td>
+<td style="width: 60pt; color: #172436; font-weight: 500; border: none;">MinCD</td>
+<td style="width: 10pt; border: none;" rowspan="10"></td>
+<td style="width: 60pt; color: #172436; font-weight: 500; border: none;">ManaCost</td>
+<td style="width: 10pt; border: none;" rowspan="10"></td>
+<td style="width: 240pt; color: #172436; font-weight: 500; border: none;">CooldownDebt</td>
+</tr>
+<tr style="height: 90.00pt;">
+<td style="font-size: 1.25em" rowspan="6">40</td>
+<td style="font-size: 1.25em" rowspan="6">8</td>
+<td style="font-size: 1.25em" rowspan="6">40</td>
+<td style="font-size: 1.25em" rowspan="6">1.075 ^ 剩余时间</td>
+</tr>
+</table>
+</div>
+
+<div class="table-container">
+<table style="font-size: 12pt; width: 100%; max-width: 525px; font-family: YuGothicUI; text-align: center; vertical-align: middle; white-space: nowrap; padding: 8px 16px 24px; border-radius: 24px; border: 1px solid #ccc;">
+<tr style="height: 24.00pt; border-top: none; font-family: 微软雅黑;">
+<td style="width: 60pt; color: #172436; font-weight: 500; border: none;">组别</td>
+<td style="width: 10pt; border: none;" rowspan="10"></td>
+<td style="width: 60pt; color: #172436; font-weight: 500; border: none;">#1</td>
+<td style="width: 60pt; color: #172436; font-weight: 500; border: none;">#2</td>
+<td style="width: 60pt; color: #172436; font-weight: 500; border: none;">#3</td>
+<td style="width: 60pt; color: #172436; font-weight: 500; border: none;">#4</td>
+<td style="width: 60pt; color: #172436; font-weight: 500; border: none;">#5</td>
+</tr>
+<tr style="height: 24.00pt;">
+<td>1</td>
+<td>1</td>
+<td>2</td>
+<td>3</td>
+<td rowspan="4"></td>
+<td rowspan="4"></td>
+</tr>
+<tr style="height: 24.00pt;">
+<td>2</td>
+<td>2</td>
+<td>3</td>
+<td>4</td>
+</tr>
+<tr style="height: 24.00pt;">
+<td style="font-size: 1em">3</td>
+<td>3</td>
+<td>4</td>
+<td>5</td>
+</tr>
+<tr style="height: 24.00pt;">
+<td>4</td>
+<td>4</td>
+<td>5</td>
+<td>6</td>
+</tr>
+<tr style="height: 24.00pt;">
+<td>5</td>
+<td>5</td>
+<td>6</td>
+<td>7</td>
+<td>8</td>
+<td>9</td>
+</tr>
+</table>
+</div>
+
+---
+
+<div style="padding: 8em 1em; color: #ccc;">:)</div>
