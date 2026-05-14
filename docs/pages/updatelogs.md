@@ -330,6 +330,14 @@
 
 ---
 
+#### 2026/05/14
+
+- 现在，当 `Kc` 小于 0 时，仍能通过 `特殊补给箱兑换券` 购买补给箱。
+- 修复了「唤灵」补给箱没有正常遵照 #10/#60 规则保底的问题。
+
+
+---
+
 #### 2026/05/13
 
 <div class="little-tips little-tips-blue" style="display: block; max-width: 480px; color: #606873; border-radius: 1em;">
