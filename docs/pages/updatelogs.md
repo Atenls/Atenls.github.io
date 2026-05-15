@@ -17,6 +17,10 @@
     max-width: 1000px;
   }
 
+  .markdown-section code {
+    font-family: 'Inter', 'Roboto Mono', 'Monaco', 'courier', 'monospace';
+  }
+
   .redtext {
     color: #f84040; 
     font-weight: 600;
@@ -227,7 +231,7 @@
     padding: 1em;
     box-shadow: 0 0 4px #3f9c4380;
     background: #f8fffa;
-    border-radius: 6px;
+    border-radius: 1em;
     font-size: 14px;
     margin: 8px 0;
     display: flex;
@@ -297,6 +301,10 @@
   details[open] {
     margin: 0.5em 0;
     transition: margin 0.25s ease-in-out;
+    background: rgba(170, 177, 187, 0.07);
+    width: max-content;
+    border-radius: 0.5em;
+    padding: 0.25em 0.5em;
   }
 
   details {
@@ -334,6 +342,116 @@
 
 - 现在，当 `Kc` 小于 0 时，仍能通过 `特殊补给箱兑换券` 购买补给箱。
 - 修复了「唤灵」补给箱没有正常遵照 #10/#60 规则保底的问题。
+- **交易所**: 修复了 `百炼锭` 没有被正确识别为材料的问题。
+- **生命偷取** 计算的最大伤害不再高于怪物最大血量。
+- `泠风峡谷` <=> `晨曦港` 传送门已开通。
+- **DP Pay**:
+  - 不再支持 `Pe` 转账功能。由于 Pe 的特殊性及限制，不再支持玩家间的 Pe 转账。
+  - `dPe` 转账功能:
+    - 现已调整为由**转账方支付税额**。
+    - 最低税额：`320` → `500`。
+    - <details>
+      <summary>参考税额</summary>
+
+      - <span class="item-name-tag">PlayerA (Rank: 无)</span> 向 <span class="item-name-tag">PlayerB</span> 转账
+        - 转账数值: `10000` dPe
+        - 税额: `500` dPe (Rate: 5%)
+        - PlayerA 扣除 `10500` dPe / PlayerB 收到 `10000` dPe
+      - <span class="item-name-tag">PlayerA (Rank: 无)</span> 向 <span class="item-name-tag">PlayerB</span> 转账
+        - 转账数值: `1000` dPe
+        - 税额: ~50~ `500` dPe (Rate: 5% | 不满足最低税额)
+        - PlayerA 扣除 `1500` dPe / PlayerB 收到 `1000` dPe
+
+      </details>
+  - `Es` 转账功能现已开放，相关规则:
+    - 由**收款方支付税额**。
+    - 基准税率 `90%`。最低税额：`1000`。<br>`Rank` 每阶级减少 `1.5%`，该税率取决于**收款方** `Rank`。
+    - <details>
+      <summary>参考税额</summary>
+
+      - <span class="item-name-tag">PlayerA</span> 向 <span class="item-name-tag">PlayerB (Rank: 无)</span> 转账
+        - 转账数值: `10000` Es
+        - 税额: `9000` Es (Rate: 90%)
+        - PlayerA 扣除 `10.0K` Es / PlayerB 收到 `1.0K` Es
+      - <span class="item-name-tag">PlayerA</span> 向 <span class="item-name-tag">PlayerB (Rank: MVP)</span> 转账
+        - 转账数值: `10000` Es
+        - 税额: `8400` Es (Rate: 84%)
+        - PlayerA 扣除 `10.0K` Es / PlayerB 收到 `1.6K` Es
+
+      </details>
+
+  - `Kc` 转账功能现已不支持查看转账记录。
+
+- **「幽灵船」**: <br>新增难度选项
+  - **困难**：<br>
+    <span style="border-left: 4px solid #ddd; color: #ccc; padding-left: 10px; margin-left: 2px;">你必须在 05/15 后完成一次 Marvelous 评价，才能选择「困难」难度</span>
+    - <details>
+
+      <summary>数值相关：</summary>
+
+      - <details>
+        <summary>怪物属性：</summary>
+        
+        - 技能雷属性强化：`46875` → `57625`
+        - 雷属性强化：`37375` → `46875`
+        - 全属性抗性：`25750` → `38250`
+        - 灵魂攻击：`1170707` → `1756060`
+        - 生命值：`29291751` → `36614688`
+        - 技能基准伤害：`293332` → `366665`
+
+        </details>
+
+      - 死亡后造成雷属性攻击的概率：`8%` → `10%`
+      - 攻击造成雷属性攻击的概率：`30%` → `40%`
+      - 玩家受到的伤害增加 `25%`
+      - 玩家造成的攻击减少 `20%`
+
+      </details>
+    - 延长时间概率：`8%` → `10%` 
+    - 怪物刷新数量(期望)：`3.75` → `4` 
+    - 基准盒子掉率：`2.75%` → `3%`
+    - 评价奖励倍率：`1.5x`
+  - **挑战**：<br>
+    <span style="border-left: 4px solid #ddd; color: #ccc; padding-left: 10px; margin-left: 2px;">你必须在「困难」完成一次 Marvelous 评价，才能选择「挑战」难度</span>
+    - <details>
+
+      <summary>数值相关：</summary>
+
+      - <details>
+
+        <summary>怪物属性</summary>
+
+        - 技能雷属性强化：`46875` → `69375`
+        - 雷属性强化：`37375` → `57625`
+        - 全属性抗性：`25750` → `48250`
+        - 灵魂攻击：`1170707` → `2341414`
+        - 生命值：`29291751` → `45768360`
+        - 技能基准伤害：`293332` → `469331`
+        - 攻击造成雷属性攻击的概率：`30%` → `50%`
+        - 死亡后造成雷属性攻击的概率：`8%` → `12%`
+        - 死亡后叠加 `导电` 的概率：`50%` → `75%`
+
+        </details>
+
+      - 玩家受到的伤害增加 `50%`
+      - 玩家造成的攻击减少 `40%`
+      - 造成攻击会叠加 `2` 层 `导电`
+      - 每层 `导电` 降低玩家 `12.5%` 雷属性抗性，至低 `-100%`
+
+      </details>
+    - 延长时间概率：`8%` → `12%` 
+    - 怪物刷新数量(期望)：`3.75` → `4.5` 
+    - 基准盒子掉率：`2.75%` → `3.25%`
+    - 评价奖励倍率：`2x`
+  - **相关称号**：<br>通过 `/prefix d325` 以尝试佩戴
+    - <span class="item-name-tag" style="color: #ffaa00; background: #666;">不眠探索者</span> - 通关「普通」难度，并达成 Marvelous 评价。
+    - <span class="item-name-tag" style="color: #60ffff; background: #666;">不眠无畏者</span> - 通关「困难」难度，并达成 Marvelous 评价。
+    - <span class="item-name-tag" style="color: #ff6060; background: #666;">不眠征讨者</span> - 通关「挑战」难度，并达成 Marvelous 评价。
+- **「QS - 副本 / 代理指挥卡」**
+  - 更改了 Spiritualist 自动扫荡的设置逻辑，现在将不再支持同时设置多个 `体力副本`，而更改为互斥选项。
+  - 提前开放了「花园」的代理指挥功能。
+  - 「幽灵船」的预计开放时间提早至 `2026/06/01 04:25:00`。
+
 
 
 ---
@@ -359,6 +477,16 @@
 </div>
 </div>
 
+<div class="little-tips">
+  <div style="font-size:24px;">📦</div>
+  <div>
+    <p><strong>绘梦师专用材质包 v1.4.7</strong> @ 2026/05/13</p>
+    <p style="color:#aaa; font-size: 13px; line-height: 1.35;">新增「唤灵箭袋」贴图。<br>
+    你可于交流群或更新通知群内下载最新材质包。
+    </p>
+  </div>
+</div>
+
 - 新的补给箱：**「唤灵」**
   - 新的武器 `Elfinbow` (灵弓) 及其配套副手 `唤灵箭袋`。
   - 灵弓的配套技能 [唤灵如瞬](pages/supplybox?id=elfinbow) 广范围群攻、300% 移速加成，允许透支释放。
@@ -375,7 +503,7 @@
 
 #### 2026/05/10
 
-- **交易所**：「交易」中的待提取物品现已支持分批取出。
+- **交易所**: 「交易」中的待提取物品现已支持分批取出。
 - 修复了 `即时性消息` 在部分情况下会导致手持物品显示错误的问题。
 
 
