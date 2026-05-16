@@ -349,17 +349,29 @@
     - 死亡后造成雷属性攻击的概率：`10%` → `8%`
     - 怪物刷新数量(期望)：`4.25` → `4.375` 
     - 延长时间概率：`10%` → `11.25%` 
+    - 额外通关奖励：
+      - Extreme：`1000 unit` Pe
+      - Unparalleled：`1250 unit` Pe
+      - Marvelous：`1500 unit` Pe
 
   - 挑战：
     - 死亡后造成雷属性攻击的概率：`12%` → `10%`
     - 每层 `导电` 降低玩家 `12.5%` → `2.5%` 雷属性抗性，至低 `-100%` → `-50%`
     - 怪物刷新数量(期望)：`4.5` → `3.75` 
     - 延长时间概率：`12%` → `15%`
+    - 额外通关奖励：
+      - Extreme：`2000 unit` Pe
+      - Unparalleled：`2500 unit` Pe
+      - Marvelous：`3000 unit` Pe
 
   - 死魇「DeathMare」: <span style="color: #999;">(原「挑战」难度 | 限时开放至 `2026/05/31`)</span><br><span style="border-left: 4px solid #ddd; color: #ccc; padding-left: 10px; margin-left: 2px;">你必须在「挑战」完成一次 Marvelous 评价，才能选择「死魇」难度</span>
     - 基准盒子掉率 `3.5%`
     - 评价奖励 `3x`
     - 限定称号：<span class="item-name-tag" style="color: #AA00AA; background: #ddd;">梦魇破妄者</span> - 通关「死魇」难度，并达成 Marvelous 评价。
+    - 额外通关奖励：
+      - Extreme：`3000 unit` Pe
+      - Unparalleled：`3750 unit` Pe
+      - Marvelous：`4500 unit` Pe
 
 - 延后了 `RA` 登录检测的执行时间。    
 
