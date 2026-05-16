@@ -359,7 +359,8 @@
   - 死魇「DeathMare」: <span style="color: #999;">(原「挑战」难度 | 限时开放至 `2026/05/31`)</span><br><span style="border-left: 4px solid #ddd; color: #ccc; padding-left: 10px; margin-left: 2px;">你必须在「挑战」完成一次 Marvelous 评价，才能选择「死魇」难度</span>
     - 基准盒子掉率 `3.5%`
     - 评价奖励 `3x`
-    
+
+- 延后了 `RA` 登录检测的执行时间。    
 
 ---
 
