@@ -356,7 +356,7 @@
     - 怪物刷新数量(期望)：`4.5` → `3.75` 
     - 延长时间概率：`12%` → `15%`
 
-  - 死魇「DeathMare」: <span style="color: #999;">(新难度)<br>原「挑战」难度 | 限时开放至</span> `2026/05/31`<br><span style="border-left: 4px solid #ddd; color: #ccc; padding-left: 10px; margin-left: 2px;">你必须在「挑战」完成一次 Marvelous 评价，才能选择「挑战」难度</span>
+  - 死魇「DeathMare」: <span style="color: #999;">(原「挑战」难度 | 限时开放至 `2026/05/31`)</span><br><span style="border-left: 4px solid #ddd; color: #ccc; padding-left: 10px; margin-left: 2px;">你必须在「挑战」完成一次 Marvelous 评价，才能选择「死魇」难度</span>
     - 基准盒子掉率 `3.5%`
     - 评价奖励 `3x`
     
