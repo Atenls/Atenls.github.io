@@ -335,6 +335,71 @@
 
 ## 2026 May
 
+
+---
+
+#### 2026/05/20
+
+- **生命偷取**
+  - 作用间隔：`4s` → `3s`
+  - 新的相关词条 `生命偷取间隔` (百分数)<br>负数为增益效果，缩短生命偷取间隔；正数为减益效果、延长生命偷取间隔。
+
+---
+
+#### 2026/05/19
+
+<div class='bluebox'>
+<p style="font-size: 20px; font-weight: 800; padding: 10px;">Echoes of Summer Wind</p>
+<p style="line-height: 1.375; color: #3c547c8f; font-size: 14px;">新活动开放<br>
+你可通过击杀怪物、搜掠宝箱以收集 Echoes of Summer Wind<br>
+以兑换 <span class="highlight-purple">限定饰品</span> 或 源石、Pe 等资源<br>
+Echoes 基准掉率 4%；通过 RA 获得的 Echoes 将遵循线性倍率，活动初期 10% → 活动末期 100%；<br>无法通过 WE 扫荡获得 Echoes
+</span>
+</p>
+</div>
+
+<div class="little-tips little-tips-blue">
+  <div style="font-size:24px;">📜</div>
+  <div>
+    <p><strong>BattlePass <span style="font-family: CONSOLA;">S14</span></strong></p>
+    <p style="color:#aaa; font-size: 13px; line-height: 1.35;">持续时间: <span style="text-wrap: nowrap;">2026/05/19</span> - <span style="text-wrap: nowrap;">2026/07/19</span><br>
+    即刻参与日常、周常，收集 CA 并兑换全新的<span style="text-wrap: nowrap;">限定饰品 Stories</span> 吧!
+    </p>
+  </div>
+</div>
+
+- <details>
+    <summary><strong>「生命权柄」套装效果</strong></summary>
+
+  - 默认：
+    <br><span style="display: inline-block; width: 2em;">[2]</span>生命恢复: +0.5 unit
+    <br><span style="display: inline-block; width: 2em;">[4]</span>生命恢复: +0.5 unit
+
+  - 史诗：
+    <br><span style="display: inline-block; width: 2em;">[2]</span>生命恢复: +1 unit
+    <br><span style="display: inline-block; width: 2em;">[4]</span>生命恢复: +1.5 unit
+
+  - 传奇：
+    <br><span style="display: inline-block; width: 2em;">[2]</span>生命恢复: +2 unit
+    <br><span style="display: inline-block; width: 2em;">[4]</span>生命恢复: +2 unit
+
+  - 神话：
+    <br><span style="display: inline-block; width: 2em;">[2]</span>生命恢复: +2 unit
+    <br><span style="display: inline-block; width: 2em;">[4]</span>生命恢复: +3 unit
+
+  </details>
+
+- 修复了 DP Pay 使用 `Es` 转账时，个人余额判断错误的问题。
+- 修复了在购买 `BlackFate` 系列装备时，个人 `dPe` 过低会概率触发消耗异常的问题。
+
+---
+
+#### 2026/05/18
+
+- **梦巡书**：
+  - 基准经验：`200%` → `等级% + 200%`
+  - 使用间隔/持续时间：`20 mins` → `15 mins`
+
 ---
 
 #### 2026/05/16
@@ -350,7 +415,9 @@
     - 延长时间概率：`15%` → `16%`
     - 造成攻击会叠加 `2` → `1.5` 层 `导电`
   - 现在怪物刷新不再基于当前位置，而是基于 `2s` 前位置（上次刷怪窗口）。
-- **「交易所」** 现在支持按 `最低交易数量` 定价
+- **「交易所」** 
+  - 现在支持按 `最低交易数量` 定价。
+  - 现在交易时涉及 `QS` 的存取也将会有相关提示。
 
 ---
 
