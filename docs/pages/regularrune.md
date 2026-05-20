@@ -330,7 +330,7 @@
     <td style="font-size: 11pt; font-weight: 400;" colspan="5"></td>
     </tr>
     <tr style="height: 20.00pt;">
-    <td style="font-size: 16pt; font-family: 等线;" rowspan="4">血灵</td>
+    <td style="font-size: 16pt; font-family: 等线;" rowspan="6">血灵</td>
     <td>1</td>
     <td>2.5% 生命偷取</td>
     <td style="font-size: 12pt; font-family: Exo;">75</td>
@@ -343,12 +343,22 @@
     <tr style="height: 20.00pt;">
     <td>3</td>
     <td>7.5% 生命偷取</td>
-    <td style="font-family: Exo;">450</td>
+    <td style="font-family: Exo;">375</td>
     </tr>
     <tr style="height: 20.00pt;">
     <td>4</td>
-    <td>10.0% 生命偷取</td>
+    <td>12.5% 生命偷取</td>
     <td style="font-family: Exo;">750</td>
+    </tr>
+    <tr style="height: 20.00pt;">
+    <td>5</td>
+    <td>17.5% 生命偷取</td>
+    <td style="font-family: Exo;">1250</td>
+    </tr>
+    <tr style="height: 20.00pt;">
+    <td>6</td>
+    <td>22.5% 生命偷取</td>
+    <td style="font-family: Exo;">2250</td>
     </tr>
     <tr style="height: 10.00pt;">
     <td style="font-size: 11pt; font-weight: 400; font-style: normal;" colspan="5"></td>

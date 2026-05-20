@@ -4,7 +4,7 @@
 * [指令大全](pages/指令大全)
 * [(g1)生存指北](pages/g1)
 - [(g2)天泽岛引导](pages/g2)
-* [月卡](pages/月卡.md)
+* [赞助相关](pages/sponsor.md)
 * [Tempest](pages/tempest)
 * [交易所指南](pages/market)
 * [每日副本](pages/每日副本)

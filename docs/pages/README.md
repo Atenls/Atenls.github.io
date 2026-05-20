@@ -110,9 +110,6 @@
 <a href="#/pages/tempest" class="card" style="text-decoration: none; color: #322985ff; text-shadow: 0 0 1px rgba(0,0,0,0.25); font-size: 24px; font-weight: bold;">
 Tempest 主线</a>
 
-<a href="#/pages/月卡" class="card" style="text-decoration: none; color: oklch(0.75 0.1773 57.18); text-shadow: 0 0 2px oklch(0.8867 0.1653 99.53); font-size: 24px; font-weight: bold;">
-月卡介绍</a>
-
 <a href="#/pages/market" class="card" style="text-decoration: none; color: transparent; background: linear-gradient(135deg, oklch(0.65 0.2 160), oklch(0.8 0.2 220)) text; text-shadow: 0 0 1px rgba(0,0,0,0.125); font-size: 24px; font-weight: bold;">
 交易所指南</a>
 
@@ -131,15 +128,33 @@ Tempest 主线</a>
 <a href="#/pages/attr" class="card" style="text-decoration: none; color: #8560b6; text-shadow: 0 0 1px rgba(0,0,0,0.25); font-size: 24px; font-weight: bold;">
 属性与相关计算公式</a>
 
+</div>
+
+
+<div class="cards">
+  <div class="button-banner" style="">
+    赞助相关
+  </div>
+</div>
+
+<div class="cards">
+
+<a href="#/pages/sponsor" class="card" style="text-decoration: none; color: oklch(0.75 0.1773 0); text-shadow: 0 0 2px oklch(0.8867 0.1653 0); font-size: 24px; font-weight: bold;">
+所有增值服务</a>
+
+<a href="#/pages/月卡" class="card" style="text-decoration: none; color: oklch(0.75 0.1773 57.18); text-shadow: 0 0 2px oklch(0.8867 0.1653 99.53); font-size: 24px; font-weight: bold;">
+月卡介绍</a>
+
 <a href="#/pages/regularrune" class="card" style="text-decoration: none; color: #8560b6; text-shadow: 0 0 1px rgba(0,0,0,0.25); font-size: 24px; font-weight: bold;">
 制式符文</a>
 
 <a href="#/pages/supplybox" class="card" style="text-decoration: none; color: #8560b6; text-shadow: 0 0 1px rgba(0,0,0,0.25); font-size: 24px; font-weight: bold;">
 补给箱</a>
 
+
 </div>
 
-<div class="cards">
+<div class="cards" style="padding-top: 20px; border-top: 1px solid #eee; ">
 
 <div style="background: white; color: #6080b6; font-weight: 600; border-radius: 16px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); gap: 8px; padding: 8px 16px; display: flex; text-align: center; align-items: center;">
 <div style="width: 16px; height: 16px; background: #6080b6; border-radius: 8px;"></div>
