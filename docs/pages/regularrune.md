@@ -26,7 +26,7 @@
 所附价格均为 `Kc`<br>
 属性中所提到的非百分比或显然为固定数值的成长性属性，单位均为基准属性单位。(你可通过 /cal baseattr 查询)
 
-<p style="font-size: 1em; text-shadow: 0 0 1px rgba(0,0,0,0.25); padding: 2px 10px; margin: 20px 0; border-left: 5px solid rgb(60, 110, 197); color: rgb(48, 93, 170); background: #f9fbfc;">核心符文</p>
+<p id="核心符文" style="font-size: 1em; text-shadow: 0 0 1px rgba(0,0,0,0.25); padding: 2px 10px; margin: 20px 0; border-left: 5px solid rgb(60, 110, 197); color: rgb(48, 93, 170); background: #f9fbfc;">核心符文</p>
 
 <div class="table-container">
   <table style="border-collapse: collapse; overflow: hidden; width: 1000px; font-family: 等线; text-align: center; border-image: initial; vertical-align: middle; white-space: nowrap; margin: 5px; padding: 16px 16px 24px; border-radius: 24px; border: 1px solid #ccc;" cellspacing="0" cellpadding="0"><colgroup><col style="width: 120pt;" /> <col style="width: 10pt;" /> <col style="width: 75pt;" /> <col style="width: 10pt;" /> <col style="width: 60pt;" span="4" /> <col style="width: 45pt;" span="3" /> <col style="width: 10pt;" /> <col style="width: 60pt;" /></colgroup>
@@ -268,7 +268,7 @@
   </table>
 </div>
 
-<p style="font-size: 1em; text-shadow: 0 0 1px rgba(0,0,0,0.25); padding-left: 10px; margin: 20px 0; border-left: 5px solid rgb(60, 110, 197); color: rgb(48, 93, 170); background: #f9fbfc;">附属符文</p>
+<p id="附属符文" style="font-size: 1em; text-shadow: 0 0 1px rgba(0,0,0,0.25); padding-left: 10px; margin: 20px 0; border-left: 5px solid rgb(60, 110, 197); color: rgb(48, 93, 170); background: #f9fbfc;">附属符文</p>
 
 
 <div class="table-container">
@@ -330,7 +330,7 @@
     <td style="font-size: 11pt; font-weight: 400;" colspan="5"></td>
     </tr>
     <tr style="height: 20.00pt;">
-    <td style="font-size: 16pt; font-family: 等线;" rowspan="6">血灵</td>
+    <td style="font-size: 16pt; font-family: 等线;" id="血灵" rowspan="6">血灵</td>
     <td>1</td>
     <td>2.5% 生命偷取</td>
     <td style="font-size: 12pt; font-family: Exo;">75</td>
@@ -352,12 +352,12 @@
     </tr>
     <tr style="height: 20.00pt;">
     <td>5</td>
-    <td>17.5% 生命偷取</td>
+    <td>17.5% 生命偷取<br>-10% 生命偷取间隔</td>
     <td style="font-family: Exo;">1250</td>
     </tr>
     <tr style="height: 20.00pt;">
     <td>6</td>
-    <td>22.5% 生命偷取</td>
+    <td>22.5% 生命偷取<br>-20% 生命偷取间隔</td>
     <td style="font-family: Exo;">2250</td>
     </tr>
     <tr style="height: 10.00pt;">
@@ -414,22 +414,22 @@
     <tr style="height: 20.00pt;">
     <td style="font-size: 16pt; font-family: 等线;" rowspan="4">体术</td>
     <td>1</td>
-    <td>8 命中/柔韧/闪避</td>
+    <td>32 命中/柔韧/闪避</td>
     <td style="font-size: 12pt; font-family: Exo;">50</td>
     </tr>
     <tr style="height: 20.00pt;">
     <td>2</td>
-    <td>16 命中/柔韧/闪避</td>
+    <td>64 命中/柔韧/闪避</td>
     <td style="font-family: Exo;">100</td>
     </tr>
     <tr style="height: 20.00pt;">
     <td>3</td>
-    <td>24 命中/柔韧/闪避</td>
+    <td>96 命中/柔韧/闪避</td>
     <td style="font-family: Exo;">200</td>
     </tr>
     <tr style="height: 20.00pt;">
     <td>4</td>
-    <td>40 命中/柔韧/闪避</td>
+    <td>128 命中/柔韧/闪避</td>
     <td style="font-family: Exo;">400</td>
     </tr>
     <tr style="height: 10.00pt;">

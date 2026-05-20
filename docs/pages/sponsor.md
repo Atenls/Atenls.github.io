@@ -494,7 +494,7 @@ details {
 </a>
 
 <a href="#/pages/regularrune" class="card acards">
-<div class="card-title" style="background: linear-gradient(135deg, oklch(0.7941 0.1135 224.47), oklch(0.6294 0.1973 308.12))">符文</div>
+<div class="card-title" style="background: linear-gradient(135deg, oklch(0.7941 0.1135 210), oklch(0.6294 0.1973 335))">符文</div>
 <div class="card-body">
 <div class="card-copy">
 制式符文是一类可通过 <strong>Kc</strong> 购买的属性强化道具。<br>它们拥有固定搭配，可独立提供额外属性，也可通过核心符文与附属符文的组合进一步整理符文位。
@@ -504,7 +504,7 @@ details {
 </a>
 
 <a href="#/pages/supplybox" class="card acards">
-<div class="card-title" style="background: linear-gradient(135deg, oklch(0.62 0.16 225), oklch(0.78 0.17 150))">补给箱</div>
+<div class="card-title" style="background: linear-gradient(135deg, oklch(0.62 0.16 225), oklch(0.78 0.17 135))">补给箱</div>
 <div class="card-body">
 <div class="card-copy">
 补给箱是一类使用后可立即获得资源的消耗性道具。<br>通常分为 <strong>装备型补给箱</strong> 与 <strong>抽奖型补给箱</strong>，可用于获取指定装备、材料或奖池中的高价值奖品。
