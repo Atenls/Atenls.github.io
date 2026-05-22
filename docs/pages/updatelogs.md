@@ -338,12 +338,24 @@
 
 ---
 
+#### 2026/05/22
+
+- 现在可以通过指令 `/status sets` 查询当前的套装效果
+- 王老吉现已支持读取 `%i` 展示的物品名。
+
+---
+
 #### 2026/05/21
 
 - **技能「复生·归于终焉的虚无」**相关更新：<br>今日后，技能含 「复生·归于终焉的虚无」 之武器需联系 Atenls 进行更新。
   - 射线攻击类型现已转为 `魔法攻击`
   - 修复了部分情况下攻击怪物无法命中的情况。然而，怪物在系统的攻击冷却保护期间仍然无法被攻击。
-
+- 减少了数据处理的传递、降低了转译损失。
+- **BlackFate「Fortuna」** 价格调整：
+  - `dPe` 系数 <span class="item-name-tag" style="color: #ff1f1f;">+50%</span><br>
+  <span class="inline-tips" style="font-size: 14px;">参考：332800 → 499200 (Lv.375)</span>
+  - `AP` 系数 <span class="item-name-tag" style="color: #40bb60;">-37.5%</span><br>
+  <span class="inline-tips" style="font-size: 14px;">参考：448 → 280 (Lv.375)</span>
 
 ---
 
