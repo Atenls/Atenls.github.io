@@ -397,7 +397,7 @@
 <p style="font-size: 24px; font-weight: 800; padding: 10px;">Echoes of Summer Wind</p>
 <p style="line-height: 1.375; color: #3c547c8f; font-size: 14px; 
 background: rgba(160,160,168,0.083); border-radius: 1em; padding: 0.5em 2em;
-width: max-content; margin: -0.5em auto;">新活动开放<br>
+width: fit-content; margin: -0.5em auto; auto-warp:">新活动开放<br>
 你可通过击杀怪物、搜掠宝箱以收集 Echoes of Summer Wind<br>
 以兑换 <span class="highlight-purple">限定饰品</span> 或 源石、Pe 等资源<br>
 Echoes 基准掉率 4%；通过 RA 获得的 Echoes 将遵循线性倍率，活动初期 10% → 活动末期 100%；<br>无法通过 WE 扫荡获得 Echoes
