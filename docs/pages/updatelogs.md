@@ -337,6 +337,31 @@
 
 ---
 
+#### 2026/05/25
+
+<div class="little-tips little-tips-blue" style="max-width: 375px;">
+  <div style="font-size:24px;">⛏️</div>
+  <div>
+    <p><strong>挖矿系统更新</strong></p>
+    <p style="color:#aaa; font-size: 13px; line-height: 1.35;">
+    全新世界范围挖矿系统现已登场。现已公开测试。<br>
+    更多详细内容请待后续更新。
+    </p>
+  </div>
+</div>
+
+- 现在，`Resurgence AHSC` 在离线或不处于家园时，也将以较低的速率收集通常性物资（Token/dPe/WE）
+- 你现可解锁 `生命之水` 配方图谱，并于炼制锅制作。
+
+---
+
+#### 2026/05/24
+
+- `Illusive Portal` 的界面增加了 `HM` 的分类。
+- 修复了 `灵魂香水` 无法被高阶 BP Pass 加速的问题。
+
+---
+
 #### 2026/05/23
 
 - 修复了「天之子」套装效果未正常生效的问题。
