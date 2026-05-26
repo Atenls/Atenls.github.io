@@ -237,15 +237,23 @@
     display: flex;
     gap: 1em;
     align-items: center;
+
+    &.red {
+      box-shadow: 0 0 4px #ca6a6aa0;
+      color: #534444;
+      background: #fff7f8;
+    }
   }
 
   .little-tips-blue {
     box-shadow: 0 0 4px #5d8cb6a0;
+    color: #2c4255;
     background: #f7fcff;
   }
   
   .little-tips-purple {
     box-shadow: 0 0 4px #a45db6a0;
+    color: #5e3f66;
     background: #fef7ff;
   }
   .little-tips-pink {
@@ -334,6 +342,14 @@
 ---
 
 ## 2026 May
+
+---
+
+#### 2026/05/26
+
+- 现已推出 `Untamed Echoes`，售价 1024x <span class="item-name-tag">Echoes</span>，限购 20x。<br>
+在购买后，于背包内拖拽此物品并点击 `Summer Wind` 系列饰品，即可轮换对应饰品的元素属性。<br>
+轮换顺序：光 → 暗 → 火 → 冰 → 雷 → 地 → 光 → ...
 
 ---
 
