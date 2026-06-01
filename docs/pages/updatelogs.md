@@ -196,7 +196,7 @@
     position: relative;
     margin: 5px 7px;
     padding: 1px 12px;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 1.5;
     color: #999;
     max-width: 750px;
@@ -225,7 +225,7 @@
     box-shadow: 0 0 4px #3f9c4380;
     background: #f8fffa;
     border-radius: 1em;
-    font-size: 14px;
+    font-size: 14.25px;
     margin: 8px 0;
     display: flex;
     gap: 1em;
@@ -341,7 +341,9 @@
 #### 2026/06/01
 
 - 你现可使用 `代理指挥` 功能通关「幽灵船」
-- <span class="item-name-tag">Spiritualist</span> 新功能：<br>自动尝试食用上次食用的**回复 PS 食物**。默认开启。
+- <span class="item-name-tag">Spiritualist</span> 新功能：
+  - 自动尝试食用上次食用的**回复 PS 食物**。默认开启。
+- 现在，在自动合成 `LT` 时，如数量满足合成 `LTB`，也将自动合成 `LTB`。
 
 
 ---
