@@ -205,7 +205,7 @@
       content: "";
       position: absolute;
       left: 0;
-      top: 50%;
+      top: 11px;
       transform: translateY(-50%);
       width: 5px;
       height: 20px;
@@ -215,14 +215,7 @@
 
     &:hover::before {
       content: "";
-      position: absolute;
-      left: 0;
-      top: 50%;
-      transform: translateY(-50%);
-      width: 5px;
-      height: 20px;
       background: rgb(146, 173, 230);
-      border-radius: 4px;
     }
   }
 
@@ -341,7 +334,42 @@
 
 ---
 
+## 2026 Jun.
+
+---
+
+#### 2026/06/01
+
+- 你现可使用 `代理指挥` 功能通关「幽灵船」
+- <span class="item-name-tag">Spiritualist</span> 新功能：<br>自动尝试食用上次食用的**回复 PS 食物**。默认开启。
+
+
+---
+
 ## 2026 May
+
+---
+
+#### 2026/05/31
+
+- 视距范围限制从 `4` Chunk 提升至 `6` Chunk 。<br><span class="inline-tips">受近日多个优化内容影响，服务器能耗下降，因此尝试释放更多资源用以加载美丽的DP世界。</span>
+- 属性计算使用了更完备的装备快照缓存机制，提升了性能。
+- 优化了施法链路的逻辑，减少了无用的重复判定。
+
+---
+
+#### 2026/05/30
+
+<div class="little-tips green">
+  <img src="/pages/dp_img/event_summer_echoes.png" width="48px" loading="lazy"></img>
+  <div>
+    <p><strong><span style="font-family: CONSOLA;">Echoes of Summer Wind</span></strong> 已结束</p>
+    <p style="color:#aaa; font-size: 13px; line-height: 1.35;">你仍可在 <span style="text-wrap: nowrap;">2026/06/05</span> 之前兑换饰品或限定物资。但无法再从常规途径获得 Echoes 。
+    </p>
+  </div>
+</div>
+
+- 优化了 `DPMiner 2` 的控制器、会话管理、镐子属性加载等方面逻辑。运行效率提升 `670%`。
 
 ---
 
@@ -356,7 +384,7 @@
 - 修复了部分情况下尝试打开含实时计算装备属性的界面时，会无法打开的问题。
 - 重写了属性加载方法，超大幅降低了能耗 （`~27ms` → `0.25ms`）。
   - 修复了部分情况下临时属性没有正常刷新的问题。
-- 重写了家园的调度方法，大幅降低了能耗 （`~4ms` → `0.07ms`）。
+- 重写了家园作物的调度方法，大幅降低了能耗 （`~4ms` → `0.07ms`）。
 - 重写了部分脚本解释器，大幅降低了能耗。
 
 ---
