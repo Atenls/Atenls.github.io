@@ -340,9 +340,8 @@
 
 #### 2026/06/02
 
-<span style="background: rgba(160, 160, 180, 0.13); color: #141922; font-weight: 600; border-radius: 0.5em; padding: 4px 8px;">[04:25] 重启后更新</span>
-
 - 修复因施法逻辑调整导致**法杖在副手时会出现部分异常**的问题。
+- 不应进入 `材料QS` 的物品现在在获取时将不再自动进入 QS。
 
 ---
 
