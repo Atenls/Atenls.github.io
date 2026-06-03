@@ -16,7 +16,7 @@
     window.$docsify = {
       name: '',
       repo: '',
-      loadNavbar: true,
+      loadNavbar: false,
       loadSidebar: true,
       subMaxLevel: 3,
       homepage: '#/pages/README.md',
@@ -27,6 +27,9 @@
       routes: {
       '/:path': '/pages/:path'
       },
+      alias: {
+      '/.*/_sidebar.md': '/_sidebar.md'
+      }
     }
   </script>
   <!-- Docsify v4 -->
