@@ -483,13 +483,13 @@ details {
 
 <div class="cards" style="padding: 2em 0 ;">
 
-<a href="#/pages/月卡" class="card acards">
-<div class="card-title" style="background: linear-gradient(135deg, oklch(0.7 0.18 300), oklch(0.85 0.2 60))">月卡</div>
+<a href="#/pages/订阅制服务" class="card acards">
+<div class="card-title" style="background: linear-gradient(135deg, oklch(0.7 0.18 300), oklch(0.85 0.2 60))">订阅制服务</div>
 <div class="card-body">
 <div class="card-copy">
-月卡是我们提供的一种 <strong>订阅制服务</strong>。<br>通过订阅月卡，你可以在期限内获得额外的资源、便利功能，获得较佳的游戏体验。
+通过订阅制服务，你可以在期限内获得额外的资源、便利功能，获得较佳的游戏体验。
 </div>
-<div class="card-link">查看月卡介绍 ▶</div>
+<div class="card-link">查看订阅制服务介绍 ▶</div>
 </div>
 </a>
 
