@@ -636,3 +636,21 @@ ul {
 ---
 
 <div style="padding: 8em 1em; color: #ccc;">:)</div>
+
+
+---
+
+<div style="display: flex; align-items: center; justify-content: flex-end;">
+
+<a href="#/pages/sponsor" style="
+  padding: 0.75em 1em; 
+  box-shadow: 0 0 0.5em #ccc;
+  border-radius: 1em;
+  text-decoration: none;
+  color: transparent;
+  background: linear-gradient(135deg, #229ec4, #b237bd) text;
+  ">
+回到 「赞助相关」 ▶
+</a>
+
+</div>
