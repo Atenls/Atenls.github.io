@@ -312,6 +312,63 @@
 
 ---
 
+#### 2026/06/11
+
+- 将所有攻击类型抽离为单独的上下文并分别处理。
+- 调整了元素属性的强化逻辑。<br>
+  此前的旧逻辑在属性强化未达标准时，面对相应的怪物**绝对无法**破防，这使得一个阶段中对属强的依赖过高，并造成了不健康的等级压制。<br>
+  在本改动后，不仅消除了这一情况，也大幅减弱了高数值后的不同属性造成的数值差距。
+  <details>
+    <summary><strong>查看详情</strong></summary>
+    <div style="display: flex; align-items: stretch; margin: 0.75em 0;">
+    <div style="background: #99999f; border-radius: 1em 0 0 1em; width: 48px; min-height: 60px; color: white; display: flex; align-items: center; justify-content: center; font-weight: 800;">旧</div>
+
+    <div style="background: #cccccc40; border-radius: 0 1em 1em 0; color: #99999f; padding: 0.75em 1em; flex: 1;">
+
+    计算公式：`(属性强化_A - 属性抗性_B) / 1000`
+
+    即每 `1000` 属性强化提升 `100%` 属性攻击伤害。
+
+    如受击方属性抗性高于攻击方属性强化，则造成负数伤害。
+
+    |攻击方 `属性强化` |防御方 `属性抗性` |实际伤害增幅
+    |:-:|:-:|:-:|
+    | 1000  | 0        | +100%
+    | 1000  | 1000     | 0%
+    | 1000  | 2000     | -100% (无伤害)
+    | 1000  | 3000     | -200% (给目标回血)
+
+    </div>
+    </div>
+
+    <div style="display: flex; align-items: stretch; margin: 0.75em 0;">
+    <div style="background: rgb(114, 186, 214); border-radius: 1em 0 0 1em; width: 48px; min-height: 60px; color: white; display: flex; align-items: center; justify-content: center; font-weight: 800;">新</div>
+
+    <div style="background: #bdc7ce40; border-radius: 0 1em 1em 0; color: #717fa7; padding: 0.75em 1em; flex: 1;">
+
+    计算公式：`(属性强化_A - 属性抗性_B) / (1000 + 属性抗性_B)`
+
+    即所有属性强化提升的数值还将基于受击方属性抗性进行计算。
+
+    |攻击方 `属性强化` |防御方 `属性抗性` |实际伤害增幅
+    |:-:|:-:|:-:|
+    | 1000  | 0        | +100%
+    | 1000  | 1000     | 0%
+    | 1000  | 2000     | -33%
+    | 1000  | 3000     | -50%
+    | 10000 | 5000     | +83.33%
+    | 10000 | 15000    | -31.25%
+
+    </div>
+    </div>
+
+  </details>
+
+- 完成了部分基于新物品管理器的模板配置及随机项配置。
+- 完成了属性插件对通过新物品管理器生成物品的专项属性计算。
+
+---
+
 #### 2026/06/09
 
 - 合并了部分重复功能的模块。
