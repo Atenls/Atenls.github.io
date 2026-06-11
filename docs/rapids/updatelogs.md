@@ -321,6 +321,7 @@
   <img src="/rapids/rapids_img/updatelogs_dot.png" loading="lazy">
 
   - 由于 MC 原版没有较好的适用于DOT的表现形式，制作了专用的 Mod 以直观地显示 DOT 的状态及对应的持续时间、层数、跳伤时间及伤害。
+  - 更多信息披露，请期待后续更新的战斗系统专栏。
 
 ---
 
