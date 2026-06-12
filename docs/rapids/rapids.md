@@ -164,8 +164,9 @@ Rapids 目前暂且处于早期测试阶段，所有玩家通过申请准入。<
 ### 对于 DP 玩家
 
 所有 `DP4` 玩家在达到 `100` AccountValue 后，<br>
-可通过提交 `32LT` 押金以申请核实 `Rapids Alpha 测试资格`，在通过后，你将获准在 Alpha 测试期间进入 Rapids。<br>
-该押金将在测试期结束后退回。
+可通过游戏内途径提交申请核实 `Rapids Alpha 测试资格`，在通过后，你将获准在 Alpha 测试期间进入 Rapids。
+
+<span class="inline-tips">[06/13] 已移除无意义的押金需求</span>
 
 ### 对于其他玩家
 
