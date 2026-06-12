@@ -246,6 +246,22 @@
     border: 1px solid #67b171;
   }
 
+  .download-btn {
+    display: inline-block;
+    padding: 1px 6px;
+    border-radius: 6px;
+    background: #7090d0;
+    color: white;
+    text-shadow: 0 1px 1px rgba(49, 71, 104, 0.2);
+    text-decoration: none;
+    font-weight: 700;
+
+    &:hover {
+      background: #4579bd;
+      box-shadow: 0 1px 4px rgba(32, 51, 78, 0.2);
+    }
+  }
+
   .tag-refactor {
     background: #f8efff;
     margin: 2px 4px;
@@ -321,6 +337,7 @@
   <img src="/rapids/rapids_img/updatelogs_dot.png" loading="lazy">
 
   - 由于 MC 原版没有较好的适用于DOT的表现形式，制作了专用的 Mod 以直观地显示 DOT 的状态及对应的持续时间、层数、跳伤时间及伤害。
+    - <a class="download-btn" style="color: white;" href="/rapids/mod/dpdothelper-1.0.0.jar" download>点击以下载</a> `DP DOT 辅助显示 Mod` v1.0.0
   - 更多信息披露，请期待后续更新的战斗系统专栏。
 
 ---
