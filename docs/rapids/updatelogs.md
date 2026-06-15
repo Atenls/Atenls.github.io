@@ -75,106 +75,12 @@
 
   }
 
-  .tooltip {
-    position: relative;
-    cursor: pointer;
-  }
-
-  .tooltip .tooltip-text {
-    visibility: hidden;
-    padding: 8px;
-    border-radius: 10px;
-    position: absolute;
-    z-index: 1;
-    opacity: 0;
-    transition: opacity 0.35s;
-    text-shadow: 0.5px 0.5px 1px rgba(0, 0, 0, 0.25);
-  }
-
-  .tooltip-top .tooltip-text {
-    bottom: 50%;
-    left: 50%;
-    transform: translateX(-50%);
-    font-size: 48px;
-  }
-
-  .tooltip-top .tooltip-text::after {
-    top: 100%;
-    left: 50%;
-    transform: translateX(-50%);
-    border-color: white transparent transparent transparent;
-  }
-
-  .tooltip:hover .tooltip-text {
-    visibility: visible;
-    color: #555;
-    opacity: 1;
-  }
-
-  .redbox {
-    background: #fdf4f4;
-    color: #85553e;
-    box-shadow: 0 0 6px #441313a0;
-    border-radius: 18px;
-    font-size: 20px;
-    font-weight: 600;
+  .markdown-section h1 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    text-shadow: 0 0 1px rgba(0,0,0,0.25);
     text-align: center;
-    padding: 20px;
-    margin: 0px;
-  }
-
-  .greenbox {
-    background: #f4fdf7;
-    color: #3e854f;
-    border: 1px solid #40924e;
-    border-radius: 18px;
-    font-size: 20px;
-    font-weight: 600;
-    text-align: center;
-    padding: 20px;
-    margin: 0px;
-  }
-
-  .bluebox {
-    background: #f2faff;
-    color: #466fa1;
-    border: 1px solid #5b9abe;
-    border-radius: 18px;
-    font-size: 20px;
-    font-weight: 600;
-    text-align: center;
-    padding: 20px;
-    margin: 0px;
-  }
-
-  .yellowbox {
-    background: #fff9f1;
-    color: #c5985c;
-    border: 1px solid #cfae8f;
-    border-radius: 18px;
-    font-size: 20px;
-    font-weight: 600;
-    text-align: center;
-    padding: 20px;
-    margin: 0px;
-  }
-
-  .quote-hl {
-    display: inline-block;
-    background-color:rgb(248, 248, 248);
-    color:rgb(240, 25, 211);
-    border-radius: 3px;
-    margin: 3px;
-    padding: 0px 3px;
-  }
-
-  .markdown-section img:not([width]):not([style]) {
-    max-width: 600px;
-    height: auto;
-    max-height: 400px;
-    border-radius: 8px;
-    box-shadow: 0 0 4px rgba(0,0,0,0.25);
-    overflow: hidden;
+    font-family: 'Times New Roman';
   }
 
   .markdown-section h2 {
@@ -187,41 +93,6 @@
 
   .markdown-section h4 {
     margin: 0.6rem 0;
-  }
-
-  .markdown-section figure, .markdown-section p {
-    margin: 0;
-  }
-
-  .markdown-section h1 {
-    font-size: 2.5rem;
-    font-weight: 800;
-    text-shadow: 0 0 1px rgba(0,0,0,0.25);
-    text-align: center;
-    font-family: 'Times New Roman';
-  }
-
-  .little-tips {
-    max-width: 360px;
-    padding: 1em;
-    box-shadow: 0 0 4px #3f9c4380;
-    background: #f8fffa;
-    border-radius: 6px;
-    font-size: 14px;
-    margin: 8px 0;
-    display: flex;
-    gap: 1em;
-    align-items: center;
-  }
-
-  .little-tips-blue {
-    box-shadow: 0 0 4px #5d8cb6a0;
-    background: #f7fcff;
-  }
-  
-  .little-tips-purple {
-    box-shadow: 0 0 4px #a45db6a0;
-    background: #fef7ff;
   }
 
   .item-name-tag {
@@ -246,6 +117,18 @@
     border: 1px solid #67b171;
   }
 
+  .tag-refactor {
+    background: #f8efff;
+    margin: 2px 4px;
+    padding: 0px 3px;
+    border-radius: 3px;
+    color: #8a64a8;
+    font-weight: 600;
+    font-size: 14px;
+    align-items: center;
+    border: 1px solid #9067b1;
+  }
+
   .download-btn {
     display: inline-block;
     padding: 1px 6px;
@@ -261,53 +144,7 @@
       box-shadow: 0 1px 4px rgba(32, 51, 78, 0.2);
     }
   }
-
-  .tag-refactor {
-    background: #f8efff;
-    margin: 2px 4px;
-    padding: 0px 3px;
-    border-radius: 3px;
-    color: #8a64a8;
-    font-weight: 600;
-    font-size: 14px;
-    align-items: center;
-    border: 1px solid #9067b1;
-  }
-
-  .sha {
-    font-size: 14px;
-    color: #aaa;
-  }
-
-  .highlight-purple {
-    font-weight: 600;
-    color: rgba(0,0,0,0.75);
-    padding: 0 4px;
-    border-radius: 20px 20px 10px 10px; 
-    background: linear-gradient(
-      to bottom, 
-      transparent, 
-      transparent 30%, 
-      rgba(228, 212, 248, 0.6) 50%, 
-      rgba(192, 180, 220, 0.5) 100%
-    );
-  }
-
-  details[open] {
-    margin: 0.5em 0;
-    transition: margin 0.25s ease-in-out;
-  }
-
-  details {
-    transition: margin 0.25s ease-in-out;
-  }
   
-  @media (max-width: 768px) {
-    .markdown-section img:not([width]):not([style]) {
-      width: 100%;
-      max-width: 400px;
-    }
-  }
 </style>
 
 # Update Logs
@@ -329,12 +166,19 @@
 
 ---
 
+#### 2026/06/16
+
+- `QS` 以更强大、更易用的方式加入 Rapids。<br>与 DP 不同的是，它将向所有玩家开放。
+- 新增了基于新 `ItemManager` 的独特物品存储功能。主要为 `武器`、`装备` 进行存储。
+
+
+---
+
 #### 2026/06/15
 
-
-<img src="/rapids/rapids_img/view/d01-preview.png" loading="lazy"></img>
-
 - 修复了材料仍会预算 seeds 导致不可堆叠的问题。
+
+  <img src="/rapids/rapids_img/view/d01-preview.png" loading="lazy"></img><br>
 - 完成了地图相关的部分工作。暂定每张地图分为四个难度/阶段：
   - `Foray` 初涉
   - `Glimpse` 见闻
