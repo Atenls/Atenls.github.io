@@ -39,6 +39,24 @@
 
 ---
 
+#### 2026/06/15
+
+<div class="little-tips green" style="max-width: 400px;">
+  <div style="font-size:24px;">🌿</div>
+  <div>
+    <p><strong>端午节活动</strong></p>
+    <p style="color:#aaa; font-size: 13px; line-height: 1.35;">持续时间: <span style="text-wrap: nowrap;">2026/06/15</span> - <span style="text-wrap: nowrap;">2026/06/25</span><br>
+    你现可通过击杀怪物、Boss 获得「粽子材料盒」，并制作、品尝粽子获得成就及对应称号。<br>
+    累计完成成就获取点数还可兑换 限定饰品 或 Kc !
+    </p>
+  </div>
+</div>
+
+- 修复了 `瓦利恩特 (FD)` Fast 模式不触发登场技能 `维度剥离` 的问题。并将出生伤害从 `98304` 更改为 `102400`。
+- 优化了 `瓦利恩特 (FD)` 的数据处理链路。
+
+---
+
 #### 2026/06/13
 
 - 修复了在某些情况下，含 `技艺书` 的怪物在较低的 `技艺书` 使用数量时掉率异常的问题。
