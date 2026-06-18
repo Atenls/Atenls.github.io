@@ -203,14 +203,17 @@
   - 完成了基本的 `宝箱` 配置与「峡谷 `Foray`」的放置。<br>宝箱将沿袭 DP 传统，位置将以刁钻难找为主要目标。
     <br><img src="/rapids/rapids_img/updatelogs/lootchest-preview.png" loading="lazy">
 - 查询属性指令独立为 `/info`，你现可以更快地查询实时怪物属性。对于玩家，更推荐通过 `/stats` 查询属性。
-- 新增了期望 `DPS` 概念，现在 `DOT` 的伤害系数将基于 `DPS` 来计算。
+- 新增了 `eDPS` 概念，现在 `DOT` 的伤害系数将基于 `eDPS` 来计算。
   <br>同时，当你处于战斗场景时，也可以在信息栏查看到到当前 `DPS`。
-  <br>但需要注意，该 `DPS` 仅基于 rawDmage 与 攻击速度/施法速度 进行的期望数值，不包含会心/命中/元素等后续判断。
+  - `eDPS` 仅基于 rawDmage 与 攻击速度/施法速度 进行的期望数值，不包含会心/命中/元素等后续判断。
+  - `rDPS` 为最近 `5s` 造成的秒均伤害。
 - 新增了 Rapids 独有的 `计分板` 实现。完成了基本的信息设置。
   <br><span class="inline-tips">注：此处 AP 并非 Achievement Points，而是 Action Points， 即 PS (体力值)。但 Alpha Test 暂且用不到。</span>
   <br><div style="display: flex; gap: 1em; flex-wrap: wrap;align-items: center;"><img src="/rapids/rapids_img/updatelogs/scoreboard-default.png" loading="lazy"><img src="/rapids/rapids_img/updatelogs/scoreboard-combat.png" loading="lazy"></div>
 - 完成了怪物击杀后的 `范围经验获取` 功能。暂定范围为 `12` 格。
 - 优化了部分系统间的互通信链路。
+- 现在，`强化` 所提升的属性将仅有 `三系攻击` `护甲` `生命值` 这类基础属性。副词条亦不参与提升。
+
 
 ---
 
