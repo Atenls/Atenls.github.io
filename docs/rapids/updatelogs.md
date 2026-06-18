@@ -166,6 +166,54 @@
 
 ---
 
+#### 2026/06/18
+
+- 完成了基本的数值曲线设计。
+- 完成了「峡谷 `Foray`」的怪物及相关刷新设计。
+  <details>
+    <summary><strong>怪物详情</strong></summary>
+
+    - <span class="item-name-tag" style="color: #60AA60">峡谷僵尸</span> `Common` | 刷新概率：`94.79%`
+      - 中等体型
+      - 移动速度 `125%` | 击退抗性 `60%`
+      - 攻击 `12` + `level * 4`
+      - 生命 `60` + `level * 10`
+      - 护甲 `level * 20`
+      - 经验值 `6` + `level * 2`
+    - <span class="item-name-tag" style="color: #FF6060">嶙骨僵尸</span> `Elite` | 刷新概率：`4.74%`
+      - 偏大体型
+      - 移动速度 `150%` | 击退抗性 `80%`
+      - 攻击 `18` + `level * 8`
+      - 生命 `150` + `level * 30`
+      - 护甲 `level * 40`
+      - 经验值 `15` + `level * 4`
+    - <span class="item-name-tag" style="color: #60E0E0">风蚀尸核</span> `Essence` | 刷新概率：`0.47%`
+      - 大体型
+      - 移动速度 `175%` | 击退抗性 `100%`
+      - 攻击 `24` + `level * 16`
+      - 生命 `480` + `level * 75`
+      - 护甲 `level * 80`
+      - 经验值 `level * 60`
+    
+
+  </details>
+
+- **宝箱**相关：
+  - 优化了 `宝箱` 的显示效果，优化了 `宝箱` 的搜略体验，现在所有素材可以直接进入 `QS`。
+  - 完成了基本的 `宝箱` 配置与「峡谷 `Foray`」的放置。<br>宝箱将沿袭 DP 传统，位置将以刁钻难找为主要目标。
+    <br><img src="/rapids/rapids_img/updatelogs/lootchest-preview.png" loading="lazy">
+- 查询属性指令独立为 `/info`，你现可以更快地查询实时怪物属性。对于玩家，更推荐通过 `/stats` 查询属性。
+- 新增了期望 `DPS` 概念，现在 `DOT` 的伤害系数将基于 `DPS` 来计算。
+  <br>同时，当你处于战斗场景时，也可以在信息栏查看到到当前 `DPS`。
+  <br>但需要注意，该 `DPS` 仅基于 rawDmage 与 攻击速度/施法速度 进行的期望数值，不包含会心/命中/元素等后续判断。
+- 新增了 Rapids 独有的 `计分板` 实现。完成了基本的信息设置。
+  <br><span class="inline-tips">注：此处 AP 并非 Achievement Points，而是 Action Points， 即 PS (体力值)。但 Alpha Test 暂且用不到。</span>
+  <br><div style="display: flex; gap: 1em; flex-wrap: wrap;align-items: center;"><img src="/rapids/rapids_img/updatelogs/scoreboard-default.png" loading="lazy"><img src="/rapids/rapids_img/updatelogs/scoreboard-combat.png" loading="lazy"></div>
+- 完成了怪物击杀后的 `范围经验获取` 功能。暂定范围为 `12` 格。
+- 优化了部分系统间的互通信链路。
+
+---
+
 #### 2026/06/17
 
 - 完成了 Rapids 独有的 `聊天` 实现。支持消息中含 `%i` 以展示手上物品，不再支持快捷键展示。
