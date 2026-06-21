@@ -167,6 +167,16 @@
 
 #### 2026/06/21
 
+<div class="little-tips purple">
+  <div style="font-size:24px;">⛰</div>
+  <div>
+    <p><strong>峡谷 「Traverse - 踏察」</strong></p>
+    <p style="color:#aaa; font-size: 13px; line-height: 1.35;">现已开放</span><br>
+    你可获得 Lv.12 ~ Lv.20 之装备。
+    </p>
+  </div>
+</div>
+
 - 调整了通关评级相关内容：
   - 增加了 `时间` 的显示。
   - `Tier 6`:
