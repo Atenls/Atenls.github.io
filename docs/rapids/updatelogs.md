@@ -172,8 +172,9 @@
   - `Tier 6`:
     - 分数需求有所下降，同时要求至少击杀 `1` 个 `Essence` 怪物。
     - 必须在 `320s` 内完成通关，否则将无法达成 `Tier 6` 。
-    - 结算奖励将额外包含 `1` 件 `高品质` 随机装备，至高 <span class="item-name-tag" class="color: #ffaa00;">传奇</span>
+    - 结算奖励将额外包含 `1` 件 `高品质` 随机装备，至高 <span class="item-name-tag" style="color: #ffaa00;">传奇</span>。且它的随机等级为原范围 `+3` 。 
   - 将提高装备品质的门槛由 `Tier 5 +` 下降至 `Tier 4 +`
+    - 除提升品质外，还将提高 `1` 级随机上限。
 - 现在装备自身名字中也将包含一个 Overall 的百分比评级。
 - 怪物刷新相关：
   - 提高了怪物刷新会话的管理范围，现在玩家将可以触发稍远范围的怪物刷新。
@@ -181,14 +182,14 @@
   - 玩家保护范围从 `6` 格减少为 `4` 格。
 - 现在通关评级也将使用 `Tier` 评级名词。
   <details>
-    <summary><strong>评级详情</strong></summary>
+    <summary>评级详情</summary>
 
-    - Tier 6: `Marverlous`
-    - Tier 5: `Unparalleled`
-    - Tier 4: `Extraordinary`
-    - Tier 3: `Remarkable`
-    - Tier 2: `Unusual`
-    - Tier 1: `Common`
+    - Tier 6: `Marverlous` (奇迹般的)
+    - Tier 5: `Unparalleled` (无可比拟)
+    - Tier 4: `Extraordinary` (非凡)
+    - Tier 3: `Remarkable` (卓越)
+    - Tier 2: `Unusual` (特别)
+    - Tier 1: `Common` (寻常)
 
   </details>
 - 调整了装备中副属性词条的排版。
