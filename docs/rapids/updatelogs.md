@@ -193,7 +193,7 @@
     <br><img src="/rapids/rapids_img/updatelogs/20260623_essbc.png" loading="lazy">
   - 所有怪物在 `Y` 轴上的回归/移除判定将更加紧密，以避免部分穿墙、飞行怪物模型飞得太远的问题。
 - 新增了副本 Tier 提升提示，当你在局内达成更高 Tier 时将发放含声音的提示。
-  <br><img src="/rapids/rapids_img/updatelogs/20260623_tierup.png" loading="lazy">![alt text](image.png)
+  <br><img src="/rapids/rapids_img/updatelogs/20260623_tierup.png" loading="lazy">
 - 计分板信息新增 `实时分数` 
 - `法杖`: 基础 `法球飞行距离`: `15` → `18` 
 - 降低了通关时奖励的额外 `E` 
