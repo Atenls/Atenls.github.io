@@ -139,6 +139,15 @@
     text-decoration: none;
     font-weight: 700;
 
+    &.green {
+      background: #68ad68;
+
+      &:hover {
+        background: #5a9b5a;
+        box-shadow: 0 1px 4px rgba(32, 78, 42, 0.2);
+      }
+    }
+
     &:hover {
       background: #4579bd;
       box-shadow: 0 1px 4px rgba(32, 51, 78, 0.2);
@@ -166,6 +175,32 @@
 
 ---
 
+#### 2026/06/23
+
+<div class="little-tips" style="max-width: 400px; width: fit-content;">
+  <div style="font-size:24px;">📦</div>
+  <div>
+  <p><strong>Rapids 资源包</strong> @ 2026/06/23</p>
+  <p style="color:#aaa; font-size: 13px; line-height: 1.35;">新增「峡谷」材料贴图。<br>
+  </p>
+  </div>
+  
+  <a class="download-btn green" style="color: white;padding: inherit; border-radius: 0.75em;" href="/rapids/resourcepacks/Rapids Alpha v20260623.zip" download>点击以下载</a> 
+</div>
+
+- **怪物刷新**相关：
+  - 所有 `Essence` 怪物将不会被传送回出生点或移除。<br>且当有该类怪物刷新时，将对副本内所有玩家发放公告。
+    <br><img src="/rapids/rapids_img/updatelogs/20260623_essbc.png" loading="lazy">
+  - 所有怪物在 `Y` 轴上的回归/移除判定将更加紧密，以避免部分穿墙、飞行怪物模型飞得太远的问题。
+- 新增了副本 Tier 提升提示，当你在局内达成更高 Tier 时将发放含声音的提示。
+  <br><img src="/rapids/rapids_img/updatelogs/20260623_tierup.png" loading="lazy">![alt text](image.png)
+- 计分板信息新增 `实时分数` 
+- `法杖`: 基础 `法球飞行距离`: `15` → `18` 
+- 降低了通关时奖励的额外 `E` 
+- 修复了部分问题。
+
+---
+
 #### 2026/06/22
 
 - **攻击相关**调整：
@@ -175,6 +210,9 @@
     - 新增箭矢属性 `箭矢穿透`，基础 `+2`，使得箭矢可以在完成攻击时继续穿透目标攻击射线上其他目标。
     - 新增箭矢属性 `箭矢存活时间`，基础 `20 Ticks`，箭矢在无重力后容易自由地逃离原生家庭，遂用以限制箭矢生命周期。
     - 无法再触发近战攻击。
+    - 新的**箭矢技能** `箭矢索敌` (被动技能)
+      - 在射出箭矢时，将获取视线范围内最近的目标。射出的箭矢将预测对方的移动位置，并以预测位置为落点射出。
+      - 该技能在面对类似「幽魂」此类高机动小型目标时，能提供目前为止最佳的攻击效果。
   - `法杖`:
     - 基础 `法球飞行距离`: `20` → `15`
     - 无法再触发近战攻击。
