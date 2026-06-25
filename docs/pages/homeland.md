@@ -78,7 +78,7 @@
 |:---:|:---:|:---:|:---:|
 |8|1|[16,24)||
 |16|2|[24,32)||
-|32|4|[32,48)||
+|16|4|[32,48)||
 |64|8|[48,64)||
 |64|16|[64,128)||
 |/|32|领地||
@@ -198,12 +198,12 @@
 最终的领地设施为所有玩家家园设施的并集，而箱子数量则取决于所有玩家中箱子数量的最大值。其余箱子将以新价计算为额外箱子。<br>
 参考：
 
-<div class="little-tips" style="
-    max-width: 500px;
+<div style="
+    max-width: 400px;
     padding: 1em;
-    box-shadow: 0 0 6px rgba(38, 29, 63, 0.5);
+    box-shadow: 0 0 4px rgba(38, 29, 63, 0.2);
     background: #fff;
-    border-radius: 6px;
+    border-radius: 1em;
     font-size: 14px;
     margin: 8px 0;
     gap: 1em;
