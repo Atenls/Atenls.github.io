@@ -200,16 +200,24 @@
   <details>
     <summary>查看优先激活名单 (排名不分前后)</summary>
 
-    该名单基于 `Alpha Test` 中的个人进度进行审批。如有填写意见问卷，亦另遵个人意愿及意见参考价值进行审批。
+    该名单基于 `Alpha Test` 中的个人进度进行审批。
+    <br>如有填写意见问卷，亦另遵个人意愿及意见参考价值进行审批。
+    <br>此批次玩家将在 `Beta Test` 获得优先访问权限，除此之外，还将获得更高数值的新手武器以便快速跳过 Intro 阶段。
 
-    |||||
-    |:---:|:---:|:---:|:---:|
-    |DragonKing|AnthoGScorp_|Jeng_Die|Fawn_Hua|
-    |Leaf_ll|DuanDuan86|Cutesansui|yan_sui|
-    |before_sakura|WaningMoon7312|AnkaGroay|Dxxxxx|
-    |Cytzis|AZES
-
-    此批次玩家将在 `Beta Test` 获得优先访问权限，除此之外，还将获得更高数值的新手武器以便快速跳过 Intro 阶段。
+    - DragonKing
+    - AnthoGScorp_
+    - Jeng_Die
+    - Fawn_Hua
+    - Leaf_ll
+    - DuanDuan86
+    - Cutesansui
+    - yan_sui
+    - before_sakura
+    - WaningMoon7312
+    - AnkaGroay
+    - Dxxxxx
+    - Cytzis
+    - AZES
 
   </details>
 
