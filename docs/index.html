@@ -311,6 +311,34 @@
     white-space: nowrap;
   }
 
+  .divider {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: #a0a2a9;
+    font-size: 14px;
+    line-height: 1;
+  }
+
+  .divider::before {
+    content: "";
+    width: 1em; /* 左侧线长度 */
+    height: 1px;
+    background: #ddd;
+    flex: 0 0 auto;
+  }
+
+  .divider::after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: #ddd;
+  }
+
+  .divider span {
+    white-space: nowrap;
+  }
+
   .highlight-purple {
     font-weight: 600;
     color: rgba(0,0,0,0.75);
