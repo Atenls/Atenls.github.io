@@ -183,7 +183,13 @@
 
 - 为市场进行了更完善的迁移适配。
 - 修复了在持有 `弓` 或 `法杖` 类武器时，无法正常打开 `宝箱` 的问题。 
-
+- 新增 `升阶台` 与 `拆解台`：
+  <br><img src="/rapids/rapids_img/updatelogs/20260627_leveluptable.png" loading="lazy">
+  <br><img src="/rapids/rapids_img/updatelogs/20260627_equipdecompose.png" loading="lazy">
+  - 你可以通过 `升阶台` 消耗 `材料碎片` (暂定命名) 及 `E` 来有限度地提升你的装备等级。该价格还将取决于装备品质。
+  - 你可以通过 `拆解台` 获取 `材料碎片`
+- 「峡谷」`Dawn - 破晓` 现已开放，并新增多个场景，含新的高精英怪刷新率场景「后山」。
+  <br><img src="/rapids/rapids_img/updatelogs/20260627_d104.png" loading="lazy">
 
 <div class="divider" style="margin: 2em 0;">
   <span>以下为 Alpha Test 内容</span>
