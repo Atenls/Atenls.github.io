@@ -181,9 +181,6 @@
 
 #### 2026/06/27
 
-- **Alpha Test 圆满结束！**
-  <br>我们已得到了较多反馈，相信这将使得 Rapids 变得更好，期待与你在 Beta Test 中的会面。
-
 - 为市场进行了更完善的迁移适配。
 - 修复了在持有 `弓` 或 `法杖` 类武器时，无法正常打开 `宝箱` 的问题。 
 
@@ -193,6 +190,29 @@
 </div>
 
 #### 2026/06/26
+
+
+- **Alpha Test 圆满结束！**
+  <br>我们已得到了较多反馈，相信这将使得 Rapids 变得更好，期待与你在 Beta Test 中的会面。感谢所有参与测试的玩家！
+  <br>在 Alpha Test 中提供了较好反馈且有意愿参与下轮测试的玩家，我们已审慎地激活他们于 Beta Test 的优先访问权限。
+  <br>同时，我们也将在 Beta Test 中以更低的要求提供更多的访问席位。
+
+  <details>
+    <summary>查看优先激活名单 (排名不分前后)</summary>
+
+    该名单基于 `Alpha Test` 中的个人进度进行审批。如有填写意见问卷，亦另遵个人意愿及意见参考价值进行审批。
+
+    |||||
+    |:---:|:---:|:---:|:---:|
+    |DragonKing|AnthoGScorp_|Jeng_Die|Fawn_Hua|
+    |Leaf_ll|DuanDuan86|Cutesansui|yan_sui|
+    |before_sakura|WaningMoon7312|AnkaGroay|Dxxxxx|
+    |Cytzis|AZES
+
+    此批次玩家将在 `Beta Test` 获得优先访问权限，除此之外，还将获得更高数值的新手武器以便快速跳过 Intro 阶段。
+
+  </details>
+
 
 - 修复了部分情况下会导致本轮 `Tier` 未同步至结算信息预览的问题。（奖励正常）
 - 修复了在怪物生成的极早期阶段可以被秒杀的问题。
