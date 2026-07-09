@@ -177,6 +177,22 @@
   <span>以下为 Beta Test 内容</span>
 </div>
 
+#### 2026/07/09
+
+- 现已完成基于 [AllMusic](https://github.com/Coloryr/AllMusic) 的点歌支持。
+
+
+---
+
+#### 2026/07/08
+
+- 修复了部分问题
+- 现在，在登录时将会回满所有生命值及法力。
+- 现在，如已有「再入」增益，将可以在 `主菜单` → `个人属性` 中查看到详情。
+  <br><img src="/rapids/rapids_img/updatelogs/20260708_reenterbuffs.png" loading="lazy">
+
+---
+
 #### 2026/07/07
 
 - 副本「河隘」`见闻` 现已开放。
@@ -193,12 +209,6 @@
 - 优化了部分交互方块/按钮/内容的描述。
 - 优化了副本运行时数据结构。
 - 修复了部分问题。
-
-
-<div class="divider" style="margin: 0.5em 0; --divider-color: #f3f4f5;">
-  <span class="item-name-tag">预定重启后更新</span>
-</div>
-
 - 修复了武器攻击数值百分比错误地只映射最小攻击力的问题。
 
 ---
