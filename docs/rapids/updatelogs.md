@@ -177,10 +177,29 @@
   <span>以下为 Beta Test 内容</span>
 </div>
 
+#### 2026/07/10
+
+- 副本「河隘」 `破晓` 现已开放。你需要于 `踏察` 中累计足够多的回忆才能解锁。
+- 副本「河隘」 `踏察` 现已开放。
+- 在以上副本内新增了大量宝箱及水晶。
+- 完成了饰品栏。
+- 完成了完整的跨服聊天支持。
+- 完成了新手引导关卡的设计。
+
+
+---
+
 #### 2026/07/09
 
 - 现已完成基于 [AllMusic](https://github.com/Coloryr/AllMusic) 的点歌支持。
-
+  - 完成了必要的基于 Rapids 风格的美化。
+  - 新增了空闲随机播放歌单。
+- 新增了副本内「排行榜」。
+  <br><img src="/rapids/rapids_img/updatelogs/20260709_rankboard.png" loading="lazy">
+- 优化了界域传送门选择副本的交互方式，现在更简洁、直观。
+  <br><img src="/rapids/rapids_img/updatelogs/20260709_selectdungeon.png" loading="lazy">
+- 其他 infra 内容推进。
+- 修复了部分问题。
 
 ---
 
