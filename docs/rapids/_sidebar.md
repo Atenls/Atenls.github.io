@@ -95,6 +95,8 @@
 * [首页](rapids/rapids)
 * [更新记录](rapids/updatelogs)
 * [设计](rapids/design)
+* [副本流程](rapids/dungeon)
+* [副本图鉴](rapids/dungeonlist)
 * [Rapids 服务条款](rapids/terms)
 
 <p style="margin-top: -1.5em; margin-bottom: 1.5em; display: block; border-radius: 0 0 0 2.5em; box-shadow: 0 6px 8px rgba(29, 59, 99, 0.2);">

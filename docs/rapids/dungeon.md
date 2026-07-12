@@ -1,271 +1,200 @@
 <style>
-.rapids-dungeon-hero {
-  margin: 1.5em 0 2em;
-  padding: 2.4em 2.2em 2.1em;
-  color: #eef7ff;
-  background:
-    radial-gradient(circle at 85% 15%, rgba(150, 224, 255, .22), transparent 28%),
-    linear-gradient(135deg, #182c49 0%, #304b72 48%, #684d78 100%);
-  border: 1px solid rgba(196, 232, 255, .35);
-  border-radius: 18px 4px 18px 4px;
-  box-shadow: 0 14px 32px rgba(33, 55, 90, .22);
-  overflow: hidden;
+.rapids-flow {
+  max-width: 960px;
+  color: #293241;
 }
 
-.rapids-dungeon-hero .eyebrow {
-  margin: 0 0 .6em;
-  color: #a8e7f5;
-  font-size: .78em;
-  letter-spacing: .22em;
-  text-transform: uppercase;
+.rapids-flow-hero {
+  margin: 1.2em 0 2.4em;
+  padding: 1.8em 0 1.4em 1.5em;
+  border-left: 3px solid #5d78a6;
 }
 
-.rapids-dungeon-hero h1 {
+.rapids-flow-hero .kicker {
+  margin: 0 0 .65em;
+  color: #71809a;
+  font-size: .76em;
+  font-weight: 700;
+  letter-spacing: .18em;
+}
+
+.rapids-flow-hero h1 {
   margin: 0 0 .35em;
-  color: #ffffff;
-  font-size: 2.25em;
-  letter-spacing: .08em;
-  text-shadow: 0 3px 12px rgba(0, 0, 0, .25);
+  color: #202b3c;
+  font-size: 2.35em;
+  font-weight: 650;
+  letter-spacing: -.04em;
 }
 
-.rapids-dungeon-hero p {
-  max-width: 40em;
+.rapids-flow-hero p {
+  max-width: 38em;
   margin: 0;
-  color: #d8e8f4;
+  color: #748094;
   font-size: 1.05em;
 }
 
-.rapids-dungeon-banner {
-  display: flex;
-  gap: 12px;
-  margin: 1.2em 0 1.8em;
+.rapids-flow-steps {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0;
+  margin: 0 0 2.5em;
+  border-top: 1px solid #dce3ec;
+  border-bottom: 1px solid #dce3ec;
 }
 
-.rapids-dungeon-banner > div {
-  flex: 1;
-  padding: 1em 1.2em;
-  border-left: 4px solid #80d0e0;
-  background: linear-gradient(110deg, rgba(128, 208, 224, .13), rgba(128, 144, 224, .04));
-  box-shadow: 0 5px 16px rgba(55, 85, 125, .08);
+.rapids-flow-step {
+  min-height: 8.2em;
+  padding: 1.15em 1.15em 1.1em;
+  border-right: 1px solid #dce3ec;
 }
 
-.rapids-dungeon-banner strong {
+.rapids-flow-step:last-child { border-right: 0; }
+
+.rapids-flow-step .number {
   display: block;
-  margin-bottom: .25em;
-  color: #5474a8;
-  font-size: 1.15em;
+  margin-bottom: 1em;
+  color: #8da0bd;
+  font-size: .74em;
+  font-weight: 700;
+  letter-spacing: .12em;
 }
 
-.rapids-dungeon-banner span {
-  color: #7b8797;
-  font-size: .9em;
+.rapids-flow-step strong {
+  display: block;
+  margin-bottom: .35em;
+  color: #344b70;
+  font-size: 1.05em;
 }
 
-@media (max-width: 640px) {
-  .rapids-dungeon-banner { flex-direction: column; }
+.rapids-flow-step span {
+  color: #7d8796;
+  font-size: .88em;
+  line-height: 1.55;
+}
+
+.rapids-flow-note {
+  margin: 1.2em 0 2em;
+  padding: .9em 1.1em;
+  color: #59677c;
+  background: #f5f7fa;
+  border: 1px solid #e1e7ef;
+  border-radius: 4px;
+}
+
+.rapids-flow-note strong { color: #344b70; }
+
+.rapids-flow h2 {
+  margin-top: 2.4em;
+  padding-bottom: .45em;
+  color: #283852;
+  border-bottom: 1px solid #dce3ec;
+  font-size: 1.45em;
+  font-weight: 650;
+  letter-spacing: -.02em;
+}
+
+.rapids-flow h3 {
+  margin-top: 1.7em;
+  color: #415a83;
+  font-size: 1.08em;
+}
+
+.rapids-flow .flow-link {
+  color: #4f70a5;
+  font-weight: 600;
+}
+
+@media (max-width: 720px) {
+  .rapids-flow-steps { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .rapids-flow-step:nth-child(2) { border-right: 0; }
+  .rapids-flow-step:nth-child(-n+2) { border-bottom: 1px solid #dce3ec; }
+}
+
+@media (max-width: 460px) {
+  .rapids-flow-steps { grid-template-columns: 1fr; }
+  .rapids-flow-step,
+  .rapids-flow-step:nth-child(2) { border-right: 0; border-bottom: 1px solid #dce3ec; }
+  .rapids-flow-step:last-child { border-bottom: 0; }
 }
 </style>
 
-<div class="rapids-dungeon-hero">
-  <p class="eyebrow">RAPIDS · DUNGEON GUIDE</p>
-  <h1>副本 · 回忆之路</h1>
-  <p>从一次探索出发，穿过战斗、搜掠与评级，逐步完成属于你的副本回忆。</p>
+<div class="rapids-flow">
+  <div class="rapids-flow-hero">
+    <p class="kicker">RAPIDS / PLAY LOOP</p>
+    <h1>副本流程</h1>
+    <p>一局副本的核心，是把探索、战斗与时间压缩成一次清晰的选择。</p>
+  </div>
+
+  <div class="rapids-flow-steps">
+    <div class="rapids-flow-step"><span class="number">01 / ENTER</span><strong>进入</strong><span>从主城副本入口选择已解锁的内容。</span></div>
+    <div class="rapids-flow-step"><span class="number">02 / RUN</span><strong>推进</strong><span>击杀、搜掠、采集，积累本局分数。</span></div>
+    <div class="rapids-flow-step"><span class="number">03 / CLEAR</span><strong>结算</strong><span>达到目标后前往终点，查看本局评级。</span></div>
+    <div class="rapids-flow-step"><span class="number">04 / CHOOSE</span><strong>选择</strong><span>消耗 AP 领取奖励，或再入、离开。</span></div>
+  </div>
+
+  <div class="rapids-flow-note"><strong>想看副本详情？</strong> 前往 <a class="flow-link" href="#/rapids/dungeonlist">副本图鉴</a>，按副本与难度查看推荐等级、开放状态和原始描述。</div>
+
+  <h2>进入前：解锁一段回忆</h2>
+
+  <p>在主城打开副本入口，选择副本与难度。所有副本难度使用统一的回忆进度解锁规则：</p>
+
+  <ol>
+    <li>进入当前已经开放的副本内容。</li>
+    <li>通过击杀怪物、搜掠宝箱和收集采集物推进后续回忆。</li>
+    <li>对应回忆完成后，下一段内容解锁。</li>
+    <li>进入时仍需满足界面显示的等级门槛。</li>
+  </ol>
+
+  <p>梦魇难度目前尚未推出，不属于当前可游玩的主线流程。</p>
+
+  <h2>进行中：用一局副本换取更高评级</h2>
+
+  <p>进入副本后立即开始计时。先完成基础目标，再用探索和特殊目标提高评级：</p>
+
+  <ol>
+    <li><strong>击杀至少 36 个对应怪物。</strong> 这是正常提交本局结果的基础目标。</li>
+    <li><strong>搜掠地图。</strong> 宝箱与采集物既提供材料，也会提供固定分数。</li>
+    <li><strong>追求速度。</strong> 击杀速度会影响击杀部分的分数。</li>
+    <li><strong>挑战历史回响。</strong> Essence 特殊怪是争取 Tier 6 的必要目标；具体位置和消耗见<a class="flow-link" href="#/rapids/dungeonlist">副本图鉴</a>。</li>
+    <li><strong>前往终点。</strong> 与出口交互，提交本局结果。</li>
+  </ol>
+
+  <div class="rapids-flow-note"><strong>组队提示：</strong> 12 格内共享经验；对怪物造成超过 10% 的伤害，通常即可获得完整击杀判定。即使中途死亡，已经获得的共享击杀奖励仍会保留在个人记录中。</div>
+
+  <h3>Tier 评级</h3>
+
+  <p>评级同时看总分与时间。击杀、速度、宝箱、采集物和特殊目标共同构成分数。</p>
+
+  | Tier | 评级 | 主要达成条件 |
+  | --- | --- | --- |
+  | 1 | Common | 达到基础通关要求 |
+  | 2 | Unusual | 总分超过 60 |
+  | 3 | Remarkable | 总分超过 90 |
+  | 4 | Extraordinary | 总分超过 120，且用时不超过 400 秒 |
+  | 5 | Unparalleled | 总分超过 160，且用时不超过 480 秒 |
+  | 6 | Marvelous | 总分超过 192、用时不超过 400 秒，并击杀 Essence 特殊怪 |
+
+  <h2>完成后：在等待室做出选择</h2>
+
+  <p>提交结果后会进入等待室。点击「领取奖励」打开结算界面；每次领取额外奖励消耗 10 AP。</p>
+
+  | 选择 | 你会得到什么 |
+  | --- | --- |
+  | 随机装备 | 当前副本等级范围内的随机装备；Tier 越高，额外装备越多，Tier 6 另有高品质装备 |
+  | 随机材料 | 当前副本材料；更高 Tier 有机会获得更好的材料、稀有材料或图纸 |
+  | 回忆点数 | 用于局外兑换装备、材料和升级副本天赋 |
+  | 再入 | 选择随机战斗增益，返回同一副本继续挑战；当前仍属于调整中的功能 |
+  | 直接离开 | 不领取额外奖励，回到主城 |
+
+  <p>默认 AP 上限为 300，通常每 8 分钟恢复 1 点。拥有相应 MC 特权并满足等级要求时，可以进行 2 倍、3 倍或 4 倍领取，分别消耗 20、30、40 AP。</p>
+
+  <h2>中断与失败</h2>
+
+  <ul>
+    <li><strong>死亡：</strong>拥有可用的「死亡回溯」时，会回到副本起点继续本局；回溯次数耗尽后会回到主城，死亡还会扣除部分本局分数。</li>
+    <li><strong>断线：</strong>短时间内重新登录会尝试回到原副本；超过约 60 秒，暂存状态会失效。</li>
+    <li><strong>未达目标：</strong>击杀数未达到基础目标时，终点不会完成结算，需要继续探索。</li>
+  </ul>
+
+  <div class="rapids-flow-note"><strong>推荐记法：</strong> 进入 → 击杀与搜掠 → 争取 Tier → 终点结算 → 选择奖励。副本的完整信息与每段叙事，统一收录在<a class="flow-link" href="#/rapids/dungeonlist">副本图鉴</a>。</div>
 </div>
-
-<div class="rapids-dungeon-banner">
-  <div><strong>峡谷</strong><span>被长风与岁月切开的峡地</span></div>
-  <div><strong>河隘</strong><span>两山夹峙、长河奔流的古道</span></div>
-</div>
-
-> 本页按当前开放版本整理。副本是 Rapids 关卡制进程的核心：进入一局副本，探索并战斗，争取更高评级，最后在等待室选择结算奖励。
-
-## 一、从主城进入副本
-
-在主城的副本入口打开选择界面，先选择副本，再选择难度。当前的难度名称为：
-
-| 副本 | 难度顺序 | 进入等级门槛 |
-| --- | --- | --- |
-| 峡谷 | 初涉 → 见闻 → 踏察 → 破晓 | 无 → Lv.6 → Lv.11 → Lv.16 |
-| 河隘 | 初涉 → 见闻 → 踏察 → 破晓 | Lv.20 → Lv.25 → Lv.30 → Lv.35 |
-
-### 统一的回忆解锁规则
-
-现在所有副本难度都遵循同一套解锁方式：
-
-1. 先进入当前已经开放的副本内容。
-2. 在副本中击杀怪物、搜掠宝箱和收集采集物，推进后续内容的回忆进度。
-3. 对应回忆进度完成后，下一段副本内容解锁。
-4. 解锁后，仍需满足入口显示的等级门槛才能进入。
-
-测试期曾使用过逐关通关次数、Tier 次数等临时条件；这些不再作为本页的通用解锁规则。最终以游戏内入口显示的实时条件为准。
-
-梦魇难度目前尚未推出，本页不将梦魇列入当前可游玩的主线流程。
-
-## 二、一局副本怎么玩
-
-进入副本后，计时立即开始。屏幕会提示本局的基础通关目标：
-
-1. 在副本中击杀至少 36 个对应怪物。
-2. 沿地图探索，搜掠奖励箱并寻找采集物。
-3. 需要更高评级时，击杀 Essence 特殊怪，并尽量压缩通关时间。
-4. 到达终点后与出口交互，提交本局结果。
-
-如果击杀数还没有达到通关门槛，出口不会完成结算，需要继续探索和战斗。副本中的怪物刷新速度与附近玩家数量有关，玩家越多，刷新越快；怪物强度也会随附近人数提高。
-
-### 三种基础攻击方式
-
-Rapids 提供近战、法杖和弓箭三类基础攻击方式，部分武器还会提供额外的特殊攻击手段：
-
-| 方式 | 距离与节奏 | 特点 |
-| --- | --- | --- |
-| 近战 | 距离短，攻击频率中等 | 范围伤害与单次伤害较均衡 |
-| 法杖 | 距离中等，攻击频率高 | 射线范围伤害，单次伤害较低 |
-| 弓箭 | 距离远，攻击频率低 | 具备穿透效果，单次伤害较高 |
-
-### 共享与个人判定
-
-副本的大部分内容适合组队完成：
-
-- 12 格范围内的玩家共享经验。
-- 对怪物造成超过 10% 的伤害，通常即可获得完整的击杀判定。
-- 即使中途死亡，已经获得的共享击杀奖励仍会保留在个人记录中。
-
-## 三、探索：宝箱与采集物
-
-击杀怪物是推进副本的基础，但材料和评分还来自地图探索。
-
-### 宝箱
-
-- 宝箱通常藏在角落或不容易注意的位置。
-- 公共宝箱共享刷新，个人宝箱独享刷新。
-- 宝箱可以获得副本材料、强化石等物品。
-- 每次搜掠宝箱还会为副本分数提供固定加分。
-
-### 采集物
-
-- 采集物没有浮空字提示，需要主动观察环境并右键采集。
-- 常见外观是自然石头，也可能是水晶。
-- 采集物可以获得珍稀素材，并为副本分数提供固定加分。
-
-## 四、Tier 评级
-
-副本评级由总分和通关时间共同决定。击杀速度越快，击杀部分的得分越高；宝箱、采集物和特殊目标会提供额外分数。
-
-| Tier | 评级 | 主要达成条件 |
-| --- | --- | --- |
-| 1 | Common | 达到基础通关要求 |
-| 2 | Unusual | 总分超过 60 |
-| 3 | Remarkable | 总分超过 90 |
-| 4 | Extraordinary | 总分超过 120，且用时不超过 400 秒 |
-| 5 | Unparalleled | 总分超过 160，且用时不超过 480 秒 |
-| 6 | Marvelous | 总分超过 192、用时不超过 400 秒，并击杀 Essence 特殊怪 |
-
-Tier 6 不是单纯堆击杀数：必须在时间和总分都达标的同时，完成本局的 Essence 特殊怪击杀。
-
-## 五、特殊回响与额外目标
-
-副本内的「历史回响」可以召唤特殊怪物。召唤会消耗对应副本的寻常材料，并且每个回响点位有约 5 分钟冷却。
-
-| 回响类型 | 可出现的位置 | 消耗 |
-| --- | --- | --- |
-| Essence 特殊怪 | 峡谷·踏察、峡谷·破晓 | 合计 32 个峡谷寻常材料 |
-| Essence 特殊怪 | 河隘·见闻、河隘·踏察、河隘·破晓 | 合计 32 个河隘寻常材料 |
-| 终点特殊怪「旧骨」 | 峡谷·破晓 | 合计 64 个峡谷寻常材料 |
-
-Essence 特殊怪是争取 Tier 6 的必要目标。旧骨属于峡谷·破晓中的额外挑战，也会关联后续内容与战利品。
-
-## 六、死亡与中途离开
-
-### 死亡
-
-如果拥有副本天赋「死亡回溯」且还有可用次数，死亡后会回到当前副本起点，继续本局挑战。每次死亡都会额外扣除一部分本局分数；回溯次数耗尽后，死亡会把你送回主城。
-
-### 断线重连
-
-副本状态会暂存在服务器中。进入副本后短时间内断线并重新登录，系统会尝试把你送回原副本；超过约 60 秒，暂存状态会失效。
-
-### 离开
-
-通关结算后，可以在等待室选择「直接离开」，不领取额外奖励并回到主城。离开或完成结算后，本局的临时状态和再入增益都会清除。
-
-## 七、通关结算
-
-在终点提交后，你会被送到等待室。结算信息包括：
-
-- 副本评级与 Tier；
-- 通关时间；
-- 击杀数；
-- 奖励箱和采集物数量；
-- 经验与 E。
-
-在等待室点击「领取奖励」打开结算界面。每种额外奖励每次领取消耗 10 AP；AP 不足时无法领取。默认 AP 上限为 300，通常每 8 分钟恢复 1 点。
-
-### 奖励选项
-
-每局结算可以选择一种主要处理方式：
-
-#### 随机装备
-
-获得当前副本等级范围内的随机装备。Tier 越高，额外装备越多；Tier 6 还会额外获得 1 件高品质装备。
-
-#### 随机材料
-
-获得当前副本的随机材料。Tier 越高，获得更好材料的机会越高，部分高 Tier 还有机会获得稀有材料或对应图纸。
-
-#### 回忆点数
-
-按照本局 Tier 获得当前副本难度的回忆点数：
-
-| Tier | 单次领取的回忆点数 |
-| --- | ---: |
-| 1 | 10 |
-| 2 | 20 |
-| 3 | 30 |
-| 4 | 96 |
-| 5 | 120 |
-| 6 | 144 |
-
-回忆点数可用于局外兑换装备、材料，也可用于升级副本天赋。
-
-### 多倍领取
-
-拥有相应的 MC 特权并满足等级要求时，可以使用 2 倍、3 倍或 4 倍领取。多倍领取会按倍数消耗 AP：
-
-- 1 倍：10 AP；
-- 2 倍：20 AP；
-- 3 倍：30 AP；
-- 4 倍：40 AP。
-
-## 八、再入与副本天赋
-
-结算界面提供「再入」选项。它的设计目标是消耗 AP，选择一个随机战斗增益，携带增益返回同一副本，并继续叠加增益；同时会获得一部分折算后的回忆点数。
-
-副本天赋可以使用回忆点数升级，当前与副本流程直接相关的天赋包括：
-
-- **搜掠本能**：提高搜掠相关能力，并有冷却限制；
-- **宝藏眷顾**：改善奖励箱的额外奖励结果；
-- **死亡回溯**：提供副本内死亡后的回到起点机会。
-
-再入属于当前仍在调整的功能。如果结算界面的再入按钮无法正常领取，请选择装备、材料、回忆点数或直接离开。
-
-## 推荐的完整循环
-
-```text
-主城副本入口
-    ↓
-选择副本与难度，确认回忆进度和等级条件
-    ↓
-进入副本并开始计时
-    ↓
-击杀怪物 + 搜掠宝箱 + 收集采集物
-    ↓
-召唤并击杀特殊回响，争取更高 Tier
-    ↓
-达到至少 36 击杀后前往终点
-    ↓
-等待室查看结果
-    ↓
-消耗 AP 领取一种奖励，或选择再入 / 直接离开
-    ↓
-回到主城，使用回忆点数兑换物资与升级天赋
-```
