@@ -132,7 +132,7 @@
     <div class="rapids-flow-step"><span class="number">04 / CHOOSE</span><strong>选择</strong><span>消耗 AP 领取奖励，或再入、离开。</span></div>
   </div>
 
-  <div class="rapids-flow-note"><strong>想看副本详情？</strong> 前往 <a class="flow-link" href="#/rapids/dungeonlist">副本图鉴</a>，按副本与难度查看推荐等级、开放状态和原始描述。</div>
+  <div class="rapids-flow-note"><strong>继续了解：</strong>前往 <a class="flow-link" href="#/rapids/dungeonlist">副本图鉴</a>查看每段回忆，或阅读<a class="flow-link" href="#/rapids/dungeonmechanics">副本机制</a>与<a class="flow-link" href="#/rapids/materials">材料图鉴</a>。</div>
 
   <h2>进入前：解锁一段回忆</h2>
 
@@ -145,7 +145,7 @@
     <li>进入时仍需满足界面显示的等级门槛。</li>
   </ol>
 
-  <p>梦魇难度目前尚未推出，不属于当前可游玩的主线流程。</p>
+  <p>当前版本中，峡谷·梦魇已可游玩；河隘·梦魇尚未推出。两条路线的已开放难度均按回忆进度解锁。</p>
 
   <h2>进行中：用一局副本换取更高评级</h2>
 
@@ -155,7 +155,7 @@
     <li><strong>击杀至少 36 个对应怪物。</strong> 这是正常提交本局结果的基础目标。</li>
     <li><strong>搜掠地图。</strong> 宝箱与采集物既提供材料，也会提供固定分数。</li>
     <li><strong>追求速度。</strong> 击杀速度会影响击杀部分的分数。</li>
-    <li><strong>挑战历史回响。</strong> Essence 特殊怪是争取 Tier 6 的必要目标；具体位置和消耗见<a class="flow-link" href="#/rapids/dungeonlist">副本图鉴</a>。</li>
+    <li><strong>挑战 Essence。</strong> Essence 怪物会随副本刷新系统自然出现，是争取 Tier 6 的必要目标；部分地图还设有消耗材料召唤的历史回响。具体机制见<a class="flow-link" href="#/rapids/dungeonmechanics">副本机制</a>。</li>
     <li><strong>前往终点。</strong> 与出口交互，提交本局结果。</li>
   </ol>
 
@@ -186,7 +186,7 @@
   | 再入 | 选择随机战斗增益，返回同一副本继续挑战；当前仍属于调整中的功能 |
   | 直接离开 | 不领取额外奖励，回到主城 |
 
-  <p>默认 AP 上限为 300，通常每 8 分钟恢复 1 点。拥有相应 MC 特权并满足等级要求时，可以进行 2 倍、3 倍或 4 倍领取，分别消耗 20、30、40 AP。</p>
+  <p>默认 AP 上限为 300，通常每 8 分钟恢复 1 点。拥有相应 MC 特权并满足等级要求时，可以进行 2 倍、3 倍或 4 倍领取，分别消耗 20、30、40 AP。材料与装备的具体来源，见<a class="flow-link" href="#/rapids/materials">材料图鉴</a>。</p>
 
   <h2>中断与失败</h2>
 
@@ -196,5 +196,5 @@
     <li><strong>未达目标：</strong>击杀数未达到基础目标时，终点不会完成结算，需要继续探索。</li>
   </ul>
 
-  <div class="rapids-flow-note"><strong>推荐记法：</strong> 进入 → 击杀与搜掠 → 争取 Tier → 终点结算 → 选择奖励。副本的完整信息与每段叙事，统一收录在<a class="flow-link" href="#/rapids/dungeonlist">副本图鉴</a>。</div>
+  <div class="rapids-flow-note"><strong>推荐记法：</strong> 进入 → 击杀与搜掠 → 争取 Tier → 终点结算 → 选择奖励。副本的完整信息与每段叙事，统一收录在<a class="flow-link" href="#/rapids/dungeonlist">副本图鉴</a>；刷新、掉落和多人规则集中在<a class="flow-link" href="#/rapids/dungeonmechanics">副本机制</a>。</div>
 </div>
