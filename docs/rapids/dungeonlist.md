@@ -5,17 +5,17 @@
 }
 
 .rapids-dungeon-list-hero {
-  margin: 1.2em 0 2.2em;
-  padding: 1.7em 0 1.2em 1.5em;
+  margin: 1.2em 0 2.3em;
+  padding: 1.7em 0 1.25em 1.5em;
   border-left: 2px solid #A0A2A4;
 }
 
 .rapids-dungeon-list-hero .kicker {
-  margin: 0 0 .65em;
-  color: #817a98;
+  margin: 0 0 .6em;
+  color: #7b8799;
   font-size: .76em;
   font-weight: 700;
-  letter-spacing: .18em;
+  letter-spacing: .16em;
 }
 
 .rapids-dungeon-list-hero h1 {
@@ -30,7 +30,8 @@
   max-width: 42em;
   margin: 0;
   color: #748094;
-  font-size: 1.05em;
+  font-size: 1.04em;
+  line-height: 1.75;
 }
 
 .rapids-dungeon-list .index {

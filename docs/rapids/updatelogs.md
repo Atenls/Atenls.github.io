@@ -177,10 +177,14 @@
   <span>以下为 Beta Test 内容</span>
 </div>
 
-----
-
 #### 2026/07/13
 
+- 为 Wiki 更新了多个服务器内容披露模块：
+  - <a href="#/rapids/dungeon">副本流程</a>
+  - <a href="#/rapids/dungeonmechanics">副本机制详解</a>
+  - <a href="#/rapids/dungeonlist">副本图鉴</a>
+  - <a href="#/rapids/materials">材料图鉴</a>
+  - <a href="#/rapids/setattributes">套装图鉴</a>
 - 完成了更完善的多服务器端部署。
 - 完成了「河隘」 `梦魇` 的地图修改。
 - 修复了跨服玩家可见的部分问题，优化了性能。

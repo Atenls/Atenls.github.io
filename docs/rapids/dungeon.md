@@ -5,17 +5,17 @@
 }
 
 .rapids-flow-hero {
-  margin: 1.2em 0 2.4em;
-  padding: 1.8em 0 1.4em 1.5em;
-  border-left: 3px solid #838fa5;
+  margin: 1.2em 0 2.3em;
+  padding: 1.7em 0 1.25em 1.5em;
+  border-left: 2px solid #A0A2A4;
 }
 
 .rapids-flow-hero .kicker {
-  margin: 0 0 .65em;
-  color: #71809a;
+  margin: 0 0 .6em;
+  color: #7b8799;
   font-size: .76em;
   font-weight: 700;
-  letter-spacing: .18em;
+  letter-spacing: .16em;
 }
 
 .rapids-flow-hero h1 {
@@ -30,7 +30,8 @@
   max-width: 38em;
   margin: 0;
   color: #748094;
-  font-size: 1.05em;
+  font-size: 1.04em;
+  line-height: 1.75;
 }
 
 .rapids-flow-steps {

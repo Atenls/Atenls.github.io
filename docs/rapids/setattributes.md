@@ -5,15 +5,16 @@
 }
 .rapids-sets-hero {
   position: relative;
-  margin: 1.2em 0 1.7em;
-  padding: 2.05em 1.6em 1.55em 1.5em;
+  margin: 1.2em 0 2.3em;
+  padding: 1.7em 0 1.25em 1.5em;
   border: 1px solid #e2e7f0;
   border-radius: 0 18px 18px 0;
+  border-left: 2px solid #A0A2A4;
   box-shadow: 0 10px 28px rgba(47, 62, 89, .045);
 }
 .rapids-sets-hero .kicker,
 .rapids-sets .eyebrow {
-  margin: 0 0 .65em;
+  margin: 0 0 .6em;
   color: #7b8799;
   font-size: .76em;
   font-weight: 700;
@@ -24,7 +25,7 @@
   color: #202b3c;
   font-size: 2.35em;
   font-weight: 650;
-  letter-spacing: -.045em;
+  letter-spacing: -.04em;
 }
 .rapids-sets-hero p {
   max-width: 48em;
@@ -457,7 +458,7 @@
     <span>固定值通常会出现在魔法相关属性，如：最大法力值、法力恢复等，或前期的套装属性。<br>含百分号则为 <code>百分比属性</code> 如：箭矢速度、移动速度、暴击伤害与经验加成。</span></div>
     <div class="legend-card"><strong>公式</strong><span>以 <code>unit</code> 标注的数值，则表示对应属性基准值。<br>如：生命恢复: +0.75 unit 表示 0.75 基准单位的生命恢复（继承自生命值）<br>参考数值：29 (Lv.10 / 普通)</span></div>
   </div>
-  <section class="set-section harmony" id="harmony">
+  <section class="set-section harmony" id="harmony" style="display: none;">
     <div class="set-heading"><div><h2>和光同尘</h2><p>均衡型套装，随着品质提升强化会心、护甲穿透率与暴击伤害。</p></div></div>
     <div class="tier-grid">
        <article class="tier-card quality-legendary"><div class="tier-top"><span class="tier-name">传奇</span><span class="tier-level">Tier 3</span></div><div class="bonus-row"><span class="bonus-count">2 件</span><span class="bonus-text">会心 <strong>+25</strong></span></div><div class="bonus-row"><span class="bonus-count">4 件</span><span class="bonus-text">护甲穿透率 <strong>+10%</strong></span></div><div class="bonus-row"><span class="bonus-count">5 件</span><span class="bonus-text">暴击伤害 <strong>+35%</strong></span></div></article>
