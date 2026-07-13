@@ -7,7 +7,7 @@
 .rapids-flow-hero {
   margin: 1.2em 0 2.4em;
   padding: 1.8em 0 1.4em 1.5em;
-  border-left: 3px solid #5d78a6;
+  border-left: 3px solid #838fa5;
 }
 
 .rapids-flow-hero .kicker {
@@ -134,9 +134,9 @@
 
   <div class="rapids-flow-note"><strong>继续了解：</strong>前往 <a class="flow-link" href="#/rapids/dungeonlist">副本图鉴</a>查看每段回忆，或阅读<a class="flow-link" href="#/rapids/dungeonmechanics">副本机制</a>与<a class="flow-link" href="#/rapids/materials">材料图鉴</a>。</div>
 
-  <h2>进入前：解锁一段回忆</h2>
+  <h2>如何开始</h2>
 
-  <p>在主城打开副本入口，选择副本与难度。所有副本难度使用统一的回忆进度解锁规则：</p>
+  <p>在主城进入界域传送门，选择副本与难度。所有副本难度使用统一的回忆进度解锁规则：</p>
 
   <ol>
     <li>进入当前已经开放的副本内容。</li>
@@ -145,9 +145,7 @@
     <li>进入时仍需满足界面显示的等级门槛。</li>
   </ol>
 
-  <p>当前版本中，峡谷·梦魇已可游玩；河隘·梦魇尚未推出。两条路线的已开放难度均按回忆进度解锁。</p>
-
-  <h2>进行中：用一局副本换取更高评级</h2>
+  <h2>副本流程</h2>
 
   <p>进入副本后立即开始计时。先完成基础目标，再用探索和特殊目标提高评级：</p>
 
