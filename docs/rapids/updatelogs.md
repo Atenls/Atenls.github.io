@@ -177,6 +177,44 @@
   <span>以下为 Beta Test 内容</span>
 </div>
 
+----
+
+#### 2026/07/13
+
+- 完成了更完善的多服务器端部署。
+- 完成了「河隘」 `梦魇` 的地图修改。
+- 修复了跨服玩家可见的部分问题，优化了性能。
+- HDLib 支持了可能在未来会用到的技能释放范围预览。
+  <br><img src="/rapids/rapids_img/updatelogs/20260713_skillselectorpreview.png" loading="lazy">
+- 现在，装备描述中可实时查看当前套装生效属性。
+  <br><img src="/rapids/rapids_img/updatelogs/20260713_setsactivepreview.png" loading="lazy">
+
+----
+
+#### 2026/07/12
+
+- 修复了跨服玩家可见在长时间处于同一地方不移动时，可能存在部分位置偏移的问题。并优化了互联的数据结构。
+- 修复了部分情况下快速连点领取奖励会异常多扣体力的问题。
+- HDLib 现已支持动画，并为升阶台制作了锤子的动画效果。并完善了部分 API。
+  <br><img src="/rapids/rapids_img/updatelogs/20260712_leveluptablehammer.gif">
+- 优化了部分方块模型。
+- 新增粒子特效引擎。现在 Rapids 将有能力制作更多美观的特效。
+  <br><img src="/rapids/rapids_img/updatelogs/20260712_particleenginepreview.gif">
+
+----
+
+#### 2026/07/11 
+
+- 新增了史诗般的 `跨服玩家可见` 功能，现在你在任一服务器均可看见附近的其他服务器玩家，甚至包括登录服。
+- 完善了数据库的部分功能。
+- 修复了无法打造「河雾」套装的问题
+- HDLib 现已支持构建方块组件。
+- 完善了新手引导关卡的部分指引。
+- `晶髓碎片` 的 QS 容量现已独立为 65536 个。
+- 修复了部分问题。
+
+---
+
 #### 2026/07/10
 
 - 新的 `回忆` 设定，你需要在当副本中通过各渠道积累 `回忆` 才能解锁下一副本。
