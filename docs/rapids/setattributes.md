@@ -7,9 +7,7 @@
   position: relative;
   margin: 1.2em 0 1.7em;
   padding: 2.05em 1.6em 1.55em 1.5em;
-  background: linear-gradient(135deg, #f7f8ff 0%, #ffffff 72%);
   border: 1px solid #e2e7f0;
-  border-left: 3px solid #8090e0;
   border-radius: 0 18px 18px 0;
   box-shadow: 0 10px 28px rgba(47, 62, 89, .045);
 }
@@ -79,7 +77,6 @@
   color: #59677c;
   background: #f5f7fa;
   border: 1px solid #e1e7ef;
-  border-left: 3px solid #70d0c8;
   line-height: 1.75;
 }
 .rapids-sets .unit-note p {
@@ -274,9 +271,8 @@
   color: var(--ink);
 }
 .rapids-sets-hero {
-  background: var(--soft);
   border: 0;
-  border-left: 3px solid var(--accent);
+  border-left: 2px solid #A0A2A4;
   border-radius: 0 12px 12px 0;
   box-shadow: none;
 }
@@ -307,7 +303,6 @@
   color: var(--muted);
   background: var(--soft);
   border: 0;
-  border-left: 3px solid var(--accent);
   border-radius: 0;
 }
 .rapids-sets code {
@@ -388,7 +383,7 @@
 .rapids-sets .quality-epic { --quality: #CC80CC; }
 .rapids-sets .quality-excellent { --quality: #80B0E0; }
 .rapids-sets .quality-good { --quality: #65CF65; }
-.rapids-sets .quality-common { --quality: #DDDDDD; }
+.rapids-sets .quality-common { --quality: #404549; }
 .rapids-sets .quality-rough { --quality: #808080; }
 .rapids-sets .quality-base { --quality: var(--accent); }
 .rapids-sets .tier-top {
@@ -456,13 +451,11 @@
     <a href="#/rapids/materials">材料图鉴</a>
     <a href="#/rapids/combat_system">战斗系统</a>
   </nav>
-  <div class="unit-note">
-    <strong>数值阅读方式</strong>
-    <p><code>unit</code> 表示配置中的等级缩放基准单位，不是固定面板数值。例如 <code>0.75 unit</code> 表示对应基准值的 0.75 倍；这里保留倍率，省略后台公式。百分比属性直接以百分比显示，法力与生命恢复则按恢复速度理解。</p>
-  </div>
+  <h3>数值相关介绍</h3>
   <div class="legend-grid">
-    <div class="legend-card"><strong>属性值</strong><span>固定值包括会心、柔韧、护甲穿透、魔法穿透、最大法力值。百分比属性包括护甲穿透率、箭矢速度、移动速度、暴击伤害与经验加成。</span></div>
-    <div class="legend-card"><strong>恢复与 unit</strong><span>法力恢复以 P/s 表示。生命恢复若使用 unit，则随对应基准值缩放。</span></div>
+    <div class="legend-card"><strong>数值</strong>
+    <span>固定值通常会出现在魔法相关属性，如：最大法力值、法力恢复等，或前期的套装属性。<br>含百分号则为 <code>百分比属性</code> 如：箭矢速度、移动速度、暴击伤害与经验加成。</span></div>
+    <div class="legend-card"><strong>公式</strong><span>以 <code>unit</code> 标注的数值，则表示对应属性基准值。<br>如：生命恢复: +0.75 unit 表示 0.75 基准单位的生命恢复（继承自生命值）<br>参考数值：29 (Lv.10 / 普通)</span></div>
   </div>
   <section class="set-section harmony" id="harmony">
     <div class="set-heading"><div><h2>和光同尘</h2><p>均衡型套装，随着品质提升强化会心、护甲穿透率与暴击伤害。</p></div></div>
@@ -492,11 +485,11 @@
   <section class="set-section wind" id="wind-shape">
     <div class="set-heading"><div><h2>风之形</h2><p>以会心、护甲穿透和机动性为主轴，高品质档位同时强化箭矢速度。</p></div></div>
     <div class="tier-grid">
-       <article class="tier-card quality-mythic"><div class="tier-top"><span class="tier-name">神话</span><span class="tier-level">Tier 6</span></div><div class="bonus-row"><span class="bonus-count">2 件</span><span class="bonus-text">会心 <strong>+90</strong></span></div><div class="bonus-row"><span class="bonus-count">4 件</span><span class="bonus-text">护甲穿透 <strong>+90</strong> · 移动速度 <strong>+35%</strong></span></div><div class="bonus-row"><span class="bonus-count">5 件</span><span class="bonus-text">箭矢速度 <strong>+35%</strong></span></div></article>
-       <article class="tier-card quality-legendary"><div class="tier-top"><span class="tier-name">传奇</span><span class="tier-level">Tier 5</span></div><div class="bonus-row"><span class="bonus-count">2 件</span><span class="bonus-text">会心 <strong>+60</strong></span></div><div class="bonus-row"><span class="bonus-count">4 件</span><span class="bonus-text">护甲穿透 <strong>+60</strong> · 移动速度 <strong>+25%</strong></span></div><div class="bonus-row"><span class="bonus-count">5 件</span><span class="bonus-text">箭矢速度 <strong>+25%</strong></span></div></article>
-       <article class="tier-card quality-epic"><div class="tier-top"><span class="tier-name">史诗</span><span class="tier-level">Tier 4</span></div><div class="bonus-row"><span class="bonus-count">2 件</span><span class="bonus-text">会心 <strong>+40</strong></span></div><div class="bonus-row"><span class="bonus-count">4 件</span><span class="bonus-text">护甲穿透 <strong>+40</strong> · 移动速度 <strong>+20%</strong></span></div><div class="bonus-row"><span class="bonus-count">5 件</span><span class="bonus-text">箭矢速度 <strong>+20%</strong></span></div></article>
-       <article class="tier-card quality-excellent"><div class="tier-top"><span class="tier-name">卓越</span><span class="tier-level">Tier 3</span></div><div class="bonus-row"><span class="bonus-count">2 件</span><span class="bonus-text">会心 <strong>+30</strong></span></div><div class="bonus-row"><span class="bonus-count">4 件</span><span class="bonus-text">移动速度 <strong>+15%</strong></span></div></article>
-       <article class="tier-card quality-good"><div class="tier-top"><span class="tier-name">优秀</span><span class="tier-level">Tier 2</span></div><div class="bonus-row"><span class="bonus-count">2 件</span><span class="bonus-text">会心 <strong>+25</strong></span></div><div class="bonus-row"><span class="bonus-count">4 件</span><span class="bonus-text">移动速度 <strong>+10%</strong></span></div></article>
+       <article class="tier-card quality-mythic"><div class="tier-top"><span class="tier-name">神话</span><span class="tier-level">Tier 7</span></div><div class="bonus-row"><span class="bonus-count">2 件</span><span class="bonus-text">会心 <strong>+90</strong></span></div><div class="bonus-row"><span class="bonus-count">4 件</span><span class="bonus-text">护甲穿透 <strong>+90</strong> · 移动速度 <strong>+35%</strong></span></div><div class="bonus-row"><span class="bonus-count">5 件</span><span class="bonus-text">箭矢速度 <strong>+35%</strong></span></div></article>
+       <article class="tier-card quality-legendary"><div class="tier-top"><span class="tier-name">传奇</span><span class="tier-level">Tier 6</span></div><div class="bonus-row"><span class="bonus-count">2 件</span><span class="bonus-text">会心 <strong>+60</strong></span></div><div class="bonus-row"><span class="bonus-count">4 件</span><span class="bonus-text">护甲穿透 <strong>+60</strong> · 移动速度 <strong>+25%</strong></span></div><div class="bonus-row"><span class="bonus-count">5 件</span><span class="bonus-text">箭矢速度 <strong>+25%</strong></span></div></article>
+       <article class="tier-card quality-epic"><div class="tier-top"><span class="tier-name">史诗</span><span class="tier-level">Tier 5</span></div><div class="bonus-row"><span class="bonus-count">2 件</span><span class="bonus-text">会心 <strong>+40</strong></span></div><div class="bonus-row"><span class="bonus-count">4 件</span><span class="bonus-text">护甲穿透 <strong>+40</strong> · 移动速度 <strong>+20%</strong></span></div><div class="bonus-row"><span class="bonus-count">5 件</span><span class="bonus-text">箭矢速度 <strong>+20%</strong></span></div></article>
+       <article class="tier-card quality-excellent"><div class="tier-top"><span class="tier-name">卓越</span><span class="tier-level">Tier 4</span></div><div class="bonus-row"><span class="bonus-count">2 件</span><span class="bonus-text">会心 <strong>+30</strong></span></div><div class="bonus-row"><span class="bonus-count">4 件</span><span class="bonus-text">移动速度 <strong>+15%</strong></span></div></article>
+       <article class="tier-card quality-good"><div class="tier-top"><span class="tier-name">优秀</span><span class="tier-level">Tier 3</span></div><div class="bonus-row"><span class="bonus-count">2 件</span><span class="bonus-text">会心 <strong>+25</strong></span></div><div class="bonus-row"><span class="bonus-count">4 件</span><span class="bonus-text">移动速度 <strong>+10%</strong></span></div></article>
     </div>
   </section>
   <section class="set-section river" id="river-gate">
@@ -518,9 +511,7 @@
        <article class="tier-card quality-epic"><div class="tier-top"><span class="tier-name">史诗</span><span class="tier-level">Tier 5</span></div><div class="bonus-row"><span class="bonus-count">2 件</span><span class="bonus-text">柔韧 <strong>1 unit</strong></span></div><div class="bonus-row"><span class="bonus-count">4 件</span><span class="bonus-text">魔法穿透 <strong>2 unit</strong> · 最大法力值 <strong>+30</strong></span></div><div class="bonus-row"><span class="bonus-count">5 件</span><span class="bonus-text">法力恢复 <strong>+0.75 P/s</strong></span></div></article>
        <article class="tier-card quality-excellent"><div class="tier-top"><span class="tier-name">卓越</span><span class="tier-level">Tier 4</span></div><div class="bonus-row"><span class="bonus-count">2 件</span><span class="bonus-text">柔韧 <strong>0.75 unit</strong></span></div><div class="bonus-row"><span class="bonus-count">4 件</span><span class="bonus-text">魔法穿透 <strong>1.5 unit</strong></span></div></article>
        <article class="tier-card quality-good"><div class="tier-top"><span class="tier-name">优秀</span><span class="tier-level">Tier 3</span></div><div class="bonus-row"><span class="bonus-count">2 件</span><span class="bonus-text">柔韧 <strong>0.625 unit</strong></span></div><div class="bonus-row"><span class="bonus-count">4 件</span><span class="bonus-text">魔法穿透 <strong>1.25 unit</strong></span></div></article>
-       <article class="tier-card quality-common"><div class="tier-top"><span class="tier-name">普通</span><span class="tier-level">Tier 2</span></div><div class="bonus-row"><span class="bonus-count">2 件</span><span class="bonus-text">柔韧 <strong>0.5 unit</strong></span></div><div class="bonus-row"><span class="bonus-count">4 件</span><span class="bonus-text">魔法穿透 <strong>1 unit</strong></span></div></article>
-       <article class="tier-card quality-rough"><div class="tier-top"><span class="tier-name">粗糙</span><span class="tier-level">Tier 1</span></div><div class="bonus-row"><span class="bonus-count">2 件</span><span class="bonus-text">柔韧 <strong>0.25 unit</strong></span></div><div class="bonus-row"><span class="bonus-count">4 件</span><span class="bonus-text">魔法穿透 <strong>0.5 unit</strong></span></div></article>
     </div>
   </section>
-  <p class="closing-note"><strong>说明：</strong>本页按照 ZeroAttribute 的套装配置整理；Tier 表示配置中的套装档位。套装门槛按穿着件数累计，达到更高门槛时，较低门槛效果仍保留。</p>
+  <p class="closing-note"><strong>说明：</strong>Tier 表示套装档位。套装门槛按穿着件数累计，跨品质组合时，高品质部件可向下兼容低品质部件并生效低品质套装属性。</p>
 </div>
