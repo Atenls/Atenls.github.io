@@ -263,13 +263,192 @@
     border-radius: 14px;
   }
 }
+/* Editorial pass: one accent, quiet surfaces, and borders that group data. */
+.rapids-sets {
+  --accent: #4f6f86;
+  --soft: #f1f5f7;
+  --surface: #ffffff;
+  --ink: #293743;
+  --muted: #6f7d87;
+  --line: #d9e2e7;
+  color: var(--ink);
+}
+.rapids-sets-hero {
+  background: var(--soft);
+  border: 0;
+  border-left: 3px solid var(--accent);
+  border-radius: 0 12px 12px 0;
+  box-shadow: none;
+}
+.rapids-sets-hero .kicker,
+.rapids-sets .eyebrow,
+.rapids-sets a {
+  color: var(--accent);
+}
+.rapids-sets-hero h1,
+.rapids-sets .set-heading h2 {
+  color: var(--ink);
+}
+.rapids-sets-hero p,
+.rapids-sets .set-heading p,
+.rapids-sets .legend-card span,
+.rapids-sets .bonus-text,
+.rapids-sets .closing-note {
+  color: var(--muted);
+}
+.rapids-sets .quick-links {
+  border-color: var(--line);
+}
+.rapids-sets .quick-links a:hover {
+  color: var(--accent);
+  background: var(--soft);
+}
+.rapids-sets .unit-note {
+  color: var(--muted);
+  background: var(--soft);
+  border: 0;
+  border-left: 3px solid var(--accent);
+  border-radius: 0;
+}
+.rapids-sets code {
+  color: var(--accent);
+  background: #e7eef1;
+  border-radius: 2px;
+}
+.rapids-sets .legend-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0 2em;
+  margin: 1.4em 0 2.8em;
+}
+.rapids-sets .legend-card {
+  padding: .9em 0 1em;
+  border: 0;
+  border-top: 1px solid var(--line);
+  border-radius: 0;
+  background: transparent;
+}
+.rapids-sets .legend-card strong,
+.rapids-sets .tier-name,
+.rapids-sets .bonus-count,
+.rapids-sets .bonus-text strong {
+  color: var(--accent);
+}
+.rapids-sets .set-section,
+.rapids-sets .set-section.harmony,
+.rapids-sets .set-section.origin,
+.rapids-sets .set-section.valley,
+.rapids-sets .set-section.wind,
+.rapids-sets .set-section.river,
+.rapids-sets .set-section.mist {
+  --accent: #4f6f86;
+  --soft: #f1f5f7;
+  margin: 3.4em 0 0;
+  padding: 1.4em 0 0;
+  background: transparent;
+  border: 0;
+  border-top: 1px solid var(--line);
+  border-radius: 0;
+  box-shadow: none;
+}
+.rapids-sets .set-heading {
+  margin-bottom: 1.25em;
+  padding: 0 0 .9em .85em;
+  border: 0;
+  border-left: 3px solid var(--accent);
+}
+.rapids-sets .set-heading h2 {
+  font-size: 1.65em;
+}
+.rapids-sets .set-chip {
+  display: none;
+}
+.rapids-sets .tier-grid {
+  gap: 0 2em;
+}
+.rapids-sets .tier-card {
+  position: static;
+  min-height: 0;
+  padding: 1em .2em 1.15em 1em;
+  background: transparent;
+  border: 0;
+  border-top: 1px solid var(--line);
+  border-left: 2px solid var(--accent);
+  border-radius: 0;
+  box-shadow: none;
+}
+.rapids-sets .tier-card {
+  --quality: var(--accent);
+  border-left-color: var(--quality);
+}
+.rapids-sets .tier-name {
+  color: var(--quality);
+}
+.rapids-sets .quality-mythic { --quality: #FF8080; }
+.rapids-sets .quality-legendary { --quality: #FFAA00; }
+.rapids-sets .quality-epic { --quality: #CC80CC; }
+.rapids-sets .quality-excellent { --quality: #80B0E0; }
+.rapids-sets .quality-good { --quality: #65CF65; }
+.rapids-sets .quality-common { --quality: #DDDDDD; }
+.rapids-sets .quality-rough { --quality: #808080; }
+.rapids-sets .quality-base { --quality: var(--accent); }
+.rapids-sets .tier-top {
+  margin-bottom: .8em;
+}
+.rapids-sets .tier-level {
+  color: var(--muted);
+}
+.rapids-sets .bonus-row + .bonus-row {
+  margin-top: .35em;
+  padding-top: 0;
+  border-top: 0;
+}
+.rapids-sets .bonus-count {
+  min-width: 3.15em;
+  padding: 0;
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  text-align: left;
+}
+.rapids-sets .bonus-text strong {
+  padding: 0;
+  background: transparent;
+}
+.rapids-sets .closing-note {
+  padding-top: 1em;
+  border-top: 1px solid var(--line);
+}
+@media (prefers-color-scheme: dark) {
+  .rapids-sets {
+    --accent: #9ab9c5;
+    --soft: #19252b;
+    --surface: #111b20;
+    --ink: #e4edf0;
+    --muted: #a9b8bf;
+    --line: #3a4a52;
+  }
+  .rapids-sets-hero,
+  .rapids-sets .unit-note {
+    background: var(--soft);
+  }
+  .rapids-sets code {
+    color: #b4d2da;
+    background: #263840;
+  }
+  .rapids-sets .quality-common { --quality: #DDDDDD; }
+  .rapids-sets .quality-rough { --quality: #B5B5B5; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .rapids-sets .quick-links a {
+    transition: none;
+  }
+}
 </style>
 <div class="rapids-sets">
   <header class="rapids-sets-hero">
     <p class="kicker">RAPIDS / SET ATLAS</p>
     <h1>套装属性</h1>
     <p>套装效果按穿着件数逐段解锁。这里集中披露当前配置中的套装门槛、属性类型与数值，不展开单件装备的基础属性。</p>
-    <div class="hero-meta"><span>6 组套装</span><span>28 个档位</span><span>2–5 件门槛</span></div>
   </header>
   <nav class="quick-links">
     <a href="#/rapids/dungeon">副本流程</a>
@@ -282,66 +461,65 @@
     <p><code>unit</code> 表示配置中的等级缩放基准单位，不是固定面板数值。例如 <code>0.75 unit</code> 表示对应基准值的 0.75 倍；这里保留倍率，省略后台公式。百分比属性直接以百分比显示，法力与生命恢复则按恢复速度理解。</p>
   </div>
   <div class="legend-grid">
-    <div class="legend-card"><strong>固定属性</strong><span>会心、柔韧、护甲穿透、魔法穿透、最大法力值。</span></div>
-    <div class="legend-card"><strong>百分比属性</strong><span>护甲穿透率、箭矢速度、移动速度、暴击伤害、经验加成。</span></div>
-    <div class="legend-card"><strong>恢复属性</strong><span>法力恢复以 P/s 表示；生命恢复若使用 unit，则随对应基准值缩放。</span></div>
+    <div class="legend-card"><strong>属性值</strong><span>固定值包括会心、柔韧、护甲穿透、魔法穿透、最大法力值。百分比属性包括护甲穿透率、箭矢速度、移动速度、暴击伤害与经验加成。</span></div>
+    <div class="legend-card"><strong>恢复与 unit</strong><span>法力恢复以 P/s 表示。生命恢复若使用 unit，则随对应基准值缩放。</span></div>
   </div>
   <section class="set-section harmony" id="harmony">
-    <div class="set-heading"><div><p class="eyebrow">SET / 和光同尘</p><h2>和光同尘</h2><p>均衡型套装，随着品质提升强化会心、护甲穿透率与暴击伤害。</p></div><span class="set-chip">会心 · 穿透率 · 暴击</span></div>
+    <div class="set-heading"><div><h2>和光同尘</h2><p>均衡型套装，随着品质提升强化会心、护甲穿透率与暴击伤害。</p></div></div>
     <div class="tier-grid">
-      <article class="tier-card"><div class="tier-top"><span class="tier-name">传奇</span><span class="tier-level">Tier 3</span></div><div class="bonus-row"><span class="bonus-count">2 件</span><span class="bonus-text">会心 <strong>+25</strong></span></div><div class="bonus-row"><span class="bonus-count">4 件</span><span class="bonus-text">护甲穿透率 <strong>+10%</strong></span></div><div class="bonus-row"><span class="bonus-count">5 件</span><span class="bonus-text">暴击伤害 <strong>+35%</strong></span></div></article>
-      <article class="tier-card"><div class="tier-top"><span class="tier-name">史诗</span><span class="tier-level">Tier 2</span></div><div class="bonus-row"><span class="bonus-count">2 件</span><span class="bonus-text">会心 <strong>+20</strong></span></div><div class="bonus-row"><span class="bonus-count">4 件</span><span class="bonus-text">护甲穿透率 <strong>+8%</strong></span></div></article>
-      <article class="tier-card"><div class="tier-top"><span class="tier-name">卓越</span><span class="tier-level">Tier 1</span></div><div class="bonus-row"><span class="bonus-count">2 件</span><span class="bonus-text">会心 <strong>+10</strong></span></div><div class="bonus-row"><span class="bonus-count">4 件</span><span class="bonus-text">护甲穿透率 <strong>+5%</strong></span></div></article>
+       <article class="tier-card quality-legendary"><div class="tier-top"><span class="tier-name">传奇</span><span class="tier-level">Tier 3</span></div><div class="bonus-row"><span class="bonus-count">2 件</span><span class="bonus-text">会心 <strong>+25</strong></span></div><div class="bonus-row"><span class="bonus-count">4 件</span><span class="bonus-text">护甲穿透率 <strong>+10%</strong></span></div><div class="bonus-row"><span class="bonus-count">5 件</span><span class="bonus-text">暴击伤害 <strong>+35%</strong></span></div></article>
+       <article class="tier-card quality-epic"><div class="tier-top"><span class="tier-name">史诗</span><span class="tier-level">Tier 2</span></div><div class="bonus-row"><span class="bonus-count">2 件</span><span class="bonus-text">会心 <strong>+20</strong></span></div><div class="bonus-row"><span class="bonus-count">4 件</span><span class="bonus-text">护甲穿透率 <strong>+8%</strong></span></div></article>
+       <article class="tier-card quality-excellent"><div class="tier-top"><span class="tier-name">卓越</span><span class="tier-level">Tier 1</span></div><div class="bonus-row"><span class="bonus-count">2 件</span><span class="bonus-text">会心 <strong>+10</strong></span></div><div class="bonus-row"><span class="bonus-count">4 件</span><span class="bonus-text">护甲穿透率 <strong>+5%</strong></span></div></article>
     </div>
   </section>
   <section class="set-section origin" id="origin">
-    <div class="set-heading"><div><p class="eyebrow">SET / 初生</p><h2>初生</h2><p>基础成长套装，提供稳定的经验获取加成。</p></div><span class="set-chip">经验加成</span></div>
+    <div class="set-heading"><div><h2>初生</h2><p>基础成长套装，提供稳定的经验获取加成。</p></div></div>
     <div class="tier-grid">
-      <article class="tier-card"><div class="tier-top"><span class="tier-name">基础套装</span><span class="tier-level">无品质分档</span></div><div class="bonus-row"><span class="bonus-count">2 件</span><span class="bonus-text">经验加成 <strong>+10%</strong></span></div><div class="bonus-row"><span class="bonus-count">4 件</span><span class="bonus-text">经验加成 <strong>+10%</strong></span></div></article>
+       <article class="tier-card quality-base"><div class="tier-top"><span class="tier-name">基础套装</span><span class="tier-level">无品质分档</span></div><div class="bonus-row"><span class="bonus-count">2 件</span><span class="bonus-text">经验加成 <strong>+10%</strong></span></div><div class="bonus-row"><span class="bonus-count">4 件</span><span class="bonus-text">经验加成 <strong>+10%</strong></span></div></article>
     </div>
   </section>
   <section class="set-section valley" id="valley">
-    <div class="set-heading"><div><p class="eyebrow">SET / 峡谷</p><h2>峡谷</h2><p>以会心和固定护甲穿透为核心，传奇档位额外提升箭矢与移动能力。</p></div><span class="set-chip">会心 · 护甲穿透</span></div>
+    <div class="set-heading"><div><h2>峡谷</h2><p>以会心和固定护甲穿透为核心，传奇档位额外提升箭矢与移动能力。</p></div></div>
     <div class="tier-grid">
-      <article class="tier-card"><div class="tier-top"><span class="tier-name">传奇</span><span class="tier-level">Tier 6</span></div><div class="bonus-row"><span class="bonus-count">2 件</span><span class="bonus-text">会心 <strong>+60</strong></span></div><div class="bonus-row"><span class="bonus-count">4 件</span><span class="bonus-text">护甲穿透 <strong>+60</strong> · 箭矢速度 <strong>+20%</strong></span></div><div class="bonus-row"><span class="bonus-count">5 件</span><span class="bonus-text">移动速度 <strong>+15%</strong></span></div></article>
-      <article class="tier-card"><div class="tier-top"><span class="tier-name">史诗</span><span class="tier-level">Tier 5</span></div><div class="bonus-row"><span class="bonus-count">2 件</span><span class="bonus-text">会心 <strong>+40</strong></span></div><div class="bonus-row"><span class="bonus-count">4 件</span><span class="bonus-text">护甲穿透 <strong>+40</strong></span></div><div class="bonus-row"><span class="bonus-count">5 件</span><span class="bonus-text">箭矢速度 <strong>+20%</strong></span></div></article>
-      <article class="tier-card"><div class="tier-top"><span class="tier-name">卓越</span><span class="tier-level">Tier 4</span></div><div class="bonus-row"><span class="bonus-count">2 件</span><span class="bonus-text">会心 <strong>+30</strong></span></div><div class="bonus-row"><span class="bonus-count">4 件</span><span class="bonus-text">护甲穿透 <strong>+30</strong></span></div></article>
-      <article class="tier-card"><div class="tier-top"><span class="tier-name">优秀</span><span class="tier-level">Tier 3</span></div><div class="bonus-row"><span class="bonus-count">2 件</span><span class="bonus-text">会心 <strong>+25</strong></span></div><div class="bonus-row"><span class="bonus-count">4 件</span><span class="bonus-text">护甲穿透 <strong>+25</strong></span></div></article>
-      <article class="tier-card"><div class="tier-top"><span class="tier-name">普通</span><span class="tier-level">Tier 2</span></div><div class="bonus-row"><span class="bonus-count">2 件</span><span class="bonus-text">会心 <strong>+20</strong></span></div><div class="bonus-row"><span class="bonus-count">4 件</span><span class="bonus-text">护甲穿透 <strong>+20</strong></span></div></article>
-      <article class="tier-card"><div class="tier-top"><span class="tier-name">粗糙</span><span class="tier-level">Tier 1</span></div><div class="bonus-row"><span class="bonus-count">2 件</span><span class="bonus-text">会心 <strong>+10</strong></span></div><div class="bonus-row"><span class="bonus-count">4 件</span><span class="bonus-text">护甲穿透 <strong>+10</strong></span></div></article>
+       <article class="tier-card quality-legendary"><div class="tier-top"><span class="tier-name">传奇</span><span class="tier-level">Tier 6</span></div><div class="bonus-row"><span class="bonus-count">2 件</span><span class="bonus-text">会心 <strong>+60</strong></span></div><div class="bonus-row"><span class="bonus-count">4 件</span><span class="bonus-text">护甲穿透 <strong>+60</strong> · 箭矢速度 <strong>+20%</strong></span></div><div class="bonus-row"><span class="bonus-count">5 件</span><span class="bonus-text">移动速度 <strong>+15%</strong></span></div></article>
+       <article class="tier-card quality-epic"><div class="tier-top"><span class="tier-name">史诗</span><span class="tier-level">Tier 5</span></div><div class="bonus-row"><span class="bonus-count">2 件</span><span class="bonus-text">会心 <strong>+40</strong></span></div><div class="bonus-row"><span class="bonus-count">4 件</span><span class="bonus-text">护甲穿透 <strong>+40</strong></span></div><div class="bonus-row"><span class="bonus-count">5 件</span><span class="bonus-text">箭矢速度 <strong>+20%</strong></span></div></article>
+       <article class="tier-card quality-excellent"><div class="tier-top"><span class="tier-name">卓越</span><span class="tier-level">Tier 4</span></div><div class="bonus-row"><span class="bonus-count">2 件</span><span class="bonus-text">会心 <strong>+30</strong></span></div><div class="bonus-row"><span class="bonus-count">4 件</span><span class="bonus-text">护甲穿透 <strong>+30</strong></span></div></article>
+       <article class="tier-card quality-good"><div class="tier-top"><span class="tier-name">优秀</span><span class="tier-level">Tier 3</span></div><div class="bonus-row"><span class="bonus-count">2 件</span><span class="bonus-text">会心 <strong>+25</strong></span></div><div class="bonus-row"><span class="bonus-count">4 件</span><span class="bonus-text">护甲穿透 <strong>+25</strong></span></div></article>
+       <article class="tier-card quality-common"><div class="tier-top"><span class="tier-name">普通</span><span class="tier-level">Tier 2</span></div><div class="bonus-row"><span class="bonus-count">2 件</span><span class="bonus-text">会心 <strong>+20</strong></span></div><div class="bonus-row"><span class="bonus-count">4 件</span><span class="bonus-text">护甲穿透 <strong>+20</strong></span></div></article>
+       <article class="tier-card quality-rough"><div class="tier-top"><span class="tier-name">粗糙</span><span class="tier-level">Tier 1</span></div><div class="bonus-row"><span class="bonus-count">2 件</span><span class="bonus-text">会心 <strong>+10</strong></span></div><div class="bonus-row"><span class="bonus-count">4 件</span><span class="bonus-text">护甲穿透 <strong>+10</strong></span></div></article>
     </div>
   </section>
   <section class="set-section wind" id="wind-shape">
-    <div class="set-heading"><div><p class="eyebrow">SET / 风之形</p><h2>风之形</h2><p>以会心、护甲穿透和机动性为主轴，高品质档位同时强化箭矢速度。</p></div><span class="set-chip">会心 · 机动 · 箭矢</span></div>
+    <div class="set-heading"><div><h2>风之形</h2><p>以会心、护甲穿透和机动性为主轴，高品质档位同时强化箭矢速度。</p></div></div>
     <div class="tier-grid">
-      <article class="tier-card"><div class="tier-top"><span class="tier-name">神话</span><span class="tier-level">Tier 6</span></div><div class="bonus-row"><span class="bonus-count">2 件</span><span class="bonus-text">会心 <strong>+90</strong></span></div><div class="bonus-row"><span class="bonus-count">4 件</span><span class="bonus-text">护甲穿透 <strong>+90</strong> · 移动速度 <strong>+35%</strong></span></div><div class="bonus-row"><span class="bonus-count">5 件</span><span class="bonus-text">箭矢速度 <strong>+35%</strong></span></div></article>
-      <article class="tier-card"><div class="tier-top"><span class="tier-name">传奇</span><span class="tier-level">Tier 5</span></div><div class="bonus-row"><span class="bonus-count">2 件</span><span class="bonus-text">会心 <strong>+60</strong></span></div><div class="bonus-row"><span class="bonus-count">4 件</span><span class="bonus-text">护甲穿透 <strong>+60</strong> · 移动速度 <strong>+25%</strong></span></div><div class="bonus-row"><span class="bonus-count">5 件</span><span class="bonus-text">箭矢速度 <strong>+25%</strong></span></div></article>
-      <article class="tier-card"><div class="tier-top"><span class="tier-name">史诗</span><span class="tier-level">Tier 4</span></div><div class="bonus-row"><span class="bonus-count">2 件</span><span class="bonus-text">会心 <strong>+40</strong></span></div><div class="bonus-row"><span class="bonus-count">4 件</span><span class="bonus-text">护甲穿透 <strong>+40</strong> · 移动速度 <strong>+20%</strong></span></div><div class="bonus-row"><span class="bonus-count">5 件</span><span class="bonus-text">箭矢速度 <strong>+20%</strong></span></div></article>
-      <article class="tier-card"><div class="tier-top"><span class="tier-name">卓越</span><span class="tier-level">Tier 3</span></div><div class="bonus-row"><span class="bonus-count">2 件</span><span class="bonus-text">会心 <strong>+30</strong></span></div><div class="bonus-row"><span class="bonus-count">4 件</span><span class="bonus-text">移动速度 <strong>+15%</strong></span></div></article>
-      <article class="tier-card"><div class="tier-top"><span class="tier-name">优秀</span><span class="tier-level">Tier 2</span></div><div class="bonus-row"><span class="bonus-count">2 件</span><span class="bonus-text">会心 <strong>+25</strong></span></div><div class="bonus-row"><span class="bonus-count">4 件</span><span class="bonus-text">移动速度 <strong>+10%</strong></span></div></article>
+       <article class="tier-card quality-mythic"><div class="tier-top"><span class="tier-name">神话</span><span class="tier-level">Tier 6</span></div><div class="bonus-row"><span class="bonus-count">2 件</span><span class="bonus-text">会心 <strong>+90</strong></span></div><div class="bonus-row"><span class="bonus-count">4 件</span><span class="bonus-text">护甲穿透 <strong>+90</strong> · 移动速度 <strong>+35%</strong></span></div><div class="bonus-row"><span class="bonus-count">5 件</span><span class="bonus-text">箭矢速度 <strong>+35%</strong></span></div></article>
+       <article class="tier-card quality-legendary"><div class="tier-top"><span class="tier-name">传奇</span><span class="tier-level">Tier 5</span></div><div class="bonus-row"><span class="bonus-count">2 件</span><span class="bonus-text">会心 <strong>+60</strong></span></div><div class="bonus-row"><span class="bonus-count">4 件</span><span class="bonus-text">护甲穿透 <strong>+60</strong> · 移动速度 <strong>+25%</strong></span></div><div class="bonus-row"><span class="bonus-count">5 件</span><span class="bonus-text">箭矢速度 <strong>+25%</strong></span></div></article>
+       <article class="tier-card quality-epic"><div class="tier-top"><span class="tier-name">史诗</span><span class="tier-level">Tier 4</span></div><div class="bonus-row"><span class="bonus-count">2 件</span><span class="bonus-text">会心 <strong>+40</strong></span></div><div class="bonus-row"><span class="bonus-count">4 件</span><span class="bonus-text">护甲穿透 <strong>+40</strong> · 移动速度 <strong>+20%</strong></span></div><div class="bonus-row"><span class="bonus-count">5 件</span><span class="bonus-text">箭矢速度 <strong>+20%</strong></span></div></article>
+       <article class="tier-card quality-excellent"><div class="tier-top"><span class="tier-name">卓越</span><span class="tier-level">Tier 3</span></div><div class="bonus-row"><span class="bonus-count">2 件</span><span class="bonus-text">会心 <strong>+30</strong></span></div><div class="bonus-row"><span class="bonus-count">4 件</span><span class="bonus-text">移动速度 <strong>+15%</strong></span></div></article>
+       <article class="tier-card quality-good"><div class="tier-top"><span class="tier-name">优秀</span><span class="tier-level">Tier 2</span></div><div class="bonus-row"><span class="bonus-count">2 件</span><span class="bonus-text">会心 <strong>+25</strong></span></div><div class="bonus-row"><span class="bonus-count">4 件</span><span class="bonus-text">移动速度 <strong>+10%</strong></span></div></article>
     </div>
   </section>
   <section class="set-section river" id="river-gate">
-    <div class="set-heading"><div><p class="eyebrow">SET / 河隘</p><h2>河隘</h2><p>围绕柔韧与魔法穿透构筑，较高档位补充法力上限与法力恢复。</p></div><span class="set-chip">柔韧 · 魔法穿透</span></div>
+    <div class="set-heading"><div><h2>河隘</h2><p>围绕柔韧与魔法穿透构筑，较高档位补充法力上限与法力恢复。</p></div></div>
     <div class="tier-grid">
-      <article class="tier-card"><div class="tier-top"><span class="tier-name">传奇</span><span class="tier-level">Tier 6</span></div><div class="bonus-row"><span class="bonus-count">2 件</span><span class="bonus-text">柔韧 <strong>1.5 unit</strong></span></div><div class="bonus-row"><span class="bonus-count">4 件</span><span class="bonus-text">魔法穿透 <strong>3 unit</strong> · 最大法力值 <strong>+50</strong></span></div><div class="bonus-row"><span class="bonus-count">5 件</span><span class="bonus-text">法力恢复 <strong>+1.5 P/s</strong></span></div></article>
-      <article class="tier-card"><div class="tier-top"><span class="tier-name">史诗</span><span class="tier-level">Tier 5</span></div><div class="bonus-row"><span class="bonus-count">2 件</span><span class="bonus-text">柔韧 <strong>1 unit</strong></span></div><div class="bonus-row"><span class="bonus-count">4 件</span><span class="bonus-text">魔法穿透 <strong>2 unit</strong></span></div><div class="bonus-row"><span class="bonus-count">5 件</span><span class="bonus-text">法力恢复 <strong>+0.75 P/s</strong></span></div></article>
-      <article class="tier-card"><div class="tier-top"><span class="tier-name">卓越</span><span class="tier-level">Tier 4</span></div><div class="bonus-row"><span class="bonus-count">2 件</span><span class="bonus-text">柔韧 <strong>0.75 unit</strong></span></div><div class="bonus-row"><span class="bonus-count">4 件</span><span class="bonus-text">魔法穿透 <strong>1.5 unit</strong></span></div></article>
-      <article class="tier-card"><div class="tier-top"><span class="tier-name">优秀</span><span class="tier-level">Tier 3</span></div><div class="bonus-row"><span class="bonus-count">2 件</span><span class="bonus-text">柔韧 <strong>0.625 unit</strong></span></div><div class="bonus-row"><span class="bonus-count">4 件</span><span class="bonus-text">魔法穿透 <strong>1.25 unit</strong></span></div></article>
-      <article class="tier-card"><div class="tier-top"><span class="tier-name">普通</span><span class="tier-level">Tier 2</span></div><div class="bonus-row"><span class="bonus-count">2 件</span><span class="bonus-text">柔韧 <strong>0.5 unit</strong></span></div><div class="bonus-row"><span class="bonus-count">4 件</span><span class="bonus-text">魔法穿透 <strong>1 unit</strong></span></div></article>
-      <article class="tier-card"><div class="tier-top"><span class="tier-name">粗糙</span><span class="tier-level">Tier 1</span></div><div class="bonus-row"><span class="bonus-count">2 件</span><span class="bonus-text">柔韧 <strong>0.25 unit</strong></span></div><div class="bonus-row"><span class="bonus-count">4 件</span><span class="bonus-text">魔法穿透 <strong>0.5 unit</strong></span></div></article>
+       <article class="tier-card quality-legendary"><div class="tier-top"><span class="tier-name">传奇</span><span class="tier-level">Tier 6</span></div><div class="bonus-row"><span class="bonus-count">2 件</span><span class="bonus-text">柔韧 <strong>1.5 unit</strong></span></div><div class="bonus-row"><span class="bonus-count">4 件</span><span class="bonus-text">魔法穿透 <strong>3 unit</strong> · 最大法力值 <strong>+50</strong></span></div><div class="bonus-row"><span class="bonus-count">5 件</span><span class="bonus-text">法力恢复 <strong>+1.5 P/s</strong></span></div></article>
+       <article class="tier-card quality-epic"><div class="tier-top"><span class="tier-name">史诗</span><span class="tier-level">Tier 5</span></div><div class="bonus-row"><span class="bonus-count">2 件</span><span class="bonus-text">柔韧 <strong>1 unit</strong></span></div><div class="bonus-row"><span class="bonus-count">4 件</span><span class="bonus-text">魔法穿透 <strong>2 unit</strong></span></div><div class="bonus-row"><span class="bonus-count">5 件</span><span class="bonus-text">法力恢复 <strong>+0.75 P/s</strong></span></div></article>
+       <article class="tier-card quality-excellent"><div class="tier-top"><span class="tier-name">卓越</span><span class="tier-level">Tier 4</span></div><div class="bonus-row"><span class="bonus-count">2 件</span><span class="bonus-text">柔韧 <strong>0.75 unit</strong></span></div><div class="bonus-row"><span class="bonus-count">4 件</span><span class="bonus-text">魔法穿透 <strong>1.5 unit</strong></span></div></article>
+       <article class="tier-card quality-good"><div class="tier-top"><span class="tier-name">优秀</span><span class="tier-level">Tier 3</span></div><div class="bonus-row"><span class="bonus-count">2 件</span><span class="bonus-text">柔韧 <strong>0.625 unit</strong></span></div><div class="bonus-row"><span class="bonus-count">4 件</span><span class="bonus-text">魔法穿透 <strong>1.25 unit</strong></span></div></article>
+       <article class="tier-card quality-common"><div class="tier-top"><span class="tier-name">普通</span><span class="tier-level">Tier 2</span></div><div class="bonus-row"><span class="bonus-count">2 件</span><span class="bonus-text">柔韧 <strong>0.5 unit</strong></span></div><div class="bonus-row"><span class="bonus-count">4 件</span><span class="bonus-text">魔法穿透 <strong>1 unit</strong></span></div></article>
+       <article class="tier-card quality-rough"><div class="tier-top"><span class="tier-name">粗糙</span><span class="tier-level">Tier 1</span></div><div class="bonus-row"><span class="bonus-count">2 件</span><span class="bonus-text">柔韧 <strong>0.25 unit</strong></span></div><div class="bonus-row"><span class="bonus-count">4 件</span><span class="bonus-text">魔法穿透 <strong>0.5 unit</strong></span></div></article>
     </div>
   </section>
   <section class="set-section mist" id="river-mist">
-    <div class="set-heading"><div><p class="eyebrow">SET / 河雾</p><h2>河雾</h2><p>以柔韧、魔法穿透和法力循环为核心；神话档位额外提供移动速度与生命恢复。</p></div><span class="set-chip">柔韧 · 法力 · 恢复</span></div>
+    <div class="set-heading"><div><h2>河雾</h2><p>以柔韧、魔法穿透和法力循环为核心；神话档位额外提供移动速度与生命恢复。</p></div></div>
     <div class="tier-grid">
-      <article class="tier-card"><div class="tier-top"><span class="tier-name">神话</span><span class="tier-level">Tier 7</span></div><div class="bonus-row"><span class="bonus-count">2 件</span><span class="bonus-text">柔韧 <strong>1.5 unit</strong></span></div><div class="bonus-row"><span class="bonus-count">4 件</span><span class="bonus-text">魔法穿透 <strong>4.5 unit</strong> · 最大法力值 <strong>+50</strong> · 移动速度 <strong>+20%</strong></span></div><div class="bonus-row"><span class="bonus-count">5 件</span><span class="bonus-text">生命恢复 <strong>0.25 unit</strong> · 法力恢复 <strong>+1.5 P/s</strong></span></div></article>
-      <article class="tier-card"><div class="tier-top"><span class="tier-name">传奇</span><span class="tier-level">Tier 6</span></div><div class="bonus-row"><span class="bonus-count">2 件</span><span class="bonus-text">柔韧 <strong>1.5 unit</strong></span></div><div class="bonus-row"><span class="bonus-count">4 件</span><span class="bonus-text">魔法穿透 <strong>3 unit</strong> · 最大法力值 <strong>+50</strong></span></div><div class="bonus-row"><span class="bonus-count">5 件</span><span class="bonus-text">法力恢复 <strong>+1.5 P/s</strong></span></div></article>
-      <article class="tier-card"><div class="tier-top"><span class="tier-name">史诗</span><span class="tier-level">Tier 5</span></div><div class="bonus-row"><span class="bonus-count">2 件</span><span class="bonus-text">柔韧 <strong>1 unit</strong></span></div><div class="bonus-row"><span class="bonus-count">4 件</span><span class="bonus-text">魔法穿透 <strong>2 unit</strong> · 最大法力值 <strong>+30</strong></span></div><div class="bonus-row"><span class="bonus-count">5 件</span><span class="bonus-text">法力恢复 <strong>+0.75 P/s</strong></span></div></article>
-      <article class="tier-card"><div class="tier-top"><span class="tier-name">卓越</span><span class="tier-level">Tier 4</span></div><div class="bonus-row"><span class="bonus-count">2 件</span><span class="bonus-text">柔韧 <strong>0.75 unit</strong></span></div><div class="bonus-row"><span class="bonus-count">4 件</span><span class="bonus-text">魔法穿透 <strong>1.5 unit</strong></span></div></article>
-      <article class="tier-card"><div class="tier-top"><span class="tier-name">优秀</span><span class="tier-level">Tier 3</span></div><div class="bonus-row"><span class="bonus-count">2 件</span><span class="bonus-text">柔韧 <strong>0.625 unit</strong></span></div><div class="bonus-row"><span class="bonus-count">4 件</span><span class="bonus-text">魔法穿透 <strong>1.25 unit</strong></span></div></article>
-      <article class="tier-card"><div class="tier-top"><span class="tier-name">普通</span><span class="tier-level">Tier 2</span></div><div class="bonus-row"><span class="bonus-count">2 件</span><span class="bonus-text">柔韧 <strong>0.5 unit</strong></span></div><div class="bonus-row"><span class="bonus-count">4 件</span><span class="bonus-text">魔法穿透 <strong>1 unit</strong></span></div></article>
-      <article class="tier-card"><div class="tier-top"><span class="tier-name">粗糙</span><span class="tier-level">Tier 1</span></div><div class="bonus-row"><span class="bonus-count">2 件</span><span class="bonus-text">柔韧 <strong>0.25 unit</strong></span></div><div class="bonus-row"><span class="bonus-count">4 件</span><span class="bonus-text">魔法穿透 <strong>0.5 unit</strong></span></div></article>
+       <article class="tier-card quality-mythic"><div class="tier-top"><span class="tier-name">神话</span><span class="tier-level">Tier 7</span></div><div class="bonus-row"><span class="bonus-count">2 件</span><span class="bonus-text">柔韧 <strong>1.5 unit</strong></span></div><div class="bonus-row"><span class="bonus-count">4 件</span><span class="bonus-text">魔法穿透 <strong>4.5 unit</strong> · 最大法力值 <strong>+50</strong> · 移动速度 <strong>+20%</strong></span></div><div class="bonus-row"><span class="bonus-count">5 件</span><span class="bonus-text">生命恢复 <strong>0.25 unit</strong> · 法力恢复 <strong>+1.5 P/s</strong></span></div></article>
+       <article class="tier-card quality-legendary"><div class="tier-top"><span class="tier-name">传奇</span><span class="tier-level">Tier 6</span></div><div class="bonus-row"><span class="bonus-count">2 件</span><span class="bonus-text">柔韧 <strong>1.5 unit</strong></span></div><div class="bonus-row"><span class="bonus-count">4 件</span><span class="bonus-text">魔法穿透 <strong>3 unit</strong> · 最大法力值 <strong>+50</strong></span></div><div class="bonus-row"><span class="bonus-count">5 件</span><span class="bonus-text">法力恢复 <strong>+1.5 P/s</strong></span></div></article>
+       <article class="tier-card quality-epic"><div class="tier-top"><span class="tier-name">史诗</span><span class="tier-level">Tier 5</span></div><div class="bonus-row"><span class="bonus-count">2 件</span><span class="bonus-text">柔韧 <strong>1 unit</strong></span></div><div class="bonus-row"><span class="bonus-count">4 件</span><span class="bonus-text">魔法穿透 <strong>2 unit</strong> · 最大法力值 <strong>+30</strong></span></div><div class="bonus-row"><span class="bonus-count">5 件</span><span class="bonus-text">法力恢复 <strong>+0.75 P/s</strong></span></div></article>
+       <article class="tier-card quality-excellent"><div class="tier-top"><span class="tier-name">卓越</span><span class="tier-level">Tier 4</span></div><div class="bonus-row"><span class="bonus-count">2 件</span><span class="bonus-text">柔韧 <strong>0.75 unit</strong></span></div><div class="bonus-row"><span class="bonus-count">4 件</span><span class="bonus-text">魔法穿透 <strong>1.5 unit</strong></span></div></article>
+       <article class="tier-card quality-good"><div class="tier-top"><span class="tier-name">优秀</span><span class="tier-level">Tier 3</span></div><div class="bonus-row"><span class="bonus-count">2 件</span><span class="bonus-text">柔韧 <strong>0.625 unit</strong></span></div><div class="bonus-row"><span class="bonus-count">4 件</span><span class="bonus-text">魔法穿透 <strong>1.25 unit</strong></span></div></article>
+       <article class="tier-card quality-common"><div class="tier-top"><span class="tier-name">普通</span><span class="tier-level">Tier 2</span></div><div class="bonus-row"><span class="bonus-count">2 件</span><span class="bonus-text">柔韧 <strong>0.5 unit</strong></span></div><div class="bonus-row"><span class="bonus-count">4 件</span><span class="bonus-text">魔法穿透 <strong>1 unit</strong></span></div></article>
+       <article class="tier-card quality-rough"><div class="tier-top"><span class="tier-name">粗糙</span><span class="tier-level">Tier 1</span></div><div class="bonus-row"><span class="bonus-count">2 件</span><span class="bonus-text">柔韧 <strong>0.25 unit</strong></span></div><div class="bonus-row"><span class="bonus-count">4 件</span><span class="bonus-text">魔法穿透 <strong>0.5 unit</strong></span></div></article>
     </div>
   </section>
   <p class="closing-note"><strong>说明：</strong>本页按照 ZeroAttribute 的套装配置整理；Tier 表示配置中的套装档位。套装门槛按穿着件数累计，达到更高门槛时，较低门槛效果仍保留。</p>
