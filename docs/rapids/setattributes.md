@@ -4,9 +4,14 @@
   color: #293241;
 }
 .rapids-sets-hero {
-  margin: 1.2em 0 1.8em;
-  padding: 1.8em 0 1.35em 1.5em;
+  position: relative;
+  margin: 1.2em 0 1.7em;
+  padding: 2.05em 1.6em 1.55em 1.5em;
+  background: linear-gradient(135deg, #f7f8ff 0%, #ffffff 72%);
+  border: 1px solid #e2e7f0;
   border-left: 3px solid #8090e0;
+  border-radius: 0 18px 18px 0;
+  box-shadow: 0 10px 28px rgba(47, 62, 89, .045);
 }
 .rapids-sets-hero .kicker,
 .rapids-sets .eyebrow {
@@ -30,16 +35,43 @@
   font-size: 1.04em;
   line-height: 1.75;
 }
+.rapids-sets .hero-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .45em .7em;
+  margin-top: 1.2em;
+}
+.rapids-sets .hero-meta span {
+  padding: .28em .65em;
+  color: #667691;
+  background: rgba(255, 255, 255, .78);
+  border: 1px solid #dfe5ef;
+  border-radius: 999px;
+  font-size: .78em;
+  font-weight: 700;
+}
 .rapids-sets .quick-links {
   display: flex;
   flex-wrap: wrap;
   gap: .55em 1.4em;
   margin: 0 0 2em;
+  padding: .65em .8em;
+  border-top: 1px solid #edf0f4;
+  border-bottom: 1px solid #edf0f4;
   font-size: .9em;
 }
 .rapids-sets a {
   color: #4f70a5;
   font-weight: 600;
+}
+.rapids-sets .quick-links a {
+  padding: .18em .35em;
+  border-radius: .35em;
+  transition: color .18s ease, background .18s ease;
+}
+.rapids-sets .quick-links a:hover {
+  color: #344f79;
+  background: #f0f4fa;
 }
 .rapids-sets .unit-note {
   margin: 1.2em 0 2.2em;
@@ -85,7 +117,12 @@
 .rapids-sets .set-section {
   --accent: #5969b0;
   --soft: #f5f6fc;
-  margin: 3.2em 0 0;
+  margin: 3em 0 0;
+  padding: 1.25em 1.25em 1.4em;
+  background: linear-gradient(180deg, var(--soft) 0%, rgba(255, 255, 255, .62) 42%, #fff 100%);
+  border: 1px solid #e2e7ef;
+  border-radius: 18px;
+  box-shadow: 0 10px 28px rgba(47, 62, 89, .035);
 }
 .rapids-sets .set-section.harmony { --accent: #bd7a5d; --soft: #fff7f0; }
 .rapids-sets .set-section.origin { --accent: #5d8db7; --soft: #f2f8fc; }
@@ -98,8 +135,8 @@
   align-items: flex-end;
   justify-content: space-between;
   gap: 1.5em;
-  margin-bottom: 1.1em;
-  padding: 0 0 .8em 1em;
+  margin-bottom: 1.15em;
+  padding: .15em 0 .9em .85em;
   border-bottom: 1px solid #dce3ec;
   border-left: 3px solid var(--accent);
 }
@@ -134,11 +171,13 @@
   gap: 14px 18px;
 }
 .rapids-sets .tier-card {
-  padding: 1em 1.05em 1.1em;
-  background: linear-gradient(135deg, var(--soft), #fff 58%);
+  position: relative;
+  padding: 1em 1.05em 1.1em 1.15em;
+  background: rgba(255, 255, 255, .9);
   border: 1px solid #e1e7ef;
-  border-top: 2px solid var(--accent);
+  border-left: 3px solid var(--accent);
   border-radius: 10px;
+  box-shadow: 0 4px 14px rgba(47, 62, 89, .035);
 }
 .rapids-sets .tier-top {
   display: flex;
@@ -159,7 +198,7 @@
 }
 .rapids-sets .bonus-row {
   display: flex;
-  align-items: baseline;
+  align-items: center;
   gap: .75em;
   line-height: 1.65;
 }
@@ -170,17 +209,26 @@
 }
 .rapids-sets .bonus-count {
   flex: none;
-  min-width: 2.55em;
-  color: #748094;
+  min-width: 3.15em;
+  padding: .12em .35em;
+  color: var(--accent);
+  background: var(--soft);
+  border: 1px solid rgba(160, 170, 195, .35);
+  border-radius: 999px;
   font-size: .84em;
   font-weight: 700;
+  text-align: center;
 }
 .rapids-sets .bonus-text {
   color: #536177;
   font-size: .92em;
 }
 .rapids-sets .bonus-text strong {
+  display: inline-block;
+  padding: 0 .25em;
   color: var(--accent);
+  background: var(--soft);
+  border-radius: .3em;
   font-weight: 700;
 }
 .rapids-sets .closing-note {
@@ -190,9 +238,11 @@
   line-height: 1.75;
 }
 @media (max-width: 720px) {
-  .rapids-sets .legend-grid,
-  .rapids-sets .tier-grid {
+  .rapids-sets .legend-grid {
     grid-template-columns: 1fr 1fr;
+  }
+  .rapids-sets .tier-grid {
+    grid-template-columns: 1fr;
   }
   .rapids-sets .set-heading {
     align-items: flex-start;
@@ -208,6 +258,10 @@
   .rapids-sets-hero h1 {
     font-size: 2em;
   }
+  .rapids-sets .set-section {
+    padding: 1em .85em 1.15em;
+    border-radius: 14px;
+  }
 }
 </style>
 <div class="rapids-sets">
@@ -215,6 +269,7 @@
     <p class="kicker">RAPIDS / SET ATLAS</p>
     <h1>套装属性</h1>
     <p>套装效果按穿着件数逐段解锁。这里集中披露当前配置中的套装门槛、属性类型与数值，不展开单件装备的基础属性。</p>
+    <div class="hero-meta"><span>6 组套装</span><span>28 个档位</span><span>2–5 件门槛</span></div>
   </header>
   <nav class="quick-links">
     <a href="#/rapids/dungeon">副本流程</a>
