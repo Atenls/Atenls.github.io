@@ -99,6 +99,7 @@
 * [副本图鉴](rapids/dungeonlist)
 * [副本机制](rapids/dungeonmechanics)
 * [材料图鉴](rapids/materials)
+* [套装属性](rapids/setattributes)
 * [Rapids 服务条款](rapids/terms)
 
 <p style="margin-top: -1.5em; margin-bottom: 1.5em; display: block; border-radius: 0 0 0 2.5em; box-shadow: 0 6px 8px rgba(29, 59, 99, 0.2);">
