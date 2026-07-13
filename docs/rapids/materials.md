@@ -7,7 +7,7 @@
 .rapids-materials-hero {
   margin: 1.2em 0 2.3em;
   padding: 1.7em 0 1.25em 1.5em;
-  border-left: 3px solid #70d0c8;
+  border-left: 2px solid #A0A2A4;
 }
 
 .rapids-materials-hero .kicker,
@@ -78,7 +78,6 @@
   color: #59677c;
   background: #f5f7fa;
   border: 1px solid #e1e7ef;
-  border-left: 3px solid #70d0c8;
 }
 
 .rapids-materials .source-grid {
@@ -151,7 +150,9 @@
   padding: .75em 1em;
   color: #667386;
   background: #fafbfc;
-  border-left: 2px solid #d6dce5;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0 0 2px rgba(0,0,0,.1);
   font-size: .92em;
 }
 
@@ -211,7 +212,7 @@
     <a href="#/rapids/dungeonmechanics">副本机制</a>
   </div>
 
-  <div class="note"><strong>图鉴说明：</strong>星级与颜色沿用道具配置中的稀有度表达；标价是道具显示的 E 数值。来源写的是当前副本配置中能确认的主要来源，不代表未来不会增加其他来源。</div>
+  <div class="note"><strong>图鉴说明：</strong>来源写的是当前副本配置中能确认的主要来源，不代表未来不会增加其他来源。</div>
 
   <h2>四种获取方式</h2>
 
@@ -223,39 +224,39 @@
   </div>
 
   <ul>
-    <li>普通材料是每条路线的前三种材料。打造配方中的“寻常材料”指这三种材料的总数量，可混合缴纳。</li>
+    <li>普通材料是每条路线的前三种材料。打造配方中的「寻常材料」指这三种材料的总数量，可混合缴纳。</li>
     <li>Tier 4、Tier 5 结算有机会获得稀有材料；Tier 6 结算大概率获得稀有材料，并有机会附带本路线图纸。</li>
     <li>常规宝箱的材料池会包含强化石；强化石是通用物品，不属于峡谷或河隘专属材料。</li>
   </ul>
 
   <h2 class="valley">峡谷材料</h2>
 
-  <p class="small">峡谷材料主要用于“风之形”套装的打造，也会用于峡谷历史回响。颜色从青绿、蓝色到紫色和橙色逐步提高稀有度。</p>
+  <p class="small">峡谷材料主要用于「风之形」套装的打造，也会用于峡谷历史回响。颜色从青绿、蓝色到紫色和橙色逐步提高稀有度。</p>
 
   <div class="material-list">
     <article class="material-entry valley">
       <h3>崖根枯枝 <span class="rarity common">寻常</span></h3>
       <div class="meta"><span>标价 10 E</span><span>击杀 / 结算 / Tier I、Tier II 宝箱</span></div>
       <blockquote>从崖根灌木上折落的枯枝。干裂的枝节像是记录着漫长旱季。</blockquote>
-      <p class="usage"><strong>用途：</strong>峡谷寻常材料；可用于历史回响与“风之形”配方。</p>
+      <p class="usage"><strong>用途：</strong>峡谷寻常材料；可用于历史回响与「风之形」配方。</p>
     </article>
     <article class="material-entry valley">
       <h3>风化碎石 <span class="rarity common">寻常</span></h3>
       <div class="meta"><span>标价 12 E</span><span>击杀 / 结算 / 宝箱 / 采集物</span></div>
       <blockquote>被风轻抚而从崖壁跌落的碎石。在裂痕中仿佛能看见岁月的痕迹。</blockquote>
-      <p class="usage"><strong>用途：</strong>峡谷寻常材料；“峡谷碎石”采集物的主要材料池之一。</p>
+      <p class="usage"><strong>用途：</strong>峡谷寻常材料；「峡谷碎石」采集物的主要材料池之一。</p>
     </article>
     <article class="material-entry valley">
       <h3>苔痕石片 <span class="rarity common">寻常</span></h3>
       <div class="meta"><span>标价 16 E</span><span>击杀 / 结算 / 宝箱 / 采集物</span></div>
       <blockquote>覆着浅苔的崖壁碎片。潮湿的纹路里残留着山风的气息。</blockquote>
-      <p class="usage"><strong>用途：</strong>峡谷寻常材料；可用于历史回响与“风之形”配方。</p>
+      <p class="usage"><strong>用途：</strong>峡谷寻常材料；可用于历史回响与「风之形」配方。</p>
     </article>
     <article class="material-entry valley">
       <h3>风蚀石核 <span class="rarity rare">稀有</span></h3>
       <div class="meta"><span>标价 60 E</span><span>Elite / Essence / 结算 / Tier I、Tier II 宝箱</span></div>
       <blockquote>藏在碎石深处的坚硬石核。外层早已被风沙磨去，只剩沉默的轮廓。</blockquote>
-      <p class="usage"><strong>用途：</strong>峡谷稀有材料；普通“风之形”配方需要 36 个，高阶配方需要 64 个。</p>
+      <p class="usage"><strong>用途：</strong>峡谷稀有材料；普通「风之形」配方需要 36 个，高阶配方需要 64 个。</p>
     </article>
     <article class="material-entry valley">
       <h3>风蚀晶簇 <span class="rarity rare">稀有</span></h3>
@@ -267,74 +268,74 @@
       <h3>古崖髓石 <span class="rarity epic">史诗</span></h3>
       <div class="meta"><span>标价 200 E</span><span>Elite / Essence / Tier II 宝箱 / 采集物 / 高阶结算</span></div>
       <blockquote>凝结在古老岩层中的石髓。敲击时会传出低沉而悠远的回响。</blockquote>
-      <p class="usage"><strong>用途：</strong>“风之形”高阶配方的核心材料，需要 6 个。</p>
+      <p class="usage"><strong>用途：</strong>「风之形」高阶配方的核心材料，需要 6 个。</p>
     </article>
     <article class="material-entry valley">
       <h3>苍风琉砂 <span class="rarity epic">史诗</span></h3>
       <div class="meta"><span>标价 260 E</span><span>Tier II 宝箱 / 特殊终点掉落池</span></div>
       <blockquote>只在高崖风眼中沉积的细砂。每一粒都像封存着一缕苍白的风。</blockquote>
-      <p class="usage"><strong>用途：</strong>高阶“风之形”配方；等级 15 配方需要 2 个，等级 20 配方需要 3 个。</p>
+      <p class="usage"><strong>用途：</strong>高阶「风之形」配方；等级 15 配方需要 2 个，等级 20 配方需要 3 个。</p>
     </article>
     <article class="material-entry valley">
       <h3>断空石英 <span class="rarity epic">史诗</span></h3>
       <div class="meta"><span>标价 320 E</span><span>副本掉落来源待补充</span></div>
       <blockquote>裂隙边缘凝成的透明石英。折射出的光影仿佛被切成数段。</blockquote>
-      <p class="usage"><strong>当前记录：</strong>道具已定义，但在本次核对的峡谷怪物、结算和宝箱掉落表中未看到直接来源。</p>
+      <p class="usage"><strong>暂无获取途径</strong></p>
     </article>
     <article class="material-entry valley">
       <h3>岁痕玉髓 <span class="rarity legendary">传奇</span></h3>
       <div class="meta"><span>标价 750 E</span><span>副本掉落来源待补充</span></div>
       <blockquote>深埋于崖心的温润玉髓。内部的层纹像是漫长岁月留下的年轮。</blockquote>
-      <p class="usage"><strong>当前记录：</strong>道具已定义，但在本次核对的峡谷怪物、结算和宝箱掉落表中未看到直接来源。</p>
+      <p class="usage"><strong>暂无获取途径</strong></p>
     </article>
   </div>
 
   <h2 class="river">河隘材料</h2>
 
-  <p class="small">河隘材料主要用于“河雾”套装的打造，也会用于河隘历史回响。河水冲刷出的寻常材料，向渡痕、行札和沉舟遗物逐步过渡。</p>
+  <p class="small">河隘材料主要用于「河雾」套装的打造，也会用于河隘历史回响。河水冲刷出的寻常材料，向渡痕、行札和沉舟遗物逐步过渡。</p>
 
   <div class="material-list">
     <article class="material-entry river">
       <h3>洄岸碎砾 <span class="rarity common">寻常</span></h3>
       <div class="meta"><span>标价 36 E</span><span>击杀 / 结算 / Tier I、Tier II 宝箱 / 采集物</span></div>
       <blockquote>被河水反复冲刷过的圆砾。表面仍残留着潮湿而清冷的水痕。</blockquote>
-      <p class="usage"><strong>用途：</strong>河隘寻常材料；可用于历史回响与“河雾”配方。</p>
+      <p class="usage"><strong>用途：</strong>河隘寻常材料；可用于历史回响与「河雾」配方。</p>
     </article>
     <article class="material-entry river">
       <h3>潮岸浮叶 <span class="rarity common">寻常</span></h3>
       <div class="meta"><span>标价 30 E</span><span>击杀 / 结算 / Tier I、Tier II 宝箱</span></div>
       <blockquote>被河水推上岸边的湿润叶片。叶脉间仍挂着未干的水光。</blockquote>
-      <p class="usage"><strong>用途：</strong>河隘寻常材料；可用于历史回响与“河雾”配方。</p>
+      <p class="usage"><strong>用途：</strong>河隘寻常材料；可用于历史回响与「河雾」配方。</p>
     </article>
     <article class="material-entry river">
       <h3>浅滩细贝 <span class="rarity common">寻常</span></h3>
       <div class="meta"><span>标价 42 E</span><span>击杀 / 结算 / 宝箱 / 采集物</span></div>
       <blockquote>散落在浅滩泥沙中的小贝壳。贴近耳边时，似乎还能听见细微水声。</blockquote>
-      <p class="usage"><strong>用途：</strong>河隘寻常材料；可用于历史回响与“河雾”配方。</p>
+      <p class="usage"><strong>用途：</strong>河隘寻常材料；可用于历史回响与「河雾」配方。</p>
     </article>
     <article class="material-entry river">
       <h3>渡痕铜片 <span class="rarity rare">稀有</span></h3>
       <div class="meta"><span>标价 160 E</span><span>击杀 / 结算 / 宝箱 / 采集物</span></div>
       <blockquote>从旧行囊中翻出的残旧铜片。边缘磨损严重，像被许多人反复握过。</blockquote>
-      <p class="usage"><strong>用途：</strong>河隘稀有材料；普通“河雾”配方需要 36 个，高阶配方需要 64 个。</p>
+      <p class="usage"><strong>用途：</strong>河隘稀有材料；普通「河雾」配方需要 36 个，高阶配方需要 64 个。</p>
     </article>
     <article class="material-entry river">
       <h3>水封行札 <span class="rarity rare">稀有</span></h3>
       <div class="meta"><span>标价 200 E</span><span>Elite / Essence / 结算 / Tier II 宝箱 / 采集物</span></div>
       <blockquote>被油蜡封住的旧日行札。字迹已被潮气晕开，只剩几处地名尚能辨认。</blockquote>
-      <p class="usage"><strong>用途：</strong>“河雾”普通配方需要 6 个，高阶配方需要 18 个。</p>
+      <p class="usage"><strong>用途：</strong>「河雾」普通配方需要 6 个，高阶配方需要 18 个。</p>
     </article>
     <article class="material-entry river">
       <h3>沉舟漆片 <span class="rarity epic">史诗</span></h3>
       <div class="meta"><span>标价 540 E</span><span>Elite / Essence / Tier II 宝箱 / 采集物 / 高阶结算</span></div>
       <blockquote>从水下旧船残骸上剥落的漆片。暗色漆面仍残留着某个渡标的纹样。</blockquote>
-      <p class="usage"><strong>用途：</strong>“河雾”高阶配方需要 6 个。</p>
+      <p class="usage"><strong>用途：</strong>「河雾」高阶配方需要 6 个。</p>
     </article>
     <article class="material-entry river">
       <h3>归途残铃 <span class="rarity epic">史诗</span></h3>
       <div class="meta"><span>标价 750 E</span><span>Tier II 宝箱 / 特殊怪物掉落池</span></div>
       <blockquote>行旅曾系在包上的小铃残件。轻晃时没有铃声，只余一阵遥远的回响。</blockquote>
-      <p class="usage"><strong>用途：</strong>高阶“河雾”配方；等级 35 配方需要 2 个，等级 40 配方需要 3 个。</p>
+      <p class="usage"><strong>用途：</strong>高阶「河雾」配方；等级 35 配方需要 2 个，等级 40 配方需要 3 个。</p>
     </article>
   </div>
 
@@ -362,7 +363,7 @@
   <ul>
     <li><strong>峡谷：</strong>3 张对应等级图纸、6 个古崖髓石、18 个风蚀晶簇、64 个风蚀石核，以及 512 个峡谷寻常材料；等级 15/20 还分别需要 2/3 个苍风琉砂。</li>
     <li><strong>河隘：</strong>3 张对应等级图纸、6 个沉舟漆片、18 个水封行札、64 个渡痕铜片，以及 512 个河隘寻常材料；等级 35/40 还分别需要 2/3 个归途残铃。</li>
-    <li>高阶配方还需要 E，并要求对应路线的 Tier 6 通关记录；同一路线的前序配方至少打造 3 次后，才会开放“精雕细琢”配方。</li>
+    <li>高阶配方还需要 E，并要求对应路线的 Tier 6 通关记录；同一路线的前序配方至少打造 3 次后，才会开放「精雕细琢」配方。</li>
   </ul>
 
   <div class="note"><strong>收集建议：</strong>先把寻常材料当作路线通用库存，再根据想做的等级保留蓝色与紫色材料。Tier II 宝箱、Essence 和高 Tier 结算，是补齐稀有材料与图纸的主要途径。</div>
