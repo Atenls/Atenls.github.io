@@ -277,10 +277,10 @@
     <a href="#/rapids/mobsinfo?id=河雾怨魄">河雾怨魄</a>
   </nav>
 
+  ## 河雾怨魄
   <article class="mob-profile" id="河雾怨魄" style="--mob-accent:#348f8a;--mob-accent-strong:#256f6b;--mob-accent-soft:#e9f5f3">
     <header class="mob-profile-header">
-      <h2>河雾怨魄</h2>
-      <p>河隘区域的 Essence 怪物。它擅长减速、贴近与聚拢玩家，距离过远或站位过密都会给它创造进攻机会。</p>
+    <p>河隘区域的 Essence 怪物。它擅长减速、贴近与聚拢玩家，距离过远或站位过密都会给它创造进攻机会。</p>
     </header>
     <div class="mob-threat-summary" aria-label="威胁概览">
       <div><strong>持续减速</strong><span>普攻和多数范围技能都会施加缓慢。</span></div>

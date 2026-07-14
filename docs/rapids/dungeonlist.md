@@ -159,13 +159,13 @@
   </div>
 
   <div class="index">
-    <a class="valley" href="#/rapids/dungeonlist#valley"><strong>峡谷</strong><span>初涉 · 见闻 · 踏察 · 破晓 · 梦魇</span></a>
-    <a class="river" href="#/rapids/dungeonlist#river"><strong>河隘</strong><span>初涉 · 见闻 · 踏察 · 破晓 · 梦魇</span></a>
+    <a class="valley" href="#/rapids/dungeonlist#峡谷"><strong>峡谷</strong><span>初涉 · 见闻 · 踏察 · 破晓 · 梦魇</span></a>
+    <a class="river" href="#/rapids/dungeonlist#河隘"><strong>河隘</strong><span>初涉 · 见闻 · 踏察 · 破晓 · 梦魇</span></a>
   </div>
 
   <div class="note">所有难度通过完成对应的回忆进度解锁。推荐等级是入口提示，不替代游戏内实时条件。</div>
 
-  <h2 class="valley" id="valley">峡谷</h2>
+  ## 峡谷
 
   <p>被长风与岁月切开的峡地。</p>
 
@@ -207,7 +207,7 @@
     <p class="detail">峡谷的额外高阶难度。</p>
   </div>
 
-  <h2 class="river" id="river">河隘</h2>
+  ## 河隘
 
   <p>两山夹峙，长河自隘口奔流而过。</p>
 

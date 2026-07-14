@@ -452,7 +452,9 @@
     <a href="#/rapids/materials">材料图鉴</a>
     <a href="#/rapids/combat_system">战斗系统</a>
   </nav>
-  <h3>数值相关介绍</h3>
+
+  ## 数值相关介绍
+
   <div class="legend-grid">
     <div class="legend-card"><strong>数值</strong>
     <span>固定值通常会出现在魔法相关属性，如：最大法力值、法力恢复等，或前期的套装属性。<br>含百分号则为 <code>百分比属性</code> 如：箭矢速度、移动速度、暴击伤害与经验加成。</span></div>
@@ -467,13 +469,23 @@
     </div>
   </section>
   <section class="set-section origin" id="origin">
-    <div class="set-heading"><div><h2>初生</h2><p>基础成长套装，提供稳定的经验获取加成。</p></div></div>
+  <div class="set-heading"><div>
+
+  ## 初生
+  
+  <p>基础成长套装，提供稳定的经验获取加成。</p></div></div>
     <div class="tier-grid">
        <article class="tier-card quality-base"><div class="tier-top"><span class="tier-name">基础套装</span><span class="tier-level">无品质分档</span></div><div class="bonus-row"><span class="bonus-count">2 件</span><span class="bonus-text">经验加成 <strong>+10%</strong></span></div><div class="bonus-row"><span class="bonus-count">4 件</span><span class="bonus-text">经验加成 <strong>+10%</strong></span></div></article>
     </div>
   </section>
   <section class="set-section valley" id="valley">
-    <div class="set-heading"><div><h2>峡谷</h2><p>以会心和固定护甲穿透为核心，传奇档位额外提升箭矢与移动能力。</p></div></div>
+
+
+  <div class="set-heading"><div>
+
+  ## 峡谷
+    
+  <p>以会心和固定护甲穿透为核心，传奇档位额外提升箭矢与移动能力。</p></div></div>
     <div class="tier-grid">
        <article class="tier-card quality-legendary"><div class="tier-top"><span class="tier-name">传奇</span><span class="tier-level">Tier 6</span></div><div class="bonus-row"><span class="bonus-count">2 件</span><span class="bonus-text">会心 <strong>+60</strong></span></div><div class="bonus-row"><span class="bonus-count">4 件</span><span class="bonus-text">护甲穿透 <strong>+60</strong> · 箭矢速度 <strong>+20%</strong></span></div><div class="bonus-row"><span class="bonus-count">5 件</span><span class="bonus-text">移动速度 <strong>+15%</strong></span></div></article>
        <article class="tier-card quality-epic"><div class="tier-top"><span class="tier-name">史诗</span><span class="tier-level">Tier 5</span></div><div class="bonus-row"><span class="bonus-count">2 件</span><span class="bonus-text">会心 <strong>+40</strong></span></div><div class="bonus-row"><span class="bonus-count">4 件</span><span class="bonus-text">护甲穿透 <strong>+40</strong></span></div><div class="bonus-row"><span class="bonus-count">5 件</span><span class="bonus-text">箭矢速度 <strong>+20%</strong></span></div></article>
@@ -484,7 +496,11 @@
     </div>
   </section>
   <section class="set-section wind" id="wind-shape">
-    <div class="set-heading"><div><h2>风之形</h2><p>以会心、护甲穿透和机动性为主轴，高品质档位同时强化箭矢速度。</p></div></div>
+  <div class="set-heading"><div>
+
+  ## 风之形
+  
+  <p>以会心、护甲穿透和机动性为主轴，高品质档位同时强化箭矢速度。</p></div></div>
     <div class="tier-grid">
        <article class="tier-card quality-mythic"><div class="tier-top"><span class="tier-name">神话</span><span class="tier-level">Tier 7</span></div><div class="bonus-row"><span class="bonus-count">2 件</span><span class="bonus-text">会心 <strong>+90</strong></span></div><div class="bonus-row"><span class="bonus-count">4 件</span><span class="bonus-text">护甲穿透 <strong>+90</strong> · 移动速度 <strong>+35%</strong></span></div><div class="bonus-row"><span class="bonus-count">5 件</span><span class="bonus-text">箭矢速度 <strong>+35%</strong></span></div></article>
        <article class="tier-card quality-legendary"><div class="tier-top"><span class="tier-name">传奇</span><span class="tier-level">Tier 6</span></div><div class="bonus-row"><span class="bonus-count">2 件</span><span class="bonus-text">会心 <strong>+60</strong></span></div><div class="bonus-row"><span class="bonus-count">4 件</span><span class="bonus-text">护甲穿透 <strong>+60</strong> · 移动速度 <strong>+25%</strong></span></div><div class="bonus-row"><span class="bonus-count">5 件</span><span class="bonus-text">箭矢速度 <strong>+25%</strong></span></div></article>
@@ -494,7 +510,11 @@
     </div>
   </section>
   <section class="set-section river" id="river-gate">
-    <div class="set-heading"><div><h2>河隘</h2><p>围绕柔韧与魔法穿透构筑，较高档位补充法力上限与法力恢复。</p></div></div>
+  <div class="set-heading"><div>
+
+  ## 河隘
+  
+  <p>围绕柔韧与魔法穿透构筑，较高档位补充法力上限与法力恢复。</p></div></div>
     <div class="tier-grid">
        <article class="tier-card quality-legendary"><div class="tier-top"><span class="tier-name">传奇</span><span class="tier-level">Tier 6</span></div><div class="bonus-row"><span class="bonus-count">2 件</span><span class="bonus-text">柔韧 <strong>1.5 unit</strong></span></div><div class="bonus-row"><span class="bonus-count">4 件</span><span class="bonus-text">魔法穿透 <strong>3 unit</strong> · 最大法力值 <strong>+50</strong></span></div><div class="bonus-row"><span class="bonus-count">5 件</span><span class="bonus-text">法力恢复 <strong>+1.5 P/s</strong></span></div></article>
        <article class="tier-card quality-epic"><div class="tier-top"><span class="tier-name">史诗</span><span class="tier-level">Tier 5</span></div><div class="bonus-row"><span class="bonus-count">2 件</span><span class="bonus-text">柔韧 <strong>1 unit</strong></span></div><div class="bonus-row"><span class="bonus-count">4 件</span><span class="bonus-text">魔法穿透 <strong>2 unit</strong></span></div><div class="bonus-row"><span class="bonus-count">5 件</span><span class="bonus-text">法力恢复 <strong>+0.75 P/s</strong></span></div></article>
@@ -504,8 +524,16 @@
        <article class="tier-card quality-rough"><div class="tier-top"><span class="tier-name">粗糙</span><span class="tier-level">Tier 1</span></div><div class="bonus-row"><span class="bonus-count">2 件</span><span class="bonus-text">柔韧 <strong>0.25 unit</strong></span></div><div class="bonus-row"><span class="bonus-count">4 件</span><span class="bonus-text">魔法穿透 <strong>0.5 unit</strong></span></div></article>
     </div>
   </section>
+  
   <section class="set-section mist" id="river-mist">
-    <div class="set-heading"><div><h2>河雾</h2><p>以柔韧、魔法穿透和法力循环为核心；神话档位额外提供移动速度与生命恢复。</p></div></div>
+  <div class="set-heading">
+  <div>
+
+  ## 河雾
+    
+  <p>以柔韧、魔法穿透和法力循环为核心；神话档位额外提供移动速度与生命恢复。</p>
+  </div>
+  </div>
     <div class="tier-grid">
        <article class="tier-card quality-mythic"><div class="tier-top"><span class="tier-name">神话</span><span class="tier-level">Tier 7</span></div><div class="bonus-row"><span class="bonus-count">2 件</span><span class="bonus-text">柔韧 <strong>1.5 unit</strong></span></div><div class="bonus-row"><span class="bonus-count">4 件</span><span class="bonus-text">魔法穿透 <strong>4.5 unit</strong> · 最大法力值 <strong>+50</strong> · 移动速度 <strong>+20%</strong></span></div><div class="bonus-row"><span class="bonus-count">5 件</span><span class="bonus-text">生命恢复 <strong>0.25 unit</strong> · 法力恢复 <strong>+1.5 P/s</strong></span></div></article>
        <article class="tier-card quality-legendary"><div class="tier-top"><span class="tier-name">传奇</span><span class="tier-level">Tier 6</span></div><div class="bonus-row"><span class="bonus-count">2 件</span><span class="bonus-text">柔韧 <strong>1.5 unit</strong></span></div><div class="bonus-row"><span class="bonus-count">4 件</span><span class="bonus-text">魔法穿透 <strong>3 unit</strong> · 最大法力值 <strong>+50</strong></span></div><div class="bonus-row"><span class="bonus-count">5 件</span><span class="bonus-text">法力恢复 <strong>+1.5 P/s</strong></span></div></article>
