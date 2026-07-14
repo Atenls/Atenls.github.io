@@ -98,6 +98,7 @@
 * [副本流程](rapids/dungeon)
 * [副本图鉴](rapids/dungeonlist)
 * [副本机制](rapids/dungeonmechanics)
+* [怪物信息](rapids/mobsinfo)
 * [材料图鉴](rapids/materials)
 * [套装属性](rapids/setattributes)
 * [Rapids 服务条款](rapids/terms)
