@@ -104,9 +104,6 @@
 .mob-profile { scroll-margin-top: 1.5rem; }
 
 .mob-profile:not(:first-of-type) {
-  margin-top: 4rem;
-  padding-top: 3rem;
-  border-top: 1px solid var(--mob-line);
 }
 
 .mob-profile-header {
@@ -124,7 +121,7 @@
 }
 
 .mob-profile-header p {
-  max-width: 44rem;
+  max-width: 60rem;
   margin: 0;
   color: var(--mob-muted);
   line-height: 1.7;
@@ -166,7 +163,7 @@
 }
 
 .mob-section-intro {
-  max-width: 46rem;
+  max-width: 60rem;
   margin: 0 0 1.1rem !important;
   color: var(--mob-muted);
   line-height: 1.65;
@@ -283,7 +280,8 @@
     <a href="#/rapids/mobsinfo?id=洞渊渡者">洞渊渡者</a>
     <a href="#/rapids/mobsinfo?id=晦渊司祭">晦渊司祭</a>
   </nav>
-  <h2 id="河雾怨魄"><a class="anchor" href="#/rapids/mobsinfo?id=河雾怨魄" data-id="河雾怨魄"><span>河雾怨魄</span></a></h2>
+
+  ## 河雾怨魂
   <article class="mob-profile" style="--mob-accent:#348f8a;--mob-accent-strong:#256f6b;--mob-accent-soft:#e9f5f3">
     <header class="mob-profile-header">
     <p>河隘区域的 Essence 怪物。它擅长减速、贴近与聚拢玩家，距离过远或站位过密都会给它创造进攻机会。</p>
@@ -328,7 +326,8 @@
     </div>
     <div class="mob-timing-note"><strong>计时说明：</strong>“每 X 秒尝试”代表怪物会按该频率检查一次技能；只有满足距离、目标与冷却条件时才会真正施放，因此实际间隔可能更长。</div>
   </article>
-  <h2 id="洞渊渡者"><a class="anchor" href="#/rapids/mobsinfo?id=洞渊渡者" data-id="洞渊渡者"><span>洞渊渡者</span></a></h2>
+
+  ## 洞渊渡者
   <article class="mob-profile">
     <header class="mob-profile-header">
       <p>河隘区域的近战 Final 怪物。它会在短暂预警后连续冲刺，并在每段攻击前重新锁定目标，单次闪避不能解除后续威胁。</p>
@@ -368,7 +367,8 @@
     </div>
     <div class="mob-timing-note"><strong>轮换说明：</strong>权重表示被随机选中的相对机会，不代表固定施放顺序。技能处于冷却或条件不满足时，实际施放间隔会延长。</div>
   </article>
-  <h2 id="晦渊司祭"><a class="anchor" href="#/rapids/mobsinfo?id=晦渊司祭" data-id="晦渊司祭"><span>晦渊司祭</span></a></h2>
+
+  ## 晦渊司祭
   <article class="mob-profile">
     <header class="mob-profile-header">
       <p>河隘区域的远程 Final 怪物。它以魔法伤害封锁地面和追赶目标，玩家靠近时还会自动发动范围驱离。</p>
@@ -412,6 +412,6 @@
         <p class="counter"><strong>应对：</strong>不要盲目向外跑。观察当前预警圈并跨到已经爆发过的区域；空间充足时，直接离开 16 格范围最安全。</p>
       </section>
     </div>
-    <div class="mob-timing-note"><strong>伤害说明：</strong>晦渊司祭的技能使用魔法攻击倍率，魔法防御会影响实际承伤。权重只描述随机选择机会，不代表固定顺序。</div>
+    <div class="mob-timing-note"><strong>伤害说明：</strong>晦渊司祭的技能使用魔法攻击倍率，魔法抗性会影响实际承伤。权重只描述随机选择机会，不代表固定顺序。</div>
   </article>
 </div>
