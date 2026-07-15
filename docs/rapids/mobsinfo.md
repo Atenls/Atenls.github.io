@@ -103,6 +103,12 @@
 
 .mob-profile { scroll-margin-top: 1.5rem; }
 
+.mob-profile:not(:first-of-type) {
+  margin-top: 4rem;
+  padding-top: 3rem;
+  border-top: 1px solid var(--mob-line);
+}
+
 .mob-profile-header {
   margin-bottom: 1.4rem;
   padding-bottom: 1rem;
@@ -265,20 +271,20 @@
       <p class="lead">了解怪物的攻击方式、触发条件与应对方法。技能描述以当前服务器配置为准。</p>
     </div>
     <dl class="mob-atlas-identity">
-      <div><dt>当前收录</dt><dd>1 个怪物</dd></div>
+      <div><dt>当前收录</dt><dd>3 个怪物</dd></div>
       <div><dt>资料区域</dt><dd>河隘</dd></div>
       <div><dt>信息范围</dt><dd>技能与机制</dd></div>
       <div><dt>更新时间</dt><dd>2026/07/15</dd></div>
     </dl>
   </header>
-
   <nav class="mob-atlas-directory" aria-label="怪物索引">
     <strong>怪物索引</strong>
     <a href="#/rapids/mobsinfo?id=河雾怨魄">河雾怨魄</a>
+    <a href="#/rapids/mobsinfo?id=洞渊渡者">洞渊渡者</a>
+    <a href="#/rapids/mobsinfo?id=晦渊司祭">晦渊司祭</a>
   </nav>
-
-  ## 河雾怨魄
-  <article class="mob-profile" id="河雾怨魄" style="--mob-accent:#348f8a;--mob-accent-strong:#256f6b;--mob-accent-soft:#e9f5f3">
+  <h2 id="河雾怨魄"><a class="anchor" href="#/rapids/mobsinfo?id=河雾怨魄" data-id="河雾怨魄"><span>河雾怨魄</span></a></h2>
+  <article class="mob-profile" style="--mob-accent:#348f8a;--mob-accent-strong:#256f6b;--mob-accent-soft:#e9f5f3">
     <header class="mob-profile-header">
     <p>河隘区域的 Essence 怪物。它擅长减速、贴近与聚拢玩家，距离过远或站位过密都会给它创造进攻机会。</p>
     </header>
@@ -321,5 +327,91 @@
       </section>
     </div>
     <div class="mob-timing-note"><strong>计时说明：</strong>“每 X 秒尝试”代表怪物会按该频率检查一次技能；只有满足距离、目标与冷却条件时才会真正施放，因此实际间隔可能更长。</div>
+  </article>
+  <h2 id="洞渊渡者"><a class="anchor" href="#/rapids/mobsinfo?id=洞渊渡者" data-id="洞渊渡者"><span>洞渊渡者</span></a></h2>
+  <article class="mob-profile">
+    <header class="mob-profile-header">
+      <p>河隘区域的近战 Final 怪物。它会在短暂预警后连续冲刺，并在每段攻击前重新锁定目标，单次闪避不能解除后续威胁。</p>
+    </header>
+    <div class="mob-threat-summary" aria-label="威胁概览">
+      <div><strong>连续突进</strong><span>主要技能由多段位移和范围近战伤害组成。</span></div>
+      <div><strong>重复锁定</strong><span>连段中会再次转向当前目标，需要持续移动。</span></div>
+      <div><strong>落点预警</strong><span>水环和标题提示会提前标出高伤攻击。</span></div>
+      <div><strong>高伤收尾</strong><span>多数连段的最后一击范围更大、倍率更高。</span></div>
+    </div>
+    <h3>技能轮换</h3>
+    <p class="mob-section-intro">每 5 秒尝试从三个主技能中选择一个。逐浪三渡、逆潮升袭、沉渊落潮的选择权重为 4:3:1，各技能仍受自身冷却限制。</p>
+    <div class="mob-skill-list">
+      <section class="mob-skill">
+        <div class="mob-skill-heading"><h4>潮刃</h4><span>近战命中时</span></div>
+        <p><strong>效果：</strong>对当前目标造成一次 100% 近战倍率的技能伤害，并产生水花效果。</p>
+        <p class="counter"><strong>应对：</strong>这是它的常规近战攻击。保持移动和基础防御，不要为了等待主技能而忽略普攻。</p>
+      </section>
+      <section class="mob-skill">
+        <div class="mob-skill-heading"><h4>逐浪三渡</h4><span>权重 4 · 10 秒冷却</span></div>
+        <p><strong>预警：</strong>怪物停止行动，朝目标转向，并显示技能标题；水泡会逐渐向自身聚集。</p>
+        <p><strong>效果：</strong>连续发动三次冲刺，每次都会重新锁定目标。前两击影响 4 格范围，分别造成 100% 与 120% 近战倍率伤害；最后一击扩大至 5 格，造成 160% 伤害。</p>
+        <p class="counter"><strong>应对：</strong>横向移动并为第三击保留位移。躲过第一击后不要停下，它会再次转向。</p>
+      </section>
+      <section class="mob-skill">
+        <div class="mob-skill-heading"><h4>逆潮升袭</h4><span>权重 3 · 12 秒冷却</span></div>
+        <p><strong>预警：</strong>目标脚下出现约 2.6 格水环，随后怪物向上跃起。</p>
+        <p><strong>效果：</strong>先从空中穿刺，命中 5 格内玩家并造成 125% 近战倍率伤害；短暂停顿并重新锁定后，再次俯冲，对 6 格内玩家造成 150% 伤害。</p>
+        <p class="counter"><strong>应对：</strong>离开最初水环后继续改变方向。第二次俯冲会重新瞄准，提前停步容易被追上。</p>
+      </section>
+      <section class="mob-skill">
+        <div class="mob-skill-heading"><h4>沉渊落潮</h4><span>权重 1 · 18 秒冷却</span></div>
+        <p><strong>预警：</strong>屏幕出现高危提示，怪物身边依次扩散 2、4、6 格水环；升空后还会在目标位置显示约 3.8 格落点。</p>
+        <p><strong>效果：</strong>锁定目标后高速坠落，对落地时 6 格内的玩家造成 200% 近战倍率伤害，并将玩家轻微震开。</p>
+        <p class="counter"><strong>应对：</strong>这是最危险但前摇最长的技能。看到高危标题后拉开，落点水环出现时立即向圈外移动。</p>
+      </section>
+    </div>
+    <div class="mob-timing-note"><strong>轮换说明：</strong>权重表示被随机选中的相对机会，不代表固定施放顺序。技能处于冷却或条件不满足时，实际施放间隔会延长。</div>
+  </article>
+  <h2 id="晦渊司祭"><a class="anchor" href="#/rapids/mobsinfo?id=晦渊司祭" data-id="晦渊司祭"><span>晦渊司祭</span></a></h2>
+  <article class="mob-profile">
+    <header class="mob-profile-header">
+      <p>河隘区域的远程 Final 怪物。它以魔法伤害封锁地面和追赶目标，玩家靠近时还会自动发动范围驱离。</p>
+    </header>
+    <div class="mob-threat-summary" aria-label="威胁概览">
+      <div><strong>自动拒近</strong><span>玩家进入近身范围后会受到伤害和强力击退。</span></div>
+      <div><strong>延迟落点</strong><span>连续记录目标位置，稍后引爆多个法阵。</span></div>
+      <div><strong>追踪飞弹</strong><span>带明显点名提示，单靠直线后退难以摆脱。</span></div>
+      <div><strong>分圈暗潮</strong><span>伤害从内圈依次扩散至 16 格外圈。</span></div>
+    </div>
+    <h3>技能轮换</h3>
+    <p class="mob-section-intro">每 5.5 秒尝试从三个主技能中选择一个。黯星连坠、黯蚀追魂、渊门逐浪的选择权重为 4:3:1，各技能仍受自身冷却限制。</p>
+    <div class="mob-skill-list">
+      <section class="mob-skill">
+        <div class="mob-skill-heading"><h4>黯触</h4><span>近战命中时</span></div>
+        <p><strong>效果：</strong>对当前目标造成一次 90% 魔法倍率的技能伤害。</p>
+        <p class="counter"><strong>应对：</strong>司祭并非没有近战能力。被逼到它身边时尽快撤离，避免同时触发驱离技能。</p>
+      </section>
+      <section class="mob-skill">
+        <div class="mob-skill-heading"><h4>近身驱离</h4><span>每 1 秒检查 · 3 秒冷却</span></div>
+        <p><strong>条件：</strong>5 格内存在玩家时发动，并经过约 0.4 秒烟雾预警。</p>
+        <p><strong>效果：</strong>对 6 格内玩家造成 80% 魔法倍率伤害，并施加强力向外击退。</p>
+        <p class="counter"><strong>应对：</strong>近战玩家采用短进短出，不要持续贴身。看到环形烟雾时立即后撤。</p>
+      </section>
+      <section class="mob-skill">
+        <div class="mob-skill-heading"><h4>黯星连坠</h4><span>权重 4 · 10 秒冷却</span></div>
+        <p><strong>预警：</strong>技能标题出现后，司祭连续三次记录目标当时的位置，每次间隔 0.5 秒；落点会先后出现暗色法阵。</p>
+        <p><strong>效果：</strong>每个法阵在完成两段预警后爆炸，对落点 3.2 格内玩家造成 135% 魔法倍率伤害并向外震开。</p>
+        <p class="counter"><strong>应对：</strong>保持连续移动，不要在第一个法阵出现后折返原路。三个落点记录的是不同时间的位置。</p>
+      </section>
+      <section class="mob-skill">
+        <div class="mob-skill-heading"><h4>黯蚀追魂</h4><span>权重 3 · 10 秒冷却</span></div>
+        <p><strong>预警：</strong>被选中的目标脚下出现紫色环并听到尖啸，约 0.8 秒后发射追踪飞弹。</p>
+        <p><strong>效果：</strong>飞弹最多追踪约 3.5 秒，最远飞行 40 格。命中时造成 80% 魔法倍率伤害，并产生轻微位移。</p>
+        <p class="counter"><strong>应对：</strong>被点名者利用转角、障碍物和持续变向拖过追踪时间，其他玩家让出移动路线。</p>
+      </section>
+      <section class="mob-skill">
+        <div class="mob-skill-heading"><h4>渊门逐浪</h4><span>权重 1 · 18 秒冷却</span></div>
+        <p><strong>预警：</strong>司祭停止移动，暗潮由内向外分三圈扩散。每一圈伤害前都会先显示对应半径的粒子环。</p>
+        <p><strong>效果：</strong>先攻击 0-4 格内圈，造成 100% 魔法倍率伤害；随后攻击 4-8 格中圈，造成 150% 伤害；最后攻击 8-16 格外圈，造成 200% 伤害。每圈都会附带轻度向外击退。</p>
+        <p class="counter"><strong>应对：</strong>不要盲目向外跑。观察当前预警圈并跨到已经爆发过的区域；空间充足时，直接离开 16 格范围最安全。</p>
+      </section>
+    </div>
+    <div class="mob-timing-note"><strong>伤害说明：</strong>晦渊司祭的技能使用魔法攻击倍率，魔法防御会影响实际承伤。权重只描述随机选择机会，不代表固定顺序。</div>
   </article>
 </div>
