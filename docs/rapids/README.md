@@ -6,7 +6,7 @@
   --home-surface: #f7f9fb;
   --home-accent: #416e9f;
   --home-accent-soft: #edf3f8;
-  max-width: 980px;
+  max-width: min(980px, 92vw);
   color: var(--home-ink);
 }
 

@@ -177,6 +177,49 @@
   <span>以下为 Beta Test 内容</span>
 </div>
 
+#### 2026/07/15
+
+
+<div class="little-tips" style="max-width: 600px; width: fit-content;">
+  <div style="font-size:24px;">📦</div>
+  <div>
+  <p style="line-height: 1.5;"><strong>Rapids 属性比对 Mod</strong> v1.0.1 <br>Author: <strong>DragonKing</strong></p>
+  <p style="color:#aaa; font-size: 13px; line-height: 1.35; max-width: 360px;">修复装备 Tooltip 的多项解析与排版问题，包括强化等级误识别、法力恢复缺失、套装来源与颜色显示异常、底部树形符号错乱，以及武器和防具类型前置符号处理错误。整体显示效果现在更加接近原生 Tooltip。<br>
+  </p>
+  </div>
+  
+  <a class="download-btn green" style="color: white; padding: inherit; border-radius: 0.75em;" href="/rapids/mods/RapidsKit-compare-1.0.1.jar" download>点击以下载</a> 
+</div>
+
+- 完善了跨服聊天模块的部分功能。
+- **资源包**相关：
+  - 优化了「峡谷」材料。
+    <br><img src="/rapids/rapids_img/updatelogs/20260715_packs1.png" loading="lazy">
+  - 新增「河隘」材料。
+    <br><img src="/rapids/rapids_img/updatelogs/20260715_packs2.png" loading="lazy">
+  - 完善了资源包载入功能，你现无需自行提前下载资源包。
+- 完善了 `强化` `升阶` `熔铸` 的功能。
+  - 现在 `强化等级` 超过 `+12` 后，如强化失败将会**损毁装备**。
+  - 现在 `升阶台` 将能提升指定装备的装备系列品阶而非等级。
+- 你现可于 `菜单` → `个人属性` 按钮中打开 `饰品背包`。
+  <br><img src="/rapids/rapids_img/updatelogs/20260715_accessory.png" loading="lazy">
+- 新增「河隘」Final 怪物： (详情请查看 [怪物信息](rapids/mobsinfo))
+  - `洞渊渡者`:
+    - 常规 Final 怪物。你在击杀后即可获准前往下一副本。
+    - 你可于「河隘」`破晓` 进行历史回响。
+  - `晦渊司祭`:
+    - 进阶 Final 怪物。
+    - 你可于「河隘」`梦魇` 进行历史回响。
+- 新增天赋：
+  - `凯旋余韵`：
+    - 提升再入增益的效果、随机属性范围，但降低额外获得的回忆点数。
+      <br><img src="/rapids/rapids_img/updatelogs/20260715_reentermastery.png" loading="lazy">
+  - `纳藏有方`:
+    - 提升单局可获得的材料掉落及特殊掉落的数量。
+- 为避免天赋造成的误解，将原先的 Tier `1` 再入增益池更改为 Tier `0`。
+
+
+---
 
 #### 2026/07/14
 
@@ -195,6 +238,9 @@
     - 攻击力: `4` → `3 ~ 3.5` unit
     - 攻击属性: `无属性` → `暗属性`
     - 暗属性强化: `0` → `0.5` unit 
+- 完善了物品管理器的功能。
+- 修复了部分套装效果描述的问题。
+- 新增了 [怪物信息](rapids/mobsinfo) 披露。
 
 ---
 

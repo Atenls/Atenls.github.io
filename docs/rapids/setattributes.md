@@ -450,7 +450,6 @@
     <a href="#/rapids/dungeon">副本流程</a>
     <a href="#/rapids/dungeonlist">副本图鉴</a>
     <a href="#/rapids/materials">材料图鉴</a>
-    <a href="#/rapids/combat_system">战斗系统</a>
   </nav>
 
   ## 数值相关介绍
