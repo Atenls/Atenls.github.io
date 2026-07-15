@@ -345,11 +345,11 @@
 
   <table>
     <thead>
-      <tr><th>路线</th><th>图纸等级</th><th>高阶套装</th><th>装备部位</th></tr>
+      <tr><th>路线</th><th>图纸</th><th>等级</th><th>特殊装备部位</th><th>常规装备部位</th></tr>
     </thead>
     <tbody>
-      <tr><td>峡谷</td><td>风之形图纸 Lv.5 / 10 / 15 / 20</td><td>风之形</td><td>长剑、法杖、弓、头盔、护甲、护腿、靴子</td></tr>
-      <tr><td>河隘</td><td>河雾图纸 Lv.25 / 30 / 35 / 40</td><td>河雾</td><td>长剑、法杖、弓、头盔、护甲、护腿、靴子、符文</td></tr>
+      <tr><td>峡谷</td><td>风之形</td><td>Lv.5 ~ 20</td><td>弓、长剑</td><td>长剑、法杖、弓、头盔、护甲、护腿、靴子</td></tr>
+      <tr><td>河隘</td><td>河雾</td><td>Lv.25 ~ 40</td><td>法杖</td><td>长剑、法杖、弓、头盔、护甲、护腿、靴子</td></tr>
     </tbody>
   </table>
 

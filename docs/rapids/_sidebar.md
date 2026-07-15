@@ -127,7 +127,7 @@
 
 <p class="sidebartitle">Rapids - 「激流」</p>
 
-* [首页](rapids/rapids)
+* [首页](rapids/README)
 * [更新记录](rapids/updatelogs)
 * [设计](rapids/design)
 * [Rapids 服务条款](rapids/terms)
@@ -147,4 +147,3 @@
 <p style="margin-top: -1.5em; margin-bottom: 1.5em; display: block; border-radius: 0 0 0 2.5em; box-shadow: 0 6px 8px rgb(29 59 99 / 20%);">
 &nbsp;
 </p>
-
