@@ -212,7 +212,7 @@
     <a href="#/rapids/dungeonmechanics">副本机制</a>
   </div>
 
-  <div class="note"><strong>图鉴说明：</strong>来源写的是当前副本配置中能确认的主要来源，不代表未来不会增加其他来源。</div>
+  <div class="note"><strong>图鉴说明：</strong>来源写的是当前副本配置中能确认的主要来源，不代表未来不会增加其他来源。<br>除本图鉴外，你也可以在游戏中通过 <code>/items</code> 查看物品大全。</div>
 
   <h2>四种获取方式</h2>
 
