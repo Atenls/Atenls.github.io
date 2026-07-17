@@ -474,6 +474,7 @@
   
   <p>基础成长套装，提供稳定的经验获取加成。</p></div></div>
     <div class="tier-grid">
+       <article class="tier-card quality-epic"><div class="tier-top"><span class="tier-name">史诗</span><span class="tier-level">内测额外奖励</span></div><div class="bonus-row"><span class="bonus-count">2 件</span><span class="bonus-text">经验加成 <strong>+20%</strong></span></div></article>
        <article class="tier-card quality-base"><div class="tier-top"><span class="tier-name">基础套装</span><span class="tier-level">无品质分档</span></div><div class="bonus-row"><span class="bonus-count">2 件</span><span class="bonus-text">经验加成 <strong>+10%</strong></span></div><div class="bonus-row"><span class="bonus-count">4 件</span><span class="bonus-text">经验加成 <strong>+10%</strong></span></div></article>
     </div>
   </section>
