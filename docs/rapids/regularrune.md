@@ -29,21 +29,18 @@
     font-weight: 500;
 }
 
-.rune-table .rune-name {
-    min-width: 150px;
-    font-size: 16px;
-    font-weight: 600;
-}
-
-.rune-table .attributes {
-    min-width: 430px;
+.rune-table .attribute-name {
+    min-width: 180px;
     text-align: left;
-    white-space: normal;
-    line-height: 1.75;
+    font-weight: 500;
 }
 
 .rune-table .price {
     font-family: Exo, sans-serif;
+}
+
+.rune-table .price-row td {
+    border-top: 2px solid #ddd;
 }
 
 </style>
@@ -61,122 +58,80 @@
 
 <p id="核心符文" style="font-size: 1em; text-shadow: 0 0 1px rgba(0,0,0,0.25); padding: 2px 10px; margin: 20px 0; border-left: 5px solid rgb(60, 110, 197); color: rgb(48, 93, 170); background: #f9fbfc;">核心符文</p>
 
+### 咒文的咏叹调
+
 <div class="table-container">
-  <table class="rune-table">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Tier</th>
-        <th>Attributes</th>
-        <th>Price</th>
-      </tr>
-    </thead>
+  <table style="border-collapse: collapse; overflow: hidden; width: 1000px; font-family: 等线; text-align: center; border-image: initial; vertical-align: middle; white-space: nowrap; margin: 5px; padding: 16px 16px 24px; border-radius: 24px; border: 1px solid #ccc;" class="rune-table">
+    <thead><tr><th>Attributes</th><th>Tier I</th><th>Tier II</th><th>Tier III</th><th>Tier IV</th><th>Tier V</th></tr></thead>
     <tbody>
-      <tr>
-        <td class="rune-name" rowspan="5">咒文的咏叹调</td>
-        <td>I</td>
-        <td class="attributes">魔法攻击 +15% · 法力恢复 +1 · 法力上限 +40 · 法球伤害半径 +0.2</td>
-        <td class="price">7,500</td>
-      </tr>
-      <tr>
-        <td>II</td>
-        <td class="attributes">魔法攻击 +30% · 法力恢复 +2 · 法力上限 +80 · 法球伤害半径 +0.3 · 法球飞行速度 +1</td>
-        <td class="price">15,000</td>
-      </tr>
-      <tr>
-        <td>III</td>
-        <td class="attributes">魔法攻击 +45% · 法力恢复 +4 · 法力上限 +80 · 法球伤害半径 +0.3 · 法球飞行速度 +2 · 法球飞行距离 +10</td>
-        <td class="price">30,000</td>
-      </tr>
-      <tr>
-        <td>IV</td>
-        <td class="attributes">魔法攻击 +60% · 法力恢复 +6 · 法力上限 +120 · 法球伤害半径 +0.5 · 法球飞行速度 +3 · 法球飞行距离 +20</td>
-        <td class="price">60,000</td>
-      </tr>
-      <tr>
-        <td>V</td>
-        <td class="attributes">魔法攻击 +100% · 法力恢复 +6 · 魔法穿透 +10% · 法力上限 +120 · 法球伤害半径 +0.625 · 法球飞行速度 +4 · 法球飞行距离 +20</td>
-        <td class="price">100,000</td>
-      </tr>
-      <tr>
-        <td class="rune-name" rowspan="5">不屈的凯旋颂</td>
-        <td>I</td>
-        <td class="attributes">近战攻击 +15% · 最大生命 +5% · 生命恢复 +0.25 unit · 护甲穿透 +5%</td>
-        <td class="price">7,500</td>
-      </tr>
-      <tr>
-        <td>II</td>
-        <td class="attributes">近战攻击 +30% · 近战攻击距离 +20% · 最大生命 +10% · 生命恢复 +0.4 unit · 护甲穿透 +5%</td>
-        <td class="price">15,000</td>
-      </tr>
-      <tr>
-        <td>III</td>
-        <td class="attributes">近战攻击 +45% · 近战攻击距离 +25% · 近战攻击次数 +1 · 最大生命 +15% · 生命恢复 +0.625 unit · 护甲穿透 +10%</td>
-        <td class="price">30,000</td>
-      </tr>
-      <tr>
-        <td>IV</td>
-        <td class="attributes">近战攻击 +60% · 攻击速度 +0.25 · 近战攻击距离 +40% · 近战攻击次数 +1 · 最大生命 +20% · 生命恢复 +0.875 unit · 护甲穿透 +15%</td>
-        <td class="price">60,000</td>
-      </tr>
-      <tr>
-        <td>V</td>
-        <td class="attributes">近战攻击 +100% · 攻击速度 +0.375 · 近战攻击距离 +50% · 近战攻击次数 +2 · 最大生命 +25% · 生命恢复 +1.375 unit · 护甲穿透 +20%</td>
-        <td class="price">100,000</td>
-      </tr>
-      <tr>
-        <td class="rune-name" rowspan="5">穿云的鸣镝歌</td>
-        <td>I</td>
-        <td class="attributes">箭矢攻击 +15% · 箭矢速度 +15% · 会心 +2 unit · 护甲穿透 +5%</td>
-        <td class="price">7,500</td>
-      </tr>
-      <tr>
-        <td>II</td>
-        <td class="attributes">箭矢攻击 +30% · 箭矢速度 +30% · 会心 +4 unit · 护甲穿透 +5%</td>
-        <td class="price">15,000</td>
-      </tr>
-      <tr>
-        <td>III</td>
-        <td class="attributes">箭矢攻击 +45% · 箭矢速度 +45% · 箭矢飞行时间 +5 · 会心 +6 unit · 暴击伤害 +30% · 护甲穿透 +10%</td>
-        <td class="price">30,000</td>
-      </tr>
-      <tr>
-        <td>IV</td>
-        <td class="attributes">箭矢攻击 +60% · 箭矢速度 +50% · 箭矢穿透 +1 · 箭矢飞行时间 +5 · 会心 +8 unit · 暴击伤害 +50% · 护甲穿透 +15%</td>
-        <td class="price">60,000</td>
-      </tr>
-      <tr>
-        <td>V</td>
-        <td class="attributes">箭矢攻击 +100% · 箭矢速度 +50% · 箭矢穿透 +2 · 箭矢飞行时间 +5 · 会心 +12 unit · 暴击伤害 +75% · 护甲穿透 +20%</td>
-        <td class="price">100,000</td>
-      </tr>
-      <tr>
-        <td class="rune-name" rowspan="4">逐风的轻快曲</td>
-        <td>I</td>
-        <td class="attributes">移动速度 +50%</td>
-        <td class="price">7,500</td>
-      </tr>
-      <tr>
-        <td>II</td>
-        <td class="attributes">移动速度 +100%</td>
-        <td class="price">15,000</td>
-      </tr>
-      <tr>
-        <td>III</td>
-        <td class="attributes">移动速度 +150%</td>
-        <td class="price">30,000</td>
-      </tr>
-      <tr>
-        <td>IV</td>
-        <td class="attributes">移动速度 +200%</td>
-        <td class="price">60,000</td>
-      </tr>
-      <tr>
-        <td class="rune-name">偶然的狂想曲</td>
-        <td>V</td>
-        <td class="attributes">自然幸运 +50</td>
-        <td class="price">15,000</td>
-      </tr>
+      <tr><td class="attribute-name">魔法攻击</td><td>+15%</td><td>+30%</td><td>+45%</td><td>+60%</td><td>+100%</td></tr>
+      <tr><td class="attribute-name">法力恢复</td><td>+1</td><td>+2</td><td>+4</td><td>+6</td><td>+6</td></tr>
+      <tr><td class="attribute-name">魔法穿透</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>+10%</td></tr>
+      <tr><td class="attribute-name">法力上限</td><td>+40</td><td>+80</td><td>+80</td><td>+120</td><td>+120</td></tr>
+      <tr><td class="attribute-name">法球伤害半径</td><td>+0.2</td><td>+0.3</td><td>+0.3</td><td>+0.5</td><td>+0.625</td></tr>
+      <tr><td class="attribute-name">法球飞行速度</td><td>&nbsp;</td><td>+1</td><td>+2</td><td>+3</td><td>+4</td></tr>
+      <tr><td class="attribute-name">法球飞行距离</td><td>&nbsp;</td><td>&nbsp;</td><td>+10</td><td>+20</td><td>+20</td></tr>
+      <tr class="price-row"><td class="attribute-name">价格 (Kc)</td><td class="price">7,500</td><td class="price">15,000</td><td class="price">30,000</td><td class="price">60,000</td><td class="price">100,000</td></tr>
+    </tbody>
+  </table>
+</div>
+
+### 不屈的凯旋颂
+
+<div class="table-container">
+  <table style="border-collapse: collapse; overflow: hidden; width: 1000px; font-family: 等线; text-align: center; border-image: initial; vertical-align: middle; white-space: nowrap; margin: 5px; padding: 16px 16px 24px; border-radius: 24px; border: 1px solid #ccc;" class="rune-table">
+    <thead><tr><th>Attributes</th><th>Tier I</th><th>Tier II</th><th>Tier III</th><th>Tier IV</th><th>Tier V</th></tr></thead>
+    <tbody>
+      <tr><td class="attribute-name">近战攻击</td><td>+15%</td><td>+30%</td><td>+45%</td><td>+60%</td><td>+100%</td></tr>
+      <tr><td class="attribute-name">攻击速度</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>+0.25</td><td>+0.375</td></tr>
+      <tr><td class="attribute-name">近战攻击距离</td><td>&nbsp;</td><td>+20%</td><td>+25%</td><td>+40%</td><td>+50%</td></tr>
+      <tr><td class="attribute-name">近战攻击次数</td><td>&nbsp;</td><td>&nbsp;</td><td>+1</td><td>+1</td><td>+2</td></tr>
+      <tr><td class="attribute-name">最大生命</td><td>+5%</td><td>+10%</td><td>+15%</td><td>+20%</td><td>+25%</td></tr>
+      <tr><td class="attribute-name">生命恢复</td><td>+0.25 unit</td><td>+0.4 unit</td><td>+0.625 unit</td><td>+0.875 unit</td><td>+1.375 unit</td></tr>
+      <tr><td class="attribute-name">护甲穿透</td><td>+5%</td><td>+5%</td><td>+10%</td><td>+15%</td><td>+20%</td></tr>
+      <tr class="price-row"><td class="attribute-name">价格 (Kc)</td><td class="price">7,500</td><td class="price">15,000</td><td class="price">30,000</td><td class="price">60,000</td><td class="price">100,000</td></tr>
+    </tbody>
+  </table>
+</div>
+
+### 穿云的鸣镝歌
+
+<div class="table-container">
+  <table style="border-collapse: collapse; overflow: hidden; width: 1000px; font-family: 等线; text-align: center; border-image: initial; vertical-align: middle; white-space: nowrap; margin: 5px; padding: 16px 16px 24px; border-radius: 24px; border: 1px solid #ccc;" class="rune-table">
+    <thead><tr><th>Attributes</th><th>Tier I</th><th>Tier II</th><th>Tier III</th><th>Tier IV</th><th>Tier V</th></tr></thead>
+    <tbody>
+      <tr><td class="attribute-name">箭矢攻击</td><td>+15%</td><td>+30%</td><td>+45%</td><td>+60%</td><td>+100%</td></tr>
+      <tr><td class="attribute-name">箭矢速度</td><td>+15%</td><td>+30%</td><td>+45%</td><td>+50%</td><td>+50%</td></tr>
+      <tr><td class="attribute-name">箭矢穿透</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>+1</td><td>+2</td></tr>
+      <tr><td class="attribute-name">箭矢飞行时间</td><td>&nbsp;</td><td>&nbsp;</td><td>+5</td><td>+5</td><td>+5</td></tr>
+      <tr><td class="attribute-name">会心</td><td>+2 unit</td><td>+4 unit</td><td>+6 unit</td><td>+8 unit</td><td>+12 unit</td></tr>
+      <tr><td class="attribute-name">暴击伤害</td><td>&nbsp;</td><td>&nbsp;</td><td>+30%</td><td>+50%</td><td>+75%</td></tr>
+      <tr><td class="attribute-name">护甲穿透</td><td>+5%</td><td>+5%</td><td>+10%</td><td>+15%</td><td>+20%</td></tr>
+      <tr class="price-row"><td class="attribute-name">价格 (Kc)</td><td class="price">7,500</td><td class="price">15,000</td><td class="price">30,000</td><td class="price">60,000</td><td class="price">100,000</td></tr>
+    </tbody>
+  </table>
+</div>
+
+### 逐风的轻快曲
+
+<div class="table-container">
+  <table style="border-collapse: collapse; overflow: hidden; width: 1000px; font-family: 等线; text-align: center; border-image: initial; vertical-align: middle; white-space: nowrap; margin: 5px; padding: 16px 16px 24px; border-radius: 24px; border: 1px solid #ccc;" class="rune-table">
+    <thead><tr><th>Attributes</th><th>Tier I</th><th>Tier II</th><th>Tier III</th><th>Tier IV</th><th>Tier V</th></tr></thead>
+    <tbody>
+      <tr><td class="attribute-name">移动速度</td><td>+50%</td><td>+100%</td><td>+150%</td><td>+200%</td><td>&nbsp;</td></tr>
+      <tr class="price-row"><td class="attribute-name">价格 (Kc)</td><td class="price">7,500</td><td class="price">15,000</td><td class="price">30,000</td><td class="price">60,000</td><td>&nbsp;</td></tr>
+    </tbody>
+  </table>
+</div>
+
+### 偶然的狂想曲
+
+<div class="table-container">
+  <table style="border-collapse: collapse; overflow: hidden; width: 1000px; font-family: 等线; text-align: center; border-image: initial; vertical-align: middle; white-space: nowrap; margin: 5px; padding: 16px 16px 24px; border-radius: 24px; border: 1px solid #ccc;" class="rune-table">
+    <thead><tr><th>Attributes</th><th>Tier I</th><th>Tier II</th><th>Tier III</th><th>Tier IV</th><th>Tier V</th></tr></thead>
+    <tbody>
+      <tr><td class="attribute-name">自然幸运</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>+50</td></tr>
+      <tr class="price-row"><td class="attribute-name">价格 (Kc)</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td class="price">15,000</td></tr>
     </tbody>
   </table>
 </div>
