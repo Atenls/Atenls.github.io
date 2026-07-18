@@ -173,6 +173,55 @@
 
 ## 2026 Jul.
 
+---
+
+#### 2026/07/18
+
+- 现在 `河隘` **所有难度** Essence 怪物将有概率掉落 `戒指` `项链`
+- 降低了 `跨服玩家可见` 每个玩家可见到跨服玩家的数量。
+- 为 `Essence` `Final` 怪物增加了结算统计。
+  <br><img src="/rapids/rapids_img/updatelogs/20260718_stats.png" loading="lazy">
+- 修复了再入时可获取的回忆点数显示异常的问题。（实际数值正常）
+- 调整了副本回忆进度的获取率，并使其更符合期望的实际等级增长速度。
+- 补充了 `Rank` 的每日登录奖励：
+  <details>
+    <summary><strong>查看详情</strong></summary>
+
+    - <span class="item-name-tag">Noctambulist</span>
+      - `30` unit E
+    - <span class="item-name-tag">Metaphysician</span>
+      - `50` unit E
+      - `6x` 强化石
+    - <span class="item-name-tag">Occultist</span>
+      - `100` unit E
+      - `6x` 强化石
+      - `1x` 体力药剂
+  
+  </details>
+- 修改了等级提升奖励：
+  - 每 `10` 级获得 `(Level / 10) * 4` 强化石。
+  - 每 `10x +5` 级获得 `1x` 体力药剂。 (5, 15, 25, ...)
+- 调整了打造装备之图纸需求：
+  - 配方 #1 #2 **不变**
+  - 配方 #3: (Lv.15 / Lv.35 / ...)
+    - `常规`: 1x → 2x
+    - `精雕细琢`: 3x → 4x
+  - 配方 #4: (Lv.20 / Lv.40 / ...)
+    - `常规`: 1x → 2x
+    - `精雕细琢`: 3x → 6x
+- 你现已可解锁天赋 `纳藏有方`
+  <br><img src="/rapids/rapids_img/updatelogs/20260718_exsto.png" loading="lazy">
+- 你现已可解锁天赋 `熟能生巧`
+  <br><img src="/rapids/rapids_img/updatelogs/20260718_craft.png" loading="lazy">
+- 修复了部分问题。
+- 新增可购买的 `Kc` 符文:
+  - `咒文的咏叹调`
+  - `不屈的凯旋颂`
+  - `穿云的鸣镝歌`
+  - `逐风的轻快曲`
+- 符文如为可升级的符文，将能在 `饰品背包` 中静默随玩家等级而升级。
+
+
 <div class="divider" style="margin: 2em 0;">
   <span>以下为 Beta Test 内容</span>
 </div>
@@ -187,6 +236,7 @@
 - 调整了基准系数：
   - `箭矢`: `1.2` → `1` unit
   - `近战`: `1` → `1.2` unit
+- ...暂略部分内容
 
 ---
 
