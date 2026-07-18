@@ -66,7 +66,7 @@
 
 <div class="table-container">
   <table style="border-collapse: collapse; overflow: hidden; width: fit-content; font-family: 等线; text-align: center; border-image: initial; vertical-align: middle; white-space: nowrap; margin: 5px; padding: 16px 16px 24px; border-radius: 24px; border: 1px solid #ccc;" class="rune-table">
-    <thead><tr><th>等级</th><th>近战攻击</th><th>攻击速度</th><th>近战攻击距离</th><th>近战攻击次数</th><th>最大生命</th><th>生命恢复</th><th>护甲穿透</th><th>价格 (Kc)</th></tr></thead>
+    <thead><tr><th>等级</th><th>近战攻击</th><th>攻击速度</th><th>近战攻击距离</th><th>近战攻击数量</th><th>最大生命</th><th>生命恢复</th><th>护甲穿透</th><th>价格 (Kc)</th></tr></thead>
     <tbody>
       <tr><td>I</td><td>+15%</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>+5%</td><td>+0.25 unit</td><td>+5%</td><td class="price">7,500</td></tr>
       <tr><td>II</td><td>+30%</td><td>&nbsp;</td><td>+20%</td><td>&nbsp;</td><td>+10%</td><td>+0.4 unit</td><td>+5%</td><td class="price">15,000</td></tr>

@@ -147,3 +147,14 @@
 <p style="margin-top: -1.5em; margin-bottom: 1.5em; display: block; border-radius: 0 0 0 2.5em; box-shadow: 0 6px 8px rgb(29 59 99 / 20%);">
 &nbsp;
 </p>
+
+
+<p class="sidebartitle">「赞助内容」</p>
+
+  * [订阅制服务](rapids/rank)
+  * [制式符文](rapids/regularrune)
+
+
+<p style="margin-top: -1.5em; margin-bottom: 1.5em; display: block; border-radius: 0 0 0 2.5em; box-shadow: 0 6px 8px rgb(29 59 99 / 20%);">
+&nbsp;
+</p>
