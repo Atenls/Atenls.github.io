@@ -15,7 +15,6 @@
 .rune-table {
     border-collapse: collapse;
     width: 100%;
-    min-width: 760px;
     font-family: 等线, sans-serif;
     text-align: center;
     vertical-align: middle;
@@ -39,7 +38,7 @@
 
 ## 简介
 
-制式符文拥有固定的属性搭配，可通过 `Kc` 购买。下表属性与价格提取自当前 `regularrune.yml` 配置。
+制式符文拥有固定的属性搭配，可通过 `Kc` 购买。 1 CNY = **100** Kc。
 
 ## 符文明细
 
@@ -51,7 +50,7 @@
 ### 咒文的咏叹调
 
 <div class="table-container">
-  <table style="border-collapse: collapse; overflow: hidden; width: 1000px; font-family: 等线; text-align: center; border-image: initial; vertical-align: middle; white-space: nowrap; margin: 5px; padding: 16px 16px 24px; border-radius: 24px; border: 1px solid #ccc;" class="rune-table">
+  <table style="border-collapse: collapse; overflow: hidden; width: fit-content; font-family: 等线; text-align: center; border-image: initial; vertical-align: middle; white-space: nowrap; margin: 5px; padding: 16px 16px 24px; border-radius: 24px; border: 1px solid #ccc;" class="rune-table">
     <thead><tr><th>等级</th><th>魔法攻击</th><th>法力恢复</th><th>魔法穿透</th><th>法力上限</th><th>法球伤害半径</th><th>法球飞行速度</th><th>法球飞行距离</th><th>价格 (Kc)</th></tr></thead>
     <tbody>
       <tr><td>I</td><td>+15%</td><td>+1</td><td>&nbsp;</td><td>+40</td><td>+0.2</td><td>&nbsp;</td><td>&nbsp;</td><td class="price">7,500</td></tr>
@@ -66,7 +65,7 @@
 ### 不屈的凯旋颂
 
 <div class="table-container">
-  <table style="border-collapse: collapse; overflow: hidden; width: 1000px; font-family: 等线; text-align: center; border-image: initial; vertical-align: middle; white-space: nowrap; margin: 5px; padding: 16px 16px 24px; border-radius: 24px; border: 1px solid #ccc;" class="rune-table">
+  <table style="border-collapse: collapse; overflow: hidden; width: fit-content; font-family: 等线; text-align: center; border-image: initial; vertical-align: middle; white-space: nowrap; margin: 5px; padding: 16px 16px 24px; border-radius: 24px; border: 1px solid #ccc;" class="rune-table">
     <thead><tr><th>等级</th><th>近战攻击</th><th>攻击速度</th><th>近战攻击距离</th><th>近战攻击次数</th><th>最大生命</th><th>生命恢复</th><th>护甲穿透</th><th>价格 (Kc)</th></tr></thead>
     <tbody>
       <tr><td>I</td><td>+15%</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>+5%</td><td>+0.25 unit</td><td>+5%</td><td class="price">7,500</td></tr>
@@ -81,7 +80,7 @@
 ### 穿云的鸣镝歌
 
 <div class="table-container">
-  <table style="border-collapse: collapse; overflow: hidden; width: 1000px; font-family: 等线; text-align: center; border-image: initial; vertical-align: middle; white-space: nowrap; margin: 5px; padding: 16px 16px 24px; border-radius: 24px; border: 1px solid #ccc;" class="rune-table">
+  <table style="border-collapse: collapse; overflow: hidden; width: fit-content; font-family: 等线; text-align: center; border-image: initial; vertical-align: middle; white-space: nowrap; margin: 5px; padding: 16px 16px 24px; border-radius: 24px; border: 1px solid #ccc;" class="rune-table">
     <thead><tr><th>等级</th><th>箭矢攻击</th><th>箭矢速度</th><th>箭矢穿透</th><th>箭矢飞行时间</th><th>会心</th><th>暴击伤害</th><th>护甲穿透</th><th>价格 (Kc)</th></tr></thead>
     <tbody>
       <tr><td>I</td><td>+15%</td><td>+15%</td><td>&nbsp;</td><td>&nbsp;</td><td>+2 unit</td><td>&nbsp;</td><td>+5%</td><td class="price">7,500</td></tr>
@@ -93,10 +92,13 @@
   </table>
 </div>
 
+
+<p id="附属符文" style="font-size: 1em; text-shadow: 0 0 1px rgba(0,0,0,0.25); padding: 2px 10px; margin: 20px 0; border-left: 5px solid rgb(60, 110, 197); color: rgb(48, 93, 170); background: #f9fbfc;">附属符文</p>
+
 ### 逐风的轻快曲
 
 <div class="table-container">
-  <table style="border-collapse: collapse; overflow: hidden; width: 1000px; font-family: 等线; text-align: center; border-image: initial; vertical-align: middle; white-space: nowrap; margin: 5px; padding: 16px 16px 24px; border-radius: 24px; border: 1px solid #ccc;" class="rune-table">
+  <table style="border-collapse: collapse; overflow: hidden; width: fit-content; font-family: 等线; text-align: center; border-image: initial; vertical-align: middle; white-space: nowrap; margin: 5px; padding: 16px 16px 24px; border-radius: 24px; border: 1px solid #ccc;" class="rune-table">
     <thead><tr><th>等级</th><th>移动速度</th><th>价格 (Kc)</th></tr></thead>
     <tbody>
       <tr><td>I</td><td>+50%</td><td class="price">7,500</td></tr>
@@ -109,9 +111,11 @@
 
 ### 偶然的狂想曲
 
+暂不可用
+
 <div class="table-container">
-  <table style="border-collapse: collapse; overflow: hidden; width: 1000px; font-family: 等线; text-align: center; border-image: initial; vertical-align: middle; white-space: nowrap; margin: 5px; padding: 16px 16px 24px; border-radius: 24px; border: 1px solid #ccc;" class="rune-table">
-    <thead><tr><th>等级</th><th>自然幸运</th><th>价格 (Kc)</th></tr></thead>
+  <table style="border-collapse: collapse; overflow: hidden; width: fit-content; font-family: 等线; text-align: center; border-image: initial; vertical-align: middle; white-space: nowrap; margin: 5px; padding: 16px 16px 24px; border-radius: 24px; border: 1px solid #ccc;" class="rune-table">
+    <thead><tr><th>等级</th><th>自然馈赠</th><th>价格 (Kc)</th></tr></thead>
     <tbody>
       <tr><td>V</td><td>+50</td><td class="price">15,000</td></tr>
     </tbody>
