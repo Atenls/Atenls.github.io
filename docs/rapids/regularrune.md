@@ -65,18 +65,20 @@
 - `法球飞行速度` 决定法球每秒步进的距离，也可以等价视作 1/2 **可穿透距离** 。
 - `法球飞行距离` 决定法球可步进的最远距离。
 
+> `柔韧` 词条新增于 2026/07/19 午间，如你的符文尚未更新至含柔韧的版本，请联系管理员更新。
+
 <div class="table-container">
   <table style="border-collapse: collapse; overflow: hidden; width: fit-content; font-family: 等线; text-align: center; border-image: initial; vertical-align: middle; white-space: nowrap; margin: 5px; padding: 16px; border-radius: 24px; border: 1px solid #ccc;" class="rune-table">
-    <thead><tr><th>等级</th><th>魔法攻击</th><th>法力恢复</th><th>魔法穿透</th><th>法力上限</th><th>法球伤害半径</th><th>法球飞行速度</th><th>法球飞行距离</th><th>价格 (Kc)</th></tr></thead>
+    <thead><tr><th>等级</th><th>魔法攻击</th><th>法力恢复</th><th>施法速度</th><th>魔法穿透</th><th>柔韧</th><th>法力上限</th><th>法球伤害半径</th><th>法球飞行速度</th><th>法球飞行距离</th><th>价格 (Kc)</th></tr></thead>
     <tbody>
-      <tr><td>I</td><td>+15%</td><td>+1</td><td>&nbsp;</td><td>+40</td><td>+0.2</td><td>&nbsp;</td><td>&nbsp;</td><td class="price">7,500</td></tr>
-      <tr><td>II</td><td>+30%</td><td>+2</td><td>&nbsp;</td><td>+80</td><td>+0.3</td><td>+1</td><td>&nbsp;</td><td class="price">15,000</td></tr>
-      <tr><td>III</td><td>+45%</td><td>+4</td><td>&nbsp;</td><td>+80</td><td>+0.3</td><td>+2</td><td>+10</td><td class="price">30,000</td></tr>
-      <tr><td>IV</td><td>+60%</td><td>+6</td><td>&nbsp;</td><td>+120</td><td>+0.5</td><td>+3</td><td>+20</td><td class="price">60,000</td></tr>
-      <tr><td>V</td><td>+100%</td><td>+6</td><td>+10%</td><td>+120</td><td>+0.625</td><td>+4</td><td>+20</td><td class="price">100,000</td></tr>
-      <tr><td>VI</td><td>+135%</td><td>+8</td><td>+10%</td><td>+160</td><td>+0.75</td><td>+4</td><td>+25</td><td class="price">150,000</td></tr>
-      <tr><td>VII</td><td>+175%</td><td>+8</td><td>+20%</td><td>+160</td><td>+0.75</td><td>+5</td><td>+30</td><td class="price">225,000</td></tr>
-      <tr><td>VIII</td><td>+225%</td><td>+8</td><td>+20%</td><td>+160</td><td>+0.875</td><td>+6</td><td>+30</td><td class="price">325,000</td></tr>
+      <tr><td>I</td><td>+15%</td><td>+1</td><td>&nbsp;</td><td>&nbsp;</td><td>+0.5 unit</td><td>+40</td><td>+0.2</td><td>&nbsp;</td><td>&nbsp;</td><td class="price">7,500</td></tr>
+      <tr><td>II</td><td>+30%</td><td>+2</td><td>&nbsp;</td><td>&nbsp;</td><td>+1 unit</td><td>+80</td><td>+0.3</td><td>+1</td><td>&nbsp;</td><td class="price">15,000</td></tr>
+      <tr><td>III</td><td>+45%</td><td>+4</td><td>&nbsp;</td><td>&nbsp;</td><td>+1.5 unit</td><td>+80</td><td>+0.3</td><td>+2</td><td>+10</td><td class="price">30,000</td></tr>
+      <tr><td>IV</td><td>+60%</td><td>+6</td><td>&nbsp;</td><td>&nbsp;</td><td>+2 unit</td><td>+120</td><td>+0.5</td><td>+3</td><td>+20</td><td class="price">60,000</td></tr>
+      <tr><td>V</td><td>+100%</td><td>+6</td><td>&nbsp;</td><td>+10%</td><td>+2.5 unit</td><td>+120</td><td>+0.625</td><td>+4</td><td>+20</td><td class="price">100,000</td></tr>
+      <tr><td>VI</td><td>+135%</td><td>+8</td><td>+0.2次/秒</td><td>+10%</td><td>+3 unit</td><td>+160</td><td>+0.75</td><td>+4</td><td>+25</td><td class="price">150,000</td></tr>
+      <tr><td>VII</td><td>+175%</td><td>+8</td><td>+0.35次/秒</td><td>+20%</td><td>+4 unit</td><td>+160</td><td>+0.75</td><td>+5</td><td>+30</td><td class="price">225,000</td></tr>
+      <tr><td>VIII</td><td>+225%</td><td>+8</td><td>+0.5次/秒</td><td>+20%</td><td>+5 unit</td><td>+160</td><td>+0.875</td><td>+6</td><td>+30</td><td class="price">325,000</td></tr>
     </tbody>
   </table>
 </div>
@@ -159,10 +161,10 @@
   <table style="border-collapse: collapse; overflow: hidden; width: fit-content; font-family: 等线; text-align: center; border-image: initial; vertical-align: middle; white-space: nowrap; margin: 5px; padding: 16px; border-radius: 24px; border: 1px solid #ccc;" class="rune-table">
     <thead><tr><th>等级</th><th>护甲</th><th>魔法抗性</th><th>价格 (Kc)</th></tr></thead>
     <tbody>
-      <tr><td>I</td><td>+1 unit</td><td>+1 unit</td><td class="price">5,000</td></tr>
-      <tr><td>II</td><td>+2 unit</td><td>+2 unit</td><td class="price">10,000</td></tr>
-      <tr><td>III</td><td>+3 unit</td><td>+3 unit</td><td class="price">20,000</td></tr>
-      <tr><td>IV</td><td>+4 unit</td><td>+4 unit</td><td class="price">40,000</td></tr>
+      <tr><td>I</td><td>+1.25 unit</td><td>+1.25 unit</td><td class="price">5,000</td></tr>
+      <tr><td>II</td><td>+2.5 unit</td><td>+2.5 unit</td><td class="price">10,000</td></tr>
+      <tr><td>III</td><td>+3.75 unit</td><td>+3.75 unit</td><td class="price">20,000</td></tr>
+      <tr><td>IV</td><td>+5 unit</td><td>+5 unit</td><td class="price">40,000</td></tr>
     </tbody>
   </table>
 </div>
