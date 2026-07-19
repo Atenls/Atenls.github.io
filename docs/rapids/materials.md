@@ -271,18 +271,18 @@
       <p class="usage"><strong>用途：</strong>「风之形」高阶配方的核心材料，需要 6 个。</p>
     </article>
     <article class="material-entry valley">
-      <h3>苍风琉砂 <span class="rarity epic">史诗</span></h3>
-      <div class="meta"><span>标价 260 E</span><span>Tier II 宝箱 / 特殊终点掉落池</span></div>
+      <h3>苍风琉砂 <span class="rarity legendary">传奇</span></h3>
+      <div class="meta"><span>标价 450 E</span><span>Tier II 宝箱 / Final 怪物掉落池</span></div>
       <blockquote>只在高崖风眼中沉积的细砂。每一粒都像封存着一缕苍白的风。</blockquote>
       <p class="usage"><strong>用途：</strong>高阶「风之形」配方；等级 15 配方需要 2 个，等级 20 配方需要 3 个。</p>
     </article>
-    <article class="material-entry valley">
+    <article class="material-entry valley" style="display: none;">
       <h3>断空石英 <span class="rarity epic">史诗</span></h3>
       <div class="meta"><span>标价 320 E</span><span>副本掉落来源待补充</span></div>
       <blockquote>裂隙边缘凝成的透明石英。折射出的光影仿佛被切成数段。</blockquote>
       <p class="usage"><strong>暂无获取途径</strong></p>
     </article>
-    <article class="material-entry valley">
+    <article class="material-entry valley" style="display: none;">
       <h3>岁痕玉髓 <span class="rarity legendary">传奇</span></h3>
       <div class="meta"><span>标价 750 E</span><span>副本掉落来源待补充</span></div>
       <blockquote>深埋于崖心的温润玉髓。内部的层纹像是漫长岁月留下的年轮。</blockquote>
@@ -332,8 +332,8 @@
       <p class="usage"><strong>用途：</strong>「河雾」高阶配方需要 6 个。</p>
     </article>
     <article class="material-entry river">
-      <h3>归途残铃 <span class="rarity epic">史诗</span></h3>
-      <div class="meta"><span>标价 750 E</span><span>Tier II 宝箱 / 特殊怪物掉落池</span></div>
+      <h3>归途残铃 <span class="rarity legendary">传奇</span></h3>
+      <div class="meta"><span>标价 1250 E</span><span>Tier II 宝箱 / Final 怪物掉落池</span></div>
       <blockquote>行旅曾系在包上的小铃残件。轻晃时没有铃声，只余一阵遥远的回响。</blockquote>
       <p class="usage"><strong>用途：</strong>高阶「河雾」配方；等级 35 配方需要 2 个，等级 40 配方需要 3 个。</p>
     </article>
