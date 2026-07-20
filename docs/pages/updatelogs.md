@@ -41,6 +41,29 @@
 
 #### 2026/07/20
 
+
+
+<div class='bluebox'>
+<p style="font-size: 24px; font-weight: 800; padding: 10px;">10 周年庆典</p>
+<p style="line-height: 1.375; color: #3c547c8f; font-size: 14px; 
+background: rgba(160,160,168,0.083); border-radius: 1em; padding: 0.5em 2em;
+width: fit-content; margin: -0.5em auto; auto-warp:">新活动开放<br>
+你可通过 Token 兑换 <span class="highlight-purple">限定饰品</span> 或其他资源<br>
+并能通过分解饰品或直购合成 Final 饰品、Universe 饰品。
+</span>
+</p>
+</div>
+
+<div class="little-tips little-tips-blue">
+  <div style="font-size:24px;">📜</div>
+  <div>
+    <p><strong>BattlePass <span style="font-family: CONSOLA;">S15</span></strong></p>
+    <p style="color:#aaa; font-size: 13px; line-height: 1.35;">持续时间: <span style="text-wrap: nowrap;">2026/07/20</span> - <span style="text-wrap: nowrap;">2026/09/20</span><br>
+    即刻参与日常、周常，收集 CA 并兑换全新的<span style="text-wrap: nowrap;">限定饰品 Eternity</span> 吧!
+    </p>
+  </div>
+</div>
+
 - 修复了部分 NPC 兑换项目在部分情况下会出现异常的多倍产物的问题。
 
 ---
