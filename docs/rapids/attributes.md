@@ -85,6 +85,70 @@
 
 .attribute-guide section { scroll-margin-top: 1.5rem; }
 
+.level-formula {
+  display: grid;
+  grid-template-columns: minmax(0, .9fr) minmax(0, 1.1fr);
+  gap: 1.2rem;
+  margin: 0 0 2.2rem;
+  padding: 1.25rem 1.35rem;
+  color: #eef6fb;
+  background: #315b7e;
+  border: 1px solid #294f6e;
+  border-radius: 12px;
+}
+
+.attribute-guide .level-formula h2 {
+  margin: 0 0 .4rem;
+  color: #fff;
+}
+
+.level-formula p {
+  margin: 0;
+  color: #d9e7f1;
+  font-size: .86rem;
+  line-height: 1.65;
+}
+
+.level-formula code {
+  display: block;
+  overflow-x: auto;
+  align-self: center;
+  padding: .8rem .9rem;
+  color: #fff;
+  background: rgba(255, 255, 255, .1);
+  border: 1px solid rgba(255, 255, 255, .16);
+  border-radius: 8px;
+  font-size: clamp(.86rem, 2vw, 1.05rem);
+  font-weight: 700;
+  line-height: 1.5;
+  white-space: nowrap;
+}
+
+.level-formula dl {
+  display: grid;
+  grid-column: 1 / -1;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: .55rem;
+  margin: 0;
+}
+
+.level-formula dl div {
+  padding-top: .7rem;
+  border-top: 1px solid rgba(255, 255, 255, .2);
+}
+
+.level-formula dt {
+  color: #c9ddec;
+  font-size: .75rem;
+}
+
+.level-formula dd {
+  margin: .18rem 0 0;
+  color: #fff;
+  font-size: .9rem;
+  font-weight: 700;
+}
+
 .attribute-guide h2 {
   margin: 2.7rem 0 .45rem;
   color: var(--attr-ink);
@@ -255,6 +319,8 @@
 
 @media (max-width: 640px) {
   .attribute-hero { grid-template-columns: 1fr; padding: 1.15rem; }
+  .level-formula { grid-template-columns: 1fr; padding: 1.05rem; }
+  .level-formula dl { grid-template-columns: 1fr; }
   .formula-list,
   .attribute-grid { grid-template-columns: 1fr; }
   .attribute-grid div { grid-template-columns: minmax(6.7rem, .72fr) minmax(0, 1.28fr); }
@@ -287,6 +353,7 @@
   </header>
 
   <nav class="attribute-nav" aria-label="属性介绍目录">
+    <a href="#/rapids/attributes?id=等级公式">等级公式</a>
     <a href="#/rapids/attributes?id=伤害如何结算">伤害结算</a>
     <a href="#/rapids/attributes?id=核心公式">核心公式</a>
     <a href="#/rapids/attributes?id=生存与通用">生存与通用</a>
@@ -295,6 +362,19 @@
     <a href="#/rapids/attributes?id=元素属性">元素属性</a>
     <a href="#/rapids/attributes?id=持续伤害">持续伤害</a>
   </nav>
+
+  <section id="等级公式" class="level-formula">
+    <div>
+      <h2>等级公式</h2>
+      <p>等级带来的基础对抗系数。L 取受击方等级，命中、暴击、护甲和魔抗都会引用 K(L)。</p>
+    </div>
+    <code>K(L) = L × 1.0375<sup>L</sup> + 10</code>
+    <dl>
+      <div><dt>护甲与魔抗</dt><dd>8 × K(L)</dd></div>
+      <div><dt>命中判定</dt><dd>12 × K(L)</dd></div>
+      <div><dt>暴击判定</dt><dd>16 × K(L)</dd></div>
+    </dl>
+  </section>
 
   <section id="伤害如何结算">
     <h2>伤害如何结算</h2>
@@ -310,12 +390,12 @@
 
   <section id="核心公式">
     <h2>核心公式</h2>
-    <p class="attribute-intro">以下公式中的等级均取受击方等级。所有概率最终都会限制在标明的区间内。</p>
+    <p class="attribute-intro">下列公式统一引用上方的等级系数 K(L)。所有概率最终都会限制在标明的区间内。</p>
     <div class="formula-list">
       <article class="formula-card">
         <h3>命中率</h3>
         <code>命中率 = 1 - 闪避 ÷ (命中 + 1.5 × 闪避 + 12 × 等级系数)</code>
-        <p>等级系数 = 等级 × 1.0375<sup>等级</sup> + 10。最终命中率最低 50%，最高 100%。仅近战与箭矢使用。</p>
+        <p>最终命中率最低 50%，最高 100%。仅近战与箭矢使用。</p>
       </article>
       <article class="formula-card">
         <h3>暴击率</h3>
