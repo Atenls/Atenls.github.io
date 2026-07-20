@@ -181,6 +181,7 @@
       <a class="rapids-home-link" href="#/rapids/dungeonlist"><strong>副本图鉴</strong><span>查看各区域、难度、推荐等级与开放状态。</span></a>
       <a class="rapids-home-link" href="#/rapids/dungeonmechanics"><strong>副本机制</strong><span>评分、宝箱、采集物与特殊怪物规则。</span></a>
       <a class="rapids-home-link featured" href="#/rapids/mobsinfo"><strong>怪物信息</strong><span>查看怪物技能、触发条件和实战应对方法。</span></a>
+      <a class="rapids-home-link featured" href="#/rapids/attributes"><strong>属性介绍</strong><span>查询属性用途、伤害结算顺序与核心计算公式。</span></a>
       <a class="rapids-home-link" href="#/rapids/materials"><strong>材料图鉴</strong><span>材料来源、品质、用途与配方需求。</span></a>
       <a class="rapids-home-link" href="#/rapids/setattributes"><strong>套装属性</strong><span>查询套装部件、激活条件与属性效果。</span></a>
       <a class="rapids-home-link" href="#/rapids/design"><strong>设计说明</strong><span>阅读玩法目标、数值框架与开发思路。</span></a>

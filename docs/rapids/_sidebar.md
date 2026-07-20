@@ -141,6 +141,7 @@
   * [副本图鉴](rapids/dungeonlist)
   * [副本机制](rapids/dungeonmechanics)
   * [怪物信息](rapids/mobsinfo)
+  * [属性介绍](rapids/attributes)
   * [材料图鉴](rapids/materials)
   * [套装属性](rapids/setattributes)
 
