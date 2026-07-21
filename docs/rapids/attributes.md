@@ -524,7 +524,7 @@
   </section>
 
   <section id="持续伤害">
-    <h2>持续伤害</h2>
+    <h2>持续伤害 (DOT)</h2>
     <p class="attribute-intro">燃烧、中毒等持续效果会在施加时记录伤害、间隔与持续时间。是否启用某项修正由该持续效果自身定义。</p>
     <div class="attribute-group">
       <dl class="attribute-grid">
