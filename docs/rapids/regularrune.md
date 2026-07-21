@@ -94,18 +94,20 @@
 - `近战攻击距离` 决定近战攻击范围半径。
 - `近战攻击数量` 决定近战单次攻击可选取的怪物数量。
 
+> 于 2026/07/22 凌晨，该符文原有的 `生命恢复` 已转为 `会心` 及 `暴击伤害`。如你的符文未自动更新，请联系管理员。
+
 <div class="table-container">
   <table style="border-collapse: collapse; overflow: hidden; width: fit-content; font-family: 等线; text-align: center; border-image: initial; vertical-align: middle; white-space: nowrap; margin: 5px; padding: 16px; border-radius: 24px; border: 1px solid #ccc;" class="rune-table">
-    <thead><tr><th>等级</th><th>近战攻击</th><th>攻击速度</th><th>近战攻击距离</th><th>近战攻击数量</th><th>最大生命</th><th>生命恢复</th><th>护甲穿透</th><th>价格 (Kc)</th></tr></thead>
+    <thead><tr><th>等级</th><th>近战攻击</th><th>攻击速度</th><th>近战攻击距离</th><th>近战攻击数量</th><th>最大生命</th><th>会心</th><th>暴击伤害</th><th>护甲穿透</th><th>价格 (Kc)</th></tr></thead>
     <tbody>
-      <tr><td>I</td><td>+15%</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>+5%</td><td>+0.25 unit</td><td>+5%</td><td class="price">7,500</td></tr>
-      <tr><td>II</td><td>+30%</td><td>&nbsp;</td><td>+20%</td><td>&nbsp;</td><td>+10%</td><td>+0.4 unit</td><td>+5%</td><td class="price">15,000</td></tr>
-      <tr><td>III</td><td>+45%</td><td>&nbsp;</td><td>+25%</td><td>+1</td><td>+15%</td><td>+0.625 unit</td><td>+10%</td><td class="price">30,000</td></tr>
-      <tr><td>IV</td><td>+60%</td><td>+0.25</td><td>+40%</td><td>+1</td><td>+20%</td><td>+0.875 unit</td><td>+15%</td><td class="price">60,000</td></tr>
-      <tr><td>V</td><td>+100%</td><td>+0.375</td><td>+50%</td><td>+2</td><td>+25%</td><td>+1.375 unit</td><td>+20%</td><td class="price">100,000</td></tr>
-      <tr><td>VI</td><td>+135%</td><td>+0.5</td><td>+60%</td><td>+2</td><td>+30%</td><td>+1.75 unit</td><td>+20%</td><td class="price">150,000</td></tr>
-      <tr><td>VII</td><td>+175%</td><td>+0.5</td><td>+60%</td><td>+3</td><td>+30%</td><td>+2.25 unit</td><td>+25%</td><td class="price">225,000</td></tr>
-      <tr><td>VIII</td><td>+225%</td><td>+0.625</td><td>+75%</td><td>+3</td><td>+35%</td><td>+2.75 unit</td><td>+25%</td><td class="price">325,000</td></tr>
+      <tr><td>I</td><td>+15%</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>+5%</td><td>+2 unit</td><td>&nbsp;</td><td>+5%</td><td class="price">7,500</td></tr>
+      <tr><td>II</td><td>+30%</td><td>&nbsp;</td><td>+20%</td><td>&nbsp;</td><td>+10%</td><td>+4 unit</td><td>&nbsp;</td><td>+5%</td><td class="price">15,000</td></tr>
+      <tr><td>III</td><td>+45%</td><td>&nbsp;</td><td>+25%</td><td>+1</td><td>+15%</td><td>+6 unit</td><td>+30%</td><td>+10%</td><td class="price">30,000</td></tr>
+      <tr><td>IV</td><td>+60%</td><td>+0.25</td><td>+40%</td><td>+1</td><td>+20%</td><td>+8 unit</td><td>+50%</td><td>+15%</td><td class="price">60,000</td></tr>
+      <tr><td>V</td><td>+100%</td><td>+0.375</td><td>+50%</td><td>+2</td><td>+25%</td><td>+12 unit</td><td>+75%</td><td>+20%</td><td class="price">100,000</td></tr>
+      <tr><td>VI</td><td>+135%</td><td>+0.5</td><td>+60%</td><td>+2</td><td>+30%</td><td>+16 unit</td><td>+100%</td><td>+20%</td><td class="price">150,000</td></tr>
+      <tr><td>VII</td><td>+175%</td><td>+0.5</td><td>+60%</td><td>+3</td><td>+30%</td><td>+20 unit</td><td>+125%</td><td>+25%</td><td class="price">225,000</td></tr>
+      <tr><td>VIII</td><td>+225%</td><td>+0.625</td><td>+75%</td><td>+3</td><td>+35%</td><td>+30 unit</td><td>+150%</td><td>+25%</td><td class="price">325,000</td></tr>
     </tbody>
   </table>
 </div>
