@@ -10,7 +10,7 @@
         <th style="border: none;">&nbsp;</th>
         <th><span style="color: #cc90cc;">Noctambulist</span></th>
         <th style="border: none;"><span style="font-weight: 700; background: linear-gradient(to right, #FF80FF, #AAFFFF) text; color: transparent; text-shadow: 1px 1px 5px #d8bae640;">Metaphysician</span></th>
-        <th><span style="font-weight: 700; background: linear-gradient(to right, #FFAA00, #FFFF80) text; color: transparent; text-shadow: 1px 1px 5px #ffebcd40;">Noctambulist</span></th></tr></thead>
+        <th><span style="font-weight: 700; background: linear-gradient(to right, #FFAA00, #FFFF80) text; color: transparent; text-shadow: 1px 1px 5px #ffebcd40;">Occultist</span></th></tr></thead>
     <tbody>
       <tr><td>价格</td><td>48</td><td>108</td><td>258</td></tr>
       <tr><td>体力恢复速度</td><td>-</td><td>6 mins</td><td>4 mins</td></tr>

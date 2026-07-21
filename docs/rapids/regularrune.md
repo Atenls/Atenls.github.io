@@ -169,6 +169,20 @@
   </table>
 </div>
 
+### 长生的安魂谣
+
+<div class="table-container">
+  <table style="border-collapse: collapse; overflow: hidden; width: fit-content; font-family: 等线; text-align: center; border-image: initial; vertical-align: middle; white-space: nowrap; margin: 5px; padding: 16px; border-radius: 24px; border: 1px solid #ccc;" class="rune-table">
+    <thead><tr><th>等级</th><th>生命值</th><th>生命恢复</th><th>价格 (Kc)</th></tr></thead>
+    <tbody>
+      <tr><td>I</td><td>+1.25 unit</td><td>+0.375 unit</td><td class="price">5,000</td></tr>
+      <tr><td>II</td><td>+2.5 unit</td><td>+0.75 unit</td><td class="price">10,000</td></tr>
+      <tr><td>III</td><td>+3.75 unit</td><td>+1.25 unit</td><td class="price">20,000</td></tr>
+      <tr><td>IV</td><td>+5 unit</td><td>+1.75 unit</td><td class="price">40,000</td></tr>
+    </tbody>
+  </table>
+</div>
+
 ### 偶然的狂想曲
 
 以 `自然馈赠/200` 的比例加成**怪物**掉落材料的几率。（不生效于宝箱或采集物）
