@@ -17,6 +17,7 @@
       <tr><td>体力上限</td><td>400</td><td>400</td><td>600</td></tr>
       <tr><td>副本多倍奖励领取</td><td>2</td><td>3</td><td>4</td></tr>
       <tr><td>QS 容量</td><td>1280</td><td>2400</td><td>4096</td></tr>
+      <tr><td>US 容量</td><td>54</td><td>81</td><td>108</td></tr>
       <tr><td>交易所托管槽位</td><td>18</td><td>27</td><td>36</td></tr>
       <tr><td>交易所税率减免</td><td>10%</td><td>20%</td><td>30%</td></tr>
       <tr><td>每日刷怪护符限额</td><td>3</td><td>6</td><td>12</td></tr>
