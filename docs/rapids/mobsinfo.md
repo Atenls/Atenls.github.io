@@ -306,10 +306,10 @@
         <p class="counter"><strong>应对：</strong>看到水花与云雾扩散时立即离开近身范围。保持 6 格以上距离可避开伤害。</p>
       </section>
       <section class="mob-skill">
-        <div class="mob-skill-heading"><h4>雾步</h4><span>每 6 秒检查 · 8 秒冷却</span></div>
+        <div class="mob-skill-heading"><h4>雾步</h4><span>每 6 秒检查 · 12 秒冷却</span></div>
         <p><strong>条件：</strong>当前目标不在 20 格以内时才会发动。</p>
-        <p><strong>效果：</strong>传送到目标附近，落点会在水平方向产生最多约 2 格偏移。</p>
-        <p class="counter"><strong>应对：</strong>远距离并不等于安全。它消失时及时转身确认落点，不要停在狭窄地形边缘。</p>
+        <p><strong>效果：</strong>释放前警告，在 1.25s 后传送到目标附近，落点会在水平方向产生最多约 3 格偏移。</p>
+        <p class="counter"><strong>应对：</strong>远距离并不等于安全。保持距离在 12 ~ 20 格之间，看见预警尽可能持续快跑。</p>
       </section>
       <section class="mob-skill">
         <div class="mob-skill-heading"><h4>回潮牵引</h4><span>每 8 秒尝试 · 10 秒冷却</span></div>
