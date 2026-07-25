@@ -197,6 +197,9 @@
     <thead><tr><th>等级</th><th>自然馈赠</th><th>价格 (Kc)</th></tr></thead>
     <tbody>
       <tr><td>I</td><td>+50</td><td class="price">15,000</td></tr>
+      <tr><td>I</td><td>+100</td><td class="price">45,000</td></tr>
+      <tr><td>I</td><td>+150</td><td class="price">105,000</td></tr>
+      <tr><td>I</td><td>+200</td><td class="price">225,000</td></tr>
     </tbody>
   </table>
 </div>

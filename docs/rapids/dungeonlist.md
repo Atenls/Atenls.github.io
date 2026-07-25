@@ -241,7 +241,7 @@
 
   <div class="rapids-dungeon-entry river">
     <h3>梦魇 · Nightmare</h3>
-    <div class="meta"><span class="status soon">尚未推出</span><span>推荐等级 Lv.40</span></div>
+    <div class="meta"><span class="status">当前开放</span><span>推荐等级 Lv.40</span></div>
     <blockquote>深夜的河水漆黑如墨，吞没了古道的尽头。若山洞不是出口，那它究竟通向何处</blockquote>
     <p class="detail">尚未开放</p>
   </div>
