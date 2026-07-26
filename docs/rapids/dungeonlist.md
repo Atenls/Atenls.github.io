@@ -36,7 +36,7 @@
 
 .rapids-dungeon-list .index {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 12px;
   margin: 0 0 2.8em;
 }
@@ -58,6 +58,7 @@
 
 .rapids-dungeon-list .index a.valley { box-shadow: 0 0 3px #8090e060; }
 .rapids-dungeon-list .index a.river { box-shadow: 0 0 3px #70d0c860; }
+.rapids-dungeon-list .index a.ridge { box-shadow: 0 0 3px #7670d060; }
 
 .rapids-dungeon-list .index strong {
   display: block;
@@ -82,6 +83,7 @@
 
 .rapids-dungeon-list h2.valley { border-bottom-color: #cfd5f0; }
 .rapids-dungeon-list h2.river { border-bottom-color: #c5e6e2; }
+.rapids-dungeon-list h2.ridge { border-bottom-color: #d5d1ef; }
 
 .rapids-dungeon-list h3 {
   display: flex;
@@ -104,6 +106,7 @@
 
 .rapids-dungeon-entry.valley h3 { color: #5969b0; }
 .rapids-dungeon-entry.river h3 { color: #348f8a; }
+.rapids-dungeon-entry.ridge h3 { color: #6862ad; }
 
 .rapids-dungeon-entry .meta {
   display: flex;
@@ -161,6 +164,7 @@
   <div class="index">
     <a class="valley" href="#/rapids/dungeonlist#峡谷"><strong>峡谷</strong><span>初涉 · 见闻 · 踏察 · 破晓 · 梦魇</span></a>
     <a class="river" href="#/rapids/dungeonlist#河隘"><strong>河隘</strong><span>初涉 · 见闻 · 踏察 · 破晓 · 梦魇</span></a>
+    <a class="ridge" href="#/rapids/dungeonlist#谷垣"><strong>谷垣</strong><span>初涉 · 见闻 · 踏察 · 破晓</span></a>
   </div>
 
   <div class="note">所有难度通过完成对应的回忆进度解锁。推荐等级是入口提示，不替代游戏内实时条件。</div>
@@ -244,5 +248,37 @@
     <div class="meta"><span class="status">当前开放</span><span>推荐等级 Lv.40</span></div>
     <blockquote>深夜的河水漆黑如墨，吞没了古道的尽头。若山洞不是出口，那它究竟通向何处</blockquote>
     <p class="detail">尚未开放</p>
+  </div>
+
+  ## 谷垣
+
+  <p>被群山围合的谷地城镇，层叠屋舍、旧墙与土道共同收束向中央。</p>
+
+  <div class="rapids-dungeon-entry ridge">
+    <h3>初涉 · Foray</h3>
+    <div class="meta"><span class="status">当前开放</span><span>推荐等级 Lv.41</span></div>
+    <blockquote>屋舍四散错落，旧墙与土道共同收束向中央。沿着土道探索，仍能窥见往日的热闹。</blockquote>
+    <p class="detail"><strong>历史回响：</strong>可消耗合计 32 个谷垣寻常材料，于 <code>后山</code> 召唤 Lv.45 Essence 怪物裂庭震兽。</p>
+  </div>
+
+  <div class="rapids-dungeon-entry ridge">
+    <h3>见闻 · Glimpse</h3>
+    <div class="meta"><span class="status">当前开放</span><span>推荐等级 Lv.46</span></div>
+    <blockquote>层叠的屋舍与山融为一体，守望着中央。如今四周门户紧闭，唯有风不断吹过。</blockquote>
+    <p class="detail"><strong>历史回响：</strong>可消耗合计 32 个谷垣寻常材料，于 <code>后山</code> 召唤 Lv.50 Essence 怪物裂庭震兽。</p>
+  </div>
+
+  <div class="rapids-dungeon-entry ridge">
+    <h3>踏察 · Traverse</h3>
+    <div class="meta"><span class="status">当前开放</span><span>推荐等级 Lv.51</span></div>
+    <blockquote>继续深入谷中城镇，怪物强度与探索压力随难度提高。</blockquote>
+    <p class="detail"><strong>历史回响：</strong>可消耗合计 32 个谷垣寻常材料，于 <code>后山</code> 召唤 Lv.55 Essence 怪物裂庭震兽。</p>
+  </div>
+
+  <div class="rapids-dungeon-entry ridge">
+    <h3>破晓 · Dawn</h3>
+    <div class="meta"><span class="status">当前开放</span><span>推荐等级 Lv.56</span></div>
+    <blockquote>谷垣当前开放的最高难度，面向准备继续推进空庭装备路线的玩家。</blockquote>
+    <p class="detail">该难度已配置常规怪物、Elite 与 Essence 的自然生成；历史回响召唤点目前未开放。</p>
   </div>
 </div>
