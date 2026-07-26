@@ -268,10 +268,10 @@
       <p class="lead">了解怪物的攻击方式、触发条件与应对方法。技能描述以当前服务器配置为准。</p>
     </div>
     <dl class="mob-atlas-identity">
-      <div><dt>当前收录</dt><dd>3 个怪物</dd></div>
-      <div><dt>资料区域</dt><dd>河隘</dd></div>
+      <div><dt>当前收录</dt><dd>4 个怪物</dd></div>
+      <div><dt>资料区域</dt><dd>河隘 · 谷垣</dd></div>
       <div><dt>信息范围</dt><dd>技能与机制</dd></div>
-      <div><dt>更新时间</dt><dd>2026/07/15</dd></div>
+      <div><dt>更新时间</dt><dd>2026/07/27</dd></div>
     </dl>
   </header>
   <nav class="mob-atlas-directory" aria-label="怪物索引">
@@ -279,6 +279,7 @@
     <a href="#/rapids/mobsinfo?id=河雾怨魄">河雾怨魄</a>
     <a href="#/rapids/mobsinfo?id=洞渊渡者">洞渊渡者</a>
     <a href="#/rapids/mobsinfo?id=晦渊司祭">晦渊司祭</a>
+    <a href="#/rapids/mobsinfo?id=裂庭震兽">裂庭震兽</a>
   </nav>
 
   ## 河雾怨魂
@@ -414,5 +415,40 @@
     </div>
     <div class="mob-timing-note"><strong>伤害说明：</strong>晦渊司祭的技能使用魔法攻击倍率，魔法抗性会影响实际承伤。权重只描述随机选择机会，不代表固定顺序。</div>
   </article>
-</div>
 
+  ## 裂庭震兽
+  <article class="mob-profile" style="--mob-accent:#557fbd;--mob-accent-strong:#3f659c;--mob-accent-soft:#edf3fb">
+    <header class="mob-profile-header">
+      <p>谷垣区域的 Essence 怪物。它以冲锋、近身震环和目标落点石柱压缩活动空间，正面承受连段很容易被连续击飞。</p>
+    </header>
+    <div class="mob-threat-summary" aria-label="威胁概览">
+      <div><strong>直线冲锋</strong><span>蓄力后沿目标方向突进，沿途目标只会被同一轮冲锋命中一次。</span></div>
+      <div><strong>近身震环</strong><span>6 格范围同时造成近战伤害和向上震飞。</span></div>
+      <div><strong>落点石柱</strong><span>记录施法时的目标位置，延迟引爆小范围魔法伤害。</span></div>
+      <div><strong>强抗击退</strong><span>自身击退抗性很高，难以依靠普通击退打断压迫。</span></div>
+    </div>
+    <h3>技能详解</h3>
+    <p class="mob-section-intro">近战倍率以裂庭震兽自身的近战攻击为基准；崩垣石柱使用魔法攻击倍率。它在低于 36% 生命时会出现熔岩粒子提示，但不会因此自动增加新的攻击技能。</p>
+    <div class="mob-skill-list">
+      <section class="mob-skill">
+        <div class="mob-skill-heading"><h4>裂庭冲击</h4><span>每 4 秒尝试 · 50% 概率</span></div>
+        <p><strong>条件：</strong>当前目标距离在 4 至 20 格之间时才会发动。</p>
+        <p><strong>效果：</strong>咆哮并聚集尘雾，约 1.2 秒后朝目标方向高速冲锋。沿途命中的玩家受到 120% 近战倍率伤害，并被明显击退。</p>
+        <p class="counter"><strong>应对：</strong>听见咆哮或看见电光环时横向离开冲锋线。不要直线后退，否则更容易留在它的路径上。</p>
+      </section>
+      <section class="mob-skill">
+        <div class="mob-skill-heading"><h4>地脉震环</h4><span>每 9 秒尝试 · 75% 概率</span></div>
+        <p><strong>条件：</strong>目标进入 10 格以内后才会发动。</p>
+        <p><strong>效果：</strong>先显示接近 6 格的电光环，约 1.2 秒后震击地面。6 格内玩家受到 85% 近战倍率伤害，并被向上震飞。</p>
+        <p class="counter"><strong>应对：</strong>预警环已经标出实际危险范围。及时撤到 6 格外，落地后注意它可能衔接冲锋。</p>
+      </section>
+      <section class="mob-skill">
+        <div class="mob-skill-heading"><h4>崩垣石柱</h4><span>每 15 秒尝试</span></div>
+        <p><strong>预警：</strong>施法时记录目标所在位置，并显示半径约 2.25 格的碎石与尘雾圆环。</p>
+        <p><strong>效果：</strong>约 1.5 秒后石柱在记录位置爆发，范围内玩家受到 90% 魔法倍率伤害，并被大幅向上击飞。</p>
+        <p class="counter"><strong>应对：</strong>圆环不会持续追踪。看见脚下预警后立即离开原位，也不要把落点带进队友站位。</p>
+      </section>
+    </div>
+    <div class="mob-timing-note"><strong>计时说明：</strong>冲击和震环按固定周期检查后还要通过概率与距离条件，并不保证每轮施放。石柱没有额外概率门槛，但仍需要有效目标位置。</div>
+  </article>
+</div>
