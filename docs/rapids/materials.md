@@ -60,6 +60,7 @@
 
 .rapids-materials h2.valley { border-bottom-color: #cfd5f0; }
 .rapids-materials h2.river { border-bottom-color: #c5e6e2; }
+.rapids-materials h2.ridge { border-bottom-color: #d5d1ef; }
 
 .rapids-materials h3 {
   margin: 1.65em 0 .45em;
@@ -121,6 +122,7 @@
 
 .rapids-materials .material-entry.valley { --route: #5969b0; }
 .rapids-materials .material-entry.river { --route: #348f8a; }
+.rapids-materials .material-entry.ridge { --route: #6862ad; }
 
 .rapids-materials .material-entry h3 {
   margin-bottom: .35em;
@@ -226,7 +228,7 @@
   <ul>
     <li>普通材料是每条路线的前三种材料。打造配方中的「寻常材料」指这三种材料的总数量，可混合缴纳。</li>
     <li>Tier 4、Tier 5 结算有机会获得稀有材料；Tier 6 结算大概率获得稀有材料，并有机会附带本路线图纸。</li>
-    <li>常规宝箱的材料池会包含强化石；强化石是通用物品，不属于峡谷或河隘专属材料。</li>
+    <li>常规宝箱的材料池会包含强化石；强化石是通用物品，不属于任何路线的专属材料。</li>
   </ul>
 
   ## 峡谷材料
@@ -339,6 +341,55 @@
     </article>
   </div>
 
+  ## 谷垣材料
+
+  <p class="small">谷垣材料主要用于「空庭」套装的打造，也用于后山的历史回响。前三种绿色材料均可计入「谷垣寻常材料」。</p>
+
+  <div class="material-list">
+    <article class="material-entry ridge">
+      <h3>湖绡浮藻 <span class="rarity common">寻常</span></h3>
+      <div class="meta"><span>标价 85 E</span><span>击杀 / 结算 / Tier I、Tier II 宝箱 / 采集物</span></div>
+      <blockquote>生长在谷中湖岸的轻薄水藻。离水后依旧柔润，像一缕淡青色绢纱。</blockquote>
+      <p class="usage"><strong>用途：</strong>谷垣寻常材料；可用于历史回响与「空庭」配方。</p>
+    </article>
+    <article class="material-entry ridge">
+      <h3>旧垣瓦片 <span class="rarity common">寻常</span></h3>
+      <div class="meta"><span>标价 95 E</span><span>击杀 / 结算 / Tier I、Tier II 宝箱</span></div>
+      <blockquote>从城镇旧屋檐角脱落的青灰瓦片。边缘覆着浅浅水痕，仍留有修补过的痕迹。</blockquote>
+      <p class="usage"><strong>用途：</strong>谷垣寻常材料；可用于历史回响与「空庭」配方。</p>
+    </article>
+    <article class="material-entry ridge">
+      <h3>汀灯残芯 <span class="rarity common">寻常</span></h3>
+      <div class="meta"><span>标价 120 E</span><span>击杀 / 结算 / Tier I、Tier II 宝箱 / 采集物</span></div>
+      <blockquote>取自湖边旧灯中的一截灯芯。虽然早已熄灭，却还残留着微弱油香。</blockquote>
+      <p class="usage"><strong>用途：</strong>谷垣寻常材料；可用于历史回响与「空庭」配方。</p>
+    </article>
+    <article class="material-entry ridge">
+      <h3>青釉门铭 <span class="rarity rare">稀有</span></h3>
+      <div class="meta"><span>标价 480 E</span><span>击杀 / 结算 / Tier I、Tier II 宝箱 / 采集物</span></div>
+      <blockquote>嵌在旧宅门前的青釉铭牌残片。釉面依稀刻着姓氏，却无人再来认领。</blockquote>
+      <p class="usage"><strong>用途：</strong>谷垣稀有材料；普通「空庭」配方需要 36 个，高阶配方需要 64 个。</p>
+    </article>
+    <article class="material-entry ridge">
+      <h3>沉湖铜钥 <span class="rarity rare">稀有</span></h3>
+      <div class="meta"><span>标价 560 E</span><span>Elite / Essence / 结算 / Tier II 宝箱 / 采集物</span></div>
+      <blockquote>从湖底淤泥中捞出的旧铜钥匙。齿纹保存完整，却已找不到对应的门锁。</blockquote>
+      <p class="usage"><strong>用途：</strong>「空庭」普通配方需要 6 个，高阶配方需要 18 个。</p>
+    </article>
+    <article class="material-entry ridge">
+      <h3>山镇绢契 <span class="rarity epic">史诗</span></h3>
+      <div class="meta"><span>标价 1280 E</span><span>Elite / Essence / Tier II 宝箱 / 采集物 / 高阶结算</span></div>
+      <blockquote>以防潮绢纸写成的旧日契书。墨迹记载着湖岸宅地与山田的归属。</blockquote>
+      <p class="usage"><strong>用途：</strong>「空庭」高阶配方需要 6 个。</p>
+    </article>
+    <article class="material-entry ridge">
+      <h3>镜湖心珀 <span class="rarity legendary">传奇</span></h3>
+      <div class="meta"><span>标价 3000 E</span><span>Tier II 宝箱</span></div>
+      <blockquote>只在湖心深处偶尔出现的幽青灵珀。其中映着完整的山镇，水面却不见任何人影。</blockquote>
+      <p class="usage"><strong>用途：</strong>高阶「空庭」配方；等级 55 配方需要 2 个，等级 60 配方需要 3 个。</p>
+    </article>
+  </div>
+
   ## 图纸、装备与打造台
 
   <p>材料图鉴也记录与材料直接相连的制作线。击杀掉落和结算领取的装备属于路线基础装备；高阶套装需要在打造台完成。</p>
@@ -350,6 +401,7 @@
     <tbody>
       <tr><td>峡谷</td><td>风之形</td><td>Lv.5 ~ 20</td><td>弓、长剑</td><td>长剑、法杖、弓、头盔、护甲、护腿、靴子</td></tr>
       <tr><td>河隘</td><td>河雾</td><td>Lv.25 ~ 40</td><td>法杖</td><td>长剑、法杖、弓、头盔、护甲、护腿、靴子</td></tr>
+      <tr><td>谷垣</td><td>空庭</td><td>Lv.45 ~ 60</td><td>长剑</td><td>长剑、法杖、弓、头盔、护甲、护腿、靴子</td></tr>
     </tbody>
   </table>
 
@@ -357,14 +409,16 @@
   <ul>
     <li><strong>峡谷：</strong>对应等级 1 张风之形图纸、6 个风蚀晶簇、36 个风蚀石核，以及 192 个峡谷寻常材料。</li>
     <li><strong>河隘：</strong>对应等级 1 张河雾图纸、6 个水封行札、36 个渡痕铜片，以及 192 个河隘寻常材料。</li>
+    <li><strong>谷垣：</strong>1 至 2 张对应等级的空庭图纸、6 个沉湖铜钥、36 个青釉门铭，以及 192 个谷垣寻常材料。</li>
   </ul>
 
   <h3>高阶配方</h3>
   <ul>
     <li><strong>峡谷：</strong>3 张对应等级图纸、6 个古崖髓石、18 个风蚀晶簇、64 个风蚀石核，以及 512 个峡谷寻常材料；等级 15/20 还分别需要 2/3 个苍风琉砂。</li>
     <li><strong>河隘：</strong>3 张对应等级图纸、6 个沉舟漆片、18 个水封行札、64 个渡痕铜片，以及 512 个河隘寻常材料；等级 35/40 还分别需要 2/3 个归途残铃。</li>
+    <li><strong>谷垣：</strong>3 至 6 张对应等级图纸、6 个山镇绢契、18 个沉湖铜钥、64 个青釉门铭，以及 512 个谷垣寻常材料；等级 55/60 还分别需要 2/3 个镜湖心珀。</li>
     <li>高阶配方还需要 E，并要求对应路线的 Tier 6 通关记录；同一路线的前序配方至少打造 3 次后，才会开放「精雕细琢」配方。</li>
   </ul>
 
-  <div class="note"><strong>收集建议：</strong>先把寻常材料当作路线通用库存，再根据想做的等级保留蓝色与紫色材料。Tier II 宝箱、Essence 和高 Tier 结算，是补齐稀有材料与图纸的主要途径。</div>
+  <div class="note"><strong>收集建议：</strong>先把寻常材料当作路线通用库存，再根据想做的等级保留蓝色与紫色材料。Tier II 宝箱、Essence 和高 Tier 结算，是补齐稀有材料与图纸的主要途径；谷垣的镜湖心珀目前以 Tier II 宝箱为明确来源。</div>
 </div>
