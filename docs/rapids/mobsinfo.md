@@ -268,10 +268,10 @@
       <p class="lead">了解怪物的攻击方式、触发条件与应对方法。技能描述以当前服务器配置为准。</p>
     </div>
     <dl class="mob-atlas-identity">
-      <div><dt>当前收录</dt><dd>4 个怪物</dd></div>
+      <div><dt>当前收录</dt><dd>5 个怪物</dd></div>
       <div><dt>资料区域</dt><dd>河隘 · 谷垣</dd></div>
       <div><dt>信息范围</dt><dd>技能与机制</dd></div>
-      <div><dt>更新时间</dt><dd>2026/07/27</dd></div>
+      <div><dt>更新时间</dt><dd>2026/07/29</dd></div>
     </dl>
   </header>
   <nav class="mob-atlas-directory" aria-label="怪物索引">
@@ -280,6 +280,7 @@
     <a href="#/rapids/mobsinfo?id=洞渊渡者">洞渊渡者</a>
     <a href="#/rapids/mobsinfo?id=晦渊司祭">晦渊司祭</a>
     <a href="#/rapids/mobsinfo?id=裂庭震兽">裂庭震兽</a>
+    <a href="#/rapids/mobsinfo?id=镇岳玄犀">镇岳玄犀</a>
   </nav>
 
   ## 河雾怨魂
@@ -450,5 +451,40 @@
       </section>
     </div>
     <div class="mob-timing-note"><strong>计时说明：</strong>冲击和震环按固定周期检查后还要通过概率与距离条件，并不保证每轮施放。石柱没有额外概率门槛，但仍需要有效目标位置。</div>
+  </article>
+
+  ## 镇岳玄犀
+  <article class="mob-profile" style="--mob-accent:#9b6f43;--mob-accent-strong:#744d2c;--mob-accent-soft:#f7f0e8">
+    <header class="mob-profile-header">
+      <p>谷垣区域的肉盾型 Final 怪物。它会把队伍拖入内圈、震开近身目标，再沿锁定方向发起重甲冲锋，以一次完整而清晰的连段反复压缩走位空间。</p>
+    </header>
+    <div class="mob-threat-summary" aria-label="威胁概览">
+      <div><strong>两段牵引</strong><span>14 格内玩家会被连续拉向 Boss，第二次牵引还会附带短暂减速。</span></div>
+      <div><strong>内圈震地</strong><span>仍停留在 5.5 格内的玩家会受到伤害并被推出。</span></div>
+      <div><strong>锁向冲锋</strong><span>震地后重新朝当前目标转向，随后沿直线高速冲出。</span></div>
+      <div><strong>重甲身躯</strong><span>生命与双防较高、完全抵抗普通击退，但自身移动速度较慢。</span></div>
+    </div>
+    <h3>技能循环</h3>
+    <p class="mob-section-intro">镇岳玄犀只有一套核心连段。每 5 秒会检查一次目标与冷却；当前目标在 24 格内时，才会开始闭关冲阵。</p>
+    <div class="mob-skill-list">
+      <section class="mob-skill">
+        <div class="mob-skill-heading"><h4>闭关冲阵 · 牵引</h4><span>10 秒冷却 · 14 格范围</span></div>
+        <p><strong>预警：</strong>Boss 停止行动并咆哮，地面显示 14 格外圈与 5.5 格内圈。约 0.8 秒后发动第一次牵引，再经过约 0.8 秒发动更强的第二次牵引。</p>
+        <p><strong>效果：</strong>两次牵引都会把 14 格内玩家拉向 Boss；第二次牵引还会施加 1.5 秒缓慢 II，但牵引阶段本身不造成伤害。</p>
+        <p class="counter"><strong>应对：</strong>外圈出现后立刻向外移动。位移技能留给第二次牵引，越早脱离 14 格范围，后续处理空间越大。</p>
+      </section>
+      <section class="mob-skill">
+        <div class="mob-skill-heading"><h4>闭关冲阵 · 震地</h4><span>第二次牵引后约 0.7 秒</span></div>
+        <p><strong>效果：</strong>Boss 震击 5.5 格内圈，对其中玩家造成 75% 近战倍率伤害，并将其向外震开。</p>
+        <p class="counter"><strong>应对：</strong>内圈边界已在开场时标出。不要顺着牵引方向硬顶 Boss，横向走出 5.5 格即可避开伤害并减少被推入冲锋线的风险。</p>
+      </section>
+      <section class="mob-skill">
+        <div class="mob-skill-heading"><h4>闭关冲阵 · 重甲冲锋</h4><span>震地后约 1.2 秒</span></div>
+        <p><strong>预警：</strong>Boss 会在震地后重新锁定当前目标，身边出现电光环并再次咆哮；约 0.7 秒后沿当时朝向冲锋。</p>
+        <p><strong>效果：</strong>沿途命中的玩家受到 135% 近战倍率伤害并被明显击退。同一名玩家在一轮冲锋中只会受到一次命中。</p>
+        <p class="counter"><strong>应对：</strong>看见电光环后立即横移，不要沿 Boss 朝向直线后退。冲锋方向锁定后不会持续追踪，避开路径即可获得下一轮前的输出窗口。</p>
+      </section>
+    </div>
+    <div class="mob-timing-note"><strong>循环说明：</strong>技能不是三次独立随机施放，而是固定按“牵引 → 震地 → 冲锋”执行。若没有 24 格内的有效目标，或技能仍在冷却，5 秒检查不会开始连段。</div>
   </article>
 </div>
