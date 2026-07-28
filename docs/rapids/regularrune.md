@@ -187,19 +187,19 @@
 
 ### 偶然的狂想曲
 
-以 `自然馈赠/200` 的比例加成**怪物**掉落材料的几率。（不生效于宝箱或采集物）
+以 `自然馈赠/200` 的比例加成**所有怪物**掉落材料的几率。（不生效于宝箱或采集物）
 
 > 参考: 50/200 → 25% → x1.25 | 如原 10% → 12.5%<br>
-> 生效范围如：普通怪物的 绿色/蓝色材料 ；Elite / Essence 的蓝色材料；Final 的紫色材料
+> 生效范围如：普通怪物的 绿色/蓝色材料 ；Elite / Essence 的蓝色材料；Final 的紫色/金色材料
 
 <div class="table-container">
   <table style="border-collapse: collapse; overflow: hidden; width: fit-content; font-family: 等线; text-align: center; border-image: initial; vertical-align: middle; white-space: nowrap; margin: 5px; padding: 16px; border-radius: 24px; border: 1px solid #ccc;" class="rune-table">
     <thead><tr><th>等级</th><th>自然馈赠</th><th>价格 (Kc)</th></tr></thead>
     <tbody>
       <tr><td>I</td><td>+50</td><td class="price">15,000</td></tr>
-      <tr><td>I</td><td>+100</td><td class="price">45,000</td></tr>
-      <tr><td>I</td><td>+150</td><td class="price">105,000</td></tr>
-      <tr><td>I</td><td>+200</td><td class="price">225,000</td></tr>
+      <tr><td>II</td><td>+100</td><td class="price">40,000</td></tr>
+      <tr><td>III</td><td>+150</td><td class="price">75,000</td></tr>
+      <tr><td>IV</td><td>+200</td><td class="price">105,000</td></tr>
     </tbody>
   </table>
 </div>
