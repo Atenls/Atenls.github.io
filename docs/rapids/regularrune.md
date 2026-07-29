@@ -187,10 +187,15 @@
 
 ### 偶然的狂想曲
 
-以 `自然馈赠/200` 的比例加成**所有怪物**掉落材料的几率。（不生效于宝箱或采集物）
+- 以 `自然馈赠/200` 的比例加成**所有怪物**掉落材料的几率。（不生效于宝箱或采集物）
 
 > 参考: 50/200 → 25% → x1.25 | 如原 10% → 12.5%<br>
-> 生效范围如：普通怪物的 绿色/蓝色材料 ；Elite / Essence 的蓝色材料；Final 的紫色/金色材料
+> 生效范围如：普通怪物的 绿色/蓝色材料 ；Elite / Essence 的蓝色材料；Final 的紫色/金色材料<br>
+
+- 以 `自然馈赠/500` 的比例加成**所有怪物**特殊掉落的几率。
+
+> 参考: 50/500 → 10% → x1.1
+> 如：Final 掉落图纸 75% → 82.5%<br>
 
 <div class="table-container">
   <table style="border-collapse: collapse; overflow: hidden; width: fit-content; font-family: 等线; text-align: center; border-image: initial; vertical-align: middle; white-space: nowrap; margin: 5px; padding: 16px; border-radius: 24px; border: 1px solid #ccc;" class="rune-table">
