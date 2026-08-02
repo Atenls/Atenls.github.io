@@ -368,7 +368,7 @@
       <h2>等级公式</h2>
       <p>等级带来的基础对抗系数。L 取受击方等级，命中、暴击、护甲和魔抗都会引用 K(L)。</p>
     </div>
-    <code>K(L) = L × 1.0375<sup>L</sup> + 10</code>
+    <code>K(L) = L × 1.025<sup>L</sup> + 10</code>
     <dl>
       <div><dt>护甲与魔抗</dt><dd>8 × K(L)</dd></div>
       <div><dt>命中判定</dt><dd>12 × K(L)</dd></div>

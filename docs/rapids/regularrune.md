@@ -46,7 +46,7 @@
 
 当你为 `核心符文` 购置「附属槽位」时，可将已拥有的 `附属符文` 镶嵌于其上，节约符文位。「附属槽位」至多拥有 `3` 个。
 
-!> Rapids 的「附属槽位」系统暂未开放，因此替代的是目前玩家符文槽位拥有 `6` 个。
+!> Rapids 的「附属槽位」系统现已测试中，即将移除多余的符文槽位，敬请留意。
 
 ## 符文明细
 
@@ -64,8 +64,6 @@
 - `法球伤害半径` 决定法球的半径，即宽度。
 - `法球飞行速度` 决定法球每秒步进的距离，也可以等价视作 1/2 **可穿透距离** 。
 - `法球飞行距离` 决定法球可步进的最远距离。
-
-> `柔韧` 词条新增于 2026/07/19 午间，如你的符文尚未更新至含柔韧的版本，请联系管理员更新。
 
 <div class="table-container">
   <table style="border-collapse: collapse; overflow: hidden; width: fit-content; font-family: 等线; text-align: center; border-image: initial; vertical-align: middle; white-space: nowrap; margin: 5px; padding: 16px; border-radius: 24px; border: 1px solid #ccc;" class="rune-table">
@@ -93,8 +91,6 @@
 
 - `近战攻击距离` 决定近战攻击范围半径。
 - `近战攻击数量` 决定近战单次攻击可选取的怪物数量。
-
-> 于 2026/07/22 凌晨，该符文原有的 `生命恢复` 已转为 `会心` 及 `暴击伤害`。如你的符文未自动更新，请联系管理员。
 
 <div class="table-container">
   <table style="border-collapse: collapse; overflow: hidden; width: fit-content; font-family: 等线; text-align: center; border-image: initial; vertical-align: middle; white-space: nowrap; margin: 5px; padding: 16px; border-radius: 24px; border: 1px solid #ccc;" class="rune-table">
