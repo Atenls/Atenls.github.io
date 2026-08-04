@@ -163,9 +163,9 @@
 
 <main class="rapids-home">
   <header class="rapids-home-hero">
-    <p class="eyebrow">DP IV / RAPIDS WIKI</p>
+    <p class="eyebrow">RAPIDS WIKI</p>
     <h1>激流</h1>
-    <p class="lead">围绕副本探索、角色构筑与长期成长展开的 Minecraft RPG 服务器内容。这里集中披露玩法规则、图鉴资料与版本变化。</p>
+    <p class="lead">围绕副本探索、角色构筑与长期成长展开的 Minecraft RPG 服务器。这里集中披露玩法规则、图鉴资料与版本变化。</p>
     <div class="rapids-home-actions">
       <a href="#/rapids/dungeon">了解副本流程</a>
       <a class="secondary" href="#/rapids/updatelogs">查看最近更新</a>
