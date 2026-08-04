@@ -444,7 +444,6 @@
   <header class="rapids-sets-hero">
     <p class="kicker">RAPIDS / SET ATLAS</p>
     <h1>套装属性</h1>
-    <p>套装效果按穿着件数逐段解锁。以下内容同步自当前 DPItemManager 配置，共 19 个套装；不展开单件装备的基础属性。</p>
   </header>
   <nav class="quick-links">
     <a href="#/rapids/dungeon">副本流程</a>
@@ -454,7 +453,7 @@
 
   <div class="legend-grid">
     <div class="legend-card"><strong>数值</strong><span>固定值通常会出现在最大法力值、法力恢复等属性；标有百分号的属性按百分比显示，例如移动速度、箭矢速度、暴击伤害和经验加成。</span></div>
-    <div class="legend-card"><strong>公式</strong><span>配置中的 <code>base</code>、<code>health</code> 和 <code>element</code> 奖励以 <code>unit</code> 表示对应基准值。当前公式：<code>base = 1.025^%level%*%level%+10</code>；<code>health = 2 * 1.025^%level%*%level%+18</code>；<code>element = (1.04 ^ %level% +24)* %level% + 24</code>。</span></div>
+    <div class="legend-card"><strong>公式</strong><span>以 <code>unit</code> 标注的数值，则表示对应属性基准值。<br>如：生命恢复: +0.75 unit 表示 0.75 基准单位的生命恢复（继承自生命值）<br>参考数值：29 (Lv.10 / 普通)</span></div>
   </div>
   <section class="set-section" id="harmony">
     <div class="set-heading"><div>
