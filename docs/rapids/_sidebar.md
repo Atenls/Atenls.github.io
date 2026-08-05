@@ -140,6 +140,7 @@
   * [副本流程](rapids/dungeon)
   * [副本图鉴](rapids/dungeonlist)
   * [副本机制](rapids/dungeonmechanics)
+  * [交互方块](rapids/interact)
   * [怪物信息](rapids/mobsinfo)
   * [属性介绍](rapids/attributes)
   * [材料图鉴](rapids/materials)
