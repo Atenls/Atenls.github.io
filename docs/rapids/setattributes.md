@@ -394,9 +394,9 @@
   color: var(--muted);
 }
 .rapids-sets .bonus-row + .bonus-row {
-  margin-top: .35em;
-  padding-top: 0;
-  border-top: 0;
+  margin-top: .25em;
+  padding-top: 0.25em;
+  border-top: 1px dashed #f2f6f9;
 }
 .rapids-sets .bonus-count {
   min-width: 3.15em;

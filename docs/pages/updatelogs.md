@@ -35,13 +35,21 @@
 
 ---
 
+## 2026 Aug.
+
+---
+
+#### 2026/08/05
+
+- 修复了 BP S14 饰品 `Stories` 无法正常升级的问题。
+
+---
+
 ## 2026 Jul.
 
 --- 
 
 #### 2026/07/20
-
-
 
 <div class='bluebox'>
 <p style="font-size: 24px; font-weight: 800; padding: 10px;">10 周年庆典</p>
