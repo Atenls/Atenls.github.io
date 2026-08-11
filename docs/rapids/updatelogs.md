@@ -174,6 +174,41 @@
 
 ---
 
+#### 2026/08/11
+
+- 对装备信息显示进行了更完善的修改，你现在可以自由选择是否查看装备的**详细信息**。
+  <details>
+    <summary><strong>查看详情</strong></summary>
+    <div style="display: flex; gap: 1em; align-items:center;">
+    <img src="/rapids/rapids_img/updatelogs/20260811_equipdesc_1.png" class="dp-image" loading="lazy" style="max-height: 800px;"><img src="/rapids/rapids_img/updatelogs/20260811_equipdesc_2.png" class="dp-image" loading="lazy">
+    </div>
+  </details>
+
+  - 通过按 `F` (副手键) 来变更显示模式。
+  - 在收起详细信息情况下，会隐藏套装效果、技能效果、灵魂牵引、重构次数以及副词条。
+  - 现在重复的副词条会合并显示。
+- 降低了 `雷尘伏蝠` 的攻击频率及攻击触发概率，综合下降约 `20%`。
+- <span class="item-name-tag">Noctambulist</span> 或以上 Rank 现已可使用彩色字体。你也可以通过 `&#rrggbb` 来使用RGB颜色。
+- 聊天系统使用了更完善的通信结构。
+- 完善了封禁系统。
+- 调整了副词条的随机范围，现在将基于品质来进行随机范围的确定：
+  <details>
+  <summary><strong>查看详情</strong></summary>
+
+  - `神话`：4 ~ 9
+  - `传奇`：3 ~ 8
+  - `史诗`：2 ~ 8
+  - `卓越`：2 ~ 7
+  - `优秀`：2 ~ 6
+  - `普通`：2 ~ 6
+  - `粗糙`：1 ~ 5
+
+  </details>
+- 完善了重构系统，即将推出。
+  <br>装备进行重构将保留当前的品质、品级，但对属性将进行重新随机。同时，副词条会随着重构次数增加而增加上限，不同的品质会拥有不同的最终词条上限。
+
+---
+
 #### 2026/08/10
 
 - 推出 `DeathMare · 死魇` 难度。所有副本的 DM 难度将追随版本等级上限 +5，并产出对应等级装备。
