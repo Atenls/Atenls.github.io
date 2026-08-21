@@ -177,13 +177,16 @@
 #### 2026/08/21
 
 - 新增天赋 `珍藏追猎`：
+  <br><img src="/rapids/rapids_img/updatelogs/20260821_rareloot.png" class="dp-image" loading="lazy">
   - 解锁天赋后，你登录或在线时将尝试自动搜掠本副本的**所有** `Tier 2` 宝箱。
   - 该天赋解锁需求 `E` 值，并要求 `其他天赋总等级` 达到一定数量。
   - 在中高级时，还将需求 [Rank](rapids/rank) 等级。
 - 新增天赋 `宝箱磁铁`：
+  <br><img src="/rapids/rapids_img/updatelogs/20260821_lootmagnet.png" class="dp-image" loading="lazy">
   - 解锁天赋后，你在本副本的所有难度中，每秒都将有对应概率自动搜掠附近 `20格` 内最多 `3个` 宝箱(T1)。
   - 该天赋解锁需求 `回忆点数` 并要求 `累计开箱次数` 达到一定数量。
 - 修复了部分法师分支的装备在 `重构` 时异常无法重构的问题。
+- 新增了 `Rank` 商店，你将可以使用 `Kc` 自助订阅 Rank。
 - 调整了部分描述、修复了部分细节问题。
 
 ---
