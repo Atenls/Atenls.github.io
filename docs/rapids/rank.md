@@ -22,6 +22,7 @@
       <tr><td>交易所税率减免</td><td>10%</td><td>20%</td><td>30%</td></tr>
       <tr><td>每日扫荡次数</td><td>10 (+2)</td><td>12 (+4)</td><td>16 (+8)</td></tr>
       <tr><td>每日刷怪护符限额</td><td>3</td><td>6</td><td>12</td></tr>
+      <tr><td>珍藏追猎等级上限</td><td>4</td><td>5</td><td>6</td></tr>
       <tr><td>快捷基础交互方块</td><td>✔</td><td>✔</td><td>✔</td></tr>
       <tr><td>宝箱立即搜掠功能</td><td>✔</td><td>✔</td><td>✔</td></tr>
       <tr><td>快捷拆解台</td><td></td><td>✔</td><td>✔</td></tr>
