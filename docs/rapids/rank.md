@@ -2,7 +2,9 @@
 
 ## 月度订阅制 Rank
 
-目前处于非常早期，权益暂未补全，后续会陆续追加。订阅持续时间 31天。
+月度订阅持续时间 31天；季度订阅持续时间 93 天；当订阅剩余持续时间超过 558 天后，将转为永久特权。
+
+你也可于游戏内使用 `Kc` 直接进行购买。
 
 <div class="table-container">
   <table style="border-collapse: collapse; overflow: hidden; width: fit-content; font-family: 等线; text-align: center; border-image: initial; vertical-align: middle; white-space: nowrap; margin: 5px; padding: 16px; border-radius: 24px; border: 1px solid #ccc;" class="rune-table">
@@ -12,7 +14,7 @@
         <th width="175px" style="border: none;"><span style="font-weight: 700; background: linear-gradient(to right, #FF80FF, #AAFFFF) text; color: transparent; text-shadow: 1px 1px 5px #d8bae640;">Metaphysician</span></th>
         <th width="200px"><span style="font-weight: 700; background: linear-gradient(to right, #FFAA00, #FFFF80) text; color: transparent; text-shadow: 1px 1px 5px #ffebcd40;">Occultist</span></th></tr></thead>
     <tbody>
-      <tr><td>价格</td><td>48</td><td>108</td><td>258</td></tr>
+      <tr><td>价格<br><span style="font-size: 0.85em;">(31 天 / 93 天)</span></td><td>48 / 128</td><td>108 / 288</td><td>258 / 688</td></tr>
       <tr><td>体力恢复速度</td><td>-</td><td>6 mins</td><td>4 mins</td></tr>
       <tr><td>体力上限</td><td>400</td><td>400</td><td>600</td></tr>
       <tr><td>副本多倍奖励领取</td><td>2</td><td>3</td><td>4</td></tr>
@@ -23,6 +25,7 @@
       <tr><td>每日扫荡次数</td><td>10 (+2)</td><td>12 (+4)</td><td>16 (+8)</td></tr>
       <tr><td>每日刷怪护符限额</td><td>3</td><td>6</td><td>12</td></tr>
       <tr><td>珍藏追猎等级上限</td><td>4</td><td>5</td><td>6</td></tr>
+      <tr><td>扫荡后直接离开</td><td>✔</td><td>✔</td><td>✔</td></tr>
       <tr><td>快捷基础交互方块</td><td>✔</td><td>✔</td><td>✔</td></tr>
       <tr><td>宝箱立即搜掠功能</td><td>✔</td><td>✔</td><td>✔</td></tr>
       <tr><td>快捷拆解台</td><td></td><td>✔</td><td>✔</td></tr>
