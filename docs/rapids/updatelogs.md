@@ -174,6 +174,27 @@
 
 ---
 
+#### 2026/08/28
+
+<div class="little-tips" style="max-width: 600px; width: fit-content;">
+  <div style="font-size:24px;">📦</div>
+  <div>
+  <p style="line-height: 1.5;"><strong>RapidsUtils</strong> v1.0.0 <br>Author: <strong>Atenls</strong></p>
+  <p style="color:#aaa; font-size: 13px; line-height: 1.35; max-width: 360px;">提供额外 Hud 来提供更多你可能需要的常用信息。<br>
+  </p>
+  </div>
+  
+  <a class="download-btn green" style="color: white; padding: inherit; border-radius: 0.75em;" href="/rapids/mods/rapidsutils-1.0.0.jar" download>点击以下载</a> 
+</div>
+
+- 新增了需要 Mod 联动的额外信息栏。
+  <div style="display: flex; gap: 1em; align-items: flex-start;">
+  <img src="/rapids/rapids_img/updatelogs/20260828_rapidsutils_2.png" class="dp-image" loading="lazy">
+  <img src="/rapids/rapids_img/updatelogs/20260828_rapidsutils_1.png" class="dp-image" loading="lazy">
+  </div>
+
+---
+
 #### 2026/08/26
 
 - 完成了菜单系统的升级。
