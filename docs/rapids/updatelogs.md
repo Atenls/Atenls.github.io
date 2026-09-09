@@ -152,6 +152,71 @@
       background: #4579bd;
       box-shadow: 0 1px 4px rgba(32, 51, 78, 0.2);
     }
+
+    &.github {
+      background: #24292f;
+
+      &:hover {
+        background: #1b1f23;
+        box-shadow: 0 1px 4px rgba(13, 17, 23, 0.28);
+      }
+    }
+  }
+
+  .mod-card-actions {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    flex-shrink: 0;
+    align-self: stretch;
+    justify-content: center;
+  }
+
+  .mod-card-actions .download-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    padding: 6px 12px;
+    border-radius: 0.75em;
+    color: white;
+    white-space: nowrap;
+    line-height: 1.3;
+  }
+
+  .mod-card-actions .download-btn svg {
+    width: 14px;
+    height: 14px;
+    flex-shrink: 0;
+    fill: currentColor;
+  }
+
+  .mod-card-details {
+    margin-top: 4px;
+  }
+
+  .mod-card-details summary {
+    cursor: pointer;
+    color: #7a8a7d;
+    font-size: 13px;
+    font-weight: 600;
+    user-select: none;
+  }
+
+  .mod-card-details[open] {
+    width: auto;
+    max-width: 100%;
+    margin: 6px 0 0;
+    padding: 4px 8px;
+    background: rgba(90, 130, 96, 0.08);
+  }
+
+  .mod-card-details ul {
+    margin: 6px 0 2px;
+    padding-left: 1.2em;
+    color: #8a8a8a;
+    font-size: 13px;
+    line-height: 1.45;
   }
   
 </style>
@@ -170,6 +235,65 @@
 
 ---
 
+## 2026 Sep.
+
+---
+
+#### 2026/09/09
+
+<div class="little-tips" style="max-width: 500px; width: 100%; align-items: flex-start;">
+  <div style="font-size:24px; line-height: 1;">📦</div>
+  <div style="flex: 1; min-width: 0;">
+    <p style="line-height: 1.45; margin: 0;"><strong>RapidsUtils</strong> v260909<br>Author: <strong>Atenls</strong></p>
+    <p style="color:#aaa; font-size: 13px; line-height: 1.4; margin: 6px 0 0;">提供额外 HUD，展示更多局内常用信息。</p>
+    <details class="mod-card-details">
+      <summary>详细更新</summary>
+      <ul>
+        <li>更完善的局内信息。</li>
+        <li>将结算信息迁移至独立位置。</li>
+        <li>将掉落信息迁移至独立位置。</li>
+        <li>新的血条、法力值条。</li>
+      </ul>
+    </details>
+  </div>
+  <div class="mod-card-actions">
+    <a class="download-btn green" href="/rapids/mods/rapidsutils-20260909-0730.jar" download>
+      <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 1.5a.75.75 0 0 1 .75.75v6.19l2.22-2.22a.75.75 0 1 1 1.06 1.06l-3.5 3.5a.75.75 0 0 1-1.06 0l-3.5-3.5a.75.75 0 0 1 1.06-1.06l2.22 2.22V2.25A.75.75 0 0 1 8 1.5Zm-5 10.25a.75.75 0 0 1 .75-.75h8.5a.75.75 0 0 1 0 1.5H3.75a.75.75 0 0 1-.75-.75Z"/></svg>
+      下载
+    </a>
+    <a class="download-btn github" href="https://github.com/Atenls/RapidsUtils" target="_blank" rel="noopener">
+      <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82A7.65 7.65 0 0 1 8 4.51c.68.003 1.36.092 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8Z"/></svg>
+      GitHub
+    </a>
+  </div>
+</div>
+
+---
+
+#### 2026/09/08
+
+- 完成了跨服 Bridge 的更完善功能。
+
+----
+
+#### 2026/09/05
+
+- 调整了部分检测挂载位置。
+
+----
+
+#### 2026/09/04
+
+- 新增了统一的消息通知工具类。
+
+----
+
+#### 2026/09/03
+
+- 添加了 RapidsUtils 安装检测及推荐。
+
+---
+
 ## 2026 Aug.
 
 ---
@@ -184,7 +308,7 @@
   </p>
   </div>
   
-  <a class="download-btn green" style="color: white; padding: inherit; border-radius: 0.75em;" href="/rapids/mods/rapidsutils-1.0.0.jar" download>点击以下载</a> 
+  <a class="download-btn green" style="color: white; padding: inherit; border-radius: 0.75em;" href="/rapids/mods/rapidsutils-20260909-0730.jar" download>点击以下载</a> 
 </div>
 
 - 新增了需要 Mod 联动的额外信息栏。
