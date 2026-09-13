@@ -239,6 +239,14 @@
 
 ---
 
+#### 2026/09/13
+
+- 完成了「元素转换台」的相关内容。
+- 提升了部分功能的拓展性。
+- 修复了部分问题。
+
+---
+
 #### 2026/09/09
 
 <div class="little-tips" style="max-width: 500px; width: 100%; align-items: flex-start;">
