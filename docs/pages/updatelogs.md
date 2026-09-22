@@ -39,6 +39,43 @@
 
 ---
 
+#### 2026/09/22
+
+- 修复了部分问题。
+
+---
+
+#### 2026/09/21
+
+- 开始「桂序」节日庆典预热。
+- 给物品掉落提示增加了统一的物品名方法，现在将能正常显示物品名及其颜色。
+- 修复了部分问题。
+
+---
+
+#### 2026/09/20
+
+<div class="little-tips little-tips-blue">
+  <div style="font-size:24px;">📜</div>
+  <div>
+    <p><strong>BattlePass <span style="font-family: CONSOLA;">S16</span></strong></p>
+    <p style="color:#aaa; font-size: 13px; line-height: 1.35;">持续时间: <span style="text-wrap: nowrap;">2026/09/20</span> - <span style="text-wrap: nowrap;">2026/11/22</span><br>
+    即刻参与日常、周常，收集 CA 并兑换全新的<span style="text-wrap: nowrap;">限定饰品 Decayed</span> 吧!
+    </p>
+  </div>
+</div>
+
+- 修复了点歌插件的搜索功能。
+
+---
+
+#### 2026/09/19
+
+- 调整了部分刷怪点位及其速率。
+
+
+---
+
 #### 2026/09/18
 
 - 将 `明见本我潮汐` 也更新为新版倒计时。
